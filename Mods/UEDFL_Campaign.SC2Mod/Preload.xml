@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="cutscenes\prologueintro.sc2cutscene" Type="Cutscene"/>
+<Asset path="assets\splashes\ep01m08_loading.tga" Type="Image"/>
+<Asset path="ui\layout\ued_loadingtemplate.sc2layout" Type="Layout"/>
+<Asset path="cutscenes\prologue_02.sc2cutscene" Type="Cutscene"/>
+<Asset path="assets\splashes\ep01m07_loading.tga" Type="Image"/>
+<Asset path="assets\textures\ui_hots_frame_objectives_bonus_popup_short.dds" Type="Image"/>
+<Asset path="assets\textures\ui_hots_frame_objectives_bonus_popup_reg.dds" Type="Image"/>
+<Asset path="assets\splashes\ep01m02_loading.tga" Type="Image"/>
+<Asset path="assets\textures\blank.dds" Type="Image"/>
+<Asset path="assets\textures\ui_tip_questionmark.dds" Type="Image"/>
+<Asset path="assets\textures\ui_ued_loading_titlebg.dds" Type="Image"/>
+<Asset path="assets\textures\loading_generic_nobg.dds" Type="Image"/>
+<Asset path="assets\textures\white32.dds" Type="Image"/>
+<Asset path="cutscenes\prologueoutro.sc2cutscene" Type="Cutscene"/>
+<Asset path="assets\splashes\ep01m09_loading.tga" Type="Image"/>
+<Asset path="assets\splashes\ep01m01_loading.tga" Type="Image"/>
+<Asset path="ui\fontstyles.sc2style"/>
+<Asset path="assets\splashes\ep01m06_loading.tga" Type="Image"/>
+<Asset path="assets\splashes\ep01m10_loading.tga" Type="Image"/>
+<Asset path="assets\splashes\ep01m05_loading.tga" Type="Image"/>
+<Asset path="assets\splashes\ep01m04_loading.tga" Type="Image"/>
+<Asset path="assets\splashes\ep01m03_loading.tga" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="TalkIcon"/>
+<Behavior id="CondorFlyMode"/>
+<Model id="PingAlert"/>
+<Model id="PingObjective"/>
+<Model id="PingCircleImportant"/>
+<Sound id="UI_Archive_Birth"/>
+<Sound id="Silent"/>
+<Sound id="UI_BriefingUnitSelect"/>
+<Sound id="Alert_UniObjectiveCompleted"/>
+<Sound id="UI_TerranPing"/>
+<Sound id="UI_ResourcePickup" Variations="0"/>
+<Sound id="TextCrawlType"/>
+<Sound id="UI_LowHealthWarning_BreathLoop"/>
+<Sound id="UI_LowHealthWarning_HeartBeatLoop"/>
+<Sound id="UI_LowHealthWarning_Start"/>
+<Sound id="UI_Evolutions_PlanetaryZoom"/>
+<Sound id="UI_ZergWarningPing"/>
+<Sound id="Condor_LiftOff"/>
+<Sound id="EP01M08_MyraDavis_001"/>
+<Sound id="EP01M03_NewsCast_085"/>
+<Sound id="Condor_Land_Cinematic"/>
+<Sound id="Condor_UnloadVehicle_Cinematic"/>
+<Sound id="SoundDirective"/>
+<Sound id="SoundWarning"/>
+<Sound id="ChipReadoutSound"/>
+<Sound id="CheckpointSound"/>
+<Soundtrack id="JukeboxTrack00"/>
+<Soundtrack id="ZSwarm_Credits_Static"/>
+<Soundtrack id="Ambience_Mission_Score_Screen"/>
+<Soundtrack id="UED_CreditsOutro"/>
+<Soundtrack id="EP01M01_MusicEnd"/>
+<Unit id="InfantryRifle"/>
+<Unit id="Condor"/>
+<Unit id="LotC_NukeCaster"/>
+<Unit id="RaptorJet"/>
+<Unit id="Osprey"/>
+<Unit id="A6"/>
+<Unit id="TR17"/>
+<Unit id="Z1"/>
+<Unit id="RoutheTank"/>
+<Unit id="InfantryHeavy"/>
+<Unit id="InfantryRocket"/>
+<Unit id="InfantryMortar"/>
+<Unit id="InfantryOfficer"/>
+</Preload>

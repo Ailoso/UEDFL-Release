@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Dependencies>
+        <Value>bnet:Void Story (Campaign)/0.0/999,file:Campaigns/VoidStory.SC2Campaign</Value>
+        <Value>file:Mods\UEDFL_Data.SC2Mod</Value>
+        <Value>file:Mods\UEDFL_Achievements.SC2Mod</Value>
+    </Dependencies>
+    <Preload>
+        <Value>AssetFile;UI\Layout\UED_LoadingTemplate.SC2Layout</Value>
+        <Value>AssetFile;Assets\Textures\ui_ued_loading_titlebg.dds</Value>
+        <Value>AssetFile;UI\FontStyles.SC2Style</Value>
+        <Value>Bank;LotCCampaign</Value>
+        <Value>Bank;LotCArchive</Value>
+    </Preload>
+</DocInfo>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="Armory">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="AutoTurret">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="AutomatedExtractor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Baneling">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Banshee">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Barracks">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="BarracksTechLab">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="BarracksTechReactor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KhaydarinMonolith">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SCV">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SOAMothershipv4">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TempestPurifier">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="AlarakChampion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Artanis">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ArtanisVoid">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="AutomatedAssimilator">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="CarrierAiur">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ColossusPurifier">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ColossusTaldarim">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="CorsairMP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DarkTemplarAiur">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DarkTemplarShakuras">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DarkTemplarTaldarim">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FenixChampion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FenixSOA">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HighTemplarTaldarim">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ImmortalAiur">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ImmortalShakuras">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ImmortalTaldarim">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KaraxChampion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Monitor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PhoenixPurifier">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RoboticsFacilityWarp">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SentryAiur">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SentryPhasing">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SentryPurifier">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="StalkerShakuras">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="StargateWarp">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="VoidRayShakuras">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="VoidRayTaldarim">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="VorazunChampion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ZealotAiur">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ZealotPurifier">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ZealotShakuras">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Zeratul">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ZeratulVoid">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ZeratulVoidAiur01">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Battlecruiser">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="BattlecruiserHelios">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="BattlecruiserHeliosMorph">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Bunker">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="CommandCenter">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Cyclone">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DefilerMP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Dehaka">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DehakaMirrorImage">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Diamondback">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="EngineeringBay">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="EvoEggSwarmHost">
+        <HotkeyAlias value=""/>
+    </CUnit>
+    <CUnit id="Factory">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FactoryTechLab">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FactoryTechReactor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Firebat">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FlamingBetty">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="FusionCore">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Ghost">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostAcademy">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostAlternate">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostAlternateDetectorCone">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostDetectorCone">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostLaserLines">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GhostNova">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Goliath">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GreaterNydusWorm">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="GreaterSpire">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HERC">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HERCCompound">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HERCPlacement">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Hellion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HellionTank">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Hercules">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HerculesCrashing">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HiveMindEmulator">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSHunter">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSNoxious">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSRaptor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSSplitterlingBig">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSSwarmling">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HotSTorrasque">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HydraliskImpaler">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HydraliskLurker">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Impaler">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ImpalerDen">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="InfestedAbomination">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="InfestedStukov">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="K5Kerrigan">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KerriganEpilogue03">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KerriganInfestBroodling">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KerriganVoid">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KerriganVoidUlnar02">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LarvalQueen">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Liberator">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Locust">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LocustFlying">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LocustMP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LocustMPFlying">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Lurker">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LurkerDen">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MULE">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MannedTurret">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Marauder">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Medic">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Medivac">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MercCompound">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MissileTurret">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Mutalisk">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MutaliskBroodlord">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="MutaliskViper">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaHero">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaInfestedBanshee">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaInfestedSiegeTank">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaInfestedSiegeTankUprooted">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaSonarDrone">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaStoneHeroic">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="NovaVulture">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Odin">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="OrbitalCommand">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PerditionTurret">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PlanetaryFortress">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Predator">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PrimalHydralisk">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PrimalRoach">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PrimalUltralisk">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PrimalZergling">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="PsiDisruptor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Queen">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="QueenClassic">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Raven">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Raynor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Raynor01">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RaynorCommando">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Reactor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Reaper">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Refinery">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RefineryRich">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Roach">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RoachCorpser">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RoachVile">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RoachWarren">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Roachling">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SJHyperion">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ScienceVessel">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SensorTower">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Separatist">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SiegeTank">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SiegeTankSieged">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Spectre">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Starport">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="StarportTechLab">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="StarportTechReactor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Stetmann">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="StukovInfestedTerran">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SupplyDepot">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Swann">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmHost">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmHostMP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmHostSplitA">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmHostSplitB">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmQueen">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="SwarmQueenEgg">
+        <HotkeyAlias value=""/>
+    </CUnit>
+    <CUnit id="TechLab">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechReactor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Thor">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ThorAP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="ThorWreckage">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Tosh">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TychusChaingun">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TychusCommando">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Ultralisk">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="UltraliskCavern">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="VikingAssault">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="VikingFighter">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Vulture">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Warbot">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="WidowMine">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="Wraith">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="BanelingNest">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="LurkerMP">
+        <HotkeyCategory value=""/>
+    </CUnit>
+</Catalog>
