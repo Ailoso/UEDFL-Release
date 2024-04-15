@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="UPLTechTree">
+        <!--
+            UI Overrides
+        -->
+
+        <Frame type="TechTreeStructureFrame" name="Barracks">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="SupplyDepot">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="Factory">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="CommandCenter">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="EngineeringBay">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="Refinery">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="SensorTower">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="MissileTurret">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="GhostAcademy">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="Bunker">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="Starport">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="Armory">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="FusionCore">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="Frame" name="SupplyDepotToBarracksArrow">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="Frame" name="BarracksToFactoryArrow">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="Frame" name="CommandCenterToEngineeringBayArrow">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="TechTreeConnectorFrame" name="Connector-Factory-GhostAcademy-Bunker-OrbitalCommand">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="TechTreeConnectorFrame" name="Connector-PlanetaryFortress-SensorTower-MissileTurret">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="TechTreeConnectorFrame" name="Connector-Starport-Armory">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="TechTreeConnectorFrame" name="Connector-FusionCore">
+            <Visible val="false"/>
+        </Frame>
+
+        <!--
+            UPL Tech Tree
+        -->
+
+
+        <!--
+            Tier Zero
+        -->
+
+        <Frame type="TechTreeStructureFrame" name="UPLHeadquarters" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="UPLGenerator" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLHeadquarters" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLHeadquarters" pos="Max" offset="#TechTreeHorizontalGap"/>
+        </Frame>
+        <Frame type="TechTreeStructureFrame" name="UPLExhumer" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLGenerator" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLGenerator" pos="Max" offset="#TechTreeHorizontalGap"/>
+            <Height val="240"/>
+        </Frame>
+
+        <!-- Tier One -->
+        <Frame type="TechTreeStructureFrame" name="UPLBillet" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLHeadquarters" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLHeadquarters" pos="Min" offset="0"/>
+            <Height val="190"/>
+        </Frame>
+
+        <Frame type="TechTreeConnectorFrame" name="Connector-UPLBillet">
+            <Anchor relative="$parent"/>
+            
+            <Frame type="Frame" name="UPLHeadquartersToUPLBillet" template="LotC_TechTreeTemplates/VerticalArrow_UPL">
+                <Anchor side="Top" relative="$parent/$parent/UPLHeadquarters/BuildingIconBackgroundImage" pos="Max" offset="-12"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLBillet" pos="Min" offset="15"/>
+                <Anchor side="Left" relative="$parent/$parent/UPLBillet/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLBillet/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+            </Frame>
+        </Frame>
+
+        <!-- Tier Two -->
+        <Frame type="TechTreeStructureFrame" name="UPLManufacturingFacility" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLBillet" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLBillet" pos="Min" offset="0"/>
+            <Height val="240"/>
+        </Frame>
+
+        <Frame type="TechTreeStructureFrame" name="UPLForwardOperatingBase" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLManufacturingFacility" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLManufacturingFacility" pos="Max" offset="#TechTreeHorizontalGap"/>
+            <Height val="140"/>
+        </Frame>
+
+        <Frame type="TechTreeConnectorFrame" name="Connector-UPLBillet-UPLManufacturingFacility-UPLForwardOperatingBase">
+            <Anchor relative="$parent"/>
+            
+            <Frame type="Frame" name="ManufacturingToFOBTwoCornerLine" template="LotC_TechTreeTemplates/TwoCornerLine_UPL">
+                <Anchor side="Left" relative="$parent/$parent/UPLManufacturingFacility/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLForwardOperatingBase/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLManufacturingFacility" pos="Min" offset="15"/>
+            </Frame>
+            
+            <Frame type="Frame" name="UPLBilletToUPLManufacturingFacility" template="LotC_TechTreeTemplates/VerticalArrow_UPL">
+                <Anchor side="Top" relative="$parent/$parent/UPLBillet/BuildingIconBackgroundImage" pos="Max" offset="-12"/>
+                <Anchor side="Bottom" relative="$parent/ManufacturingToFOBTwoCornerLine" pos="Min" offset="0"/>
+                <Anchor side="Left" relative="$parent/$parent/UPLBillet/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLBillet/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+            </Frame>
+        </Frame>
+
+        <!-- Tier Three -->
+
+        <Frame type="TechTreeStructureFrame" name="UPLCommStation" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLForwardOperatingBase" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLForwardOperatingBase" pos="Min" offset="0"/>
+            <Height val="140"/>
+        </Frame>
+
+        <Frame type="TechTreeConnectorFrame" name="Connector-UPLForwardOperatingBase">
+            <Anchor relative="$parent"/>
+            
+            <Frame type="Frame" name="UPLForwardOperatingBaseToUPLCommStation" template="LotC_TechTreeTemplates/VerticalArrow_UPL">
+                <Anchor side="Top" relative="$parent/$parent/UPLForwardOperatingBase/BuildingIconBackgroundImage" pos="Max" offset="-12"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLCommStation" pos="Min" offset="15"/>
+                <Anchor side="Left" relative="$parent/$parent/UPLCommStation/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLCommStation/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+            </Frame>
+        </Frame>
+
+        <!-- Tier Four -->
+        <Frame type="TechTreeStructureFrame" name="UPLElectrostaticDefenseTower" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLCommStation" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLBillet" pos="Min" offset="60"/>
+            <Height val="100"/>
+        </Frame>
+
+        <Frame type="TechTreeStructureFrame" name="UPLNightjar" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLElectrostaticDefenseTower" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLBillet" pos="Min" offset="60"/>
+            <Height val="100"/>
+        </Frame>
+
+        <Frame type="TechTreeStructureFrame" name="UPLSolitaire" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLNightjar" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLBillet" pos="Min" offset="60"/>
+            <Height val="100"/>
+        </Frame>
+
+        <Frame type="TechTreeStructureFrame" name="UPLAirstrip" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLCommStation" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLCommStation" pos="Min" offset="60"/>
+            <Height val="140"/>
+        </Frame>
+
+        <Frame type="TechTreeStructureFrame" name="UPLRnDFacility" template="LotC_TechTreeTemplates/TechTreeStructureFrameTemplate_UPL">
+            <Anchor side="Top" relative="$parent/UPLCommStation" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/UPLExhumer" pos="Min" offset="60"/>
+            <Height val="140"/>
+        </Frame>
+        
+        <Frame type="TechTreeConnectorFrame" name="Connector-UPLElectrostaticDefenseTower">
+            <Anchor relative="$parent"/>
+
+            <Frame type="Frame" name="UPLManufacturingFacilityToUPLElectrostaticDefenseTowerTwoCornerLine" template="LotC_TechTreeTemplates/TwoCornerLine_UPL">
+                <Anchor side="Left" relative="$parent/$parent/UPLManufacturingFacility/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLAirstrip/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLElectrostaticDefenseTower" pos="Min" offset="15"/>
+            </Frame>
+            
+            <Frame type="Frame" name="UPLManufacturingFacilityToUPLElectrostaticDefenseTowerRightCornerLine" template="LotC_TechTreeTemplates/RightCornerLine_UPL">
+                <Anchor side="Left" relative="$parent/$parent/UPLAirstrip/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLRnDFacility/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLElectrostaticDefenseTower" pos="Min" offset="15"/>
+            </Frame>
+            
+            <Frame type="Frame" name="UPLManufacturingFacilityToUPLElectrostaticDefenseTowerArrow" template="LotC_TechTreeTemplates/VerticalArrow_UPL">
+                <Anchor side="Top" relative="$parent/$parent/UPLManufacturingFacility/BuildingIconBackgroundImage" pos="Max" offset="-12"/>
+                <Anchor side="Bottom" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerTwoCornerLine" pos="Min" offset="0"/>
+                <Anchor side="Left" relative="$parent/$parent/UPLManufacturingFacility/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLManufacturingFacility/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+            </Frame>
+            
+            <Frame type="Image" name="UPLManufacturingFacilityToUPLElectrostaticDefenseTowerLineVert">
+                <Texture val="@UI/TechTreeLineVert"/>
+                <Width val="16"/>
+                <LayerColor val="99fdea"/>
+                <Anchor side="Top" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerTwoCornerLine" pos="Min" offset="3"/>
+                <Anchor side="Bottom" relative="$parent/$parent/UPLSolitaire/BuildingIconBackgroundImage" pos="Mid" offset="0"/>
+                <Anchor side="Left" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerTwoCornerLine" pos="Min" offset="0"/>
+            </Frame>
+            
+            <Frame type="Image" name="UPLManufacturingFacilityToUPLElectrostaticDefenseTowerLineHoriz">
+                <Texture val="@UI/TechTreeLine"/>
+                <Height val="16"/>
+                <LayerColor val="99fdea"/>
+                <Anchor side="Top" relative="$parent/$parent/UPLElectrostaticDefenseTower/BuildingIconBackgroundImage" pos="Mid" offset="-3"/>
+                <Anchor side="Left" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerLineVert" pos="Min" offset="3"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLElectrostaticDefenseTower/BuildingIconBackgroundImage" pos="Min" offset="12"/>
+            </Frame>
+            
+            <Frame type="Image" name="UPLManufacturingFacilityToUPLNightjarLineHoriz">
+                <Texture val="@UI/TechTreeLine"/>
+                <Height val="16"/>
+                <LayerColor val="99fdea"/>
+                <Anchor side="Top" relative="$parent/$parent/UPLNightjar/BuildingIconBackgroundImage" pos="Mid" offset="-3"/>
+                <Anchor side="Left" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerLineVert" pos="Min" offset="3"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLNightjar/BuildingIconBackgroundImage" pos="Min" offset="12"/>
+            </Frame>
+            
+            <Frame type="Image" name="UPLManufacturingFacilityToUPLSolitaireLineHoriz">
+                <Texture val="@UI/TechTreeLine"/>
+                <Height val="16"/>
+                <LayerColor val="99fdea"/>
+                <Anchor side="Top" relative="$parent/$parent/UPLSolitaire/BuildingIconBackgroundImage" pos="Mid" offset="-3"/>
+                <Anchor side="Left" relative="$parent/UPLManufacturingFacilityToUPLElectrostaticDefenseTowerLineVert" pos="Min" offset="3"/>
+                <Anchor side="Right" relative="$parent/$parent/UPLSolitaire/BuildingIconBackgroundImage" pos="Min" offset="12"/>
+            </Frame>
+        </Frame>
+        <!--
+        UPLElectrostaticDefenseTower
+        -->
+            </Frame>
+            <Frame type="TechTreePanel" name="GameUI/UIContainer/FullscreenUpperContainer/HelpMenuDialogGame/PanelFrame/TechTreePanel" file="GameUI">
+                <Frame type="Frame" name="CategoryFrame_Terr_Void" template="LotC_Techtree/UPLTechTree">
+
+                </Frame>
+        <!--
+                <Frame type="Frame" name="CategoryFrame_Terr_Swarm" template="LotC_Techtree/UPLTechTree">
+
+                </Frame>
+
+                <Frame type="Frame" name="CategoryFrame_Terr_Campaign" template="LotC_Techtree/UPLTechTree">
+
+                </Frame>
+
+        -->
+                <Frame type="Frame" name="CategoryFrame_Terr" template="LotC_Techtree/UPLTechTree">
+
+                </Frame>
+
+            </Frame>
+</Desc>

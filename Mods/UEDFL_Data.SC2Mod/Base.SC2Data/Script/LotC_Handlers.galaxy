@@ -1,0 +1,14 @@
+include "Script/LotC_TargetingHandler"
+include "Script/LotC_MiningWorkerHandler"
+include "Script/LotC_SpecOpsClaymoreHandler"
+include "Script/LotC_SpeedRibbonHandler"
+include "Script/LotC_TacticalAI"
+include "Script/LotC_ArtilleryStrikeVisualHandler"
+
+void LotC_HandlerInit(){
+    //LOTC_Targeting_Init();
+    LotC_MiningWorker_Init();
+    LotC_SpeedRibbonController_Init();
+    LotC_ArtilleryStrikeVisualHandler_Init();
+    // LotC_SpecOpsClaymoreHandler_Init();
+}

@@ -1,0 +1,38 @@
+fixed HueToRGB(fixed t1, fixed t2, int hue){
+    if (hue < 0){ hue += 6;}
+    if (hue >= 6){ hue -= 6;}
+    if (hue < 1){ return (t2 - t1) * hue + t1;}
+    else if(hue < 3){ return t2;}
+    else if(hue < 4){ return (t2 - t1) * (4 - hue) + t1;}
+    else {return t1;}
+}
+const int c_minHue = 0;
+const int c_maxHue = 360;
+
+color HSLToColor(int hue, fixed sat, fixed light) {
+    fixed t1;
+    fixed t2;
+    fixed r;
+    fixed g;
+    fixed b;
+    hue = hue / 60;
+    if ( light <= 0.5 ) {
+      t2 = light * (sat + 1);
+    } else {
+      t2 = light + sat - (light * sat);
+    }
+    t1 = light * 2 - t2;
+    r = HueToRGB(t1, t2, hue + 2) * 255;
+    g = HueToRGB(t1, t2, hue) * 255;
+    b = HueToRGB(t1, t2, hue - 2) * 255;
+    return Color(r,g,b);
+  }
+
+  void SetUnitRandomTC(unit u){
+    int hue = RandomInt(0,360); 
+    fixed sat = RandomFixed(0.0,1.0); 
+    fixed light = RandomFixed(0.0,1.0); 
+    color c = HSLToColor(hue, sat, light);
+    string teamcolor = libNtve_gf_SetTeamColor(c,c);
+
+  }

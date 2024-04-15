@@ -1,0 +1,44 @@
+
+
+trigger LotC_SpeedRibbonController; 
+//--------------------------------------------------------------------------------------------------
+// Trigger: Hero Generic - Speed Ribbon Controller
+//--------------------------------------------------------------------------------------------------
+bool LotC_SpeedRibbonController_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_unit;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_unit = EventUnit();
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitTypeTestAttribute(UnitGetType(lv_unit), c_unitAttributeHeroic) == true))) {
+            return false;
+        }
+
+        if (!((EventUnitBehaviorChange() != c_unitBehaviorChangeCreate))) {
+            return false;
+        }
+
+        if (!((EventUnitBehaviorChange() != c_unitBehaviorChangeDestroy))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+    libNtve_gf_SendActorMessageToUnit(lv_unit, "Signal SpeedRibbonCheckStart");
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+
+void LotC_SpeedRibbonController_Init () {
+    LotC_SpeedRibbonController = TriggerCreate("LotC_SpeedRibbonController_Func");
+    TriggerAddEventUnitBehaviorChangeFromCategory(LotC_SpeedRibbonController, null, c_behaviorCategoryFast, c_unitBehaviorChangeAny);
+    TriggerAddEventUnitBehaviorChangeFromCategory(LotC_SpeedRibbonController, null, c_behaviorCategorySlow, c_unitBehaviorChangeAny);
+}

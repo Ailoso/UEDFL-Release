@@ -1,0 +1,52 @@
+include "TriggerLibs/natives"
+
+//--------------------------------------------------------------------------------------------------
+// Library: LotC_Data
+//--------------------------------------------------------------------------------------------------
+// Constants
+const fixed lib50365395_gv_khalaPerceptionTimeScale = 0.3333;
+const fixed lib50365395_gv_khalaPerceptionGameSpeed = 0.5;
+
+// Variable Declarations
+unit lib50365395_gv_vaeregothPsionicProjectionTarget;
+unit lib50365395_gv_vaeregothPsionicProjectionCaster;
+bool lib50365395_gv_khalaPerceptionActive;
+unit lib50365395_gv_khalaPerceptionCaster;
+int lib50365395_gv_khalaPerceptionCasterOwner;
+fixed lib50365395_gv_khalaPerceptionTimeScaleBefore;
+fixed lib50365395_gv_khalaPerceptionGameSpeedBefore;
+sound lib50365395_gv_khalaPerceptionSound;
+int lib50365395_gv_khalaPerceptionUIOverlay;
+bool lib50365395_gv_selfCasting;
+
+// Function Declarations
+void lib50365395_gf_KhalaPerceptionTimeScale (fixed lp_startTimeScale, fixed lp_endTimeScale, fixed lp_over, int lp_timeType);
+void lib50365395_gf_KhalaPerceptionGameSpeed (fixed lp_startGameSpeed, fixed lp_endGameSpeed, fixed lp_over, int lp_timeType);
+void lib50365395_gf_ActivateKhalaPerception (bool lp_activateDeactivate);
+void lib50365395_gf_TurnTurnOffKhalaPerception (bool lp_onOff);
+void lib50365395_gf_StopKhalaPerception ();
+bool lib50365395_gf_GetKhalaPerceptionActive ();
+void lib50365395_gf_SetUpListenableBarforUnit (unit lp_unit);
+void lib50365395_gf_RemoveListenableBarforUnit ();
+
+// Trigger Declarations
+trigger lib50365395_gt_InfantryMortarLaunch;
+trigger lib50365395_gt_ClaymoreMinePlaceDummy;
+trigger lib50365395_gt_ClaymoreMineSetDirection;
+trigger lib50365395_gt_ClaymoreMineSetDirectionCancel;
+trigger lib50365395_gt_VaeregothPsionicProjectionManageHeight;
+trigger lib50365395_gt_VaeregothPsionicProjectionNewTarget;
+trigger lib50365395_gt_VaeregothPsionicProjectionRedirectDamage;
+trigger lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2;
+trigger lib50365395_gt_KhalaPerceptionMissileLaunch;
+trigger lib50365395_gt_KhalaPerceptionMiss3;
+trigger lib50365395_gt_KhalaPerception;
+trigger lib50365395_gt_SelfCastOn;
+trigger lib50365395_gt_SelfCastOff;
+trigger lib50365395_gt_SelfCastMyraHeal;
+trigger lib50365395_gt_DarkSwarmNoCastRegion;
+trigger lib50365395_gt_HideTechtrees;
+
+// Library Initialization
+void lib50365395_InitVariables ();
+

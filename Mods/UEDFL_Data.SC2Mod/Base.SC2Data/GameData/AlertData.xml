@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAlert id="ResourceExhausted_Francine">
+        <Icon value="Assets\Textures\icon-gas-terran.dds"/>
+        <Sound value="ResourceExhausted_Vespene"/>
+        <Peripheral value="ResourceExhausted"/>
+    </CAlert>
+    <CAlert id="ResourceExhausted_Francine_Terr">
+        <Icon value="Assets\Textures\icon-gas-terran.dds"/>
+        <Sound value="Alert_TerranVespeneGeyserExhausted"/>
+        <Peripheral value="ResourceExhausted"/>
+    </CAlert>
+</Catalog>

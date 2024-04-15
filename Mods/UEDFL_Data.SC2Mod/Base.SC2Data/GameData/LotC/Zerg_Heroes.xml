@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectDamage id="BroodMotherLotCAirRanged" parent="DU_WEAP_RANGED">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="9"/>
+    </CEffectDamage>
+    <CEffectDamage id="BroodMotherLotCGroundMelee" parent="DU_WEAP_RANGED">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="4"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="BroodMotherLotCAirRangedLM">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="BroodMotherLotCAirRanged"/>
+        <AmmoUnit value="AcidSpinesWeapon"/>
+        <Movers Link="AcidSpinesWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="BroodMotherGroundMeleeBurst">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="BroodMotherLotCGroundMelee"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.3"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="LotC_CerebrateDeathPreventSet">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="LotC_CerebrateDeathPreventRB"/>
+        <EffectArray value="LotC_CerebrateConvulsing"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="LotC_CerebrateConvulsing">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="LotC_CerebrateDeathPreventRB">
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="LotC_CerebrateDeathPrevent"/>
+    </CEffectRemoveBehavior>
+    <CAbilMorph id="BurrowBroodMotherLotCDown">
+        <AbilSetId value="BrwD"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown" Requirements="UseBurrow">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <ActorKey value="BurrowDown"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <Flags index="IgnorePlacement" value="0"/>
+        <Flags index="SuppressMovement" value="1"/>
+        <InfoArray Unit="BroodMotherLotCBurrowed" RandomDelayMax="0.25">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="0.8332"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Duration" value="0.5556"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Duration" value="0.6665"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilMorph id="BurrowBroodMotherLotCUp">
+        <AbilSetId value="BrwU"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowUp">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <ActorKey value="BurrowUp"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <InfoArray Unit="BroodMotherLotC" RandomDelayMax="0.5">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="1"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Duration" value="0.4443"/>
+            </SectionArray>
+        </InfoArray>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastRange value="5"/>
+        <AutoCastCountMin value="1"/>
+    </CAbilMorph>
+    <CLight id="LotC_CerebratePortrait" parent="default">
+        <ToDInfoArray index="0" Id="Agria" AmbientColor="0.000000,0.000000,0.000000" Colorize="1">
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="30.000000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.066000"/>
+            <Param index="ColorizationHue" value="0.001000"/>
+            <Param index="ColorizationBlend" value="0.300000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.572549,1.000000,0.803922"/>
+                <ColorMultiplier value="0.966000"/>
+                <SpecularColor value="0.847059,1.000000,0.976471"/>
+                <SpecColorMultiplier value="2.018000"/>
+                <Direction value="0.816646,-0.204219,-0.539800"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="1.000000,0.529412,0.517647" ColorMultiplier="0.407000" Direction="0.285911,0.694359,-0.660395"/>
+            <DirectionalLight index="Back" Color="1.000000,0.141176,0.000000" ColorMultiplier="0.191000" Direction="-0.749688,-0.530219,-0.396026"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:PortraitsBuildingsZerg"/>
+    </CLight>
+    <CActorAction id="BroodMotherLotCAirRangedAttack" parent="GenericAttack" effectImpact="BroodMotherLotCAirRanged" effectLaunch="BroodMotherLotCAirRangedLM">
+        <LaunchAttachQuery Methods="Weapon"/>
+        <LaunchAssets Model="BroodMotherLotCAirRangedLaunch" Sound="BroodMotherLotCAirRanged_AttackLaunch"/>
+        <Missile value="BroodMotherLotCAirRangedWeapon"/>
+        <ImpactMap index="None" Model="BroodMotherLotCAirRangedImpact" Sound="BroodMotherLotCAirRanged_AttackImpact"/>
+        <ImpactPhysics Name="BroodMotherAirRangedImpact" MatchKeys="Basic" Physics="QueenAttackDeathForce"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
+    <CActorMissile id="BroodMotherLotCAirRangedWeapon" parent="GenericAttackMissile" unitName="BroodMotherAirRangedWeapon"/>
+    <CActorAction id="BroodMotherLotCGroundMelee" parent="GenericAttack" effectAttack="BroodMotherLotCGroundMelee">
+        <LaunchAssets Sound="BroodMotherLotCGroundMelee_AttackLaunch"/>
+        <ImpactMap index="None" Sound="BroodMotherLotCGroundMelee_AttackImpact"/>
+        <ImpactPhysics Name="Attack" MatchKeys="Basic" Physics="QueenMeleeAttackForce"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
+    <CActorUnit id="LotC_Cerebrate" parent="ZergBuildingEx" unitName="LotC_Cerebrate">
+        <Aliases value="_UnitHuge"/>
+        <Macros value="MacroTownhallDeco_Zerg"/>
+        <Macros value="ZergHivePlayerDecalMacro"/>
+        <On Terms="Behavior.LotC_CerebrateConvulsing.On" Send="AnimPlay Flail Flail PlayForever"/>
+        <On Terms="Behavior.LotC_CerebrateConvulsing.Off" Send="AnimClear Flail"/>
+        <!--<On Terms="ActorCreation" Send="Create LotC_CerebrateBase"/>-->
+        <DeathArray index="Normal" SoundLink=""/>
+        <BarOffset value="190"/>
+        <BarWidth value="260"/>
+        <GlossaryAnim value="Stand,C"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Zerg-Hive.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-building-zerg-hive.dds"/>
+        <NameOffset value="130"/>
+        <StatusHarvesterData Text="UI/HarvesterCountMinerals" SearchFilters="HarvestableResource;Player,Ally,Enemy" SearchRadius="8"/>
+        <UnitIcon value="Assets\Textures\btn-building-zerg-hive.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Zerg-Hive.dds"/>
+        </Wireframe>
+        <UnitKillRank Text="UnitKillRank/LotC_Cerebrate"/>
+    </CActorUnit>
+    <CActorModel id="LotC_CerebrateBase" parent="ModelAddition">
+        <HostSiteOps Ops="SOpForwardNorth SOpShadow"/>
+        <On Terms="ActorCreation" Send="AnimPlay Unburrow Unburrow 0 0.000000 0.000000"/>
+        <On Terms="Signal.*.Burrowing" Send="RefClear ::Host"/>
+        <!--On Terms="Signal.*.Burrowing" Send="TimerSet 4,2 DelayDestroy"/-->
+        <On Terms="Signal.*.Burrowing" Send="AnimPlay Burrow Burrow 0 0.500000 0.500000 2.000000 AsDuration"/>
+        <!--On Terms="TimerExpired; TimerName DelayDestroy" Send="Destroy"/-->
+        <On Terms="AnimDone; AnimName Burrow" Send="Destroy"/>
+        <On Terms="UnitDeath" Send="Destroy"/>
+        <AcceptedHostedPropTransfers index="BaseModelScale" value="0"/>
+    </CActorModel>
+    <CActorUnit id="BroodMotherLotC" parent="GenericUnitBase" unitName="BroodMotherLotC">
+        <Macros value="ZergBurrowStandardAnimMacro"/>
+        <Macros value="ZergLargeBurrowEffects"/>
+        <Macros value="UnloadDropAnim"/>
+        <On Terms="UnitBirth.BroodMotherLotCBurrowed" Send="Create"/>
+        <On Terms="UnitBirth.BroodMotherLotCBurrowed" Send="AnimBracketStart Burrow Burrow IGNORE Unburrow ClosingFull,OpeningPlayForever,Instant"/>
+        <On Terms="UnitBirth.BroodMotherLotC.Normal" Send="AnimPlay Unburrow Unburrow 0 0.000000"/>
+        <On Terms="Abil.QueenBuild.WorkerStart" Send="AnimPlay WorkStart Stand,Work,Start"/>
+        <On Terms="AnimDone; AnimName WorkStart" Send="AnimPlay WorkEnd Stand,Work,End"/>
+        <On Terms="Abil.BroodMotherLotCSpawnLarva.SourceCastStart" Send="AnimPlay SpellA Spell,A"/>
+        <On Terms="Abil.Transfusion.SourceFinishStart" Send="AnimPlay SpellB Spell,B"/>
+        <On Terms="AbilMorph.*.Start; AbilKey BurrowDown" Send="Create BurrowDownLarge"/>
+        <On Terms="AbilMorph.*.Cancel; MorphFrom BroodMotherLotC; MorphTo BroodMotherLotCBurrowed" Send="AnimClear Burrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo BroodMotherLotC; MorphFrom BroodMotherLotCBurrowed" Send="AnimBracketStop Burrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo BroodMotherLotC; MorphFrom BroodMotherLotCBurrowed" Send="AnimClear Burrow"/>
+        <On Terms="Abil.attack.ReadyStart" Send="AnimGroupApply Ready"/>
+        <On Terms="WeaponStart.BroodMotherAirRanged.AttackStart" Send="AnimBracketStart Attack Spell,C"/>
+        <On Terms="WeaponStart.BroodMotherGroundMelee.AttackStart; WeaponTargetDistance LE 1.000000" Send="AnimBracketStart Attack Attack,Cover"/>
+        <On Terms="WeaponStart.BroodMotherGroundMelee.AttackStart" Send="AnimBracketStart Attack Attack"/>
+        <On Terms="WeaponStop.*.AttackStop" Send="AnimBracketStop Attack"/>
+        <On Terms="Abil.attack.ReadyStop" Send="AnimGroupRemove Ready"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStart" Send="Create BroodMotherLotCDeepBurrow"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStart" Send="Create BroodMotherLotCBurrowDownLarge"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStart" Send="AnimBracketStart Burrow Burrow IGNORE Unburrow ClosingFull,OpeningPlayForever"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStop; ValidateUnit IsNotBuried" Send="AnimBracketStop Burrow"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStop" Send="Create BroodMotherLotCDeepUnburrow"/>
+        <On Terms="Abil.BroodMotherLotCDeepTunnel.SourceCastStop" Send="Create BurrowUpLarge"/>
+        <On Terms="Behavior.BroodMotherLotCEnrage.On" Send="SetScale 1.500000 1.000000"/>
+        <On Terms="Behavior.BroodMotherLotCEnrage.Off" Send="SetScale 1.000000 1.000000"/>
+        <On Terms="UnitHeightUpdate.*.Land" Send="Create Queen_Land"/>
+        <DeathArray index="Normal" ModelLink="BroodMotherLotCDeath" SoundLink="Queen_Explode"/>
+        <PortraitActor value="BroodMotherLotCPortrait"/>
+        <PortraitModel value="BroodMotherLotCPortrait"/>
+        <WalkAnimMoveSpeed value="1.7031"/>
+        <BarOffset value="75"/>
+        <ErrorArray Error="CantSeeBuildLocation" Sound="Alert_ZergBuildError" GroupSound="Alert_ZergBuildError"/>
+        <ErrorArray Error="CantSeeLandLocation" Sound="Alert_ZergBuildError" GroupSound="Alert_ZergBuildError"/>
+        <ErrorArray Error="CantBuildLocationInvalid" Sound="Alert_ZergBuildError" GroupSound="Alert_ZergBuildError"/>
+        <ErrorArray Error="CantLandLocationInvalid" Sound="Alert_ZergBuildError" GroupSound="Alert_ZergBuildError"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\btn-unit-zerg-broodqueen.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-zerg-broodqueen.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <!--MinimapIcon value="Assets\Textures\ui_minimap_icon_BroodMotherLotC.dds"/-->
+        <SoundArray index="Ready" value="QueenReady"/>
+        <SoundArray index="Help" value="QueenHelp"/>
+        <SoundArray index="What" value="QueenWhat"/>
+        <SoundArray index="Yes" value="QueenYes"/>
+        <UnitIcon value="Assets\Textures\btn-unit-zerg-broodqueen.dds"/>
+        <UnitKillRank Text="UnitKillRank/BroodMother"/>
+        <Wireframe>
+            <Image value="Assets\Textures\wireframe-zerg-expeditionqueenlevel2.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorModel id="BroodMotherLotCPortraitAddition" parent="CompositePortraitAddition"/>
+    <CActorPortrait id="BroodMotherLotCPortrait" parent="CompositePortrait"/>
+    <CModel id="BroodMotherLotCAirRangedLaunch" parent="LaunchFX">
+        <Model value="Assets\Effects\Zerg\HydraliskMissileLaunch\HydraliskMissileLaunch.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Lighting value="QueenAttackLaunch"/>
+    </CModel>
+    <CModel id="BroodMotherAirRangedWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Zerg\HydraliskMissile\HydraliskMissile.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+    </CModel>
+    <CModel id="BroodMotherLotCAirRangedImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\MutaliskMissileImpact\MutaliskMissileImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="LotC_Cerebrate" parent="BuildingEx" Race="Zerg">
+        <Model value="Assets\Buildings\Zerg\CerebrateSlohr\Caev_Cerebrate_Slohr.m3"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="2.800000"/>
+        <!--<Radius value="2.000000"/>
+        
+        <ShadowRadius value="2.800000"/>-->
+        <SquibTypeDefault value="Flesh"/>
+    </CModel>
+    <CModel id="LotC_CerebrateDeath" parent="BuildingDeathEx" Race="Zerg">
+        <Model value="Assets\Buildings\Zerg\CerebrateSlohrDeath\Caev_Cerebrate_Slohr_Death.m3"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="ZergPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.013000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="ZergExplosionLarge"/>
+            <Type value="Sound"/>
+            <Time value="0.666600"/>
+        </Events>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="LotC_CerebratePortrait" parent="ZergBuildingPortraitBase">
+        <Model value="Assets\Portraits\Zerg\CerebrateSlohr\Caev_Cerebrate_Slohr_Portrait.m3"/>
+        <Image value="Assets\Textures\zergbuildingportrait_static.dds"/>
+    </CModel>
+    <CModel id="LotC_CerebrateBase" parent="PersistentSpellFX">
+        <Model value="Assets\Doodads\Aiur_Zerg_NydusNest\Aiur_Zerg_NydusNest.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="1.800000,1.800000,1.800000"/>
+        <ScaleMin value="1.800000,1.800000,1.800000"/>
+    </CModel>
+    <CModel id="BroodMotherLotCDeath" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Units\Zerg\ZagaraDeath\ZagaraDeath.m3"/>
+        <LowQualityModel value="ZergMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="BroodMotherLotC" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Zagara\Zagara.m3"/>
+        <Events>
+            <Anim value="Walk"/>
+            <Name value="BroodMotherLotC_footstep"/>
+            <Type value="Sound"/>
+            <Time value="0.450000"/>
+            <Payload value="BroodMotherLotC_footstep"/>
+        </Events>
+        <Events>
+            <Anim value="Walk"/>
+            <Name value="BroodMotherLotC_footstep2"/>
+            <Type value="Sound"/>
+            <Time value="0.470000"/>
+            <Payload value="BroodMotherLotC_footstep2"/>
+        </Events>
+        <Events>
+            <Anim value="Walk"/>
+            <Name value="BroodMotherLotC_footstep"/>
+            <Type value="Sound"/>
+            <Time value="0.950000"/>
+            <Payload value="BroodMotherLotC_footstep"/>
+        </Events>
+        <Events>
+            <Anim value="Walk"/>
+            <Name value="BroodMotherLotC_footstep2"/>
+            <Type value="Sound"/>
+            <Time value="0.970000"/>
+            <Payload value="BroodMotherLotC_footstep2"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh08"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.972100"/>
+        <ShadowRadius value="0.750000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraHigh08"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="1.000000"/>
+        <TipabilityWidth value="0.800000"/>
+        <UnitGlossaryCamera value="Star2CameraHigh08"/>
+    </CModel>
+    <CModel id="BroodMotherLotCPortrait" parent="FXAPortrait" Race="Zerg">
+        <Model value="Assets\StoryModeCharacters\Terran\SMX3_Nova_PortraitBackground\SMX3_Nova_PortraitBackground.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\zagaraportrait_static.dds"/>
+    </CModel>
+    <CModel id="BroodMotherLotCPortraitAddition" parent="FXAPortrait" Race="Zerg">
+        <Model value="Assets\StoryModeCharacters\Zerg\SMX1_Zagara\SMX1_Zagara.m3"/>
+    </CModel>
+    <CWeaponLegacy id="BroodMotherAirRanged">
+        <EditorCategories value="Race:Zerg"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-missileattacks-level0.dds"/>
+        <DisplayEffect value="BroodMotherLotCAirRanged"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Period value="1"/>
+        <Effect value="BroodMotherLotCAirRangedLM"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="BroodMotherGroundMelee">
+        <EditorCategories value="Race:Zerg"/>
+        <Options index="Hidden" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-missileattacks-level0.dds"/>
+        <DisplayEffect value="BroodMotherLotCGroundMelee"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="3"/>
+        <Period value="1"/>
+        <Effect value="BroodMotherGroundMeleeBurst"/>
+    </CWeaponLegacy>
+    <CMoverMissile id="BroodMotherAirRangedWeapon">
+        <MotionPhases>
+            <Driver value="Guidance"/>
+            <Speed value="40"/>
+            <MaxSpeed value="40"/>
+            <ActorTracking value="Actual"/>
+            <RotationLaunchActorType value="LaunchToTarget"/>
+            <YawPitchRoll value="MAX"/>
+        </MotionPhases>
+    </CMoverMissile>
+    <CSound id="BroodMotherLotCAirRanged_AttackImpact" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice3.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice4.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-3.000000,3.000000"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="BroodMotherLotCAirRanged_AttackLaunch" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing0.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing1.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing2.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,2.000000"/>
+    </CSound>
+    <CSound id="BroodMotherLotCGroundMelee_AttackImpact" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice3.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackImpactLargeSlice4.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-3.000000,3.000000"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="BroodMotherLotCGroundMelee_AttackLaunch" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing0.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing1.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing2.wav"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Attacks\Zerg_AttackLaunchLargeSwing3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,2.000000"/>
+    </CSound>
+    <CSound id="LotC_Cerebrate_Ambience" parent="Ambience_Object">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Effects\Zerg_ColonyInfestationLoop0.wav" Pitch="-20.000000,-20.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Effects\Zerg_ColonyInfestationLoop1.wav" Pitch="-20.000000,-20.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Effects\Zerg_ColonyInfestationLoop2.wav" Pitch="-20.000000,-20.000000" FacialGroup=""/>
+        <LoopCount value="-1"/>
+    </CSound>
+    <CSound id="LotC_Cerebrate_What" parent="Voice">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\Hive\Hive_What0.ogg"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="LotC_Cerebrate_Ready" parent="Ready">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Zerg\Hive\Hive_What0.ogg"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="BroodMotherLotC_footstep" parent="Movement">
+        <AssetArray File="Assets\Sounds\Kraith_Fs_1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Kraith_Fs_2.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Kraith_Fs_4.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Kraith_Fs_5.wav" FacialGroup=""/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="1"/>
+        <DupeDestroyCount value="12"/>
+        <DupeHistoryCount value="4"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="3"/>
+        <Pitch value="-12.000000,-7.000000"/>
+        <Volume value="-29.000000,-25.000000"/>
+    </CSound>
+    <CSound id="BroodMotherLotC_footstep2" parent="Movement">
+        <AssetArray File="Assets\Sounds\Brutalisk_Footstep_v2_1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Brutalisk_Footstep_v2_2.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Brutalisk_Footstep_v2_3.wav" Pitch="2.000000,2.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Brutalisk_Footstep_v2_4.wav" FacialGroup=""/>
+        <DupeDestroyCount value="12"/>
+        <DupeHistoryCount value="3"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="3"/>
+        <Pitch value="-3.000000,1.000000"/>
+        <Volume value="-18.000000,-6.000000"/>
+    </CSound>
+    <CUnit id="BroodMotherAirRangedWeapon" parent="MISSILE">
+        <Race value="Zerg"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="LotC_Cerebrate">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="TownCamera" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="5000"/>
+        <LifeMax value="5000"/>
+        <LifeArmor value="5"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergBuildingArmor"/>
+        <StationaryTurningRate value="719.4726"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="12"/>
+        <CostCategory value="Technology"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <BehaviorArray Link="makeCreep8x6"/>
+        <BehaviorArray Link="LotC_CerebrateDeathPrevent"/>
+        <CardLayouts>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="2"/>
+        <SeparationRadius value="2"/>
+        <Footprint value="Footprint6x5DropOffCreepSourceContour"/>
+        <PlacementFootprint value="Footprint6x5DropOffCreepSource"/>
+        <ScoreMake value="900"/>
+        <ScoreKill value="950"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="2.5"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
+        <AIEvalFactor value="0"/>
+        <GlossaryPriority value="10"/>
+        <HotkeyCategory value="Unit/Category/ZergUnits"/>
+        <Facing value="45"/>
+    </CUnit>
+    <CUnit id="BroodMotherLotCBurrowed">
+        <Subtitle value="UnitSubtitle/BroodMotherLotC"/>
+        <Description value="Button/Tooltip/BroodMotherLotC"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="AIDefense" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <PushPriority value="11"/>
+        <Collide index="Burrow" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Psionic" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="300"/>
+        <LifeMax value="300"/>
+        <LifeArmor value="2"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <EnergyStart value="60"/>
+        <EnergyMax value="200"/>
+        <EnergyRegenRate value="0.5625"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Mover value="Burrowed"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Economy"/>
+        <CostResource index="Minerals" value="150"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="BurrowBroodMotherLotCUp"/>
+        <AbilArray Link="BurrowBroodMotherLotCDown"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowBroodMotherLotCUp,Execute" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="0.875"/>
+        <SeparationRadius value="0"/>
+        <InnerRadius value="0.5"/>
+        <ScoreKill value="300"/>
+        <SubgroupPriority value="20"/>
+        <MinimapRadius value="0.875"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <TacticalAIThink value="AIThinkQueen"/>
+        <TechAliasArray value="Alias_Queen"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Never"/>
+    </CUnit>
+    <CUnit id="BroodMotherLotC">
+        <Subtitle value="UnitSubtitle/BroodMotherLotC"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Campaign"/>
+        <Gender value="Female"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AIDefense" value="1"/>
+        <FlagArray index="AIPressForwardDisabled" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <PushPriority value="11"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Psionic" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="300"/>
+        <LifeMax value="300"/>
+        <LifeArmor value="2"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <EnergyStart value="25"/>
+        <EnergyMax value="200"/>
+        <EnergyRegenRate value="0.5625"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Speed value="2"/>
+        <SpeedMultiplierCreep value="1.7"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-2"/>
+        <CostCategory value="Economy"/>
+        <CostResource index="Minerals" value="150"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="QueenBuild"/>
+        <AbilArray Link="BurrowBroodMotherLotCDown"/>
+        <AbilArray Link="BroodMotherLotCSpawnLarva"/>
+        <AbilArray Link="Transfusion"/>
+        <AbilArray Link="BroodMotherLotCDeepTunnel"/>
+        <WeaponArray Link="BroodMotherAirRanged"/>
+        <WeaponArray Link="BroodMotherGroundMelee"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MorphMorphalisk" Type="AbilCmd" AbilCmd="BroodMotherLotCSpawnLarva,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="BuildCreepTumor" Type="AbilCmd" AbilCmd="QueenBuild,Build1" Row="2" Column="0"/>
+            <LayoutButtons Face="Transfusion" Type="AbilCmd" AbilCmd="Transfusion,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowBroodMotherLotCDown,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="DeepTunnel" Type="AbilCmd" AbilCmd="BroodMotherLotCDeepTunnel,Execute" Row="2" Column="3"/>
+        </CardLayouts>
+        <Radius value="0.875"/>
+        <SeparationRadius value="0.875"/>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="150"/>
+        <ScoreKill value="300"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="20"/>
+        <MinimapRadius value="0.875"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <TacticalAIThink value="AIThinkQueen"/>
+        <AIEvalFactor value="0.55"/>
+        <TechAliasArray value="Alias_Queen"/>
+        <GlossaryCategory value="Unit/Category/ZergCharacter"/>
+        <GlossaryPriority value="40"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Never"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="50"/>
+            <ChanceArray index="Idle" value="50"/>
+        </Fidget>
+        <BehaviorArray Link="LotC_EP01M08_QueenAura"/>
+    </CUnit>
+    <CBehaviorBuff id="LotC_CerebrateDeathPrevent">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <DamageResponse Fatal="1" Handled="LotC_CerebrateDeathPreventSet" ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LotC_CerebrateConvulsing">
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <StateFlags index="Untargetable" value="1"/>
+        </Modification>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <DamageResponse ModifyFraction="0">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+</Catalog>

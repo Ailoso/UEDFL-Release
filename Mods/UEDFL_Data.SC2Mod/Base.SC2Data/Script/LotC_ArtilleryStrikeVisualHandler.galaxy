@@ -1,0 +1,22 @@
+static const string effect = "WillliamGravesArtilleryStrike@SearchDamage";
+
+trigger LotC_ArtilleryStrikeVisual;
+
+bool LotC_ArtilleryStrikeVisual_Func(bool a, bool b){
+    int player = EventPlayer();
+    point effectpoint = EventPlayerEffectUsedPoint(c_effectLocationTargetPoint);
+    point camerapoint = CameraGetTarget(player);
+    if(RegionContainsPoint(RegionCircle(effectpoint, 10.0), camerapoint)){
+        CameraShake(player, "Medium", "Tremor", 0.0, 1.0, 1.0);
+    }
+    return true;
+}
+
+void LotC_ArtilleryStrikeVisualHandler_Init(){
+    LotC_ArtilleryStrikeVisual = TriggerCreate("LotC_ArtilleryStrikeVisual_Func");
+    TriggerAddEventPlayerEffectUsed(
+        LotC_ArtilleryStrikeVisual,
+        c_playerAny,
+        effect
+    );
+}

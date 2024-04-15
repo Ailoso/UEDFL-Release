@@ -1,0 +1,1000 @@
+include "TriggerLibs/NativeLib"
+
+include "Lib50365395_h"
+
+//--------------------------------------------------------------------------------------------------
+// Library: LotC_Data
+//--------------------------------------------------------------------------------------------------
+// External Library Initialization
+void lib50365395_InitLibraries () {
+    libNtve_InitVariables();
+}
+
+// Variable Initialization
+bool lib50365395_InitVariables_completed = false;
+
+void lib50365395_InitVariables () {
+    if (lib50365395_InitVariables_completed) {
+        return;
+    }
+
+    lib50365395_InitVariables_completed = true;
+
+    lib50365395_gv_khalaPerceptionTimeScaleBefore = 1.0;
+    lib50365395_gv_khalaPerceptionGameSpeedBefore = 1.0;
+    lib50365395_gv_khalaPerceptionUIOverlay = c_invalidDialogControlId;
+}
+
+// Custom Script
+//--------------------------------------------------------------------------------------------------
+// Custom Script: LotC_DataMain
+//--------------------------------------------------------------------------------------------------
+include "Script/LotC_Handlers"
+static void LotC_DataMain(){
+LotC_HandlerInit();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Custom Script: RangeValueToRange
+//--------------------------------------------------------------------------------------------------
+fixed data_RangeValueToRange (fixed value, fixed newMin, fixed newMax, fixed oldMin, fixed oldMax) {
+    return ((((value - oldMin) * (newMax - newMin)) / (oldMax - oldMin)) + newMin);
+}
+
+void lib50365395_InitCustomScript () {
+    LotC_DataMain();
+}
+
+// Functions
+void lib50365395_gf_KhalaPerceptionTimeScale (fixed lp_startTimeScale, fixed lp_endTimeScale, fixed lp_over, int lp_timeType) {
+    // Variable Declarations
+    fixed lv_r;
+    const fixed lv_waitTime = 0.0625;
+    fixed lv_step;
+    int lv_owner;
+    fixed lv_timeScaleUnit;
+    fixed lv_min;
+    fixed lv_max;
+    int lv_steps;
+    const fixed lv_newMin = 1.0;
+    fixed lv_newMax;
+
+    // Automatic Variable Declarations
+    int auto528C919F_n;
+    int auto528C919F_i;
+
+    // Variable Initialization
+    lv_r = lp_startTimeScale;
+    lv_owner = lib50365395_gv_khalaPerceptionCasterOwner;
+    lv_min = 0.001;
+    lv_max = 1.0;
+    lv_newMax = 3.0;
+
+    // Implementation
+    GameSetGlobalTimeScale(lp_startTimeScale);
+    if ((lv_waitTime > 0)) {
+        lv_steps = FixedToInt((lp_over / lv_waitTime));
+    }
+
+    if ((lp_startTimeScale > lp_endTimeScale)) {
+        lv_min = lp_endTimeScale;
+        lv_max = lp_startTimeScale;
+        if ((lv_steps > 0)) {
+            lv_step = ((lv_max - lv_min) / lv_steps);
+        }
+        else {
+            lv_step = 0.0;
+        }
+        lv_step = (lv_step * -1.0);
+    }
+    else {
+        lv_min = lp_startTimeScale;
+        lv_max = lp_endTimeScale;
+        if ((lv_steps > 0)) {
+            lv_step = ((lv_max - lv_min) / lv_steps);
+        }
+        else {
+            lv_step = 0.0;
+        }
+    }
+    auto528C919F_n = lv_steps;
+    for (auto528C919F_i = 1; auto528C919F_i <= auto528C919F_n; auto528C919F_i += 1) {
+        Wait(lv_waitTime, lp_timeType);
+        if ((lib50365395_gv_khalaPerceptionActive == false)) {
+            break;
+        }
+
+        lv_r += lv_step;
+        lv_timeScaleUnit = libNtve_gf_ArithmeticRealClamp(data_RangeValueToRange (lv_r, lv_newMax, lv_newMin, lv_min, lv_max), lv_newMin, lv_newMax);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.TimeScale", lv_owner, lv_timeScaleUnit);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.AttackSpeedMultiplier", lv_owner, lv_timeScaleUnit);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.MoveSpeedMultiplier", lv_owner, lv_timeScaleUnit);
+        GameSetGlobalTimeScale(libNtve_gf_ArithmeticRealClamp(lv_r, lv_min, lv_max));
+    }
+    GameSetGlobalTimeScale(lp_endTimeScale);
+}
+
+trigger auto_lib50365395_gf_KhalaPerceptionGameSpeed_Trigger = null;
+fixed auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_startGameSpeed;
+fixed auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_endGameSpeed;
+fixed auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_over;
+int auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_timeType;
+
+void lib50365395_gf_KhalaPerceptionGameSpeed (fixed lp_startGameSpeed, fixed lp_endGameSpeed, fixed lp_over, int lp_timeType) {
+    auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_startGameSpeed = lp_startGameSpeed;
+    auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_endGameSpeed = lp_endGameSpeed;
+    auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_over = lp_over;
+    auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_timeType = lp_timeType;
+
+    if (auto_lib50365395_gf_KhalaPerceptionGameSpeed_Trigger == null) {
+        auto_lib50365395_gf_KhalaPerceptionGameSpeed_Trigger = TriggerCreate("auto_lib50365395_gf_KhalaPerceptionGameSpeed_TriggerFunc");
+    }
+
+    TriggerExecute(auto_lib50365395_gf_KhalaPerceptionGameSpeed_Trigger, false, false);
+}
+
+bool auto_lib50365395_gf_KhalaPerceptionGameSpeed_TriggerFunc (bool testConds, bool runActions) {
+    fixed lp_startGameSpeed = auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_startGameSpeed;
+    fixed lp_endGameSpeed = auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_endGameSpeed;
+    fixed lp_over = auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_over;
+    int lp_timeType = auto_lib50365395_gf_KhalaPerceptionGameSpeed_lp_timeType;
+
+    // Variable Declarations
+    fixed lv_r;
+    const fixed lv_waitTime = 0.0625;
+    fixed lv_step;
+    fixed lv_min;
+    fixed lv_max;
+    int lv_steps;
+
+    // Automatic Variable Declarations
+    int autoFDE317EA_n;
+    int autoFDE317EA_i;
+
+    // Variable Initialization
+    lv_r = lp_startGameSpeed;
+    lv_min = 0.001;
+    lv_max = 1.0;
+
+    // Implementation
+    ConsoleCommand(("Speed " + FixedToString(lp_startGameSpeed, c_fixedPrecisionAny)), true, true);
+    if ((lv_waitTime > 0)) {
+        lv_steps = FixedToInt((lp_over / lv_waitTime));
+    }
+
+    if ((lp_startGameSpeed > lp_endGameSpeed)) {
+        lv_min = lp_endGameSpeed;
+        lv_max = lp_startGameSpeed;
+        if ((lv_steps > 0)) {
+            lv_step = ((lv_max - lv_min) / lv_steps);
+        }
+        else {
+            lv_step = 0.0;
+        }
+        lv_step = (lv_step * -1.0);
+    }
+    else {
+        lv_min = lp_startGameSpeed;
+        lv_max = lp_endGameSpeed;
+        if ((lv_steps > 0)) {
+            lv_step = ((lv_max - lv_min) / lv_steps);
+        }
+        else {
+            lv_step = 0.0;
+        }
+    }
+    autoFDE317EA_n = lv_steps;
+    for (autoFDE317EA_i = 1; autoFDE317EA_i <= autoFDE317EA_n; autoFDE317EA_i += 1) {
+        Wait(lv_waitTime, lp_timeType);
+        if ((lib50365395_gv_khalaPerceptionActive == false)) {
+            break;
+        }
+
+        lv_r += lv_step;
+        ConsoleCommand(("Speed " + FixedToString(libNtve_gf_ArithmeticRealClamp(lv_r, lv_min, lv_max), c_fixedPrecisionAny)), true, true);
+    }
+    ConsoleCommand(("Speed " + FixedToString(lp_endGameSpeed, c_fixedPrecisionAny)), true, true);
+    return true;
+}
+
+void lib50365395_gf_ActivateKhalaPerception (bool lp_activateDeactivate) {
+    // Automatic Variable Declarations
+    // Implementation
+    if ((lp_activateDeactivate == true)) {
+        lib50365395_gv_khalaPerceptionActive = true;
+        lib50365395_gv_khalaPerceptionTimeScaleBefore = GameGetGlobalTimeScale();
+        lib50365395_gv_khalaPerceptionGameSpeedBefore = GameGetSpeed();
+        if ((lib50365395_gv_khalaPerceptionUIOverlay != c_invalidDialogControlId)) {
+            DialogControlDestroy(lib50365395_gv_khalaPerceptionUIOverlay);
+        }
+
+        DialogControlHookupStandard(c_triggerControlTypePanel, "UIContainer/FullscreenLowerContainer");
+        DialogControlCreateInPanelFromTemplate(DialogControlLastCreated(), c_triggerControlTypePanel, "LotC_UIOverlays/KhalaPerceptionOverlayTemplate");
+        lib50365395_gv_khalaPerceptionUIOverlay = DialogControlLastCreated();
+        DialogControlSetVisible(lib50365395_gv_khalaPerceptionUIOverlay, PlayerGroupAll(), true);
+
+        lib50365395_gf_KhalaPerceptionGameSpeed(lib50365395_gv_khalaPerceptionGameSpeedBefore, lib50365395_gv_khalaPerceptionGameSpeed, 2.0, c_timeReal);
+        SoundPlayForPlayer(SoundLink("Mallock_KhalaPerception_Start", -1), c_maxPlayers, PlayerGroupAll(), 100.0, 0.0);
+        lib50365395_gv_khalaPerceptionSound = SoundLastPlayed();
+        TriggerEnable(lib50365395_gt_KhalaPerceptionMissileLaunch, true);
+        TriggerEnable(lib50365395_gt_KhalaPerceptionMiss3, true);
+        lib50365395_gf_KhalaPerceptionTimeScale(lib50365395_gv_khalaPerceptionTimeScaleBefore, lib50365395_gv_khalaPerceptionTimeScale, 2.0, c_timeReal);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogEffect, "MallockPsiBladesBurst", "PeriodicPeriodArray[" + IntToString(1) + "]", lib50365395_gv_khalaPerceptionCasterOwner, 0.13);
+    }
+    else {
+        lib50365395_gf_KhalaPerceptionGameSpeed(lib50365395_gv_khalaPerceptionGameSpeed, lib50365395_gv_khalaPerceptionGameSpeedBefore, 4.0, c_timeReal);
+        SoundPlayForPlayer(SoundLink("Mallock_KhalaPerception_Stop", -1), c_maxPlayers, PlayerGroupAll(), 100.0, 0.0);
+        if ((lib50365395_gv_khalaPerceptionUIOverlay != c_invalidDialogControlId)) {
+            DialogControlSendAnimationEvent(lib50365395_gv_khalaPerceptionUIOverlay, PlayerGroupAll(), "Hide");
+        }
+
+        lib50365395_gf_KhalaPerceptionTimeScale(lib50365395_gv_khalaPerceptionTimeScale, lib50365395_gv_khalaPerceptionTimeScaleBefore, 4.0, c_timeReal);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogEffect, "MallockPsiBladesBurst", "PeriodicPeriodArray[" + IntToString(1) + "]", lib50365395_gv_khalaPerceptionCasterOwner, 0.26);
+        if ((UnitIsValid(lib50365395_gv_khalaPerceptionCaster) == true)) {
+            UnitBehaviorRemove(lib50365395_gv_khalaPerceptionCaster, "MallockKhalaPerception", 1);
+        }
+
+        lib50365395_gv_khalaPerceptionActive = false;
+        TriggerEnable(lib50365395_gt_KhalaPerceptionMiss3, false);
+        DialogControlDestroy(lib50365395_gv_khalaPerceptionUIOverlay);
+    }
+}
+
+void lib50365395_gf_TurnTurnOffKhalaPerception (bool lp_onOff) {
+    // Automatic Variable Declarations
+    // Implementation
+    TriggerEnable(lib50365395_gt_KhalaPerception, lp_onOff);
+    TriggerEnable(lib50365395_gt_KhalaPerceptionMissileLaunch, lp_onOff);
+}
+
+void lib50365395_gf_StopKhalaPerception () {
+    // Variable Declarations
+    const fixed lv__1 = 1.0;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+
+    // Implementation
+    if ((lib50365395_gv_khalaPerceptionActive == true)) {
+        TriggerStop(lib50365395_gt_KhalaPerception);
+        SoundStop(lib50365395_gv_khalaPerceptionSound, true);
+        lib50365395_gf_KhalaPerceptionGameSpeed(lib50365395_gv_khalaPerceptionGameSpeed, lib50365395_gv_khalaPerceptionGameSpeedBefore, 0.0, c_timeReal);
+        lib50365395_gf_KhalaPerceptionTimeScale(lib50365395_gv_khalaPerceptionTimeScale, lib50365395_gv_khalaPerceptionTimeScaleBefore, 0.0, c_timeReal);
+        DialogControlDestroy(lib50365395_gv_khalaPerceptionUIOverlay);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.TimeScale", lib50365395_gv_khalaPerceptionCasterOwner, lv__1);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.AttackSpeedMultiplier", lib50365395_gv_khalaPerceptionCasterOwner, lv__1);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogBehavior, "MallockKhalaPerception", "Modification.MoveSpeedMultiplier", lib50365395_gv_khalaPerceptionCasterOwner, lv__1);
+        libNtve_gf_CatalogFieldValueSetAsReal(c_gameCatalogEffect, "MallockPsiBladesBurst", "PeriodicPeriodArray[" + IntToString(1) + "]", lib50365395_gv_khalaPerceptionCasterOwner, 0.26);
+        if ((UnitIsValid(lib50365395_gv_khalaPerceptionCaster) == true)) {
+            UnitBehaviorRemove(lib50365395_gv_khalaPerceptionCaster, "MallockKhalaPerception", 1);
+        }
+
+        lib50365395_gv_khalaPerceptionActive = false;
+        TriggerEnable(lib50365395_gt_KhalaPerceptionMiss3, false);
+    }
+
+}
+
+bool lib50365395_gf_GetKhalaPerceptionActive () {
+    // Automatic Variable Declarations
+    // Implementation
+    return lib50365395_gv_khalaPerceptionActive;
+}
+
+void lib50365395_gf_SetUpListenableBarforUnit (unit lp_unit) {
+    // Variable Declarations
+    int lv_listenableBar;
+    const string lv_uIPath = "UIContainer/ConsoleUIContainer/LotC_EP01M06_ListenableStatusFrame";
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_listenableBar = c_invalidDialogControlId;
+
+    // Implementation
+    if ((DataTableValueExists(true, "LotC_EP01M06_ListenableStatusFrame") == true)) {
+        lv_listenableBar = libNtve_gf_ValueFromDataTableDialogItem(true, "LotC_EP01M06_ListenableStatusFrame");
+    }
+    else if (true) {
+        DialogControlHookupStandard(c_triggerControlTypeUnitStatus, lv_uIPath);
+        lv_listenableBar = DialogControlLastCreated();
+        libNtve_gf_SaveDataTableValueDialogItem(true, "LotC_EP01M06_ListenableStatusFrame", lv_listenableBar);
+    }
+    libNtve_gf_SetDialogItemUnit(lv_listenableBar, lp_unit, PlayerGroupAll());
+    DialogControlSetVisible(lv_listenableBar, PlayerGroupAll(), true);
+}
+
+void lib50365395_gf_RemoveListenableBarforUnit () {
+    // Variable Declarations
+    unit lv_unit;
+    int lv_listenableBar;
+    const string lv_uIPath = "UIContainer/ConsoleUIContainer/LotC_EP01M06_ListenableStatusFrame";
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_listenableBar = c_invalidDialogControlId;
+
+    // Implementation
+    if ((DataTableValueExists(true, "LotC_EP01M06_ListenableStatusFrame") == true)) {
+        lv_listenableBar = libNtve_gf_ValueFromDataTableDialogItem(true, "LotC_EP01M06_ListenableStatusFrame");
+    }
+    else if (true) {
+        DialogControlHookupStandard(c_triggerControlTypeUnitStatus, lv_uIPath);
+        lv_listenableBar = DialogControlLastCreated();
+        libNtve_gf_SaveDataTableValueDialogItem(true, "LotC_EP01M06_ListenableStatusFrame", lv_listenableBar);
+    }
+    libNtve_gf_SetDialogItemUnit(lv_listenableBar, lv_unit, PlayerGroupAll());
+    DialogControlSetVisible(lv_listenableBar, PlayerGroupAll(), false);
+}
+
+// Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: Infantry Mortar Launch
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_InfantryMortarLaunch_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_caster;
+    unit lv_target;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_caster = EventPlayerEffectUsedUnit(c_effectUnitCaster);
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(lv_caster) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_target = EventPlayerEffectUsedUnit(c_effectUnitTarget);
+    if ((UnitIsValid(lv_target) == true)) {
+        UnitCreateEffectUnit(lv_caster, "InfantryMortarLaunchSwitch", lv_target);
+    }
+    else {
+        UnitCreateEffectPoint(lv_caster, "InfantryMortarLaunch", EventPlayerEffectUsedPoint(c_effectLocationTargetPoint));
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_InfantryMortarLaunch_Init () {
+    lib50365395_gt_InfantryMortarLaunch = TriggerCreate("lib50365395_gt_InfantryMortarLaunch_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_InfantryMortarLaunch, c_playerAny, "InfantryMortarLaunchDummy");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: ClaymoreMinePlaceDummy
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_ClaymoreMinePlaceDummy_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    bool lv_queued;
+    unitgroup lv_ug;
+    unit lv_caster;
+    unit lv_claymorePH;
+    int lv_player;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_queued = OrderGetFlag(EventUnitOrder(), c_cmdQueued);
+    lv_ug = UnitGroupEmpty();
+    lv_caster = EventUnit();
+    lv_player = 1;
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(lv_caster) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    if ((lv_queued == true)) {
+        UnitBehaviorAdd(lv_caster, "ClaymoreMineQueued", lv_caster, 1);
+    }
+
+    libNtve_gf_MakeUnitUncommandable(EventUnit(), true);
+    UnitCreateEffectPoint(lv_caster, "ClaymoreMineMakeDummy", OrderGetTargetPosition(EventUnitOrder()));
+    libNtve_gf_MakeUnitUncommandable(EventUnit(), false);
+    if ((OrderGetFlag(EventUnitOrder(), c_cmdUser) == true)) {
+        lv_ug = UnitGetTrackedUnitGroup(lv_caster, "ClaymoreMineTracker");
+        if ((UnitGroupCount(lv_ug, c_unitCountAlive) > 0)) {
+            lv_claymorePH = UnitGroupUnit(lv_ug, UnitGroupCount(lv_ug, c_unitCountAlive));
+            if ((lv_queued == true)) {
+                UnitBehaviorAdd(lv_claymorePH, "ClaymoreMineQueued", lv_caster, 1);
+            }
+
+            lv_ug = libNtve_gf_ConvertUnitToUnitGroup(lv_claymorePH);
+            if ((UnitIsValid(lv_caster) == true) && (UnitIsValid(lv_claymorePH) == true)) {
+                UISetTargetingOrder(PlayerGroupSingle(lv_player), lv_ug, OrderTargetingPoint(AbilityCommand("ClaymoreMineSetDirection", 0), UnitGetPosition(lv_claymorePH)), false);
+                while ((UnitIsValid(lv_caster) == true) && (UnitIsValid(lv_claymorePH) == true)) {
+                    Wait(0.0625, c_timeGame);
+                }
+            }
+
+        }
+        else {
+            TriggerDebugOutput(1, StringExternal("Param/Value/lib_50365395_1F1EC273"), false);
+        }
+    }
+
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_ClaymoreMinePlaceDummy_Init () {
+    lib50365395_gt_ClaymoreMinePlaceDummy = TriggerCreate("lib50365395_gt_ClaymoreMinePlaceDummy_Func");
+    TriggerAddEventUnitOrder(lib50365395_gt_ClaymoreMinePlaceDummy, null, AbilityCommand("ClaymoreMineDummy", 0));
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: ClaymoreMineSetDirection
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_ClaymoreMineSetDirection_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_caster;
+    unitgroup lv_ug;
+    int lv_player;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_ug = UnitGroupEmpty();
+    lv_player = EventPlayer();
+
+    // Conditions
+    if (testConds) {
+        if (!((OrderGetFlag(EventUnitOrder(), c_cmdUser) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_ug = UnitGetTrackedUnitGroup(EventUnit(), "ClaymoreMineTracker");
+    if ((UnitGroupCount(lv_ug, c_unitCountAlive) > 0)) {
+        lv_caster = UnitGroupUnit(lv_ug, 1);
+        if ((UnitIsValid(lv_caster) == true)) {
+            UnitCreateEffectUnit(EventUnit(), "ClaymoreMineSignalReady", lv_caster);
+            if ((UnitHasBehavior2(EventUnit(), "ClaymoreMineQueued") == true)) {
+                lv_ug = UnitGroupSelected(lv_player);
+                UISetTargetingOrder(PlayerGroupSingle(lv_player), lv_ug, OrderTargetingPoint(AbilityCommand("ClaymoreMineDummy", 0), UnitGetPosition(lv_caster)), false);
+                Wait(30.0, c_timeReal);
+                return true;
+            }
+
+        }
+
+    }
+
+    UISetTargetingOrder(PlayerGroupSingle(lv_player), libNtve_gf_ConvertUnitToUnitGroup(EventUnit()), null, false);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_ClaymoreMineSetDirection_Init () {
+    lib50365395_gt_ClaymoreMineSetDirection = TriggerCreate("lib50365395_gt_ClaymoreMineSetDirection_Func");
+    TriggerAddEventUnitOrder(lib50365395_gt_ClaymoreMineSetDirection, null, AbilityCommand("ClaymoreMineSetDirection", 0));
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: ClaymoreMineSetDirectionCancel
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_ClaymoreMineSetDirectionCancel_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    int lv_player;
+
+    // Automatic Variable Declarations
+    unitgroup auto1DED529D_g;
+    int auto1DED529D_u;
+    unit auto1DED529D_var;
+
+    // Variable Initialization
+    lv_player = EventPlayer();
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    auto1DED529D_g = UnitGroupSelected(lv_player);
+    auto1DED529D_u = UnitGroupCount(auto1DED529D_g, c_unitCountAll);
+    for (;; auto1DED529D_u -= 1) {
+        auto1DED529D_var = UnitGroupUnitFromEnd(auto1DED529D_g, auto1DED529D_u);
+        if (auto1DED529D_var == null) { break; }
+        PlayerCreateEffectUnit(lv_player, "ClaymoreMineCancelChannelOrder", auto1DED529D_var);
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_ClaymoreMineSetDirectionCancel_Init () {
+    lib50365395_gt_ClaymoreMineSetDirectionCancel = TriggerCreate("lib50365395_gt_ClaymoreMineSetDirectionCancel_Func");
+    TriggerAddEventTargetModeUpdate(lib50365395_gt_ClaymoreMineSetDirectionCancel, c_playerAny, AbilityCommand("ClaymoreMineSetDirection", 0), c_targetModeStateOff);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: VaeregothPsionicProjectionManageHeight
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_VaeregothPsionicProjectionManageHeight_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_u;
+    unit lv_target;
+    unit lv_caster;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_target = EventPlayerEffectUsedUnit(c_effectUnitTarget);
+    lv_caster = EventPlayerEffectUsedUnit(c_effectUnitCaster);
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(lv_caster) == true))) {
+            return false;
+        }
+
+        if (!((UnitIsValid(lv_target) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_u = UnitGroupUnit(UnitGetTrackedUnitGroup(lv_caster, "VaeregothPsiProjectionTracker"), 1);
+    if ((UnitIsValid(lv_u) == true)) {
+        UnitSetHeight(lv_u, UnitGetHeight(lv_target), 1.0);
+    }
+
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_VaeregothPsionicProjectionManageHeight_Init () {
+    lib50365395_gt_VaeregothPsionicProjectionManageHeight = TriggerCreate("lib50365395_gt_VaeregothPsionicProjectionManageHeight_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_VaeregothPsionicProjectionManageHeight, c_playerAny, "VaeregothPsiProjectionNewTarget");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: VaeregothPsionicProjectionNewTarget
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_VaeregothPsionicProjectionNewTarget_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_target;
+    unit lv_caster;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_target = EventPlayerEffectUsedUnit(c_effectUnitTarget);
+    lv_caster = EventPlayerEffectUsedUnit(c_effectUnitCaster);
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(lv_caster) == true))) {
+            return false;
+        }
+
+        if (!((UnitIsValid(lv_target) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    UnitCreateEffectUnit(UnitGroupUnit(UnitGetTrackedUnitGroup(lv_caster, "VaeregothPsiProjectionTracker"), 1), "VaeregothPsiProjectionNewTarget", lv_target);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_VaeregothPsionicProjectionNewTarget_Init () {
+    lib50365395_gt_VaeregothPsionicProjectionNewTarget = TriggerCreate("lib50365395_gt_VaeregothPsionicProjectionNewTarget_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_VaeregothPsionicProjectionNewTarget, c_playerAny, "VaeregothPsiProjectionBeam");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: VaeregothPsionicProjectionRedirectDamage
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_VaeregothPsionicProjectionRedirectDamage_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_target;
+    unit lv_caster;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_target = EventPlayerEffectUsedUnit(c_effectUnitTarget);
+    lv_caster = EventPlayerEffectUsedUnit(c_effectUnitCaster);
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    UnitCreateEffectUnit(lv_target, "VaeregothPsiProjectionEnum", UnitGroupUnit(UnitGetTrackedUnitGroup(lv_caster, "VaeregothPsiProjectionTracker"), 1));
+    lib50365395_gv_vaeregothPsionicProjectionTarget = UnitGroupUnit(UnitGetTrackedUnitGroup(lv_caster, "VaeregothPsiProjectionTargetTracker"), 1);
+    lib50365395_gv_vaeregothPsionicProjectionCaster = lv_caster;
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_VaeregothPsionicProjectionRedirectDamage_Init () {
+    lib50365395_gt_VaeregothPsionicProjectionRedirectDamage = TriggerCreate("lib50365395_gt_VaeregothPsionicProjectionRedirectDamage_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_VaeregothPsionicProjectionRedirectDamage, c_playerAny, "VaeregothPsiProjectionSourceDummySpawn");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: VaeregothPsionicProjectionRedirectDamage2
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    UnitCreateEffectUnit(lib50365395_gv_vaeregothPsionicProjectionCaster, "VaeregothPsiProjectionImpact", lib50365395_gv_vaeregothPsionicProjectionTarget);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2_Init () {
+    lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2 = TriggerCreate("lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2, c_playerAny, "VaeregothPsiProjectionDummyDMG");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: KhalaPerceptionMissileLaunch
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_KhalaPerceptionMissileLaunch_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unitgroup lv_ug;
+    unit lv_missile;
+    unit lv_caster;
+    unit lv_target;
+
+    // Automatic Variable Declarations
+    unitgroup auto55E49096_g;
+    int auto55E49096_u;
+
+    // Variable Initialization
+    lv_ug = UnitGroupEmpty();
+    lv_caster = EventPlayerEffectUsedUnitLaunch();
+    lv_target = EventPlayerEffectUsedUnitImpact();
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(lv_caster) == true))) {
+            return false;
+        }
+
+        if (!((UnitIsValid(lv_target) == true))) {
+            return false;
+        }
+
+        if (!((UnitGetType(lv_target) == "Mallock"))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_ug = UnitGroup(null, UnitGetOwner(lv_caster), RegionCircle(UnitGetPosition(lv_caster), 0.25), UnitFilter((1 << c_targetFilterMissile), 0, (1 << c_targetFilterAlly) | (1 << c_targetFilterNeutral) | (1 << c_targetFilterEnemy), (1 << (c_targetFilterDead - 32))), 0);
+    auto55E49096_g = lv_ug;
+    auto55E49096_u = UnitGroupCount(auto55E49096_g, c_unitCountAll);
+    for (;; auto55E49096_u -= 1) {
+        lv_missile = UnitGroupUnitFromEnd(auto55E49096_g, auto55E49096_u);
+        if (lv_missile == null) { break; }
+        if ((UnitHasBehavior2(lv_missile, "MissileTargetTracker") == false)) {
+            if ((UnitGetOriginalCaster(lv_missile) == lv_caster)) {
+                UnitCreateEffectUnit(lv_missile, "MissileTargetTrackerSet", lv_target);
+                break;
+            }
+
+        }
+
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_KhalaPerceptionMissileLaunch_Init () {
+    lib50365395_gt_KhalaPerceptionMissileLaunch = TriggerCreate("lib50365395_gt_KhalaPerceptionMissileLaunch_Func");
+    TriggerEnable(lib50365395_gt_KhalaPerceptionMissileLaunch, false);
+    TriggerAddEventPlayerEffectUsedFromScope(lib50365395_gt_KhalaPerceptionMissileLaunch, c_playerAny, "CEffectLaunchMissile");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: KhalaPerceptionAttackerAttacks
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_KhalaPerceptionMiss3_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    string lv_weapon;
+    fixed lv_cooldown;
+    int lv_i;
+
+    // Automatic Variable Declarations
+    int auto028CC15F_ae;
+    const int auto028CC15F_ai = 1;
+
+    // Variable Initialization
+
+    // Conditions
+    if (testConds) {
+        if (!((UnitIsValid(EventUnitTarget()) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_weapon = EventUnitGetWeapon();
+    auto028CC15F_ae = UnitWeaponCount(EventUnitTarget());
+    lv_i = 1;
+    for ( ; ( (auto028CC15F_ai >= 0 && lv_i <= auto028CC15F_ae) || (auto028CC15F_ai < 0 && lv_i >= auto028CC15F_ae) ) ; lv_i += auto028CC15F_ai ) {
+        if ((UnitWeaponGet(EventUnitTarget(), lv_i) == lv_weapon)) {
+            lv_cooldown = (libNtve_gf_CatalogFieldValueGetAsReal(c_gameCatalogWeapon, lv_weapon, "Period", UnitGetOwner(EventUnitTarget())) * 0.85);
+            UnitModifyCooldown(EventUnitTarget(), "AttackerCanAttack", lv_cooldown, c_cooldownOperationSet);
+            break;
+        }
+
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_KhalaPerceptionMiss3_Init () {
+    lib50365395_gt_KhalaPerceptionMiss3 = TriggerCreate("lib50365395_gt_KhalaPerceptionMiss3_Func");
+    TriggerEnable(lib50365395_gt_KhalaPerceptionMiss3, false);
+    TriggerAddEventUnitAttacked2(lib50365395_gt_KhalaPerceptionMiss3, null, null);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: KhalaPerception
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_KhalaPerception_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Conditions
+    if (testConds) {
+        if (!((lib50365395_gv_khalaPerceptionActive == false))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lib50365395_gv_khalaPerceptionCaster = EventPlayerEffectUsedUnit(c_effectUnitCaster);
+    lib50365395_gv_khalaPerceptionCasterOwner = UnitGetOwner(lib50365395_gv_khalaPerceptionCaster);
+    lib50365395_gf_ActivateKhalaPerception(true);
+    Wait(24.0, c_timeReal);
+    lib50365395_gf_ActivateKhalaPerception(false);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_KhalaPerception_Init () {
+    lib50365395_gt_KhalaPerception = TriggerCreate("lib50365395_gt_KhalaPerception_Func");
+    TriggerEnable(lib50365395_gt_KhalaPerception, false);
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_KhalaPerception, 1, "MallockKhalaPerception");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: SelfCastOn
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_SelfCastOn_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lib50365395_gv_selfCasting = true;
+    TriggerEnable(lib50365395_gt_SelfCastMyraHeal, true);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_SelfCastOn_Init () {
+    lib50365395_gt_SelfCastOn = TriggerCreate("lib50365395_gt_SelfCastOn_Func");
+    TriggerAddEventHotkeyPressed(lib50365395_gt_SelfCastOn, c_playerAny, c_hotkeyHeroCharacterSheetPanel, true);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: SelfCastOff
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_SelfCastOff_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lib50365395_gv_selfCasting = false;
+    TriggerEnable(lib50365395_gt_SelfCastMyraHeal, false);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_SelfCastOff_Init () {
+    lib50365395_gt_SelfCastOff = TriggerCreate("lib50365395_gt_SelfCastOff_Func");
+    TriggerAddEventHotkeyPressed(lib50365395_gt_SelfCastOff, c_playerAny, c_hotkeyHeroCharacterSheetPanel, false);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: SelfCastMyraHeal
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_SelfCastMyraHeal_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_u;
+    order lv_order;
+
+    // Automatic Variable Declarations
+    unitgroup auto24040CE4_g;
+    int auto24040CE4_u;
+
+    // Variable Initialization
+
+    // Conditions
+    if (testConds) {
+        if (!((lib50365395_gv_selfCasting == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    auto24040CE4_g = UnitGroupSelected(EventPlayer());
+    auto24040CE4_u = UnitGroupCount(auto24040CE4_g, c_unitCountAll);
+    for (;; auto24040CE4_u -= 1) {
+        lv_u = UnitGroupUnitFromEnd(auto24040CE4_g, auto24040CE4_u);
+        if (lv_u == null) { break; }
+        if (((UnitGetType(lv_u) == "MyraDavisOfficer") || (UnitGetType(lv_u) == "MyraDavisRiotOfficer") || (UnitGetType(lv_u) == "RusellPeters"))) {
+            if ((UnitGetPropertyFixed(lv_u, c_unitPropLifePercent, c_unitPropCurrent) < 100.0)) {
+                if ((TechTreeAbilityIsAllowed(EventPlayer(), AbilityCommand("MyraDavisHealingPatch", 0)) == true) && (UnitAbilityCheck(lv_u, "MyraDavisHealingPatch", true) == true) && (UnitAbilityGetCooldown(lv_u, "MyraDavisHealingPatch", "Abil/MyraDavisHealingPatch") == 0.0)) {
+                    UnitIssueOrder(lv_u, OrderTargetingUnit(AbilityCommand("MyraDavisHealingPatch", 0), lv_u), c_orderQueueAddToFront);
+                    break;
+                }
+
+            }
+
+        }
+
+    }
+    UISetTargetingOrder(PlayerGroupSingle(EventPlayer()), null, null, false);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_SelfCastMyraHeal_Init () {
+    lib50365395_gt_SelfCastMyraHeal = TriggerCreate("lib50365395_gt_SelfCastMyraHeal_Func");
+    TriggerEnable(lib50365395_gt_SelfCastMyraHeal, false);
+    TriggerAddEventTargetModeUpdate(lib50365395_gt_SelfCastMyraHeal, c_playerAny, AbilityCommand("MyraDavisHealingPatch", 0), c_targetModeStateOn);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: DarkSwarmNoCastRegion
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_DarkSwarmNoCastRegion_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    gf_DeclareDarkSwarmNoCastRegion();
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_DarkSwarmNoCastRegion_Init () {
+    lib50365395_gt_DarkSwarmNoCastRegion = TriggerCreate("lib50365395_gt_DarkSwarmNoCastRegion_Func");
+    TriggerAddEventPlayerEffectUsed(lib50365395_gt_DarkSwarmNoCastRegion, c_playerAny, "DefilerMPDarkSwarmLM");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Hide Techtrees
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_gt_HideTechtrees_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    string lv_glossaryCategory;
+    int lv_player;
+    string lv_unitType;
+
+    // Automatic Variable Declarations
+    int auto2AB22398_catalog;
+    int auto2AB22398_i;
+
+    // Variable Initialization
+    lv_glossaryCategory = "";
+    lv_player = 1;
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    PlayerApplySkin(1, "UPLAnnouncer", true);
+    PlayerApplySkin(1, "CarrierRemasteredTweak", true);
+    HelpPanelShowTechTreeRace(PlayerGroupAll(), "Zerg", false);
+    HelpPanelShowTechTreeRace(PlayerGroupAll(), "Prot", false);
+    HelpPanelShowTechTreeRace(PlayerGroupAll(), "Terr", true);
+    auto2AB22398_catalog = c_gameCatalogUnit;
+    auto2AB22398_i = 1;
+    for ( ; auto2AB22398_i <= CatalogEntryCount(c_gameCatalogUnit) ; auto2AB22398_i += 1 ) {
+        lv_unitType = CatalogEntryGet(auto2AB22398_catalog, auto2AB22398_i);
+        lv_glossaryCategory = CatalogFieldValueGet(c_gameCatalogUnit, lv_unitType, "GlossaryCategory", lv_player);
+        if ((StringContains(lv_glossaryCategory, "UPL", c_stringAnywhere, c_stringNoCase) == false)) {
+            TechTreeUnitHelp(lv_player, lv_unitType, false);
+        }
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib50365395_gt_HideTechtrees_Init () {
+    lib50365395_gt_HideTechtrees = TriggerCreate("lib50365395_gt_HideTechtrees_Func");
+    TriggerAddEventMapInit(lib50365395_gt_HideTechtrees);
+}
+
+void lib50365395_InitTriggers () {
+    lib50365395_gt_InfantryMortarLaunch_Init();
+    lib50365395_gt_ClaymoreMinePlaceDummy_Init();
+    lib50365395_gt_ClaymoreMineSetDirection_Init();
+    lib50365395_gt_ClaymoreMineSetDirectionCancel_Init();
+    lib50365395_gt_VaeregothPsionicProjectionManageHeight_Init();
+    lib50365395_gt_VaeregothPsionicProjectionNewTarget_Init();
+    lib50365395_gt_VaeregothPsionicProjectionRedirectDamage_Init();
+    lib50365395_gt_VaeregothPsionicProjectionRedirectDamage2_Init();
+    lib50365395_gt_KhalaPerceptionMissileLaunch_Init();
+    lib50365395_gt_KhalaPerceptionMiss3_Init();
+    lib50365395_gt_KhalaPerception_Init();
+    lib50365395_gt_SelfCastOn_Init();
+    lib50365395_gt_SelfCastOff_Init();
+    lib50365395_gt_SelfCastMyraHeal_Init();
+    lib50365395_gt_DarkSwarmNoCastRegion_Init();
+    lib50365395_gt_HideTechtrees_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+bool lib50365395_InitLib_completed = false;
+
+void lib50365395_InitLib () {
+    if (lib50365395_InitLib_completed) {
+        return;
+    }
+
+    lib50365395_InitLib_completed = true;
+
+    lib50365395_InitLibraries();
+    lib50365395_InitVariables();
+    lib50365395_InitCustomScript();
+    lib50365395_InitTriggers();
+}
+

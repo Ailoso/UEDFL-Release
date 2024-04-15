@@ -1,0 +1,17 @@
+﻿DocInfo/DescLong=Achievement Libraries by Chonky Kat#8186
+DocInfo/Name=UED First Light Arcade Achivs Mod
+Param/Value/lib_AE8FC9D3_36AB12C8=DummyInfoFrame/AchievementTitle
+Param/Value/lib_AE8FC9D3_5FAEDF31=Achievements <k val="F11" count="1"/> 
+Param/Value/lib_AE8FC9D3_80F0E7E2=
+Param/Value/lib_AE8FC9D3_85182CB2=DummyInfoFrame/AchievementIcon
+Param/Value/lib_AE8FC9D3_B433625A=Saved
+Param/Value/lib_AE8FC9D3_E57BA842=Unverified
+
+UI/UEDUserProfile/SummaryTabLabel=Profile Summary
+UI/UEDUserProfile/Category1TabLabel=First Light
+UI/UEDUserProfile/Category2TabLabel=Prologue
+UI/UEDUserProfile/Category3TabLabel=Arrival
+UI/UEDUserProfile/Category4TabLabel=Abandon Hope
+UI/UEDUserProfile/Category5TabLabel=Last Light
+UI/UEDUserProfile/Category6TabLabel=
+UI/UEDUserProfile/Category7TabLabel=Feats of Strength
