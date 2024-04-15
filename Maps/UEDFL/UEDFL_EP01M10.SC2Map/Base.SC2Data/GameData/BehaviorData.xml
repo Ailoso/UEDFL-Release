@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="LightofAiur">
+        <Alignment value="Neutral"/>
+        <Duration value="-1"/>
+        <Modification>
+            <SightBonus value="-4"/>
+            <WeaponScanLimit value="0"/>
+            <Detect value="0"/>
+            <DetectBonus value="2"/>
+            <StateFlags index="Detector" value="0"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LightofAiur2">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-envision.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="-1"/>
+        <Modification SightBonus="-2" WeaponScanLimit="0" DetectArc="0"/>
+    </CBehaviorBuff>
+</Catalog>

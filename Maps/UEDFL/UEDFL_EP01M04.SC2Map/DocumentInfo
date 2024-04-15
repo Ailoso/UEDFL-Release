@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <ModType>
+        <Value>Interface</Value>
+    </ModType>
+    <Dependencies>
+        <Value>file:Mods\UEDFL_Campaign.SC2Mod</Value>
+    </Dependencies>
+    <Preload>
+        <Value>AssetFile;Assets\Portraits\UPL\WilliamGravesPortrait\WilliamGravesPortrait.m3</Value>
+        <Value>AssetFile;Assets\Portraits\UPL\RileyJericoPortrait\RileyJericoPortrait.m3</Value>
+        <Value>AssetFile;Assets\Portraits\UPL\CARRPortrait\CARRPortrait.m3</Value>
+    </Preload>
+</DocInfo>

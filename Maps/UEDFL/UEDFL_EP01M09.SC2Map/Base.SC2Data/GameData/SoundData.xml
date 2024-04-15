@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="M9ColonyShip2Announcement1" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-ColonyShip2Announcement1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShip2Announcement2" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-ColonyShip2Announcement2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShipAlarm2" parent="Foley">
+        <AssetArray index="0" File="OGG\M9-ShipAlarm3.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.400000"/>
+        <SpeakerMix index="BackLeft" value="0.700000"/>
+        <SpeakerMix index="BackRight" value="0.700000"/>
+        <SpeakerMix index="SideLeft" value="0.500000"/>
+        <SpeakerMix index="SideRight" value="0.500000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="M9EndingCinematicMusic" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-MusicCinematic.ogg" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="M9GatePounding1" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GatePounding1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9GatePounding2" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GatePounding2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9GateSlam3" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GateSlam.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9Music4" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-ZergCoverSC1_LittleVMills.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+        <AssetArray File="MUSIC\M9-ZergCoverSC1_LittleVMills.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+        <AssetArray File="MUSIC\M9-ZergCoverSC1_LittleVMills.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9ReinforcementDoor1Dead" parent="Foley">
+        <AssetArray index="0" File="OGG\M9-ReinforcementDoorDies1.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Music"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.400000"/>
+        <SpeakerMix index="BackLeft" value="0.700000"/>
+        <SpeakerMix index="BackRight" value="0.700000"/>
+        <SpeakerMix index="SideLeft" value="0.500000"/>
+        <SpeakerMix index="SideRight" value="0.500000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShipBreakin2" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-ColonyShipBreakin2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9GateSlam" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GateSlam.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9GateDestruction" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GateDestruction.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShipBreakin1" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-ColonyShipBreakIn1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShipDoors" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-ColonyShipDoors.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9EndingCinematicAmbience" parent="Foley">
+        <AssetArray index="0" File="OGG\M9-EndCinematicAmbience.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Music"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.400000"/>
+        <SpeakerMix index="BackLeft" value="0.700000"/>
+        <SpeakerMix index="BackRight" value="0.700000"/>
+        <SpeakerMix index="SideLeft" value="0.500000"/>
+        <SpeakerMix index="SideRight" value="0.500000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="M9ReinforcementDoor2Dead" parent="Foley">
+        <AssetArray index="0" File="OGG\M9-ReinforcementDoorDies2.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Music"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.400000"/>
+        <SpeakerMix index="BackLeft" value="0.700000"/>
+        <SpeakerMix index="BackRight" value="0.700000"/>
+        <SpeakerMix index="SideLeft" value="0.500000"/>
+        <SpeakerMix index="SideRight" value="0.500000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="M9Slohr11" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9Slohr5" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr6" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr7" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr8" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9Slohr8A" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr8a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9Slohr9" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9Slohr10" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9StartingAreaMusic1" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-StartingAreaMusic1.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9Slohr2a" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr2a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Music1" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-Music2.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9Music2" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-Music1.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9Music3" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-Music3.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9Slohr2" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr3" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr3A" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr3a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9Slohr4" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Slohr4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9StartingAreaMusic2" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-StartingAreaMusic2.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9IntroCinematicMusic" parent="MUSIC">
+        <AssetArray File="MUSIC\M9-IntroCinematicMusic.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9ColonyShipAmbience" parent="MUSIC">
+        <AssetArray File="OGG\M9-ColonyShipAmbient.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="M9UPL1" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9UPL11" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="M9UPL12" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9UPL13" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9UPL14" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-BarricadeCommander1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL15" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-BarricadeCommander2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL16" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL17" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL18" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL19" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9UPL20" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL21" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9i.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL2" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9UPL22" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-DefNet1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL23" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer9b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL24" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL25" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL26" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL27" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL28" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL29" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL30" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL3" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9f.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9UPL31" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer9d.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL32" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer9e.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL33" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Radio4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL34" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Radio5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9UPL4" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9g.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9UPL5" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9e.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9UPL6" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-BarricadeCommander3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+    </CSound>
+    <CSound id="M9GateOpen" parent="Foley" Portrait="" Subtitle="EP01M08" Speaker="ColonelGraves" Actor="" Line="00029">
+        <AssetArray index="0" File="OGG\M9-GateOpen.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M9UPL7" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9d.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9UPL8" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-CARR1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="M9ColonyShip1Announcement" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-ColonyShip1Announcement.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M9UPL9" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9-Officer9h.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M9UPL10" parent="VO" Subtitle="EP01M08" Speaker="ColonelGraves" Line="00029">
+        <AssetArray index="0">
+            <File value="OGG\M9Cinematic-Officer3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="Center" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideLeft" value="0.000000"/>
+        <SpeakerMixNonLocal index="SideRight" value="0.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+</Catalog>

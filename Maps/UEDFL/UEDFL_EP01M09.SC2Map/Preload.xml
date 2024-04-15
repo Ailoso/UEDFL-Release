@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\btn-upgrade-zerg-abathur-biomass.dds" Type="Image"/>
+<Asset path="assets\textures\biomassrecovery_coop.dds" Type="Image"/>
+<Asset path="assets\textures\btn-building-zerg-hatchery.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Aiur_City_CreepWebbing" Variations="1,2,3,4,5"/>
+<Actor id="Aiur_Zerg_GlowingPods" Variations="0,1,2,3,4"/>
+<Actor id="Aiur_Zerg_Horn" Variations="0,1,3,4"/>
+<Actor id="Aiur_Zerg_Ribs" Variations="0,2,3"/>
+<Actor id="ArmoredDoor"/>
+<Actor id="BattleStation_Line_Decals" Variations="0,3,7,10,24,26"/>
+<Actor id="Blast_Craters_Big" Variations="0,2,3,4"/>
+<Actor id="CompoundSewers_FuelingPipes" Variations="12"/>
+<Actor id="CompoundSewers_Grates" Variations="8"/>
+<Actor id="ConstructionCrane"/>
+<Actor id="CreepPods" Variations="0,1,2"/>
+<Actor id="CreepWeb" Variations="7"/>
+<Actor id="DOM_Crate" Variations="0,1,2,3,4"/>
+<Actor id="DOM_Decals" Variations="2,3,7"/>
+<Actor id="DOM_Fire_Large"/>
+<Actor id="DOM_GroundTrims" Variations="4,5,8"/>
+<Actor id="DOM_GunRacks" Variations="0,1,4"/>
+<Actor id="DOM_LabConsoles" Variations="0,1,2"/>
+<Actor id="DOM_LabCrates" Variations="0,1"/>
+<Actor id="DOM_LabStasisTubeWalls" Variations="1"/>
+<Actor id="DOM_LabWallScreens" Variations="0"/>
+<Actor id="DOM_StasisTube" Variations="0"/>
+<Actor id="DOM_Walls_Caps_Interior" Variations="1"/>
+<Actor id="DOM_Walls_Details_Interior" Variations="4"/>
+<Actor id="DOM_Walls_Interior" Variations="0,2,3"/>
+<Actor id="DeadPrimalisk"/>
+<Actor id="DecalSpace" Variations="16"/>
+<Actor id="DefendersCity_Buildings_IndustrialDestroyed" Variations="0,8,9"/>
+<Actor id="DefendersCity_Buildings_Pipes_Tanks_Industrial" Variations="0,1,2,4,13"/>
+<Actor id="DockingBayGround"/>
+<Actor id="DominionLandingPad" Variations="1"/>
+<Actor id="Elsecaro_Large_Rock" Variations="6"/>
+<Actor id="Elsecaro_Medium_Rock" Variations="3"/>
+<Actor id="Elsecaro_StoreFront_Destroyed" Variations="2"/>
+<Actor id="FloodlightLensflare" Variations="0,1"/>
+<Actor id="GenericFire_Large"/>
+<Actor id="GenericFire_Medium"/>
+<Actor id="GhostCorpses" Variations="0,2"/>
+<Actor id="HalfStructure" Variations="2"/>
+<Actor id="HybridWallConsoles" Variations="0,1,2"/>
+<Actor id="KorhalSkyScrapersMedium" Variations="0,1,3,4,5,6,7"/>
+<Actor id="Korhal_AirportTower" Variations="1"/>
+<Actor id="Korhal_Debris" Variations="1"/>
+<Actor id="Korhal_EMP_Structures" Variations="2,4"/>
+<Actor id="Korhal_FuelTank_Destroyed" Variations="1"/>
+<Actor id="Korhal_Manhole" Variations="0,1"/>
+<Actor id="Korhal_MengskBuildings" Variations="0,2"/>
+<Actor id="Korhal_Platform_CliffTower" Variations="1"/>
+<Actor id="Korhal_Platform_Debris" Variations="1,2"/>
+<Actor id="Korhal_Platform_GrimeSplats" Variations="0,1"/>
+<Actor id="Korhal_Platform_Hatches" Variations="2"/>
+<Actor id="Korhal_Platform_OilMarks" Variations="0,2"/>
+<Actor id="Korhal_Platform_Pipes" Variations="6"/>
+<Actor id="Korhal_Platform_Ramp"/>
+<Actor id="Korhal_Platform_TireMarks" Variations="1"/>
+<Actor id="Korhal_Runway" Variations="1"/>
+<Actor id="Korhal_Skyscrapers_Cliff" Variations="2"/>
+<Actor id="Korhal_SpacePort_Container" Variations="1,2,3"/>
+<Actor id="Korhal_SpacePort_Hose" Variations="1"/>
+<Actor id="Korhal_SpacePort_LuggageTruck" Variations="0"/>
+<Actor id="Korhal_TarmacSplat" Variations="1"/>
+<Actor id="MoebiusLab_Splat" Variations="2,4,6,7"/>
+<Actor id="PortCity_Glass_Splat" Variations="0,2"/>
+<Actor id="RoadCornerDiagonal" Variations="1,2"/>
+<Actor id="RoadDestroyedCornerDiagonal" Variations="1"/>
+<Actor id="RoadDestroyedDiagonal" Variations="0,1,2"/>
+<Actor id="RoadDestroyedEndCap" Variations="0"/>
+<Actor id="RoadDiagonal" Variations="0,1,2,4"/>
+<Actor id="Shadow_Tarmac_Splat" Variations="0,1,2,4,5,6"/>
+<Actor id="Shakuras_City_Debris_Splat"/>
+<Actor id="ShipDock" Variations="4"/>
+<Actor id="SmokePillar_Tall_Generic"/>
+<Actor id="SnowRefinery_Terran_BaseSplats" Variations="0,1,3"/>
+<Actor id="SpaceDockMonitorLarge" Variations="1"/>
+<Actor id="SpacePlatform_Lantern_Blue_Blink" Variations="2"/>
+<Actor id="SpacePlatform_Lantern_Red_Blink" Variations="0"/>
+<Actor id="SpacePrisonDockPowerLines" Variations="1"/>
+<Actor id="SpacePrisonPlatformFan" Variations="0"/>
+<Actor id="SpacePrisonPlatformScaffold" Variations="2"/>
+<Actor id="SpaceWallPanel"/>
+<Actor id="TarSludge_BakedSplat"/>
+<Actor id="Tarsonis_Building_Barricade" Variations="0,1"/>
+<Actor id="Tarsonis_Debris_Splat" Variations="1,2,4,5,6"/>
+<Actor id="Tarsonis_Furniture" Variations="0,1,2,3,4,5,6"/>
+<Actor id="Tarsonis_GroundTrims" Variations="0,1,2,5,7"/>
+<Actor id="Tarsonis_SandDrift_Splat" Variations="0"/>
+<Actor id="Tarsonis_Store_Front" Variations="2"/>
+<Actor id="Tarsonis_Store_Front_Props" Variations="6"/>
+<Actor id="TheVoid_RubblePile" Variations="0,1,2,3"/>
+<Actor id="UmojanLabConsoleSmall"/>
+<Actor id="UmojanLabCrates" Variations="0,1,4"/>
+<Actor id="UmojanLabMonitorFloor" Variations="2"/>
+<Actor id="UmojanLabWallConsoles" Variations="0,1,2"/>
+<Actor id="Void_CrackSplat" Variations="0,2,3,4"/>
+<Actor id="ZergBuildingLarge" Variations="0,1"/>
+<Actor id="ZergCarcasses" Variations="1,3,5,6"/>
+<Actor id="ZergCarcassesMedium" Variations="0,2,5"/>
+<Actor id="ZergCliffWebbingOneHigh"/>
+<Actor id="ZergRootsCliff" Variations="0,1,2"/>
+<Actor id="ZergWallDecorTwoHigh" Variations="0,3,8,9,11,14,15"/>
+<Actor id="Zerg_EggSackOneEggs" Variations="0"/>
+<Actor id="Zerg_EggSackThreeEggs"/>
+<Actor id="Zerg_EggSackTwoEggs" Variations="0"/>
+<Actor id="AlarmLight" Variations="1"/>
+<Actor id="BillboardDestroyed" Variations="5,7"/>
+<Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
+<Actor id="BraxisAlphaBioDome" Variations="2"/>
+<Actor id="BraxisAlphaTallSign" Variations="0"/>
+<Actor id="BullhornLights" Variations="0,1"/>
+<Actor id="CastanarCage" Variations="1"/>
+<Actor id="CastanarHoloProjector"/>
+<Actor id="CastanarMonitorWall" Variations="0"/>
+<Actor id="Crate" Variations="1,4"/>
+<Actor id="Decal" Variations="0"/>
+<Actor id="FanVent" Variations="1"/>
+<Actor id="FireMedium"/>
+<Actor id="FloatingCreepPad"/>
+<Actor id="Floodlight" Variations="0,1"/>
+<Actor id="GarageLarge" Variations="0,1"/>
+<Actor id="KorhalBuildingWrecked" Variations="0,1,2,3,5"/>
+<Actor id="LandingLights" Variations="1,2,3"/>
+<Actor id="MarSaraGroundProps" Variations="0,2"/>
+<Actor id="MarSaraTreeDead" Variations="0,1,5"/>
+<Actor id="NewFolsomSandbags" Variations="0,2,3,4,5,7"/>
+<Actor id="PipesCorner45" Variations="1"/>
+<Actor id="PipesLong" Variations="0,2"/>
+<Actor id="PipesLong45" Variations="0"/>
+<Actor id="PortZionJunkPile" Variations="1"/>
+<Actor id="PortZionTires" Variations="1"/>
+<Actor id="PortZionTowerDestroyed" Variations="4"/>
+<Actor id="RockWaterfall" Variations="2,3,5"/>
+<Actor id="RooftopACCreeped" Variations="2,3"/>
+<Actor id="RooftopEntrance"/>
+<Actor id="Searchlight" Variations="0"/>
+<Actor id="SmokePillarsTall"/>
+<Actor id="SpacePlatformGenerator" Variations="0,1"/>
+<Actor id="SpacePlatformGroundDecals" Variations="5,11,14"/>
+<Actor id="SpacePlatformHatch"/>
+<Actor id="SpacePlatformHatchLarge"/>
+<Actor id="SpacePlatformHose" Variations="2,3"/>
+<Actor id="SpacePlatformMonitor" Variations="0,2"/>
+<Actor id="SpacePlatformRadar" Variations="1"/>
+<Actor id="SpacePlatformReactor" Variations="4"/>
+<Actor id="SpacePlatformSignLarge" Variations="0"/>
+<Actor id="SpacePlatformTower" Variations="1,3"/>
+<Actor id="SpacePlatformWallDamage"/>
+<Actor id="SpacePlatformWallDebris" Variations="3,4,5"/>
+<Actor id="StoreFrontCityProps" Variations="0,1"/>
+<Actor id="Streetlight" Variations="1"/>
+<Actor id="SupplyTanks"/>
+<Actor id="TerranTarmac" Variations="1,6"/>
+<Actor id="Waterfall"/>
+<Actor id="WreckedCargoTruckCorpse" Variations="0"/>
+<Actor id="WreckedVehicles" Variations="1"/>
+<Actor id="ZergCliffWebLarge" Variations="0,2"/>
+<Actor id="CargoTruck" Variations="2"/>
+<Actor id="CargoTruckCreep" Variations="0,1,2"/>
+<Actor id="WreckedCargoTruck" Variations="0,1"/>
+<Actor id="ColonistSupplyCrate" Variations="0,1,4"/>
+<Actor id="CreepCloud"/>
+<Actor id="CreepSporeEmitter"/>
+<Actor id="KorhalBuildingDebris" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="SpacePlatformCreepedDoodads" Variations="0,4,5"/>
+<Actor id="ValhallaThorConstruction" Variations="3"/>
+<Actor id="TarsonisWall"/>
+<Actor id="TarsonisWall2"/>
+<Actor id="TarsonisArrow"/>
+<Actor id="TalkIcon"/>
+<Actor id="ColonistCorpse" Variations="6,12,18"/>
+<Actor id="CreepWebbing" Variations="0,1,2,3,4"/>
+<Actor id="GateControlCables" Variations="0"/>
+<Actor id="InstallationRoof" Variations="2"/>
+<Actor id="MarineCorpse" Variations="2,6,9"/>
+<Actor id="SpacePlatformRadarZerged" Variations="1"/>
+<Actor id="SpacePlatformSignTowerLargeZerged" Variations="0"/>
+<Actor id="SpacePlatformSignLargeZerged"/>
+<Actor id="SpacePlatformVentsZerged" Variations="0,1"/>
+<Actor id="SplatAliveInside"/>
+<Actor id="TerrainObjectBraxisAlphaZergHoleLargeDoodad" Variations="0,1"/>
+<Actor id="ZergedCliff" Variations="0,1,7"/>
+<Actor id="CocoonedColonists" Variations="0,1,2,3"/>
+<Actor id="TruckTanker"/>
+<Actor id="TruckFlatbedConstruction"/>
+<Actor id="TRaynorDumpTruck"/>
+<Actor id="TruckSemi"/>
+<Actor id="DefaultExplosionTerranLarge"/>
+<Actor id="VultureChase_CargoTruckUnitFlatbed"/>
+<Actor id="HeroNukeExplodeModel"/>
+<Behavior id="CritterWander"/>
+<Behavior id="SuppressCollision"/>
+<Behavior id="HumanResource"/>
+<Effect id="OdinNukeDetonate"/>
+<Light id="SnowRefinery"/>
+<Light id="PrisonShipEmergency"/>
+<Light id="TarsonisInterior"/>
+<Model id="Defiler_Portrait"/>
+<Model id="InfantryRiflePortrait"/>
+<Model id="InfantryMortarPortrait"/>
+<Model id="InfantryHeavyPortrait"/>
+<Model id="InfantryOfficerPortrait"/>
+<Model id="InfantryRocketPortrait"/>
+<Model id="UPLGeneratorPortrait"/>
+<Model id="CARRPortrait"/>
+<Model id="LotC_CerebratePortrait"/>
+<Sound id="DefilerMP_Ready"/>
+<Sound id="M9ColonyShip2Announcement1"/>
+<Sound id="M9ColonyShip2Announcement2"/>
+<Sound id="M9ColonyShipAlarm2"/>
+<Sound id="M9EndingCinematicMusic"/>
+<Sound id="M9GatePounding1"/>
+<Sound id="M9GatePounding2"/>
+<Sound id="M9ReinforcementDoor1Dead"/>
+<Sound id="M9ColonyShipBreakin2"/>
+<Sound id="M9GateSlam"/>
+<Sound id="M9GateDestruction"/>
+<Sound id="M9ColonyShipBreakin1"/>
+<Sound id="M9ColonyShipDoors"/>
+<Sound id="M9EndingCinematicAmbience"/>
+<Sound id="M9ReinforcementDoor2Dead"/>
+<Sound id="M9Slohr11"/>
+<Sound id="M9Slohr5"/>
+<Sound id="M9Slohr6"/>
+<Sound id="M9Slohr7"/>
+<Sound id="M9Slohr8"/>
+<Sound id="M9Slohr8A"/>
+<Sound id="M9Slohr9"/>
+<Sound id="M9Slohr10"/>
+<Sound id="M9Slohr2a"/>
+<Sound id="M9Slohr2"/>
+<Sound id="M9Slohr3"/>
+<Sound id="M9Slohr3A"/>
+<Sound id="M9Slohr4"/>
+<Sound id="M9IntroCinematicMusic"/>
+<Sound id="M9UPL1"/>
+<Sound id="M9UPL11"/>
+<Sound id="M9UPL12"/>
+<Sound id="M9UPL13"/>
+<Sound id="M9UPL14"/>
+<Sound id="M9UPL15"/>
+<Sound id="M9UPL16"/>
+<Sound id="M9UPL17"/>
+<Sound id="M9UPL18"/>
+<Sound id="M9UPL19"/>
+<Sound id="M9UPL20"/>
+<Sound id="M9UPL21"/>
+<Sound id="M9UPL2"/>
+<Sound id="M9UPL22"/>
+<Sound id="M9UPL23"/>
+<Sound id="M9UPL24"/>
+<Sound id="M9UPL25"/>
+<Sound id="M9UPL26"/>
+<Sound id="M9UPL27"/>
+<Sound id="M9UPL28"/>
+<Sound id="M9UPL29"/>
+<Sound id="M9UPL30"/>
+<Sound id="M9UPL3"/>
+<Sound id="M9UPL31"/>
+<Sound id="M9UPL32"/>
+<Sound id="M9UPL33"/>
+<Sound id="M9UPL34"/>
+<Sound id="M9UPL4"/>
+<Sound id="M9UPL5"/>
+<Sound id="M9UPL6"/>
+<Sound id="M9GateOpen"/>
+<Sound id="M9UPL7"/>
+<Sound id="M9UPL8"/>
+<Sound id="M9ColonyShip1Announcement"/>
+<Sound id="M9UPL9"/>
+<Sound id="M9UPL10"/>
+<Soundtrack id="M9ShipMusic"/>
+<Soundtrack id="M9StartingAreaMusic"/>
+<Soundtrack id="M9ColonyShipAmbience"/>
+<Soundtrack id="M9SiegeAreaMusic"/>
+<Terrain id="KorhalEx1"/>
+<Unit id="Hatchery"/>
+<Unit id="SpawningPool"/>
+<Unit id="HydraliskDen"/>
+<Unit id="UltraliskCavern"/>
+<Unit id="RoachWarren"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Hive"/>
+<Unit id="GreaterSpire"/>
+<Unit id="Drone"/>
+<Unit id="Zergling"/>
+<Unit id="Overlord"/>
+<Unit id="Hydralisk"/>
+<Unit id="Mutalisk"/>
+<Unit id="Ultralisk"/>
+<Unit id="Roach"/>
+<Unit id="Beacon_Zerg"/>
+<Unit id="DestructibleStreetlight" Variations="1,3"/>
+<Unit id="HunterKiller"/>
+<Unit id="ColonistShipFlying"/>
+<Unit id="ColonistShip"/>
+<Unit id="DestructibleGateDiagonalULBR"/>
+<Unit id="DestructibleGateStraightHorizontal"/>
+<Unit id="MetalGateDiagonalBLUR"/>
+<Unit id="SecretDocuments"/>
+<Unit id="InfestedColonistShip" Variations="2"/>
+<Unit id="CastanarDestructibleDebris" Variations="0,1,2,3,4"/>
+<Unit id="DefenseWallNW" Variations="1,2,3,4"/>
+<Unit id="Guardian"/>
+<Unit id="MoebiusLabConsolesDestructible" Variations="0,1,2"/>
+<Unit id="MoebiusLabConsolesDestructibleRight" Variations="1"/>
+<Unit id="MoebiusLabDestructibleDoor"/>
+<Unit id="DefilerMP"/>
+<Unit id="SunkenColony"/>
+<Unit id="CompoundSewers_Vent_Destructible"/>
+<Unit id="InfantryRifle"/>
+<Unit id="UPLScout"/>
+<Unit id="APC"/>
+<Unit id="RaptorJet"/>
+<Unit id="Osprey"/>
+<Unit id="MiningDrone"/>
+<Unit id="A6"/>
+<Unit id="TR17"/>
+<Unit id="Z1"/>
+<Unit id="RoutheTank"/>
+<Unit id="CSVDeployed"/>
+<Unit id="OspreyLanded"/>
+<Unit id="SwatVan"/>
+<Unit id="CARR"/>
+<Unit id="UPLNightjar"/>
+<Unit id="InfantryHeavy"/>
+<Unit id="InfantryRocket"/>
+<Unit id="InfantryMortar"/>
+<Unit id="InfantryFlamethrower"/>
+<Unit id="InfantryOfficer"/>
+<Unit id="UPLSpecOps"/>
+<Unit id="UPLPoliceOfficer" Variations="0,1"/>
+<Unit id="UPLRiotOfficer"/>
+<Unit id="UPLCivilianFemale" Variations="0,1,2,3,4,5"/>
+<Unit id="UPLCivilianMale" Variations="0,1,2,3,4,5,6,7"/>
+<Unit id="UPLBillet"/>
+<Unit id="UPLCommStation"/>
+<Unit id="UPLElectrostaticDefenseTower"/>
+<Unit id="UPLHeadquarters"/>
+<Unit id="UPLManufacturingFacility"/>
+<Unit id="UPLForwardOperatingBase"/>
+<Unit id="UPLGenerator"/>
+<Unit id="UPLExhumer"/>
+<Unit id="MoebiusLabDestructibleDoor2"/>
+</Preload>

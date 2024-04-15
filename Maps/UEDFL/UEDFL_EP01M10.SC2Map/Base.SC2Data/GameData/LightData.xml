@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="AiurNight">
+        <ToDInfoArray index="0">
+            <Param index="HDREmisMultiplier" value="1.550000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Endion">
+        <ToDInfoArray index="0" DirectionalLightShadows="0"/>
+    </CLight>
+    <CLight id="PrisonShip">
+        <ToDInfoArray index="0" Id="PrisonShip" DirectionalLightShadows="0"/>
+    </CLight>
+    <CLight id="PrisonShipEmergency">
+        <ToDInfoArray index="0" Id="PrisonShipEmergency" DirectionalLightShadows="0"/>
+    </CLight>
+    <CLight id="StarshipDark">
+        <ToDInfoArray index="0">
+            <Id value="StarshipDark"/>
+            <AmbientColor value="0.000000,0.000000,0.000000"/>
+            <AmbientEnvironmentMultiplier value="0.624000"/>
+            <DirectionalLightShadows value="0"/>
+            <Param index="HDRExposure" value="0.525000"/>
+            <Param index="HDREmisMultiplier" value="0.990000"/>
+        </ToDInfoArray>
+    </CLight>
+</Catalog>

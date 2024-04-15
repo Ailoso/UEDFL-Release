@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="Generator-FreezeAnimation"/>
+        <shape type="diamond">
+            <center value="57.3952,187.9392"/>
+            <width value="10.6184"/>
+            <height value="7.2292"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="IntroCondorLanding"/>
+        <shape type="rect">
+            <quad value="6.6176,81.1618,11.1335,86.4074"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="IntroCondorRemove"/>
+        <shape type="rect">
+            <quad value="150.9404,102.3864,159.06,112.614"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="IntroUnhide"/>
+        <shape type="rect">
+            <quad value="0.5397,70.756,15.3044,104.9975"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="GameplayStart"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="1.3767,5.0075,144.0373,100.9926"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Start-HalseyObjective"/>
+        <shape type="circle">
+            <center value="136.5021,41.0007"/>
+            <radius value="1.1948"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="NoisePatrolStart"/>
+        <shape type="rect">
+            <quad value="132.2551,4.9953,141.5068,15.5153"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="RoadUnburrow1"/>
+        <shape type="rect">
+            <quad value="6.915,62.6452,15.779,70.6855"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="RoadUnburrow2"/>
+        <shape type="rect">
+            <quad value="8.1142,55.35,16.633,62.2263"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="RoadUnburrow3"/>
+        <shape type="rect">
+            <quad value="9.2873,46.8488,17.2941,53.854"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="RoadUnburrow4"/>
+        <shape type="rect">
+            <quad value="12.8105,39.821,18.5498,44.3083"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="RoadUnburrow5"/>
+        <shape type="rect">
+            <quad value="13.7424,25.7424,21.4077,33.5461"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="RoadUnburrow6"/>
+        <shape type="rect">
+            <quad value="17.2343,14.729,24.1252,20.6645"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="RoadUnburrow9"/>
+        <shape type="rect">
+            <quad value="50.0852,18.5766,57.4936,24.451"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="RoadUnburrow8"/>
+        <shape type="rect">
+            <quad value="65.0541,22.4177,72.7644,27.4277"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="RoadUnburrow7"/>
+        <shape type="rect">
+            <quad value="85.4523,26.1904,92.9235,30.6616"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="RoadUnburrow10"/>
+        <shape type="rect">
+            <quad value="104.294,27.3417,111.3388,33.807"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="RoadZergRemove"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.616,10.745,148.4291,39.4836"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="SETI Full Area"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="16.845,40.0385,177.368,260.9584"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="SETIZergPatrolArea1"/>
+        <shape type="rect">
+            <quad value="130.026,64.3676,150.9748,86.633"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="SETIZergPatrolArea2"/>
+        <shape type="rect">
+            <quad value="78.7631,74.7951,98.4694,93.0178"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="SETIZergPatrolArea1A"/>
+        <shape type="rect">
+            <quad value="63.7634,56.627,81.2905,77.326"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="SETIZergPatrolArea4"/>
+        <shape type="rect">
+            <quad value="101.699,63.5441,118.4763,82.354"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="SETIZergPatrolSpawn1"/>
+        <shape type="diamond">
+            <center value="140.5002,121.5002"/>
+            <width value="21.6362"/>
+            <height value="13.7604"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="SETIZergPatrolArea2A"/>
+        <shape type="diamond">
+            <center value="111.5002,175.5002"/>
+            <width value="14.2021"/>
+            <height value="26.444"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="SETIZergPatrolSpawn2"/>
+        <shape type="diamond">
+            <center value="102.0002,133.0002"/>
+            <width value="15.129"/>
+            <height value="27.6933"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="ZergUnburrowPatrol1"/>
+        <shape type="diamond">
+            <center value="138.0002,48.5002"/>
+            <width value="14.8198"/>
+            <height value="9.95"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="SETIResearchWing"/>
+        <shape type="diamond">
+            <center value="200.981,173.7363"/>
+            <width value="43.3"/>
+            <height value="39.0012"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="SETIResearchWingEntry"/>
+        <shape type="circle">
+            <center value="58.5004,77.503"/>
+            <radius value="1.6284"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="SETIResearchWingZ1s"/>
+        <shape type="rect">
+            <quad value="206.2888,165.3654,212.0107,173.9062"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="SETIZergPatrolSpawn3"/>
+        <shape type="diamond">
+            <center value="122.5002,220.5002"/>
+            <width value="12.89"/>
+            <height value="7.25"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="SETIZergPatrolSpawn3D"/>
+        <shape type="diamond">
+            <center value="27.7683,135.271"/>
+            <width value="6.3303"/>
+            <height value="13.2294"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="ParkingLotUnburrow1"/>
+        <shape type="diamond">
+            <center value="102.3725,110.3505"/>
+            <width value="13.4738"/>
+            <height value="33.272"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="ParkingLotUnburrow2"/>
+        <shape type="diamond">
+            <center value="81.0002,151.0002"/>
+            <width value="8.45"/>
+            <height value="18.5297"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="CondorBigAttackSpawn2"/>
+        <shape type="diamond">
+            <center value="110.6567,177.784"/>
+            <width value="14.7065"/>
+            <height value="24.4985"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="SETIGeneratorObjectiveReached"/>
+        <shape type="diamond">
+            <center value="73.036,188.7314"/>
+            <width value="49.959"/>
+            <height value="34.0366"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="GeneratorCinZergRemove"/>
+        <shape type="diamond">
+            <center value="88.0002,165.0002"/>
+            <width value="141.8098"/>
+            <height value="105.97"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="GeneratorCinChangeOwnership"/>
+        <shape type="diamond">
+            <center value="81.4382,191.3742"/>
+            <width value="27.9687"/>
+            <height value="24.834"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="SETIFinalAct"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="18.6286,86.0012,175.8652,254.001"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="SETIUltra1"/>
+        <shape type="rect">
+            <quad value="120.2053,214.1003,135.7951,227.9001"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="SETIUltra2"/>
+        <shape type="rect">
+            <quad value="145.5405,198.7602,155.4602,206.2402"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="SETINorthwestBuilding"/>
+        <shape type="diamond">
+            <center value="158.5002,202.0002"/>
+            <width value="7.223"/>
+            <height value="14.1677"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="SETIGuesstheyknowwerehere"/>
+        <shape type="diamond">
+            <center value="69.6538,183.408"/>
+            <width value="42.15"/>
+            <height value="26.8642"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="NorthwestSpawn2"/>
+        <shape type="rect">
+            <quad value="127.1872,144.8076,142.8134,154.1928"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="NorthwestSpawn1"/>
+        <shape type="rect">
+            <quad value="150.6704,125.6154,158.33,132.3852"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="Northwest Building Entry"/>
+        <shape type="diamond">
+            <center value="159.445,203.9956"/>
+            <width value="2.8574"/>
+            <height value="11.8991"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="Main Office Condor1"/>
+        <shape type="rect">
+            <quad value="119.0261,128.5881,123.9643,133.677"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="Main Office Condor2"/>
+        <shape type="rect">
+            <quad value="125.5988,136.1594,131.336,141.653"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="CondorBigAttackSpawn"/>
+        <shape type="rect">
+            <quad value="34.2805,128.0454,57.7202,137.9553"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="Main Office"/>
+        <shape type="circle">
+            <center value="163.0002,102.5002"/>
+            <radius value="1.3098"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="MainOfficeZerg"/>
+        <shape type="diamond">
+            <center value="217.765,128.7373"/>
+            <width value="39.305"/>
+            <height value="48.3032"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="MainOfficeBurrowed"/>
+        <shape type="diamond">
+            <center value="162.1738,100.744"/>
+            <width value="28.4841"/>
+            <height value="4.9147"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="MainOfficeZerg2"/>
+        <shape type="diamond">
+            <center value="209.1367,29.5522"/>
+            <width value="41.2524"/>
+            <height value="30.6896"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="MainOfficeScurry"/>
+        <shape type="diamond">
+            <center value="154.0607,109.9284"/>
+            <width value="45.2797"/>
+            <height value="45.21"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="MainOfficeComputer"/>
+        <shape type="diamond">
+            <center value="225.5732,157.4677"/>
+            <width value="3.8422"/>
+            <height value="3.9582"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="Intro-HideZerglings"/>
+        <shape type="rect">
+            <quad value="9.5,31.5002,24.5,40.5002"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="RoadZergStructuresUnselectable"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="33.5,9,126.5,38"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="BuildSection-DeniseTeamAppears"/>
+        <shape type="diamond">
+            <center value="63.5004,203.0046"/>
+            <width value="2.4746"/>
+            <height value="1.7675"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="BuildSection-DeniseStops"/>
+        <shape type="diamond">
+            <center value="68.5,196.0053"/>
+            <width value="1.2998"/>
+            <height value="1.7697"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="BuildSection-DeniseTeamStops"/>
+        <shape type="rect">
+            <quad value="62.2514,195.7514,66.7514,199.2514"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="SETIUltra3"/>
+        <shape type="rect">
+            <quad value="128.5405,177.7602,139.4602,186.2402"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="CondorBigAttackSpawn3"/>
+        <shape type="rect">
+            <quad value="32.0002,145.5002,45.0002,155.5002"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="IntroRoadUnits"/>
+        <shape type="rect">
+            <quad value="0.5,86,14,97.5"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="GeneratorCinPoint1"/>
+        <shape type="diamond">
+            <center value="77.25,206.25"/>
+            <width value="11.3125"/>
+            <height value="4.9492"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="GeneratorCinPoint4"/>
+        <shape type="diamond">
+            <center value="84.5012,190.5017"/>
+            <width value="5.6562"/>
+            <height value="2.8281"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="GeneratorCinPoint2"/>
+        <shape type="diamond">
+            <center value="62.25,194"/>
+            <width value="8.838"/>
+            <height value="4.5957"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="InfoChip2"/>
+        <shape type="circle">
+            <center value="217.75,170"/>
+            <radius value="1.9523"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="InfoChip1"/>
+        <shape type="circle">
+            <center value="135.5,17.25"/>
+            <radius value="1.9523"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="InfoChip3"/>
+        <shape type="circle">
+            <center value="136.5,243.25"/>
+            <radius value="2.3046"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="InfoChip4"/>
+        <shape type="circle">
+            <center value="106.5002,53.5007"/>
+            <radius value="2.8503"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="SETIFinalActZerglingSpawn6"/>
+        <shape type="diamond">
+            <center value="134.0002,194.0002"/>
+            <width value="8.6098"/>
+            <height value="8.6098"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="SETIFinalActZerglingSpawn1"/>
+        <shape type="rect">
+            <quad value="129.75,143.75,141.25,156.25"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="SETIFinalActZerglingSpawn3"/>
+        <shape type="rect">
+            <quad value="19.2502,182.7502,30.7502,191.2502"/>
+        </shape>
+    </region>
+    <region id="74">
+        <name value="SETIFinalActZerglingSpawn4"/>
+        <shape type="diamond">
+            <center value="26.5002,144.0002"/>
+            <width value="7.68"/>
+            <height value="13.43"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="SETIFinalActZerglingSpawn5"/>
+        <shape type="diamond">
+            <center value="86,237"/>
+            <width value="16.6152"/>
+            <height value="14.4941"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="SETIFinalActZerglingSpawn2"/>
+        <shape type="diamond">
+            <center value="141.5,120.5"/>
+            <width value="17.6757"/>
+            <height value="10.6054"/>
+        </shape>
+    </region>
+    <region id="77">
+        <name value="NorthwestBuilding-HalseyEnter"/>
+        <shape type="circle">
+            <center value="159,203.5"/>
+            <radius value="1.8027"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="FinalScene-HalseySoldierFace2"/>
+        <shape type="circle">
+            <center value="213.5,149"/>
+            <radius value="2.6923"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="FinalScene-HalseySoldierFace1"/>
+        <shape type="circle">
+            <center value="231.5,130.25"/>
+            <radius value="2.6098"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="FinalScene-SCOUTFace1"/>
+        <shape type="circle">
+            <center value="230,134"/>
+            <radius value="1.0307"/>
+        </shape>
+    </region>
+    <region id="81">
+        <name value="FinalScene-SCOUTFace2"/>
+        <shape type="circle">
+            <center value="214,153"/>
+            <radius value="0.707"/>
+        </shape>
+    </region>
+    <region id="82">
+        <name value="FinalScene-SCOUTFace3"/>
+        <shape type="circle">
+            <center value="221.465,158.0773"/>
+            <radius value="0.5153"/>
+        </shape>
+    </region>
+    <region id="83">
+        <name value="MainOffice-Ultras1"/>
+        <shape type="diamond">
+            <center value="165.5002,120.0002"/>
+            <width value="6.0197"/>
+            <height value="16.2617"/>
+        </shape>
+    </region>
+    <region id="84">
+        <name value="MainOffice-Ultras2"/>
+        <shape type="diamond">
+            <center value="143.5012,97.0012"/>
+            <width value="2"/>
+            <height value="10.69"/>
+        </shape>
+    </region>
+    <region id="85">
+        <name value="NorthwestBuilding-Start"/>
+        <shape type="diamond">
+            <center value="146.0002,56.0002"/>
+            <width value="10.2597"/>
+            <height value="5.0197"/>
+        </shape>
+    </region>
+    <region id="86">
+        <name value="MainOffice-Reinforcements2"/>
+        <shape type="diamond">
+            <center value="83.0007,213.0004"/>
+            <width value="2.5998"/>
+            <height value="3.0097"/>
+        </shape>
+    </region>
+    <region id="87">
+        <name value="MainOffice-Reinforcements2A"/>
+        <shape type="diamond">
+            <center value="74.75,201"/>
+            <width value="6.0097"/>
+            <height value="6.0097"/>
+        </shape>
+    </region>
+</Regions>

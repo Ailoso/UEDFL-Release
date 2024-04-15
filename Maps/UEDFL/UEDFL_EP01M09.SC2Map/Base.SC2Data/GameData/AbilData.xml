@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilResearch id="evolutionchamberresearch">
+        <InfoArray index="Research1" Time="80"/>
+        <InfoArray index="Research2" Time="95"/>
+        <InfoArray index="Research3" Time="110"/>
+        <InfoArray index="Research4" Time="80"/>
+        <InfoArray index="Research5" Time="95"/>
+        <InfoArray index="Research6" Time="110"/>
+        <InfoArray index="Research7" Time="80"/>
+        <InfoArray index="Research8" Time="95"/>
+        <InfoArray index="Research9" Time="110"/>
+    </CAbilResearch>
+    <CAbilResearch id="SpireResearch">
+        <InfoArray index="Research1" Time="80"/>
+        <InfoArray index="Research2" Time="95"/>
+        <InfoArray index="Research3" Time="110"/>
+        <InfoArray index="Research4" Time="80"/>
+        <InfoArray index="Research5" Time="95"/>
+        <InfoArray index="Research6" Time="110"/>
+    </CAbilResearch>
+</Catalog>

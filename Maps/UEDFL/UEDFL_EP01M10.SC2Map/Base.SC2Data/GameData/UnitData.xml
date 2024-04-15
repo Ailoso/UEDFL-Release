@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="ArmoredGenerator">
+        <LifeStart value="750"/>
+        <LifeMax value="750"/>
+    </CUnit>
+    <CUnit id="CargoTruckUnitBarrels">
+        <LifeStart value="2500"/>
+        <LifeMax value="2500"/>
+    </CUnit>
+    <CUnit id="Mutalisk">
+        <Speed value="8"/>
+    </CUnit>
+    <CUnit id="KatherineHalseyPistol">
+        <CardLayouts index="0">
+            <LayoutButtons>
+                <Face value="UPLScoutGrenade"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="UPLScoutGrenade,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="UPLScoutFlameGrenade"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="UPLScoutFlameGrenade,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="CARRGrenadeLauncherAlt"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="CARRGrenadeLauncher,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="CARRIlluminationAlt"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="CARRIllumination,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="1"/>
+                <Column value="1"/>
+            </LayoutButtons>
+        </CardLayouts>
+        <HotkeyCategory value="Unit/Category/UPLStory"/>
+    </CUnit>
+</Catalog>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="MoebiusLabDestructibleDoor2" parent="Doodad">
+        <Model value="Assets\Doodads\MoebiusLabDestructibleDoor\MoebiusLabDestructibleDoor.m3"/>
+        <Events>
+            <Anim value="Stand,A,Start"/>
+            <Name value="StandASound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandAStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,B,Start"/>
+            <Name value="StandBSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandBStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,C,Start"/>
+            <Name value="StandCSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandCStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,D,Start"/>
+            <Name value="StandDSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandDStart"/>
+        </Events>
+        <Radius value="2.000000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="MoebiusLabDestructibleDoor3" parent="Doodad">
+        <Model value="Assets\Doodads\MoebiusLabDestructibleDoor\MoebiusLabDestructibleDoor.m3"/>
+        <Events>
+            <Anim value="Stand,A,Start"/>
+            <Name value="StandASound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandAStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,B,Start"/>
+            <Name value="StandBSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandBStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,C,Start"/>
+            <Name value="StandCSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandCStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,D,Start"/>
+            <Name value="StandDSound"/>
+            <Type value="Sound"/>
+            <Attachment value="Ref_Origin"/>
+            <Payload value="Doodad_VahallaBaseDestructibleDoorStandDStart"/>
+        </Events>
+        <Radius value="2.000000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="StaticPortrait2" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\TerranPortraitTransition\TerranPortraitTransition.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\TerranPortraitTransition_Static.dds"/>
+    </CModel>
+    <CModel id="StaticPortrait3" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\TerranPortraitTransition\TerranPortraitTransition.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\TerranPortraitTransition_Static.dds"/>
+    </CModel>
+</Catalog>

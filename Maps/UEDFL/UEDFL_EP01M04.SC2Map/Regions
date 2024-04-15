@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="Z1 Initial Objective"/>
+        <shape type="diamond">
+            <center value="104.753,37.9301"/>
+            <width value="40.6198"/>
+            <height value="64.8198"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="Starting Z1s"/>
+        <shape type="circle">
+            <center value="111.0932,10.7104"/>
+            <radius value="5.105"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="IntroMining"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="21.9035,20.129"/>
+            <radius value="7.3498"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="IntroOspreyRemove"/>
+        <shape type="circle">
+            <center value="25.8562,63.7236"/>
+            <radius value="4.1528"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="Z1Tripwire1"/>
+        <shape type="rect">
+            <quad value="100.965,17.2822,106.3942,18.8605"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="TR17Face"/>
+        <shape type="circle">
+            <center value="16.4458,40.6418"/>
+            <radius value="1.6662"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="IntroCondorLand"/>
+        <shape type="circle">
+            <center value="37.4438,46.8984"/>
+            <radius value="2.7214"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Z1Tripwire2"/>
+        <shape type="circle">
+            <center value="101.6313,38.0214"/>
+            <radius value="2.9836"/>
+        </shape>
+        <shape type="circle">
+            <center value="105.8466,40.0952"/>
+            <radius value="2.7133"/>
+        </shape>
+        <shape type="circle">
+            <center value="108.3127,43.0207"/>
+            <radius value="2.7277"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Z1Tripwire2Part2"/>
+        <shape type="circle">
+            <center value="103.5002,38.0002"/>
+            <radius value="5.843"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Z1SunkenColonySpotted"/>
+        <shape type="diamond">
+            <center value="99.355,52.0651"/>
+            <width value="13.3854"/>
+            <height value="2.6704"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Z1FinalTripwire"/>
+        <shape type="circle">
+            <center value="98.3505,65.1696"/>
+            <radius value="3.7644"/>
+        </shape>
+        <shape type="diamond">
+            <center value="90.2475,59.031"/>
+            <width value="16.435"/>
+            <height value="2.0717"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="RoutheRegion"/>
+        <shape type="rect">
+            <quad value="116.0368,4.5427,143.4465,51.3916"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="A6Region"/>
+        <shape type="rect">
+            <quad value="52.4631,85.5754,92.0073,107.7216"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="TR17 Killbox"/>
+        <color value="255,128,0,128"/>
+        <shape type="rect">
+            <quad value="62.164,7.4941,105.7436,36.7937"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="SpyRegion"/>
+        <shape type="rect">
+            <quad value="5.2746,57.7734,48.6186,119.8032"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="SpySurprise4"/>
+        <shape type="diamond">
+            <center value="23.2158,86.9267"/>
+            <width value="10.25"/>
+            <height value="9.8298"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="SpySurprise3"/>
+        <shape type="rect">
+            <quad value="14.3564,93.7822,35.1135,95.4213"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="HQEntry"/>
+        <shape type="circle">
+            <center value="24.388,19.5195"/>
+            <radius value="1.211"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="FlashFogNotification"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="13.0236,8.8098,76.3835,54.7534"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="HideRegion1"/>
+        <color value="255,0,128,64"/>
+        <shape type="diamond">
+            <center value="44.1921,90.37"/>
+            <width value="42.3361"/>
+            <height value="11.1208"/>
+        </shape>
+        <shape type="rect">
+            <quad value="49.7004,87.6428,95.8452,108.5192"/>
+        </shape>
+        <shape type="diamond">
+            <center value="103.241,78.7358"/>
+            <width value="16.3637"/>
+            <height value="55.0297"/>
+        </shape>
+        <shape type="diamond">
+            <center value="118.0261,78.6848"/>
+            <width value="6.5764"/>
+            <height value="29.655"/>
+        </shape>
+        <shape type="diamond">
+            <center value="128.2226,52.3076"/>
+            <width value="18.8957"/>
+            <height value="55.8151"/>
+        </shape>
+        <shape type="rect">
+            <quad value="117.2133,5.0781,144.0825,50.1501"/>
+        </shape>
+        <shape type="rect">
+            <quad value="85.0214,7.0375,110.3166,14.3027"/>
+        </shape>
+        <shape type="rect">
+            <quad value="87.9106,13.1215,95.2412,32.3161"/>
+        </shape>
+        <shape type="rect">
+            <quad value="13.9606,55.831,28.1035,73.9465"/>
+        </shape>
+        <shape type="rect">
+            <quad value="27.816,63.5747,58.6938,72.8156"/>
+        </shape>
+        <shape type="circle">
+            <center value="42.893,74.3078"/>
+            <radius value="8.1245"/>
+        </shape>
+        <shape type="rect">
+            <quad value="43.2966,59.7368,69.9372,66.317"/>
+        </shape>
+        <shape type="diamond">
+            <center value="62.9523,57.1481"/>
+            <width value="5.3398"/>
+            <height value="13.1804"/>
+        </shape>
+        <shape type="rect">
+            <quad value="77.0888,73.2404,93.3708,85.4946"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="ShowRegion1"/>
+        <color value="255,255,0,128"/>
+        <shape type="rect">
+            <quad value="59.0031,66.346,68.2031,76.036"/>
+        </shape>
+        <shape type="rect">
+            <quad value="78.3342,60.1328,88.485,72.9924"/>
+        </shape>
+        <shape type="rect">
+            <quad value="99.3208,14.4667,107.333,23.3063"/>
+        </shape>
+        <shape type="diamond">
+            <center value="24.1442,84.008"/>
+            <width value="10.5827"/>
+            <height value="20.7697"/>
+        </shape>
+        <shape type="rect">
+            <quad value="28.768,51.2778,42.0544,63.4174"/>
+        </shape>
+        <shape type="rect">
+            <quad value="78.8991,18.5605,88.019,29.08"/>
+        </shape>
+        <shape type="rect">
+            <quad value="143.8732,8.8903,155.263,28.9704"/>
+        </shape>
+        <shape type="diamond">
+            <center value="136.2021,64.249"/>
+            <width value="10.2697"/>
+            <height value="8.0285"/>
+        </shape>
+        <shape type="rect">
+            <quad value="100.8793,90.732,108.749,101.0715"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="PatrolNW"/>
+        <shape type="rect">
+            <quad value="16.3786,101.2722,33.3071,109.199"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="PatrolCenter"/>
+        <shape type="rect">
+            <quad value="57.1887,69.8034,71.971,79.3342"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="PatrolSE"/>
+        <shape type="rect">
+            <quad value="85.1333,7.445,99.116,15.3684"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="PatrolSW"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="12.4624,12.258,44.4885,31.8742"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="PatrolCenter2"/>
+        <shape type="rect">
+            <quad value="98.6384,33.3725,114.3486,45.3586"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="FogPatrolStart1"/>
+        <shape type="rect">
+            <quad value="118.8476,16.5136,137.8774,30.2834"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="FogPatrolStart2"/>
+        <shape type="circle">
+            <center value="116.9787,63.2622"/>
+            <radius value="13.4636"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="FogPatrolStart3"/>
+        <shape type="circle">
+            <center value="101.9113,82.6713"/>
+            <radius value="12.9775"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="FogPatrolStart4"/>
+        <shape type="circle">
+            <center value="77.1337,96.5461"/>
+            <radius value="13.5483"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="FogOverlord1"/>
+        <shape type="circle">
+            <center value="37.106,53.3186"/>
+            <radius value="8.565"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="FogOverlord3"/>
+        <shape type="rect">
+            <quad value="42.7473,41.3408,56.8146,51.914"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="FogOverlord2"/>
+        <shape type="rect">
+            <quad value="63.0786,20.36,78.6826,30.9995"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="FogOverlordSpawn"/>
+        <shape type="rect">
+            <quad value="141.2272,8.4384,152.829,32.6435"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="FogOverlordSpawn2"/>
+        <shape type="rect">
+            <quad value="0.4367,99.2988,18.22,116.3464"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="FogOverlordSpawn3"/>
+        <shape type="rect">
+            <quad value="54.095,108.2578,84.182,119.107"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="ZergSecondaryObjective"/>
+        <shape type="rect">
+            <quad value="154.1652,7.8681,169.9245,39.8344"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="DropBase1"/>
+        <shape type="rect">
+            <quad value="13.3403,30.792,60.6142,54.2233"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="DropBase2"/>
+        <shape type="diamond">
+            <center value="66.6892,28.0395"/>
+            <width value="18.7224"/>
+            <height value="36.4453"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="Intro-TroopRun2"/>
+        <shape type="diamond">
+            <center value="75.0815,22.332"/>
+            <width value="14.6777"/>
+            <height value="3.76"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="IntroOsprey-Despawn"/>
+        <shape type="circle">
+            <center value="76.3417,6.9897"/>
+            <radius value="5.9304"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="IntroRocketTrooopers"/>
+        <shape type="circle">
+            <center value="35.5173,39.715"/>
+            <radius value="1.7187"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="Z1Section-Z1StartingGroup"/>
+        <shape type="circle">
+            <center value="106.1123,12.4904"/>
+            <radius value="3.8437"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="RoutheSection-Z1s"/>
+        <shape type="circle">
+            <center value="126.0485,12.5241"/>
+            <radius value="3.828"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="A6Section-Z1s"/>
+        <shape type="circle">
+            <center value="87.9238,95.7687"/>
+            <radius value="7.5866"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="u"/>
+        <shape type="circle">
+            <center value="78.3005,23.731"/>
+            <radius value="8.613"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="TR17Section-HideEverything"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="7.7961,2.267,64.3645,60.798"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="Intro-CleanupArea"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.8864,3.7814,87.5214,61.6472"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="CounterAttack-TargetRegion"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="12.7121,11.0903,59.9873,34.759"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="Counterattack-Artillery1"/>
+        <shape type="diamond">
+            <center value="28.0205,43.9406"/>
+            <width value="29.4875"/>
+            <height value="14.2307"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="Counterattack-Artillery2"/>
+        <shape type="rect">
+            <quad value="27.0512,29.052,52.4848,54.4875"/>
+        </shape>
+    </region>
+    <region id="77">
+        <name value="Counterattack-Artillery3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="38.0185,12.8928,63.76,43.6477"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="Counterattack-EvacSpot"/>
+        <shape type="circle">
+            <center value="27.5004,19.0007"/>
+            <radius value="2.3698"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="OverlordSpawnArea"/>
+        <shape type="circle">
+            <center value="8.8154,9.9675"/>
+            <radius value="6.9562"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="FogOverlordRearDrop"/>
+        <shape type="circle">
+            <center value="18.3437,27.1247"/>
+            <radius value="3.9824"/>
+        </shape>
+    </region>
+    <region id="81">
+        <name value="Lancer-ZergRespawnAtBase"/>
+        <shape type="circle">
+            <center value="144.553,94.5705"/>
+            <radius value="16.0297"/>
+        </shape>
+    </region>
+    <region id="82">
+        <name value="Exhumer-ExplosionRevealer"/>
+        <shape type="circle">
+            <center value="46.0002,23.0002"/>
+            <radius value="5.1835"/>
+        </shape>
+    </region>
+    <region id="84">
+        <name value="Lancer-Mining"/>
+        <shape type="diamond">
+            <center value="19.6374,17.279"/>
+            <width value="3.6286"/>
+            <height value="5.6032"/>
+        </shape>
+        <shape type="circle">
+            <center value="18.068,21.19"/>
+            <radius value="1.5017"/>
+        </shape>
+        <shape type="circle">
+            <center value="23.6687,16.3386"/>
+            <radius value="1.7458"/>
+        </shape>
+    </region>
+    <region id="85">
+        <name value="Counterattack-ExhumerZerg"/>
+        <shape type="rect">
+            <quad value="8.4084,20.231,21.1293,36.3354"/>
+        </shape>
+    </region>
+    <region id="86">
+        <name value="Counterattack-Region"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="2.1281,2.6184,95.9868,117.7851"/>
+        </shape>
+    </region>
+    <region id="87">
+        <name value="Z1UltraliskTripwire"/>
+        <shape type="diamond">
+            <center value="101.7043,47.771"/>
+            <width value="12.118"/>
+            <height value="2.4865"/>
+        </shape>
+    </region>
+    <region id="88">
+        <name value="Z1DenRevealer"/>
+        <shape type="circle">
+            <center value="84.3444,73.4284"/>
+            <radius value="4.9416"/>
+        </shape>
+        <shape type="circle">
+            <center value="82.0642,67.989"/>
+            <radius value="2.755"/>
+        </shape>
+        <shape type="circle">
+            <center value="88.9433,69.7602"/>
+            <radius value="2.6203"/>
+        </shape>
+        <shape type="circle">
+            <center value="86.1962,67.7"/>
+            <radius value="2.8208"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="TR17Section-ReinforcementRescue"/>
+        <shape type="rect">
+            <quad value="76.2377,15.9057,79.7031,30.9902"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="TR17Section-ReinforcementsMove"/>
+        <color value="255,0,128,0"/>
+        <shape type="rect">
+            <quad value="80.5292,17.3818,84.0476,30.1711"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="MutaAttack1"/>
+        <shape type="circle">
+            <center value="95.5002,112.5002"/>
+            <radius value="6.3735"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="MutaAttack2"/>
+        <shape type="circle">
+            <center value="163,112"/>
+            <radius value="7.5"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="UltraAttack"/>
+        <shape type="circle">
+            <center value="102.5,86.0002"/>
+            <radius value="11.0705"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="InfoChip5"/>
+        <shape type="circle">
+            <center value="142.75,103.75"/>
+            <radius value="1.7675"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="InfoChip1"/>
+        <shape type="circle">
+            <center value="100.75,59.5"/>
+            <radius value="2.3046"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="InfoChip2"/>
+        <shape type="circle">
+            <center value="55.5,80.25"/>
+            <radius value="1.9523"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="InfoChip3"/>
+        <shape type="circle">
+            <center value="15.4104,106.4731"/>
+            <radius value="2.3583"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="InfoChip4"/>
+        <shape type="circle">
+            <center value="155,25.25"/>
+            <radius value="2.3583"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="Z1-ZerglingsUnburrow"/>
+        <shape type="diamond">
+            <center value="83.0002,64.0004"/>
+            <width value="8.4843"/>
+            <height value="4.9492"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="Z1-Debris"/>
+        <shape type="rect">
+            <quad value="76,74.5,96,89"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="Lancer-DenDebris"/>
+        <shape type="rect">
+            <quad value="145.5,8,153.5,30.5"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="Tutorial-Blocker1"/>
+        <shape type="rect">
+            <quad value="62.5,11.5,66,29.5"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="Tutorial-Blocker2"/>
+        <shape type="rect">
+            <quad value="28,57.5,44.5,62.5"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="ZergPrimaryObjective"/>
+        <shape type="diamond">
+            <center value="129.9106,97.4243"/>
+            <width value="34.8864"/>
+            <height value="95.4597"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="Lancer-Respawn2"/>
+        <shape type="circle">
+            <center value="112.5,103.5"/>
+            <radius value="13.8923"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="Lancer-Respawn3"/>
+        <shape type="circle">
+            <center value="147.5,68.625"/>
+            <radius value="13.0004"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="FogPatrolMuta-RandomArea"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9,9.5,51,31"/>
+        </shape>
+    </region>
+    <region id="83">
+        <name value="Counterattack-ExhumerRegion"/>
+        <shape type="circle">
+            <center value="15.2387,28.6176"/>
+            <radius value="6.0913"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="Normal-Remove"/>
+        <shape type="circle">
+            <center value="159.5,28.5"/>
+            <radius value="1.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="159.0004,14.5046"/>
+            <radius value="1.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="162,19"/>
+            <radius value="1.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="162.5,12"/>
+            <radius value="1.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="164.5,22"/>
+            <radius value="1.25"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="Normal-Remove2"/>
+        <shape type="circle">
+            <center value="159,78.5"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="151.5,79.5"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="138,84.5"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="149,86"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="156,89"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="135,93"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="147,94"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="152.25,64.5"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="141,68"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="148.5,74"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="132.5,70.5"/>
+            <radius value="1.9523"/>
+        </shape>
+        <shape type="circle">
+            <center value="136.5,75.5"/>
+            <radius value="1.9523"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="Normal-Remove3"/>
+        <shape type="circle">
+            <center value="107.5,106.5"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="121.5,108"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="124.5,93.5"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="138,105.5"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="139.5,89.5"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="148.5,96"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="152,90.5"/>
+            <radius value="2.3046"/>
+        </shape>
+        <shape type="circle">
+            <center value="118.25,103"/>
+            <radius value="2.3046"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="Normal-Remove4"/>
+        <shape type="circle">
+            <center value="85,73.25"/>
+            <radius value="1.6005"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="Normal-Remove5"/>
+        <shape type="circle">
+            <center value="59,95.5"/>
+            <radius value="2.136"/>
+        </shape>
+        <shape type="circle">
+            <center value="66.5,95.25"/>
+            <radius value="2.136"/>
+        </shape>
+        <shape type="circle">
+            <center value="68,104.5"/>
+            <radius value="2.136"/>
+        </shape>
+    </region>
+    <region id="89">
+        <name value="Normal-Remove6"/>
+        <shape type="circle">
+            <center value="25,89"/>
+            <radius value="3.2014"/>
+        </shape>
+    </region>
+</Regions>

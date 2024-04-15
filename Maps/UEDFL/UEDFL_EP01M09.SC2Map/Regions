@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="SiegeArea-PlayableMap"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="0.3774,0,129.427,99.4257"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="IntroCinematic-WanderArea"/>
+        <shape type="rect">
+            <quad value="17.5,92.5,44.5,115.5"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="IntroCinematic-Nuke3"/>
+        <shape type="circle">
+            <center value="42.5,104"/>
+            <radius value="6.543"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="IntroCinematic-Nuke2"/>
+        <shape type="circle">
+            <center value="34.25,110.75"/>
+            <radius value="7.7216"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="IntroCinematic-Nuke1"/>
+        <shape type="circle">
+            <center value="22.5,103"/>
+            <radius value="8.98"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="StartingArea-CivilianReveal"/>
+        <shape type="circle">
+            <center value="22.471,26.8632"/>
+            <radius value="1.5205"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="StartingArea-HydraComment"/>
+        <shape type="diamond">
+            <center value="32.0002,31.5002"/>
+            <width value="2.8298"/>
+            <height value="20.14"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="StartingArea-LeftComment"/>
+        <shape type="diamond">
+            <center value="21,40"/>
+            <width value="17.6757"/>
+            <height value="2.121"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="StartingArea-CloseRightComment"/>
+        <shape type="diamond">
+            <center value="53.0002,14.0002"/>
+            <width value="23.74"/>
+            <height value="6.47"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="StartingArea-MiddleRightComment"/>
+        <shape type="diamond">
+            <center value="74.5002,32.0002"/>
+            <width value="14.1198"/>
+            <height value="7.0703"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="StartingArea-FarRightComment"/>
+        <shape type="diamond">
+            <center value="92.5004,17.5007"/>
+            <width value="8.4843"/>
+            <height value="2.121"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="StartingArea-UPLDefensiveZone"/>
+        <shape type="diamond">
+            <center value="76,61.5"/>
+            <width value="24.746"/>
+            <height value="34.6445"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="IntroCinematic-WanderArea2"/>
+        <shape type="diamond">
+            <center value="120,105"/>
+            <width value="40.3007"/>
+            <height value="57.2695"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="StartingArea-LeftGarrison"/>
+        <shape type="diamond">
+            <center value="17,48.25"/>
+            <width value="13.08"/>
+            <height value="8.1308"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="StartingArea-LeftCivilians"/>
+        <shape type="diamond">
+            <center value="18,50.25"/>
+            <width value="9.545"/>
+            <height value="8.838"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="StartingArea-CivilianPickup"/>
+        <shape type="circle">
+            <center value="34.25,33.75"/>
+            <radius value="3.2595"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="StartingArea-CivilianDespawn"/>
+        <shape type="circle">
+            <center value="40.5,40.5004"/>
+            <radius value="1.7543"/>
+        </shape>
+        <shape type="diamond">
+            <center value="40.5,40.5004"/>
+            <width value="3.24"/>
+            <height value="12.24"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="StartingArea-CivilianPickupRun"/>
+        <shape type="diamond">
+            <center value="33.5002,33.0002"/>
+            <width value="10.9"/>
+            <height value="20.14"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="StartingArea-Gate1Explosions"/>
+        <shape type="diamond">
+            <center value="39.5,39.5"/>
+            <width value="2.8281"/>
+            <height value="11.3125"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="StartingArea-Gate2Explosions"/>
+        <shape type="diamond">
+            <center value="57.5,57.5"/>
+            <width value="4.2421"/>
+            <height value="11.3125"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="StartingArea-CloseRightGarrison"/>
+        <shape type="diamond">
+            <center value="58,14.75"/>
+            <width value="8.838"/>
+            <height value="15.2011"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="StartingArea-CloseRightCivilians"/>
+        <shape type="diamond">
+            <center value="55,16.75"/>
+            <width value="7.4238"/>
+            <height value="9.545"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="StartingArea-MediumRightGarrison"/>
+        <shape type="diamond">
+            <center value="73.25,33.75"/>
+            <width value="11.3125"/>
+            <height value="13.4335"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="StartingArea-MediumRightCivilians"/>
+        <shape type="diamond">
+            <center value="73.5,35.75"/>
+            <width value="6.7167"/>
+            <height value="9.545"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="StartingArea-FarRightGarrison"/>
+        <shape type="diamond">
+            <center value="101.0002,8.0002"/>
+            <width value="9.545"/>
+            <height value="12.373"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="StartingArea-FarRightCivilians"/>
+        <shape type="diamond">
+            <center value="101.75,8"/>
+            <width value="7.4238"/>
+            <height value="10.252"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="ColonyShip1Area-Door2"/>
+        <shape type="circle">
+            <center value="65,199.75"/>
+            <radius value="4.0695"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="ColonyShipArea1-PlayableArea"/>
+        <shape type="diamond">
+            <center value="54.0002,188.0002"/>
+            <width value="89.7"/>
+            <height value="33.2304"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="ColonyShip1Area-CivilianRunSpot"/>
+        <shape type="diamond">
+            <center value="79.5,214"/>
+            <width value="5.6562"/>
+            <height value="9.8984"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="ColonyShip1Area-CARRTripwire"/>
+        <shape type="diamond">
+            <center value="65.5,199.5012"/>
+            <width value="1.7675"/>
+            <height value="6.7167"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="ColonyShip1Area-BehemothsTripwire"/>
+        <shape type="diamond">
+            <center value="43.5,178.0012"/>
+            <width value="1.7675"/>
+            <height value="6.7167"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="ColonyShipArea1-SlohrTripwire"/>
+        <shape type="diamond">
+            <center value="54.5,188"/>
+            <width value="7.7773"/>
+            <height value="24.746"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="ColonyShip2Area-Door1"/>
+        <shape type="rect">
+            <quad value="165.5,95.7504,170.5,101.2504"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="ColonyShip2Area-Door5"/>
+        <shape type="rect">
+            <quad value="213.5,55.2504,218.5,60.7504"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="ColonyShip2Area-PlayableArea"/>
+        <shape type="rect">
+            <quad value="157.5,13,228.5,120.5"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="BreachArea-MoveToLocation"/>
+        <shape type="rect">
+            <quad value="41,6,60,14"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="ColonyShipArea1-HumanReinforcements"/>
+        <shape type="diamond">
+            <center value="60.5014,195.001"/>
+            <width value="5.3027"/>
+            <height value="2.4746"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="ColonyShip2Area-ApproachCNCTripwire"/>
+        <shape type="rect">
+            <quad value="163,74.5,184,99.5"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="ColonyShip2Area-CaptainGroupRetreat"/>
+        <shape type="rect">
+            <quad value="164.25,107.5,172.75,110.5"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="ColonyShip2Area-CaptainGroup"/>
+        <shape type="rect">
+            <quad value="166.5,59.5,173,65.5"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="ColonyShip2Area-AttackersArrive"/>
+        <shape type="rect">
+            <quad value="165,40,178.5,44"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="ColonyShip2Area-IsThatAllYouGotTripwire"/>
+        <shape type="rect">
+            <quad value="207.75,59.75,224.25,69.25"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="ColonyShipArea1-StartingArea"/>
+        <shape type="diamond">
+            <center value="47.5,181.25"/>
+            <width value="59.7441"/>
+            <height value="34.998"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="ColonyShipArea1-HumanReinforcements0"/>
+        <shape type="diamond">
+            <center value="55.0014,189.501"/>
+            <width value="4.5957"/>
+            <height value="2.4746"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="StartingArea-PlayableMap"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="0.5,1.5,116.5,56.5"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="SiegeArea-Tripwire1"/>
+        <shape type="diamond">
+            <center value="59.5002,58.0002"/>
+            <width value="5.6562"/>
+            <height value="24.039"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="SiegeArea-Tripwire2"/>
+        <shape type="diamond">
+            <center value="44.0002,44.0002"/>
+            <width value="7.0703"/>
+            <height value="19.2597"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="SiegeArea-Tripwire3"/>
+        <shape type="circle">
+            <center value="70.5,66"/>
+            <radius value="5.7006"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="SiegeArea-Tripwire4"/>
+        <shape type="diamond">
+            <center value="53.5,53.0002"/>
+            <width value="8.1308"/>
+            <height value="15.9082"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="SiegeArea-Tripwire5"/>
+        <shape type="diamond">
+            <center value="56.75,54.75"/>
+            <width value="4.9492"/>
+            <height value="21.211"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="SiegeArea-FinalArea"/>
+        <shape type="diamond">
+            <center value="74.5002,60.5002"/>
+            <width value="27.9277"/>
+            <height value="31.463"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="EndingCinematic-Gate1Section"/>
+        <shape type="diamond">
+            <center value="143.5,199.5"/>
+            <width value="45.957"/>
+            <height value="24.746"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="EndingCinematic-GateExplosions"/>
+        <shape type="diamond">
+            <center value="131.25,204.75"/>
+            <width value="9.1914"/>
+            <height value="2.8281"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="EndingCinematic-Gate1Zerg"/>
+        <shape type="diamond">
+            <center value="122.75,213.75"/>
+            <width value="26.1601"/>
+            <height value="19.7968"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="EndingCinematic-Gate1Section2"/>
+        <shape type="diamond">
+            <center value="153.25,202"/>
+            <width value="16.6152"/>
+            <height value="12.373"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="EndingCinematic-Area"/>
+        <shape type="diamond">
+            <center value="168.5,203"/>
+            <width value="118.0742"/>
+            <height value="129.3867"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="EndingCinematic-Part2UPL"/>
+        <shape type="diamond">
+            <center value="143.5,158.25"/>
+            <width value="8.838"/>
+            <height value="4.5957"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="EndingCinematic-Part2Zergling1"/>
+        <shape type="diamond">
+            <center value="128.5,169.75"/>
+            <width value="8.1308"/>
+            <height value="5.3027"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="EndingCinematic-Part2Zergling2"/>
+        <shape type="diamond">
+            <center value="111.5002,183.0002"/>
+            <width value="13.4335"/>
+            <height value="25.4531"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="EndingCinematic-Part2ZerglingAttackPoint"/>
+        <shape type="diamond">
+            <center value="170.5,126"/>
+            <width value="9.8984"/>
+            <height value="19.7968"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="EndingCinematic-Part2UPL2"/>
+        <shape type="diamond">
+            <center value="142.501,158.501"/>
+            <width value="4.2421"/>
+            <height value="3.5351"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="EndingCinematic-OverlordSpawn"/>
+        <shape type="diamond">
+            <center value="217.5002,122.5002"/>
+            <width value="22.45"/>
+            <height value="8.7998"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="EndingCinematic-OverlordMoveToRegion"/>
+        <shape type="diamond">
+            <center value="168.75,193.25"/>
+            <width value="24.746"/>
+            <height value="9.8984"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="EndingCinematic-Part3UPL"/>
+        <shape type="diamond">
+            <center value="197.5,140"/>
+            <width value="28.9882"/>
+            <height value="16.2617"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="EndingCinematic-Area2"/>
+        <shape type="diamond">
+            <center value="196.25,162.5"/>
+            <width value="85.9042"/>
+            <height value="121.963"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="EndingCinematic-Part4Zerg"/>
+        <shape type="diamond">
+            <center value="141.75,240.75"/>
+            <width value="33.9375"/>
+            <height value="28.9882"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="EndingCinematic-Part4UPL"/>
+        <shape type="diamond">
+            <center value="171.5,219.25"/>
+            <width value="28.6347"/>
+            <height value="33.584"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="EndingCinematic-Part5Area"/>
+        <shape type="diamond">
+            <center value="201.75,191"/>
+            <width value="81.662"/>
+            <height value="70.3496"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="EndingCinematic-HiddenZerg"/>
+        <shape type="diamond">
+            <center value="159.75,162"/>
+            <width value="22.9785"/>
+            <height value="56.209"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="IntroCinematic-BigArea"/>
+        <shape type="rect">
+            <quad value="8,81,61,133"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="IntroCinematic-BigArea2"/>
+        <shape type="diamond">
+            <center value="116.5,107.75"/>
+            <width value="52.6738"/>
+            <height value="78.834"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="InfoChip1"/>
+        <shape type="circle">
+            <center value="69.5014,41.0004"/>
+            <radius value="2.1503"/>
+        </shape>
+    </region>
+    <region id="74">
+        <name value="InfoChip2"/>
+        <shape type="circle">
+            <center value="43.25,7"/>
+            <radius value="2.6574"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="InfoChip3"/>
+        <shape type="circle">
+            <center value="223,85.5"/>
+            <radius value="2.121"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="InfoChip4"/>
+        <shape type="circle">
+            <center value="221.0004,23.5002"/>
+            <radius value="2.3046"/>
+        </shape>
+    </region>
+    <region id="77">
+        <name value="EndingCinematic-Tripwire"/>
+        <shape type="circle">
+            <center value="86.5,64.5"/>
+            <radius value="1.8027"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="ColonyShip1-AttackArea"/>
+        <shape type="diamond">
+            <center value="30.75,164.75"/>
+            <width value="14.1406"/>
+            <height value="33.2304"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="ColonyShip1Area-Door1"/>
+        <shape type="circle">
+            <center value="47.25,181.5"/>
+            <radius value="4.0695"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="ShipStartingArea1"/>
+        <shape type="circle">
+            <center value="34.0546,171.4963"/>
+            <radius value="9.3952"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="StartupCreepRemoval"/>
+        <shape type="circle">
+            <center value="15.0622,45.3054"/>
+            <radius value="17.2434"/>
+        </shape>
+        <shape type="circle">
+            <center value="26.8112,30.7456"/>
+            <radius value="17.078"/>
+        </shape>
+        <shape type="circle">
+            <center value="47.3,17.6801"/>
+            <radius value="17.208"/>
+        </shape>
+        <shape type="circle">
+            <center value="35.0466,5.3034"/>
+            <radius value="4.536"/>
+        </shape>
+        <shape type="diamond">
+            <center value="68.75,55.25"/>
+            <width value="74.2382"/>
+            <height value="57.9765"/>
+        </shape>
+        <shape type="diamond">
+            <center value="87.5,21.75"/>
+            <width value="10.252"/>
+            <height value="51.2597"/>
+        </shape>
+        <shape type="circle">
+            <center value="72.25,23.25"/>
+            <radius value="24.9624"/>
+        </shape>
+        <shape type="circle">
+            <center value="22,15.75"/>
+            <radius value="26.4868"/>
+        </shape>
+    </region>
+</Regions>

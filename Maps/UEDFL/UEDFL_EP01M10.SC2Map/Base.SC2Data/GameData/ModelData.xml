@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="Checkpoint">
+        <Model value="Assets\Doodads\Checkpoint.m3"/>
+    </CModel>
+    <CModel id="OracleEnvision">
+        <AnimSpeed value="0.001000"/>
+        <Lighting value=""/>
+        <PausedParticleSystemBehavior value="FreezeAll"/>
+        <Radius value="0.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+</Catalog>

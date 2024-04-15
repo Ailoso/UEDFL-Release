@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="TPast10_AmbienceCrickets" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - Crickets.ogg" Volume="-3.000000,-3.000000" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="TPast10_AmbienceCrickets2" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - DistantRoarandScream.ogg" Volume="6.000000,6.000000" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_AmbienceCreatures" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10-CreaturesInTheDistance.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="TPast10_AmbienceLightWind" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10-LightWindOnly.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="TPast10_AmbienceThunderstorm" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - Thunderstorm.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="TPast10_AmbienceThunderstormInterior" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ThunderstormInterior.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-Denise1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-Denise2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise3" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-Denise3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise9" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise4" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise5" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise6" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise7" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Denise8" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10-DeniseX5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_GeneratorStartLoud" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M10 - Sound-GeneratorBackup2.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_CondorLanding22" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M10 - Sound-GeneratorBackupDistant.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey11" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey111" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey12" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\OGG\PP Xe - Halsey9b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey13" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey14" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9d.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey15" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9e.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey16" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9f.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey17" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9g.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey18" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9h.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey19" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9i.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey20" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9j.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey21" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9k.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey22" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9l.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey23" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9m.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey24" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9n.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Lunatic1" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - CrazyLunatic1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey7223" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - CrazyLunatic2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Music2" parent="MUSIC">
+        <AssetArray File="Assets\Music\M10-Main2.ogg" Volume="-2.000000,-2.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="TPast10_RandomSpecOps" parent="MUSIC">
+        <AssetArray File="Assets\VO\M10 - Ohcrap.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey4" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey5" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey6" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey7" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey72" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey722" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey10" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT1" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT4.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_NydusRoar" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M10 - Nydus.ogg" Volume="-3.000000,-3.000000" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT2" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT5.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT3" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT4" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT5" parent="MUSIC">
+        <AssetArray File="Assets\VO\OGG\PP Xe - SCOUT3.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT1B" parent="MUSIC">
+        <AssetArray File="Assets\VO\OGG\PP Xe - SCOUT22.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT533" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT7.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_FinalSoldier" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Soldier11.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT534" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT23.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT6" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT6.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_SCOUT53" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - SCOUT21.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Z1" parent="MUSIC">
+        <AssetArray File="Assets\VO\PP Xe - Z1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DistantThunder" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M10 - DistantThunder.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_CondorTakingOff" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - CondorTakingOff.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_CondorTakingOff2" parent="MUSIC">
+        <AssetArray File="Assets\SFX\Low_Tone_Alert.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey3" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Music1" parent="MUSIC">
+        <AssetArray File="Assets\Music\M10-Main1.ogg" Volume="-2.000000,-2.000000" FacialGroup=""/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Wait" value="1"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar1" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_InfantryUnload1" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10 - InfantryUnload1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_InfantryUnload2" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10 - InfantryUnload2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar12" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10 - ZergMainOffice.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar123" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10 - VehicleUnload.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_SpecOpsShooting" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - SpecOpsShooting.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_Tension" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\Drone - Tension During Event.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergRoar1" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - ZergRoar1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar1232" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\OGG\M10 - FuelTruckExplosion.ogg" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ConsoleBlasted" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - ConsoleBlasted.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_MachineGunFire" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - MachineGunFire.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_PowerDown" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - PowerDown.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar1236" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - Shotgun.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ShotgunPump" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - ShotgunPump.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_Sparking1" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - Sparking1.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar1239" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - Sparking2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar2" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar3" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech3.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar4" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech4.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar42" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech5.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar6" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M10 - ZergScreech6.ogg" Volume="6.000000,6.000000" FacialGroup=""/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergDistantRoar7" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - ZergScreech7.ogg" Volume="6.000000,6.000000" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_CondorLanding" parent="MUSIC">
+        <AssetArray File="Assets\SFX\M10 - CondorLanding.ogg" Volume="3.000000,3.000000" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet1.ogg"/>
+            <Volume value="2.000000,2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet3" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet4" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet5" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet6" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_DefNet7" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M10 - DefNet7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_Halsey1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xe - Halsey1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="TPast10_ZergRoar2" parent="MUSIC">
+        <AssetArray File="Assets\SFX\OGG\M10E - ZergRoars2.ogg" FacialGroup=""/>
+        <Category value="Mission"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+</Catalog>

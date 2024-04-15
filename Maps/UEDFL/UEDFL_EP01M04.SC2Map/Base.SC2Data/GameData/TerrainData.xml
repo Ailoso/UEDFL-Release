@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrain id="BelShirEx2">
+        <BlendTextures index="0" value="TarsonisDirt"/>
+        <BlendTextures index="1" value="ElsecaroCity1"/>
+        <BlendTextures index="3" value="ElsecaroCity3"/>
+        <BlendTextures index="5" value="Aiur4City8"/>
+        <BlendTextures index="6" value="ElsecaroCity4"/>
+        <BlendTextures index="7" value="Korhal8"/>
+        <FogDensity value="0.200000"/>
+        <FogFalloff value="0.250000"/>
+        <FogStartingHeight value="-2.000000"/>
+        <FogColor value="255,170,208,210"/>
+    </CTerrain>
+</Catalog>

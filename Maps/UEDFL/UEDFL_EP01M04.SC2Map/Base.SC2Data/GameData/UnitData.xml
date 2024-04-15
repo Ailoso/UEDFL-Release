@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="RichardGideon">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RileyJerico">
+        <CardLayouts index="0">
+            <LayoutButtons>
+                <Face value="WillliamGravesArtilleryStrike"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="WillliamGravesArtilleryStrike,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="3"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="CARRGrenadeLauncherAlt"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="CARRGrenadeLauncher,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="CARRIlluminationAlt"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="CARRIllumination,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="1"/>
+                <Column value="1"/>
+            </LayoutButtons>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="UPLScout">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="UPLSpecOps">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="WilliamGraves">
+        <CardLayouts index="0">
+            <LayoutButtons index="5" Column="4"/>
+            <LayoutButtons index="6" Column="4"/>
+            <LayoutButtons index="7" Column="3"/>
+            <LayoutButtons index="8" Face="CARRGrenadeLauncherAlt" Type="AbilCmd" AbilCmd="CARRGrenadeLauncher,Execute" Behavior="" ShowInGlossary="0"/>
+            <LayoutButtons>
+                <Face value="RileyJericoBadgerBomb"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="RileyJericoBadgerBomb,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="2"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="RileyJericoJumpJet"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="RileyJericoJumpJet,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="CARRIlluminationAlt"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="CARRIllumination,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="1"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="InfantryOfficerInspiration"/>
+                <Type value="Passive"/>
+                <AbilCmd value="WilliamGravesCharge,Execute"/>
+                <Behavior value="InfantryOfficerAura"/>
+                <Row value="1"/>
+                <Column value="4"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="RileyJericoLorna"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="RileyJericoLorna,Execute"/>
+                <ShowInGlossary value="0"/>
+                <Row value="2"/>
+                <Column value="1"/>
+            </LayoutButtons>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Z1BadgerBomb">
+        <Race value="UPL"/>
+    </CUnit>
+</Catalog>

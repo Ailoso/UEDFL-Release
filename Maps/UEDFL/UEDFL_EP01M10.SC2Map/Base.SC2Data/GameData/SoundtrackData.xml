@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="TPast08_IntroCine2">
+        <CueArray>
+            <MasterLayer Sound="TPast10_AmbienceCrickets"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast10_CreatureAmbience">
+        <CueArray>
+            <MasterLayer Sound="TPast10_AmbienceCreatures"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast10_ThunderstormAmbience">
+        <CueArray>
+            <MasterLayer Sound="TPast10_AmbienceThunderstorm"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast10_MusicStart">
+        <CueArray>
+            <MasterLayer Sound="TPast10_Music1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="TPast10_Music2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <Delay value="120,120"/>
+    </CSoundtrack>
+    <CSoundtrack id="TPast10_ThunderstormAmbienceInterior">
+        <CueArray>
+            <MasterLayer Sound="TPast10_AmbienceThunderstormInterior"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="M9ShipMusic">
+        <CueArray>
+            <MasterLayer Sound="M9Music1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9Music2"/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9Music3"/>
+        </CueArray>
+        <Delay value="1,1"/>
+        <Select value="Sequential"/>
+    </CSoundtrack>
+    <CSoundtrack id="M9StartingAreaMusic">
+        <CueArray>
+            <MasterLayer Sound="M9StartingAreaMusic1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9StartingAreaMusic2"/>
+        </CueArray>
+        <Delay value="1,1"/>
+        <Select value="Sequential"/>
+    </CSoundtrack>
+    <CSoundtrack id="M9ColonyShipAmbience">
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="M9ColonyShipAmbience"/>
+        </CueArray>
+        <Select value="Sequential"/>
+    </CSoundtrack>
+    <CSoundtrack id="M9SiegeAreaMusic">
+        <CueArray>
+            <MasterLayer Sound="M9Music4"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray/>
+        <Delay value="1,1"/>
+        <Select value="Sequential"/>
+    </CSoundtrack>
+</Catalog>

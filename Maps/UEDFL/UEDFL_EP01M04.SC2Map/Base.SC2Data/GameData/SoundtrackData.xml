@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="TPast04_MainMusic">
+        <CueArray>
+            <MasterLayer Sound="TPast04_MainMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <Delay value="60,75"/>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_TutorialMusic1">
+        <CueArray>
+            <MasterLayer Sound="TPast04_TutorialMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_MainMusic2">
+        <CueArray>
+            <MasterLayer Sound="TPast04_UPLBriefing"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_TutorialMusic1A">
+        <CueArray>
+            <MasterLayer Sound="TPast04_TutorialMusic1A"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_TutorialMusic2">
+        <CueArray>
+            <MasterLayer Sound="TPast04_TutorialMusic2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_BaseAttackMusic">
+        <CueArray>
+            <MasterLayer Sound="TPast04_BaseAttackMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_MainMusic322">
+        <CueArray>
+            <MasterLayer Sound="TPast04_BaseAttackMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="TPast04_TutorialMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray>
+            <MasterLayer Sound="TPast04_MainMusic2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TPast04_MainMusic323">
+        <CueArray>
+            <MasterLayer Sound="TPast04_FogMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

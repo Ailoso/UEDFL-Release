@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorDoodad id="CastanarDissectionTableDestroyed">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="CastanarMonitorFloorDestroyed">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="CharFloorPanel">
+        <ModelFlags index="IgnoreWalkables" value="0"/>
+        <DoodadFlags index="DefaultToModelAABBBounds" value="0"/>
+        <Radius value="0.000000"/>
+    </CActorDoodad>
+    <CActorDoodad id="Checkpoint">
+        <On index="1" Send="AnimSetPaused"/>
+    </CActorDoodad>
+    <CActorDoodad id="ColonistSupplyCrate">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorDoodad id="DOM_BaseMonitors">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="MoebiusLab_DissectionTable">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="MoebiusLab_DissectionTable_Destroyed">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="MoebiusLab_MonitorLabDestructible_Destructed">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="RainEmitterLarge">
+        <On index="2" Send="SoundSetMuted"/>
+    </CActorDoodad>
+    <CActorDoodad id="SpacePlatformRadar">
+        <On index="1" Send="AnimSetPausedAll"/>
+    </CActorDoodad>
+    <CActorDoodad id="SpacePlatformRadar2">
+        <On index="0" Terms="ActorCreation" Send="Create SoundEmitter Doodad_SpacePlatformRadar"/>
+        <On index="1" Terms="ActorCreation" Send="AnimSetPausedAll"/>
+        <Model value="SpacePlatformRadar"/>
+        <TexSets value="Avernus"/>
+        <TexSets value="BraxisAlpha"/>
+        <TexSets value="Castanar"/>
+        <TexSets value="PortZion"/>
+        <RandomScaleRange value="1.000000,1.000000"/>
+    </CActorDoodad>
+    <!--                                                                                         -->
+    <!-- Zerg Egg Nest                                                                           -->
+    <!--                                                                                         -->
+    <CActorUnit id="ZergEggNest">
+        <MinimapIcon value=""/>
+    </CActorUnit>
+</Catalog>

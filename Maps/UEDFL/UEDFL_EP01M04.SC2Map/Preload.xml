@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\btn-ability-upl-liquidnitrogencanister.dds" Type="Image"/>
+<Asset path="assets\textures\cloudsingle.dds" Type="Image"/>
+<Asset path="assets\textures\ui-heroicon-jerico.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-upl-williamgraves.dds" Type="Image"/>
+<Asset path="assets\portraits\upl\rileyjericoportrait\rileyjericoportrait.m3" Type="Model"/>
+<Asset path="assets\textures\btn-unit-upl-a6.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-badgerbomb.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-upl-routhetank.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-shielddefense.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-upl-tr17tank.dds" Type="Image"/>
+<Asset path="assets\portraits\upl\williamgravesportrait\williamgravesportrait.m3" Type="Model"/>
+<Asset path="assets\textures\ui-heroicon-williamgraves.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-starbust.dds" Type="Image"/>
+<Asset path="assets\portraits\upl\carrportrait\carrportrait.m3" Type="Model"/>
+<Asset path="assets\textures\btn-unit-upl-z1.dds" Type="Image"/>
+<Asset path="assets\textures\cloudsingle.lvl0" Type="Image"/>
+<Abil id="Z1BadgerBomb"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="AiurFoliage_Ex2" Variations="2"/>
+<Actor id="Aiur_ChiseledRock_Brown_Large" Variations="1"/>
+<Actor id="Aiur_Trees_Log" Variations="0"/>
+<Actor id="Aiur_Trees_Log_Small" Variations="2,3"/>
+<Actor id="BrokenRocks" Variations="4"/>
+<Actor id="Elsecaro_Bush1x1" Variations="2"/>
+<Actor id="Elsecaro_Bush2x2" Variations="0"/>
+<Actor id="Elsecaro_Bush4x4" Variations="1"/>
+<Actor id="Elsecaro_GroundCover" Variations="0,1,2,4"/>
+<Actor id="Elsecaro_Small_Rock_Group" Variations="0,1,2,3"/>
+<Actor id="JarbanMinor_BloodSmear" Variations="0,1"/>
+<Actor id="JarbanMinor_TentCover" Variations="3"/>
+<Actor id="KasaiFlies"/>
+<Actor id="Shakuras_City_Debris_Splat"/>
+<Actor id="Void_CrackSplat" Variations="1"/>
+<Actor id="AgriaFoliage" Variations="0,1,3,5"/>
+<Actor id="AiurFoliage" Variations="0"/>
+<Actor id="BelShirCliffRoots" Variations="2,3"/>
+<Actor id="BelShirFoliage" Variations="3,4,5"/>
+<Actor id="BelShirTree" Variations="0,1,2,3,7"/>
+<Actor id="Birds"/>
+<Actor id="BirdsTarsonis"/>
+<Actor id="BloodSplats" Variations="0,1,2,3,5"/>
+<Actor id="Brambles" Variations="0"/>
+<Actor id="Bush" Variations="0,1,2,3,4"/>
+<Actor id="FireMedium"/>
+<Actor id="FloatingCreepPad"/>
+<Actor id="FlySwarm"/>
+<Actor id="HavenFoliage" Variations="4"/>
+<Actor id="MarSaraSkeletonLarge" Variations="1"/>
+<Actor id="MarSaraSkeletonSmall" Variations="1"/>
+<Actor id="MarSaraTreeDead" Variations="0,1,2,3,4,5"/>
+<Actor id="Rock" Variations="8"/>
+<Actor id="RockArch" Variations="2"/>
+<Actor id="RockTower" Variations="1,2"/>
+<Actor id="RockWaterfall" Variations="2"/>
+<Actor id="RockLarge" Variations="0,1,6,11,12,13,14,15,18"/>
+<Actor id="TarsonisFoliage" Variations="1"/>
+<Actor id="BelShirUnderbrush" Variations="0,2,3"/>
+<Actor id="CreepSporeEmitter"/>
+<Actor id="MarSaraFoliage" Variations="1,3"/>
+<Actor id="AnimalCorpse" Variations="0"/>
+<Actor id="AgriaShrub" Variations="1,2,4,5"/>
+<Actor id="BelShirFlowers" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Actor id="BelShirShrub" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Actor id="ColonistCorpse" Variations="5,14,17"/>
+<Actor id="ScientistCorpseGory" Variations="2"/>
+<Actor id="DefaultExplosionTerranLarge"/>
+<Character id="InfantryHeavy"/>
+<Character id="InfantryRocket"/>
+<Character id="DefenseNet"/>
+<Character id="Z1"/>
+<Effect id="Claws"/>
+<Light id="Agria"/>
+<Light id="BelShirSunset"/>
+<Light id="Tarsonis"/>
+<Light id="AiurMorning"/>
+<Light id="AiurNight"/>
+<Model id="AiurSkybox"/>
+<Model id="UPLGeneratorPortrait"/>
+<Sound id="TextCrawlType"/>
+<Sound id="SkyTank_Missile_TargetWarning"/>
+<Sound id="EP01M04_WilliamGraves_001"/>
+<Sound id="EP01M04_DefenseNet_002"/>
+<Sound id="EP01M04_WilliamGraves_003"/>
+<Sound id="EP01M04_WilliamGraves_004"/>
+<Sound id="EP01M04_WilliamGraves_006"/>
+<Sound id="EP01M04_WilliamGraves_008"/>
+<Sound id="EP01M04_Z1_009"/>
+<Sound id="EP01M04_Z1_010"/>
+<Sound id="EP01M04_WilliamGraves_011"/>
+<Sound id="EP01M04_Z1_012"/>
+<Sound id="EP01M04_WilliamGraves_013"/>
+<Sound id="EP01M04_Z1_014"/>
+<Sound id="EP01M04_Z1_015"/>
+<Sound id="EP01M04_Z1_016"/>
+<Sound id="EP01M04_WilliamGraves_017"/>
+<Sound id="EP01M04_Z1_018"/>
+<Sound id="EP01M04_Z1_019"/>
+<Sound id="EP01M04_Z1_020"/>
+<Sound id="EP01M04_CARR_021"/>
+<Sound id="EP01M04_RileyJerico_022"/>
+<Sound id="EP01M04_WilliamGraves_023"/>
+<Sound id="EP01M04_InfantryHeavy_024"/>
+<Sound id="EP01M04_InfantryRifle_025"/>
+<Sound id="EP01M04_WilliamGraves_026"/>
+<Sound id="EP01M04_RileyJerico_036"/>
+<Sound id="EP01M04_DefenseNet_039"/>
+<Sound id="EP01M04_DefenseNet_041"/>
+<Sound id="EP01M04_Z1_042"/>
+<Sound id="EP01M04_WilliamGraves_043"/>
+<Sound id="EP01M04_Z1_044"/>
+<Sound id="EP01M04_WilliamGraves_045"/>
+<Sound id="EP01M04_WilliamGraves_048"/>
+<Sound id="EP01M04_CARR_049"/>
+<Sound id="EP01M04_DefenseNet_052"/>
+<Sound id="EP01M04_WilliamGraves_053"/>
+<Sound id="SoundDirective"/>
+<Sound id="SoundWarning"/>
+<Sound id="M4Artillery2"/>
+<Sound id="M4CARR2"/>
+<Sound id="M4CARR8"/>
+<Sound id="M4DefNet2b"/>
+<Sound id="M4DefNet4a"/>
+<Sound id="M4DefNet4b"/>
+<Sound id="M4Graves9e1"/>
+<Sound id="M4CARR5a"/>
+<Sound id="M4CARR5b"/>
+<Sound id="M4CARRNew1a"/>
+<Sound id="M4CARRNew2"/>
+<Sound id="M4CARRNew3"/>
+<Sound id="M4CARRNew3a"/>
+<Sound id="M4CARRNew4"/>
+<Sound id="M4CARRNew4a"/>
+<Sound id="M4CARRNew5"/>
+<Sound id="M4CARRNew5a"/>
+<Sound id="M4CARRNew8"/>
+<Sound id="M4CARRNew8a"/>
+<Sound id="M4CARRNew9"/>
+<Sound id="M4CARRNew9a"/>
+<Sound id="M4CARR1"/>
+<Sound id="M4ExhumerAlert"/>
+<Sound id="M4Graves9e2"/>
+<Sound id="M4Graves9g"/>
+<Sound id="M4Jerico3a"/>
+<Sound id="M4Jerico3b"/>
+<Sound id="M4DefNet2a"/>
+<Sound id="M4RadioChatter"/>
+<Sound id="M4CondorTakeoff"/>
+<Sound id="M4CondorVehicleUnload"/>
+<Sound id="M4CondorVehicleLoad"/>
+<Sound id="M4OspreyUnload2"/>
+<Sound id="M4BaseAlarm"/>
+<Sound id="M4Artillery1"/>
+<Sound id="M4CARRNew1"/>
+<Sound id="SpyGraves82"/>
+<Sound id="FogAlert"/>
+<Sound id="M4OspreyUnload1"/>
+<Sound id="TPast04_VictoryMusic"/>
+<Soundtrack id="TPast04_MainMusic"/>
+<Soundtrack id="TPast04_TutorialMusic1"/>
+<Soundtrack id="TPast04_MainMusic2"/>
+<Soundtrack id="TPast04_TutorialMusic1A"/>
+<Soundtrack id="TPast04_TutorialMusic2"/>
+<Soundtrack id="TPast04_BaseAttackMusic"/>
+<Soundtrack id="TPast04_MainMusic323"/>
+<Terrain id="BelShirEx2"/>
+<Unit id="Hatchery"/>
+<Unit id="SpawningPool"/>
+<Unit id="EvolutionChamber"/>
+<Unit id="HydraliskDen"/>
+<Unit id="Spire"/>
+<Unit id="UltraliskCavern"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Egg" Variations="0,1,2"/>
+<Unit id="Drone"/>
+<Unit id="Zergling"/>
+<Unit id="Overlord"/>
+<Unit id="Hydralisk"/>
+<Unit id="Mutalisk"/>
+<Unit id="Ultralisk"/>
+<Unit id="Roach"/>
+<Unit id="HydraliskBurrowed"/>
+<Unit id="RoachBurrowed"/>
+<Unit id="ZerglingBurrowed"/>
+<Unit id="Queen"/>
+<Unit id="UltraliskBurrowed"/>
+<Unit id="MineralField" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Unit id="SecretDocuments"/>
+<Unit id="CharDestructibleRockCover"/>
+<Unit id="CharDestructibleRockCoverV"/>
+<Unit id="DefenseWallW" Variations="1,3"/>
+<Unit id="DefenseWallN" Variations="0,3"/>
+<Unit id="NydusCanalCreeper"/>
+<Unit id="DefilerMP"/>
+<Unit id="SunkenColony"/>
+<Unit id="DestructibleAiurDebris6x6"/>
+<Unit id="InfantryRifle"/>
+<Unit id="Condor"/>
+<Unit id="FluoriteDeposit"/>
+<Unit id="RaptorJet"/>
+<Unit id="Osprey"/>
+<Unit id="MiningDrone"/>
+<Unit id="A6"/>
+<Unit id="TR17"/>
+<Unit id="Z1"/>
+<Unit id="RoutheTank"/>
+<Unit id="CARR"/>
+<Unit id="RileyJerico"/>
+<Unit id="InfantryHeavy"/>
+<Unit id="InfantryRocket"/>
+<Unit id="InfantryMortar"/>
+<Unit id="InfantryFlamethrower"/>
+<Unit id="WilliamGraves"/>
+<Unit id="UPLBillet"/>
+<Unit id="UPLElectrostaticDefenseTower"/>
+<Unit id="UPLHeadquarters"/>
+<Unit id="UPLManufacturingFacility"/>
+<Unit id="UPLForwardOperatingBase"/>
+<Unit id="UPLGenerator"/>
+<Unit id="UPLExhumer"/>
+</Preload>

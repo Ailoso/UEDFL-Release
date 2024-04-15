@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorUnit id="MoebiusLabDestructibleDoor2" parent="GenericUnitMinimal" unitName="MoebiusLabDestructibleDoor2">
+        <DeathArray index="Normal" SoundLink="Barracks_Death"/>
+        <PortraitModel value="StaticPortrait2"/>
+        <BarOffset value="22"/>
+        <BarWidth value="45"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        </GroupIcon>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorUnit id="MoebiusLabDestructibleDoor3" parent="GenericUnitMinimal" unitName="MoebiusLabDestructibleDoor2">
+        <Model value="MoebiusLabDestructibleDoor3"/>
+        <BuildModel value="MoebiusLabDestructibleDoor3"/>
+        <DeathArray index="Normal" SoundLink="Barracks_Death"/>
+        <PlacementModel value="MoebiusLabDestructibleDoor3"/>
+        <PortraitModel value="StaticPortrait3"/>
+        <BarOffset value="22"/>
+        <BarWidth value="45"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        </GroupIcon>
+        <HighlightTooltip value="Unit/Name/MoebiusLabDestructibleDoor3"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-terran-valhallabasedoor.dds"/>
+        </Wireframe>
+    </CActorUnit>
+</Catalog>

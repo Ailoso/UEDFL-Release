@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="DefilerMPBurrowed">
+        <EnergyRegenRate value="2.75"/>
+        <SubgroupPriority value="60"/>
+    </CUnit>
+    <CUnit id="Larva">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="Overlord" AbilCmd="LarvaTrain,Train3" Column="1"/>
+            <LayoutButtons index="3" Face="Roach" AbilCmd="LarvaTrain,Train10" Row="1" Column="0"/>
+            <LayoutButtons index="4" Face="Mutalisk" AbilCmd="LarvaTrain,Train5" Row="2" Column="0"/>
+            <LayoutButtons index="5" Face="Hydralisk" AbilCmd="LarvaTrain,Train4" Column="1"/>
+            <LayoutButtons index="6" Face="Ultralisk" AbilCmd="LarvaTrain,Train7" Column="3"/>
+            <LayoutButtons index="7" Face="Cancel" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons index="8" removed="1"/>
+            <LayoutButtons index="9" removed="1"/>
+            <LayoutButtons index="10" removed="1"/>
+            <LayoutButtons index="11" removed="1"/>
+            <LayoutButtons index="12" removed="1"/>
+            <LayoutButtons index="13" removed="1"/>
+            <LayoutButtons index="14" removed="1"/>
+            <LayoutButtons index="15" removed="1"/>
+            <LayoutButtons index="16" removed="1"/>
+            <LayoutButtons index="17" removed="1"/>
+            <LayoutButtons index="18" removed="1"/>
+            <LayoutButtons index="19" removed="1"/>
+            <LayoutButtons index="20" removed="1"/>
+            <LayoutButtons index="21" removed="1"/>
+            <LayoutButtons index="22" removed="1"/>
+            <LayoutButtons index="23" removed="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="MoebiusLabDestructibleDoor">
+        <LifeStart value="5000"/>
+        <LifeMax value="5000"/>
+    </CUnit>
+    <CUnit id="MoebiusLabDestructibleDoor2">
+        <DeathRevealRadius value="3"/>
+        <Facing value="135"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="CreateVisible" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <EditorFlags index="NoAutoRotate" value="1"/>
+        <EditorFlags index="NeutralDefault" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="5000"/>
+        <LifeMax value="5000"/>
+        <LifeArmor value="1"/>
+        <Mover value="Ground3"/>
+        <TurningRate value="0"/>
+        <Footprint value="MoebiusLabDestructibleDoor"/>
+        <MinimapRadius value="0"/>
+        <EditorCategories value="ObjectType:Destructible,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="DefilerMP">
+        <EnergyRegenRate value="2.75"/>
+        <SubgroupPriority value="60"/>
+    </CUnit>
+    <CUnit id="HunterKillerBurrowed">
+        <CardLayouts index="0">
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+</Catalog>

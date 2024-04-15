@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrain id="KorhalEx1">
+        <BlendTextures index="0" value="KorhalCityEx2_2"/>
+        <BlendTextures index="1" value="KorhalCityEx2_5"/>
+        <BlendTextures index="2" value="KorhalCityEx2_7"/>
+        <BlendTextures index="3" value="PortCity8"/>
+        <BlendTextures index="4" value="KorhalCityEx2_6"/>
+        <BlendTextures index="5" value="BlackOpsLabA7"/>
+        <BlendTextures index="6" value="KorhalPlatformEx2_3"/>
+        <BlendTextures index="7" value="CastanarPanelsEx2"/>
+        <FogStartingHeight value="-4.000000"/>
+        <FogColor value="255,135,65,61"/>
+        <CreepEdgeNormalMap value="Assets\Textures\CreepEdgeNormal_ex2.dds"/>
+        <CreepSettingsArray index="Low" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000"/>
+        <CreepSettingsArray index="Medium" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000" CreepTranslucentMaxThreshold="0.200000"/>
+        <CreepSettingsArray index="High" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000" CreepTranslucentMaxThreshold="0.200000"/>
+        <CreepSettingsArray index="Ultra" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000" CreepTranslucentMaxThreshold="0.200000"/>
+        <CreepSettingsArray index="Extreme" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000" CreepTranslucentMaxThreshold="0.200000"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+</Catalog>

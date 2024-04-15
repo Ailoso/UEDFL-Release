@@ -1,0 +1,203 @@
+﻿Abil/Name/RogueGhostCloak2=Cloak Copy
+DocInfo/DescLong=Earth fights back
+DocInfo/DescShort=1
+DocInfo/Name=Payback Time
+LoadingScreen/TextBody=Continued alien attacks forced the United Powers League (UPL)<n/>to evacuate most civilian centers which created<n/>hundreds of millions of displaced refugees all over the globe.  <n/><n/>Agricultural and factory farm centers were very hard hit<n/>at the outset of the alien invasion leaving food in very short supply.<n/><n/>The UPL had marshalled its resources and initiated <n/>Operation Elpis, a coordinated world-wide <n/>counter-offensive against the invaders. <n/><n/>The UPL scored several key victories including the destruction of<n/>a major alien breeding center and turning away attacks <n/>against several key locations including London, Johannesburg, and Beijing. 
+LoadingScreen/Tip=Units trapped in a flash fog event have visibility drop to near zero.  Trapped units can escape the fog by moving to higher ground.
+LoadingScreen/TipRestart=Electrostatic Defense Towers have a shorter range than most auto-defense systems, but a higher damage output when enemies come into that range.
+LoadingScreen/Title=Payback Time
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=UPL
+MapInfo/Player02/Name=UPL
+MapInfo/Player03/Name=Roaches
+MapInfo/Player04/Name=UPL
+MapInfo/Player05/Name=Roaches
+MapInfo/Player06/Name=UPL
+MapInfo/Player07/Name=UPL
+MapInfo/Player08/Name=UPL
+MapInfo/Player09/Name=Roaches
+Param/Value/00769EC3=Destroy the roach breeding den to the southeast
+Param/Value/039EC2F7=TR-17 Mobile Artillery
+Param/Value/04535736=CARR
+Param/Value/04C068A7=Unfortunately, this process is not reversible, and the mining drone cannot be recovered.
+Param/Value/051895CA=Destroy These Boulders
+Param/Value/062B0C86=We keep hitting them, they keep hitting us!  We need to put these things down for good before we're overrun! Commander, if we lose this position, the refugee camp is gonna be next.  
+Param/Value/06ED4079=Unfortunately, this process is not reversible, and the mining drone cannot be recovered.
+Param/Value/08BD61D4=Flash Fog
+Param/Value/0B6553CD=CARR
+Param/Value/0CA027B4=Ensure your troops are on higher ground before flash fog forms or visibility drops to almost zero.  Since our thermo-imagers and motion sensors do not detect the roaches' movements, if you're caught in a fogged area, you'll be caught by surprise and will not be able to return fire.
+Param/Value/144AB87A=However, you can construct an R&D facility which allows you to provide your infantry and vehicles with specialized upgrades, should you require them.
+Param/Value/14618981=Destroy the roach breeding ground at Sector Lancer Two
+Param/Value/156CACBB=Of course, sir.  The Cherry Creek Rock Shelter was utilized for prehistoric settlements in this region.  Due to the relatively even nature of the topography in that area, it would be most feasible for the alien organisms to establish a defense in or directly around-
+Param/Value/1A98B847=Kill all roach structures Kilo 9
+Param/Value/1BA8205F=CARR
+Param/Value/1D6DC098=H Plus Six
+Param/Value/1E704067=Soldier
+Param/Value/2055AACC=Don't worry too much about base camp either, sir.  The Electrostatic Defense Stations can hold their own against the Roaches.  Ground or air, if the Roaches get near'em, they'll be turned into charcoal powder.  
+Param/Value/24213B92=Sector Kilo 9
+Param/Value/26C6AC4B=<c val="FFFF00">A-6</c> vehicles are lightly armored mobile anti-air platforms.  The A-6 platform is initially constructed to target one enemy, however an upgrade provides for explosive ordinance which creates '<c val="FFFF00">FLAK</c>,' striking multiple enemies per attack.  The A-6 tanks deployed here are already upgraded.  A-6 anti-air platforms cannot engage ground targets.
+Param/Value/26CD8003=<c val="FF0000">PRESSURE<n/>COOKER</c>
+Param/Value/271E1E38=Alright Commander.  I'll retract everything I've ever said about pen pushers.  You've got brass-
+Param/Value/278FCD37=Game Loaded
+Param/Value/293470EB=Z-1 Tactics Part 2
+Param/Value/2AA76C3A=Unfortunately, we also lack the ability to fabricate an air strip for the same reason, Commander.  
+Param/Value/2AC8FA0A=<c val="FF0000">SEISMIC ACTIVITY DETECTED</c>
+Param/Value/2BC19B29=Soldier
+Param/Value/2BCE4C6D=H Plus Three
+Param/Value/2DBB0B90=Be advised Commander that your visibility will be severely hampered by upslope fog in your area.  Our weather satellites also report instances of heavier flash fog in the region, but these should dissipate shortly after they form due to rapid fluctuations in temperature.  
+Param/Value/2E6D63BF=A-6 Anti-Air Tank
+Param/Value/2F120FA9=Colonel Graves sir, my apologies for interrupting you.  UPL Defense Net is requesting an update.  They are asking when we can-
+Param/Value/2FE04E25=
+Param/Value/32D6014B=Unfortunately, this process is not reversible, and the mining drone cannot be recovered.
+Param/Value/33345747=UPL Defense Net
+Param/Value/3338E737=H Plus Nine
+Param/Value/35F43E06=Ice Skater
+Param/Value/379E34AE=CARR
+Param/Value/37ACEFCE=<c val="FF0000">YOUR FORCES HAVE BEEN ANNIHILATED!</c>
+Param/Value/3A4EE9BB=Z-1 Unit Ice Skater Recon Report
+Param/Value/3C35B366=Z-1 Badgers
+Param/Value/3E46B5F9=DEFENSE NET
+Param/Value/3F789009=Colonel Graves and Sgt Jerico must survive
+Param/Value/4122D360=As you can see, Commander, when a mining drone disassembles into its component nanite parts, it is able to utilize those nanites to repair the structure or vehicle selected.
+Param/Value/450403E5=Z-1 Tactics
+Param/Value/46C269AE=CARR
+Param/Value/476B9F52=
+Param/Value/48EC6117=CARR
+Param/Value/4C62ACD9=<c val="FFFF00">Colonel Graves</c> is a senior officer who can provide bonuses to nearby infantry units.  Graves himself can engage both ground and air targets.
+Param/Value/4D010688=<c val="FF0000">FLASH FOG EVENT DETECTED</c>
+Param/Value/4F95A1DB=Riley Jerico
+Param/Value/515AB7CF=The other two structures, the Nightjar and Solitaire, are not available for construction until our connection to the UPL Datanet is restored.
+Param/Value/52DDB0C2=<c val="FF0000">AN EXHUMER IS ABOUT TO EXPLODE!</c>
+Param/Value/53E3520E=<c val="FF0000">FLASH FOG EVENT DETECTED</c>
+Param/Value/543C04C2=CARR
+Param/Value/54F6CD77=Z-1 battlesuits come equipped with a single <c val="FFFF00">Badger Bomb</c> which, when fired, will roll toward the targeted enemy and explode, coating the target and other enemies nearby in liquid plasma.  Z-1s cannot replenish Badger Bombs.
+Param/Value/5547B0F9=At least one unit must survive
+Param/Value/560A2172=The "Routhe" tank is a heavily armored, durable vehicle that is designed to destroy armored enemies and structures.  The tank can only engage ground targets.
+Param/Value/564B7468=The roaches have been sending reinforcements from the southeastern den you have destroyed.  With that den now a bubbling pile of roach organs, it is expected the roaches' ability to reinforce the Lancer base is limited.<n/><n/>Attacks may still originate however from the roaches' Lancer nest.
+Param/Value/5703024F=Use "Shield" <n/>To Draw it's Attention
+Param/Value/5885183B=<c val="00FF00">GRAVES' MEETING WITH COMMAND HAS ENDED</c>
+Param/Value/5A7BDCA0=Z-1 Battle Armor
+Param/Value/5B7028B5=Protect the flank!
+Param/Value/5C7B981E="Routhe" Tank
+Param/Value/5D56BF98=CARR
+Param/Value/5FB808C2=<c val="FF0000">FLASH FOG EVENT DETECTED</c>
+Param/Value/6097FE38=CARR
+Param/Value/60E4E7D8=The flash fog significantly reduces aerial combat capabilities, so you're boots on the ground for this one.  Literally.  Defense Net, out.
+Param/Value/68C2DF0A=Z-1 Badger Bombs
+Param/Value/6BC8971C=Repair a Damaged Structure or Vehicle
+Param/Value/6BF4FA13=CARR
+Param/Value/6C11C3C8=CARR
+Param/Value/6ED0548B=Ice Skater
+Param/Value/6F6EDCC4=<c val="FF0000">YOUR FORCES HAVE BEEN ANNIHILATED!</c>
+Param/Value/71A70727=William Graves
+Param/Value/71EEC02A=Due to your experience in the cities of Odessa and Austin, Texas, you are already familiar with our headquarters, mining drones, and the infantry Billet. 
+Param/Value/728FDDCB=Routhe Tank
+Param/Value/733324FD=The Manufacturing facility allows you to build TR-17 mobile artillery, A6 anti-air platforms, and heavily armored Routhe tanks. 
+Param/Value/7660A653=Ice Skater
+Param/Value/7756C0F8=UPL Regional Base - Colonel William Graves Commanding
+Param/Value/77AF94AE=Colonel Graves
+Param/Value/7B10BC90=CARR
+Param/Value/7C57D286=Senior Officer Debrief - D Plus One (Five Hours Since Attack)
+Param/Value/7CBC6635=Kilo 9
+Param/Value/7D22FF38=DEFENSE NET
+Param/Value/7D8D11AD=At least one Z-1 unit must survive
+Param/Value/7F65F8F2=Roach attack against left flank expected due to earlier engagements
+Param/Value/80045F3B=Destroy the roach Oven
+Param/Value/82DB1C3A=CARR
+Param/Value/83A5E375=Sector Lancer Two
+Param/Value/845D665F=<c val="FFFF00">Riley Jerico</c> uses a modified Z-1 battlesuit (known as a Z-2) that has different abilities than a standard Z-1, is more durable, faster, and utilizes a two-handed weapon at the expense of carrying a shield.  Jerico can engage both ground and air targets.
+Param/Value/84A9DA2D=Flash Fog
+Param/Value/855A66D8=The roaches' nests have added particulates to the air which further impedes our ability to use instrumentation to track their movements, in addition to the fog.  We are still working on that problem, so visibility is key.  
+Param/Value/8B1944C8=Roach Oven
+Param/Value/8B923B1C=As you can see, Commander, when a mining drone disassembles into its component nanite parts, it is able to utilize those nanites to repair the structure or vehicle selected.
+Param/Value/8C889DDF=<c val="FF0000">ALL Z-1 UNITS HAVE BEEN KILLED!</c>
+Param/Value/8F560966=CARR
+Param/Value/9018B30D=DEFENSE NET
+Param/Value/9031469B=Z-1 battlesuits' <c val="FFFF00">shield</c> ability allows for effective baiting tactics to be used on the battlefield.  Field commanders typically utilize the shields to position Z-1s in front of a troop formation, allowing those suits to deflect large amounts of incoming enemy fire while forces behind them can freely engage the enemy.<n/><n/>Use of the shield ability slows a Z-1 down considerably, and prevents the pilot from taking any other actions until they return to active combat mode.
+Param/Value/9063B298=Colonel Graves has assigned me to assist you in familiarizing yourself with our field capabilities in lieu of the Datanet.
+Param/Value/92819379=Just don't let the Roaches take out the exhumers.  Francine gas isn't stable...if the exhumers go, the blast will level our entire mining operation. 
+Param/Value/92860B78=So we've got two options.  We fold up the enemy...or we die.  But I'm not falling back to Utah and watching 150,000 men, women, and children get slaughtered!  We hold the line.  End of story.
+Param/Value/93CF03AA=Z-1 Tactics
+Param/Value/944A1134=<c val="FFFF00">TR-17 Mobile Artillery</c> platforms are the most lightly armored of all UPL ground vehicles.  They have two modes, cannons engaged and not engaged.  When engaged, the TR-17s can still move but very slowly.  However, they also deal the greatest damage of any UPL unit.  When the cannons are not engaged, the TR-17 has the mobility and agility of a civilian truck.  The TR-17 cannot engage air targets.
+Param/Value/9763B1AA=Defend the base
+Param/Value/98749572=Regional Headquarters
+Param/Value/98F32D70=CARR has identified this den as the breeding ground for roaches that are released during fog events.  Take this out and the fog should be much safer for your forces to use for transiting.
+Param/Value/99575AC4=Kill all roach structures at Point Lancer
+Param/Value/99827EAE=CARR
+Param/Value/9A488E8B=Ice Skater
+Param/Value/9A692616=Ice Skater
+Param/Value/9A7031DA=Destroy other roach structures so it cannot be regrown
+Param/Value/9ADDB272=TR-17 Starburst
+Param/Value/9F5908E1=Z-1 Unit Ice Skater - Point Kilo 9 Tactical Objective
+Param/Value/A1BCC46A=CARR
+Param/Value/A41072E4=CARR
+Param/Value/A4FDB1C5=Z-1 Tactics
+Param/Value/A5D3CD90=<c val="FF0000">PULL FORCES BACK FROM THE ROACH NEST!</c>
+Param/Value/A92558AD=<c val="FF0000">SERGEANT JERICO IS DEAD!</c>
+Param/Value/ADF744D0=<c val="FF0000">COLONEL GRAVES IS DEAD!</c>
+Param/Value/AEE87700=Colonel Graves and Sergeant Jerico Must Survive
+Param/Value/AF0A30DF=Two damaged structures and a damaged vehicle are highlighted.  Use a mining drone's nano-repair ability on one of those.
+Param/Value/B0127FCB=The <c val="FFFF00">Z-1</c> battle suit is a powered exoskeleton that can engage both ground and air targets.  It is heavily armored and has several abilities which pilots can deploy.  Z-1s are suitable for engagements in large formations and in small skirmishes due to the versatility their abilities provide.
+Param/Value/B0E981A8=Ice Skater
+Param/Value/B32C1A5A=Destroy the roach Pressure Cooker
+Param/Value/B652160B=Point Lancer
+Param/Value/B670A12E=Boulders
+Param/Value/B8162092=Recon the Area
+Param/Value/B8C40FB2=Manufacturing Facilities allow you to produce many ground vehicles as well as Z-1 battle suits.  
+Param/Value/B97B40A3=Ice Skater
+Param/Value/BBA80BF3=Recon the target area
+Param/Value/BBBF8920=Commander, I regret to inform you that we lost most of our locally stored UPL Datanet files during last night's attack and our ability to download new ones is impaired while we rebuild our infrastructure.  
+Param/Value/BC0246DA=<c val="FF0000">Exhumer Going<n/>Critical</c>
+Param/Value/BC6EA2BA=CARR
+Param/Value/BD6B188F=Sergeant Jerico
+Param/Value/C205AC24=The TR-17 has longer range than its own visual radius.  Use of a <c val="FFFF00">starburst</c> allows the TR-17 to fire out farther, and also to fire on higher terrain, both of which are normally shrouded from view.
+Param/Value/C5ED18EC=Z-1 Unit Ice Skater - Point Lancer A Tactical Objective
+Param/Value/C61AD303=Ice Skater
+Param/Value/C62CB10C=A-6 Anti-Air Tank
+Param/Value/C6E7ACDD=<c val="FF0000">OVEN</c>
+Param/Value/C87F109F=TR-17 Starburst
+Param/Value/C885BB8B=Commander, the UPL provides three structures which possess combat capabilities.  The first is an electro-static defense tower.  You will see several of these already in place inside of our perimeter.  
+Param/Value/C8B25682=CARR
+Param/Value/C91D065C=Ice Skater
+Param/Value/C93C1F73=Colonel Graves
+Param/Value/C95B1B9A=Z-1 Unit Ice Skater Recon Group - Roach Contact Plus 7
+Param/Value/CB632A68=DEFENSE NET
+Param/Value/CC3A227B=
+Param/Value/CCC7B6A3=CARR
+Param/Value/D481E4FA=Colonel Graves, the Douglas County Castlewood Canyon State Park is approximately 2,621 acres sir.  There is a substantial number of points for subterranean ingress and egress.  Shall I review them for you beginning with the closest point or the-  
+Param/Value/D765877A=H Plus Twelve
+Param/Value/D80BBE5D=Boulders
+Param/Value/D80F2E44=CARR
+Param/Value/D820170B=<c val="FF0000">DEFENSE NET HAS CUT FIELD TRAINING SHORT.  MOVE FASTER NEXT TIME, COMMANDER.</c>
+Param/Value/D8452C84=Utilize a mining drone to construct a Manufacturing Facility when you are ready, Commander.
+Param/Value/D855EE19=Ice Skater
+Param/Value/D8D45316=Simply select the mining drone you wish to use for repairs, and then select a damaged structure or vehicle in the base.  There are several as a result of last night's attack.
+Param/Value/D8E59D73=TR-17 Mobile Artillery
+Param/Value/DA5DD735=<c val="FF8000">NEW OBJECTIVES FROM DEFENSE NET, COMMANDER!</c>
+Param/Value/DAAF3650=<c val="FF0000">FLASH FOG EVENT DETECTED</c>
+Param/Value/DABEDE44=Build a Manufacturing Facility
+Param/Value/DAC3567D=Z-1 battlesuits come equipped with an onboard <c val="FFFF00">liquid nitrogen projector</c> that substantially slows enemies for a short time.
+Param/Value/DC23610A=Den Destroyed
+Param/Value/DDAFE92D=As you can see, Commander, when a mining drone disassembles into its component nanite parts, it is able to utilize those nanites to repair the structure or vehicle selected.
+Param/Value/E0159655=Ice Skater
+Param/Value/E3A45D01=Ice Skater
+Param/Value/E3B2A330=<c val="FFFF00">Flash Fog</c> is a fog that forms very suddenly and disappears just as quickly.  In order for fog to form at all, some type of dust or pollution must exist in the air around which water vapor can condense.  The roaches have flooded the air with particulates as part of their nesting processes.  That, combined with this region's humidity and temperature, is the perfect recipe for fog to form almost instantly.<n/><n/>Flash fog poses a tactical problem for UPL forces due to the inability to detect roaches at all using instrumentation.  Thermographics are ineffective.  Bioelectric tracking only functions at extremely short ranges.  And roaches don't appear at all on any enhanced vision apparatus deployed by the UPL.  Literally, UPL forces are limited to visual range.  With thick flash fog, that visual range drops to near zero.  Roaches appear to rely more on their olfactory then visual senses, allowing them to effectively hunt, fog or not. <n/><n/>If UPL forces encounter roaches in a fogged area, the roaches will be able to attack and UPL forces will not. <c val="FFFF00"> IT IS IMPERATIVE</c> that UPL forces remain above the fogged valleys during any flash fog event, to ensure that deployed forces are not annihilated in the field.
+Param/Value/E42AB4D8=Den Destroyed
+Param/Value/E44FAB01=CARR
+Param/Value/E4CE7778=Mining drones have since received an upgrade from the UPL engineering corps that allows them to repair damaged structures and vehicles.  
+Param/Value/E97937C3=Castlewood Canyon State Park - Colorado
+Param/Value/E9AD066A=CARR
+Param/Value/EEE40E60=Destroy other roach structures so it cannot be regrown
+Param/Value/EF1AC49E=Ice Skater
+Param/Value/F06B1D79=
+Param/Value/F30E2E0A=Use "Shield"To Draw it's Attention
+Param/Value/F3CE30D5=Sergeant Jerico
+Param/Value/F5997A1B=<c val="FF0000">FLASH FOG EVENT DETECTED</c>
+Param/Value/F6669730=Roach Ancillary Den
+Param/Value/F7E6893D=Riley Jerico
+Param/Value/F9A053EE=Neutralizing these sites has a high probability of weakening the nest's garrison from reinforcing its position following our next offensives.
+Param/Value/FA99D20A=Commander, it appears that the alien organisms have established ancillary dens in the vicinity of their nest.  Data from our Z-1 reconnaisance team provides details for your review. 
+Param/Value/FBAE60D2=CARR
+Param/Value/FCB4335F=Z-1 Information
+Param/Value/FD826019=Roach Pressure Cooker
+Unit/Name/DestructibleAiurDebris6x6=Destructible Debris

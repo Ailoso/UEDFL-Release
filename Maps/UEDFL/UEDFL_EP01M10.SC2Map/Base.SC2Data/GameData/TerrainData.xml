@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrain id="TarsonisCity">
+        <CliffSets index="1" value="CastanarEx1Cliff1"/>
+        <FogStartingHeight value="-8.000000"/>
+        <BlendTextures index="0" value="Elsecaro7"/>
+        <BlendTextures index="1" value="KorhalCityEx2_2"/>
+        <BlendTextures index="2" value="DefendersCity_4"/>
+        <BlendTextures index="3" value="KorhalCityEx2_1"/>
+        <BlendTextures index="6" value="CastanarPanelsEx2"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+</Catalog>

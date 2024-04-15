@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="EP01M04_WilliamGraves_006">
+        <Flags index="NeedsUpdate" value="0"/>
+        <Flags index="NeedsTTS" value="0"/>
+    </CSound>
+    <CSound id="M4Artillery2" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-Artillery2A.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4Artillery13" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-Artillery3.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4CARR2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARR8" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4DefNet2b" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - DefNet2b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4DefNet4a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - DefNet4a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4DefNet4b" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - DefNet4b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4Graves9e1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - Graves9e1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARR5a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR5a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARR13" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARR5b" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR5b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew1a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew1a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew3" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew3a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew3a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew4" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew4a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew4a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew5" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew5a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew5a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew6" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew6a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew6a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew7" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew8" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew8a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew8a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew9" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew9a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4CARR1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - CARR1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4ExhumerAlert" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-ExhumerAlert.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4Graves9e2" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - Graves9e2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4Graves9g" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - Graves9g.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4Jerico3a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - Jerico3a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4Jerico3b" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - Jerico3b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4DefNet2a" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\PP Xa - DefNet2a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M4RadioChatter" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-RadioChatter.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4CondorTakeoff" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-CondorTakeoff.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4CondorVehicleUnload" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-VehicleUnload.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4CondorVehicleLoad" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-VehicleLoad.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4OspreyUnload2" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-OspreyUnload2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4BaseAlarm" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-BaseAlarm.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M4Artillery1" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-Artillery1A.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4CARRNew1" parent="VO">
+        <AssetArray index="0">
+            <File value="Assets\VO\M4-CARRNew1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="Wait" value="0"/>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="SpyGraves82" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\Background-Earthquake.ogg" Volume="3.000000,3.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="FogAlert" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\Beep - Fog Alert.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M4OspreyUnload1" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-OspreyUnload1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="PositiveAlert" parent="Foley">
+        <AssetArray index="0" File="Assets\SFX\M4-PositiveAlert.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Mission"/>
+        <Mode value="2D"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="TPast04_MainMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\M4-MainMusic1.ogg" Volume="-2.000000,-2.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Music\M4-MainMusic2.ogg" Volume="-2.000000,-2.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Music\M4-MainMusic3.ogg" Volume="-2.000000,-2.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="TPast04_TutorialMusic2" parent="MUSIC">
+        <AssetArray File="Assets\Music\M4-TutorialMusic2.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="TPast04_TutorialMusic1A" parent="MUSIC">
+        <AssetArray File="Assets\Music\M4-TutorialTrack1A.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="TPast04_VictoryMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\M4-Victory.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="TPast04_BaseAttackMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\UPL - Micro Mission8.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="TPast04_FogMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\UPL - FogMusic.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="TPast04_LoadingMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\UPL - Loading Screen.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="UI_LoadingFinished">
+        <AssetArray index="0" File="Assets\Music\UPL - Loading Screen.ogg"/>
+    </CSound>
+    <CSound id="TPast04_TutorialMusic" parent="MUSIC">
+        <AssetArray File="Assets\Music\M4-TutorialTrack1.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="TPast04_UPLBriefing" parent="MUSIC">
+        <AssetArray File="Assets\Music\UPL - Briefing Loop.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Music\UPL - Briefing Loop.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Music\UPL - Briefing Loop.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Music\UPL - Briefing Loop.ogg" FacialGroup=""/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="1.000000"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500" Volume="-96.000000"/>
+    </CSound>
+</Catalog>
