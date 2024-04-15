@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="HugeAggro">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification WeaponScanBonus="25"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ElectroDisruption">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-protoss-alarak-stunnonheroicenemies.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="12"/>
+        <Period value="0.25"/>
+        <PeriodicEffect value="ElectroDisruptionDmg"/>
+        <Modification>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressFidgeting" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KD8ChargeFate">
+        <Duration value="5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MyraDavisFlameGrenadeDoTDamage2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Duration value="4"/>
+        <Period value="1"/>
+        <PeriodicEffect value="MyraDavisFlameGrenadeDoTDamage2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="UPLPoliceOfficerShotgun2" parent="UPLPoliceOfficerWeaponBase">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponArray index="0" Link="UPLPoliceOfficerShotgun"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="pt4xUnitSpeed">
+        <Cost>
+            <Charge Link="Behavior/15xUnitSpeed"/>
+            <Cooldown Link="Behavior/15xUnitSpeed"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Global"/>
+        <Modification TimeScale="1.5" MoveSpeedMultiplier="0.4"/>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/15xUnitSpeed"/>
+                <Cooldown Link="Behavior/15xUnitSpeed"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FlashBangGrenade">
+        <DurationOverride>
+            <Duration value="1.75"/>
+            <ValidatorArray value="IsMassive"/>
+        </DurationOverride>
+        <DurationOverride>
+            <Duration value="0.001"/>
+            <ValidatorArray value="IsMechanical"/>
+        </DurationOverride>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GasTruckExplosion">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <FinalEffect value="GasTruckExplosion"/>
+        <InfoFlags index="Hidden" value="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="NarudEpilogueDontDie">
+        <Duration value="6"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Reloading">
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-fullborecanisterammo.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <Duration value="2.5"/>
+        <Modification>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SquadCarCargo">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasNoCargo"/>
+        <Modification SightBonus="-8">
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="Benign" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <AbilClassDisableArray index="CAbilMove" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="YetiCharging">
+        <Modification MoveSpeedMultiplier="1.7"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Duration value="4.5"/>
+    </CBehaviorBuff>
+</Catalog>

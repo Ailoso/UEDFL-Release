@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BankList>
+    <Bank Name="KLClassic" Player="1"/>
+    <Bank Name="LotCCampaign" Player="1"/>
+    <Bank Name="LotCArchive" Player="1"/>
+    <Bank Name="UEDFLCampaign" Player="1"/>
+    <Bank Name="UEDFLArchive" Player="1"/>
+    <Bank Name="ZDebugProgress" Player="1"/>
+    <Bank Name="TCampaign" Player="1"/>
+    <Bank Name="PStoryTransition" Player="1"/>
+    <Bank Name="PStorySimulation" Player="1"/>
+    <Bank Name="ZDebugStory" Player="1"/>
+    <Bank Name="KCInsurrection" Player="1"/>
+    <Bank Name="InsurrectionArchive" Player="1"/>
+</BankList>

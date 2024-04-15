@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Dependencies>
+        <Value>bnet:Liberty Story (Campaign)/0.0/999,file:Campaigns/LibertyStory.SC2Campaign</Value>
+        <Value>file:Mods\UEDFL_Campaign.SC2Mod</Value>
+    </Dependencies>
+    <Preload>
+        <Value>Bank;UEDFLCampaign</Value>
+        <Value>Bank;UEDFLArchive</Value>
+    </Preload>
+</DocInfo>

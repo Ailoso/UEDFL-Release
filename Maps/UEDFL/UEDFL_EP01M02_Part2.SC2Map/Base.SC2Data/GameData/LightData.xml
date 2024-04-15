@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="Agria">
+        <ToDInfoArray index="0" AmbientColor="1.000000,1.000000,1.000000" AmbientEnvironmentMultiplier="1.059000">
+            <Param index="HDRExposure" value="0.925000"/>
+            <Param index="HDRBloomThreshold" value="1.625000"/>
+            <Param index="HDRAmbientMultiplier" value="1.100000"/>
+            <Param index="HDRDiffuseMultiplier" value="1.100000"/>
+            <Param index="HDRSpecMultiplier" value="0.630000"/>
+            <Param index="HDREmisMultiplier" value="1.060000"/>
+            <Param index="ColorizationBrightness" value="1.256000"/>
+            <Param index="ColorizationContrast" value="1.211000"/>
+            <DirectionalLight index="Key" Direction="0.011543,-0.103889,-0.994522"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Cybros">
+        <ToDInfoArray index="0" AmbientColor="0.000000,0.000000,0.000000">
+            <Param index="HDRExposure" value="2.650000"/>
+            <Param index="ColorizationBrightness" value="10.000000"/>
+            <Param index="ColorizationContrast" value="0.000000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="DefaultLight">
+        <ToDInfoArray index="0" Id="DefaultLight">
+            <Param index="ColorizationBrightness" value="0.991000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Elsecaro">
+        <ToDInfoArray index="0" DirectionalLightShadows="0">
+            <Param index="ColorizationBrightness" value="1.211000"/>
+            <DirectionalLight index="Key" Color="1.000000,0.929412,0.866667" Direction="0.595524,0.431246,-0.677775"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="IceWorld">
+        <ToDInfoArray index="0" Id="IceWorld">
+            <Param index="ColorizationBrightness" value="0.000000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Korhal">
+        <ToDInfoArray index="0" Id="Korhal"/>
+    </CLight>
+    <CLight id="MeinhoffCampaignNight">
+        <ToDInfoArray index="0">
+            <Id value="MeinhoffCampaignNight"/>
+            <TimeOfDay value="00"/>
+            <AmbientColor value="0.250980,0.000000,0.501961"/>
+            <AmbientEnvironmentMultiplier value="1.200000"/>
+            <Param index="HDRDiffuseMultiplier" value="1.250000"/>
+            <Param index="HDRSpecMultiplier" value="1.980000"/>
+            <Param index="HDREmisMultiplier" value="0.960000"/>
+            <Param index="CreepHDRDiffuseMultiplier" value="2.500000"/>
+            <Param index="CreepHDRSpecMultiplier" value="0.820000"/>
+            <Param index="ColorizationBrightness" value="1.000000"/>
+            <Param index="ColorizationContrast" value="1.258000"/>
+            <LightRegions index="0">
+                <AmbientColor value="0.003922,0.003922,0.003922"/>
+                <AmbientEnvironmentMultiplier value="0.000000"/>
+                <SpecularColor value="0.003922,0.003922,0.003922"/>
+                <SpecularMultiplier value="0.000000"/>
+                <FogColor value="0.000000,0.000000,0.000000"/>
+                <DiffuseColor index="Key" value="0.003922,0.003922,0.003922"/>
+                <DiffuseColor index="Fill" value="0.003922,0.003922,0.003922"/>
+                <DiffuseColor index="Back" value="0.003922,0.003922,0.003922"/>
+                <DiffuseMultiplier index="Key" value="0.000000"/>
+                <DiffuseMultiplier index="Fill" value="0.000000"/>
+                <DiffuseMultiplier index="Back" value="0.000000"/>
+            </LightRegions>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="StarshipDark">
+        <ToDInfoArray index="0" Id="StarshipDark" AmbientEnvironmentMultiplier="1.012000">
+            <Param index="HDRBloomThreshold" value="2.125000"/>
+            <Param index="HDRAmbientMultiplier" value="1.280000"/>
+            <Param index="HDRSpecMultiplier" value="1.230000"/>
+            <Param index="HDREmisMultiplier" value="1.090000"/>
+            <Param index="TerrainSpecularExp" value="5.220000"/>
+            <Param index="TerrainHDRDiffuse" value="0.220000"/>
+            <Param index="TerrainHDRSpecular" value="2.730000"/>
+            <Param index="ColorizationBrightness" value="2.814000"/>
+            <Param index="ColorizationContrast" value="1.642000"/>
+            <Param index="ColorizationHue" value="-0.005000"/>
+            <Param index="ColorizationSaturation" value="-0.006000"/>
+            <Param index="ColorizationLightness" value="-0.002000"/>
+            <Param index="ColorizationBlend" value="0.292000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="XelNaga_Caverns">
+        <ToDInfoArray index="0" Id="XelNaga_Caverns" AmbientColor="0.082353,0.317647,0.113725">
+            <Param index="ColorizationBrightness" value="1.109000"/>
+            <Param index="ColorizationContrast" value="0.853000"/>
+            <Param index="ColorizationHue" value="-0.003000"/>
+            <Param index="ColorizationSaturation" value="-0.006000"/>
+            <Param index="ColorizationLightness" value="0.044000"/>
+        </ToDInfoArray>
+    </CLight>
+</Catalog>

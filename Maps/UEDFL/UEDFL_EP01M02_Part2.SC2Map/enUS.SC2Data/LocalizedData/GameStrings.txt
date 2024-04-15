@@ -1,0 +1,313 @@
+﻿Abil/Name/InfestedHeal2=Heal Patch
+Abil/Name/KD8Charge=Dynamite Charge
+Abil/Name/MyraDavisFlameGrenade2=Flame Grenade
+Abil/Name/NovaGadgetFlashBangGrenades=Concussion Grenade
+Abil/Name/Reload=Reload
+Abil/Name/SJPirateYamato=Electro-Disruptor
+Behavior/Name/ElectroDisruption=Electro-Disruption
+Behavior/Name/MyraDavisFlameGrenadeDoTDamage2=MyraDavisFlameGrenade DoT Damage
+Behavior/Name/Reloading=Reloading
+Behavior/Name/UPLPoliceOfficerShotgun2=UPLPoliceOfficerShotgun
+Button/Name/Attack2=Attack
+Button/Name/ElectroDisruptor=Electro-Disruptor
+Button/Name/HealPatch=Heal Patch
+Button/Name/MercHellion2=Reload
+Button/Name/MercHellion22=Dynamite Charge
+Button/Name/Move2=Move
+Button/Name/MoveHoldPosition2=Hold Position
+Button/Name/MovePatrol2=Patrol
+Button/Name/MyraDavisFlameGrenade2=Flame  Grenade
+Button/Name/NovaGadgetFlashBangGrenades=Concussion Grenade
+Button/Name/Stop2=Stop
+Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/ElectroDisruptor=Blasts a biological enemy with an electromagnetic pulse that incapacitates it for 12 seconds and deals 200 damage throughout its duration.
+Button/Tooltip/Ghost=An Odessa officer of the law.
+Button/Tooltip/GhostShotgun=Infiltration unit. Can use Snipe and Cloak abilities. Can also call down Tactical Nukes.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/HealPatch=Heals a friendly biological unit for 100 life.
+Button/Tooltip/MercHellion2=Reloads your equipped weapon. Unable to attack while reloading.
+Button/Tooltip/MercHellion22=Reloads your equipped weapon. Unable to attack while reloading.
+Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MyraDavisFlameGrenade2=Deals <d ref="Effect,MyraDavisFlameGrenadeDamage,Amount"/> damage in a <d ref="Effect,MyraDavisFlameGrenadeSearch,AreaArray[0].Radius"/> radius and deals additional <d ref="Effect,MyraDavisFlameGrenadeDoTDamage,Amount"/> damage each <d time="[d ref='Behavior,MyraDavisFlameGrenadeDoTDamage,Period'/]"/> for <d ref="Behavior,MyraDavisFlameGrenadeDoTDamage,Duration" /> seconds.<n/><n/><c val="#ColorAttackInfo">Can Target Ground units.</c>
+Button/Tooltip/MyraDavisGhost2=An Odessa officer of the law.
+Button/Tooltip/NovaGadgetFlashBangGrenades=Deals 15 damage and stuns enemy units in the target area for <d ref="Behavior,FlashBangGrenade,Duration"/> seconds.</n></n><c val ="#ColorAttackInfo">Massive units have reduced stun and friendly units are immune.</c>
+Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/UPLBillet=Infantry training facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- <d stringref="Unit,InfantryRifle,Name" /><n/>- <d stringref="Unit,InfantryHeavy,Name" /><n/>- <d stringref="Unit,InfantryFlamethrower,Name" /><n/>- <d stringref="Unit,InfantryMortar,Name" />
+Button/Tooltip/UPLManufacturingFacility=Ground Vehicle Production facility.<n/><n/><c val="ffff8a">Enables:</c><n/>-  <d stringref="Unit,RoutheTank,Name" />
+Button/Tooltip/YamatoGun2=Blasts a biological enemy with an electromagnetic pulse that incapacitates it for 12 seconds and deals 200 damage throughout its duration.
+DocInfo/Author=Unknown Author
+DocInfo/DescLong=Aliens descend on earth after moving through the solar system.
+DocInfo/DescShort=1
+DocInfo/Name=Outpost 497
+Effect/Name/ElectroDisruptionAB=Electro-Disruption AB
+Effect/Name/ElectroDisruptionDmg=Electro-Disruption Dmg
+Effect/Name/GasTruckExplosion=Gas Truck Explosion
+Effect/Name/HealPatchEffect=Heal Patch Effect
+Effect/Name/MyraDavisFlameGrenadeDamage2=MyraDavisFlameGrenade Damage
+Effect/Name/MyraDavisFlameGrenadeDoTDamage2=MyraDavisFlameGrenade DoT Damage
+Effect/Name/MyraDavisFlameGrenadeDoTDamageApply2=MyraDavisFlameGrenade DoT Damage AB
+Effect/Name/MyraDavisFlameGrenadeDoTSearch2=MyraDavisFlameGrenade DoT Search
+Effect/Name/MyraDavisFlameGrenadeLaunch2=MyraDavisFlameGrenade Launch
+Effect/Name/MyraDavisFlameGrenadeSearch2=MyraDavisFlameGrenade  Search
+Effect/Name/MyraDavisFlameGrenadeSet2=MyraDavisFlameGrenade Set
+Effect/Name/NovaGadgetFlashBangGrenadeDmg=NovaGadgetFlashBangGrenadeDmg
+Effect/Name/NovaGadgetFlashBangGrenadeSet=NovaGadgetFlashBangGrenadeSet
+LoadingScreen/TextBody=    You, Commander, and Officer Davis escaped through the<n/>    francine facility sub-flooring before the facility went critical<n/>    and exploded.  As expected, the flames, burning at 70,000 <n/>    degrees, scorched the creatures and their structures out for<n/>    a half-mile.  <n/><n/>    Now moving through one of Odessa's sewer systems, you <n/>    both head  toward your precinct's last known rally point.<n/>    Unfortunately, the creature you fought in the francine <n/>    facility also followed you and Davis into the tunnels.
+LoadingScreen/Tip=Davis can't be everywhere at once
+LoadingScreen/TipRestart=Mortar Troopers are most effective on higher ground
+LoadingScreen/Title=Outpost 497
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Myra Davis
+MapInfo/Player02/Name=UPL Military
+MapInfo/Player03/Name=Civilians
+MapInfo/Player04/Name=Unknown Creatures
+MapInfo/Player05/Name=UPL Military
+MapInfo/Player06/Name=Unknown Creatures
+MapInfo/Player07/Name=Player 7
+MapInfo/Player08/Name=Player 8
+MapInfo/Player09/Name=Player 9
+MapInfo/Player10/Name=Player 10
+MapInfo/Player11/Name=Player 11
+MapInfo/Player12/Name=Player 12
+MapInfo/Player13/Name=Player 13
+MapInfo/Player14/Name=Player 14
+MapInfo/Player15/Name=Unknown Creatures
+Param/Expression/982F10C8=No more than ten civilians can die (<c val="FFFF00">~A~/10</c>)
+Param/Value/00CFC83C=Mining drones allow you to harvest resources.  Mining drones are also powerful combatants, and for a small cost can transform their harvesting arm to a grenade launcher, comparable to combat infantryman in damage output.  When a threat has been resolved, you can revert the drone back to harvest mode.
+Param/Value/015D7C4C=The Headquarters have been Destroyed
+Param/Value/01871EC4=Tunnel Blocked By<n/>Partial Collapse
+Param/Value/038ADFAD=Odessa Sewer 4-B
+Param/Value/052C4087=Myra Davis must survive
+Param/Value/07801F7E=Too Many Civilians Have Died!
+Param/Value/0869EDCF=Bombing Path, Move Your Forces Off the Road
+Param/Value/0A34A634=The SWAT Van Has Been Destroyed Before All Civilians Have Been Evacuated!
+Param/Value/0C3A1174=Worms Are Inside The Outpost!
+Param/Value/0E2C2797=The <c val="FFFF00">R&D Facility</c> allows UPL forces to improve their weapons and armor capabilities.  Due to the improvised nature of this outpost, only minimal improvements can be made at this time.
+Param/Value/0FEA08CE=Outpost four ninety-seven is minimally equipped.  We have air dropped raw materials for fabrication of key facilities and armor and weapons for new troops.  You will need to use the headquarters building to manufacture mining drones, and command them to harvest the nearby materials.
+Param/Value/124E961E=If your billets have been destroyed, harvest enough minerals with your mining drones to construct a new one.
+Param/Value/131AD3DC=<c val="00FF00">YOU STILL NEED TO PROTECT THE CIVILIANS, COMMANDER!</c>
+Param/Value/1671CFE4=<c val="00FF00">COMMANDER, YOU HAVE A NEW OBJECTIVE</c>
+Param/Value/172FD4B6=Commander, we understand you have taken tactical command of outpost four ninety-seven.  You are not properly trained in combat theater operations, so we are here to provide assistance.
+Param/Value/18E6F780=Sergeant
+Param/Value/1BB5FAF0=Officer Jenkins
+Param/Value/1C71D2B3=Reinforcements are inbound to you and I got a clear visual of the whole area.  Look, these things are really all over the place.  They can pop up anywhere.  They're just tunneling around underground or something, waitin for their chance. 
+Param/Value/1DA27256=Russell Peters
+Param/Value/1FCDE6AE=<c val="FFFF00">Jenkins: </c>Myra, that's the fire alarm, we need to move now!
+Param/Value/2010D7B6=<c val="00FF00">COMMANDER, YOU HAVE A NEW OBJECTIVE</c>
+Param/Value/224DC209=No more than ten civilians can die (0/10)
+Param/Value/2395A9DF=I barely got clear, and I mean barely.
+Param/Value/23FF2255=High Ground
+Param/Value/262089AA=Officer Jenkins
+Param/Value/264908DE=Fifth Wave of Creatures Emerging from Tunnel:
+Param/Value/27467914=<c val="FFFF00">Jenkins: </c>The riot group's got an APC. Let's make our way toward them.
+Param/Value/2864915E=That's all I can pack in for this run.  Get the next group of civvies prepped, I'll get these folks to the southbound T.T. tunnel entrance.
+Param/Value/28701391=Russell Peters
+Param/Value/2A9C00AB=Officer Jenkins
+Param/Value/2C8C78BC=Headquarters
+Param/Value/2DE13DBD=Fourth Wave of Creatures Emerging from Tunnel:
+Param/Value/2F82E0D8=You need additional troops to reinforce your position and when able, escort civilians to a nearby safe zone
+Param/Value/3388BEA2=Creatures Arriving In:
+Param/Value/344D0129=Welcome Wagon to Four Niner Seven, we've dropped out of the goo and Odessa is in sight.  All you Raptor two six bubbas, lights out and train behind.  Time on target, five mikes.
+Param/Value/377476C9=Alright!  Engine's back!  Let's finish this thing!
+Param/Value/37BFE928=Ah yeah!  The cavalry has arrived!
+Param/Value/3B1ED78A=Blow open the sewer exit
+Param/Value/3B3C7BFD=<c val="FFFF00">Davis: </c>What the hell?!
+Param/Value/3B4A8033=<c val="00FF00">OBJECTIVE UPDATED</c>
+Param/Value/3D98F8B4=Escape the sewers
+Param/Value/3FA52EFE=<c val="00FF00">WELCOME WAGON AIR GROUP INBOUND!</c>
+Param/Value/4032FCC4=<c val="00FF00">COMMANDER, YOU HAVE A NEW TACTICAL UPDATE FROM DEFENSE NET!</c>
+Param/Value/40974876=The "Routhe" tank is a heavily armored, durable vehicle that is designed to destroy armored enemies and structures.  The tank can only engage ground targets.
+Param/Value/41EE9037=Welcome Wagon to Four Niner Seven, we are inbound!  Danger Close!  Out.
+Param/Value/41F6307F=Creatures Will Emerge Here
+Param/Value/43C51EAE=<c val="00FF00">Commander, You Now Have Command Of All Troops And Facilities</c>
+Param/Value/4407A041=Darren Rodgers
+Param/Value/44FEDD72=Good work, Commander.  Now, the Billet allows you to properly equip soldiers for the fight ahead.  You can equip four types of soldiers at this time, depending on your needs.  All of them fulfill a very specific purpose.
+Param/Value/4599F846=<c val="00FF00">YOU HAVE RETRIEVED A TANK OF AMMONIA</c>
+Param/Value/45E77F4C=Shit!  Engine just died!  These things are coming out of the ground here!
+Param/Value/476E938E=Set Troops Up On<n/>The High Ground
+Param/Value/4BA04F20=Build 75 supply of units
+Param/Value/4BA4C597=UPL Defense Net
+Param/Value/4D05D670=Repeat that Darren, over.
+Param/Value/4DFEAD7A=Debris
+Param/Value/4F4BA44F=Civilian Collection<n/>Point
+Param/Value/50F3A57A=<c val="FFFF00">Officer: </c>Myra, I got here about 30 seconds ago and the mayor's on his way down. Elevator's are out so he's gotta take the stairs. We need to hold the lobby until he gets here.
+Param/Value/511B82C7=
+Param/Value/526AC722=Ahhh, ya know I can't do that Myra.  Besides, there's so many of these things runnin around, I'd never make it over to ya'll anyway.  I'll keep ya posted.
+Param/Value/55A16C20=Time To Go
+Param/Value/5698ED4D=Shoot them sons of bitches down!
+Param/Value/5739DBC1=Line Troops Along<n/>This Wall
+Param/Value/5A34F37D=Officer Jenkins
+Param/Value/5A721C18=Alright that's it.  I'm on my way back to the tunnel.
+Param/Value/5AC83DEE=UPL Defense Net
+Param/Value/5C581720=Sergeant Peters
+Param/Value/5C764831=<c val="FF0000">JENKINS' SWAT VAN JUST STALLED!</c>
+Param/Value/5DA6DBAC=Ensure the SWAT Van is not destroyed
+Param/Value/5DCC904D=Let's go people!  Go go go!  Come on, this ain't city transit!
+Param/Value/5F3E7F6C=Alright listen, I don't know what's goin on but they're all juiced up on something because this next group is movin really really fast!
+Param/Value/5FEF41BE=Aw, dammit the alpha van just stalled out!  Keep those things the hell away from the convoy!
+Param/Value/613FD8DA=Officer Jenkins
+Param/Value/63EC626E=Russell Peters
+Param/Value/64B5E2AE=The United Powers League <c val="FFFF00">Headquarters</c> allows for the State to rapidly deploy command and control for field operations.  Commanders can utilize the headquarters to fabricate Mining Drone harvesters, and also can fabricate a single CARR unit to serve as adjutant for the OC.
+Param/Value/65A7895C=SWAT Van Transport
+Param/Value/66A7BD51=Officer Jenkins
+Param/Value/66CBFA4A=Move to the rally point
+Param/Value/671B0EE5=Build a mortar trooper at a billet
+Param/Value/6751774A=Deploy Troops On The High Ground
+Param/Value/68836DCC=<c val="FF0000">MORE CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/6979E0CB=First Wave of Creatures Emerging from Tunnel:
+Param/Value/6A0C9AAD=<c val="00FF00">COMMANDER, YOU HAVE A NEW OBJECTIVE</c>
+Param/Value/6BEFDF1F=Russell Peters
+Param/Value/6EA5FE99=Darren Rodgers
+Param/Value/6F8E5737=<c val="00FF00">YOU HAVE PREPPED A TANK OF AMMONIA</c>
+Param/Value/709E6BDA=<c val="FFFF00">Set Ammonia<n/>Canister Here</c>
+Param/Value/70A0DDED=Okay people, load up!
+Param/Value/71205D7A=Commander, I heard over comms what you're trying to do here.  Those civvies aren't going anywhere without cover.  I'm inbound with armored transport.  Yeah, I know I borrowed it, but if I didn't you'd have lost it in the riot zone, so be happy and  cover my ass!
+Param/Value/751B970F=Deploy Troops On The High Ground
+Param/Value/75457EAE=Another Worm Has Appeared!
+Param/Value/755B595A=High Ground
+Param/Value/75B379AA=Bombing Path, Move Your Forces Off the Road
+Param/Value/79AAEFEC=Protect the headquarters building
+Param/Value/7BD2FCF8=Sergeant
+Param/Value/7C122AD8=<c val="FFFF00">Set Ammonia<n/>Canister Here</c>
+Param/Value/7C18CCF3=Sergeant
+Param/Value/7C7C2F10=A Giant Worm Has Appeared!
+Param/Value/7C963FE6=Darren Rodgers
+Param/Value/7CB8E3CF=Second Wave of Creatures Emerging from Tunnel:
+Param/Value/7D0F2DA5=Officer Jenkins
+Param/Value/7D2426E6=Sergeant
+Param/Value/7F58C7BB=Outpost 497 has been established in the parking area of a hotel complex.  About 30 civilians still require evacuation.  Jenkins' SWAT van can seat up to ten at a time, so you will need to protect him while he shuttles them back and forth to the Southbound Trans-Texas Tunnel Entrance.
+Param/Value/81D289BF=Mortar Troopers are a mobile, defensive shock trooper which can shell ground enemies from great distances.  The trooper must be deployed to use the mortar and is unable to defend herself if she is mobile.
+Param/Value/82481778=Raptor Pilot
+Param/Value/82F20FEA=The UPL has established a small outpost largely powered by an industrial scale generator on the helipad.  If that generator goes out or is destroyed, you will lose power to all of your facilities.  You will be unable to build additional troops.  Protect that generator at any cost.
+Param/Value/84E994FD=Commander, Davis, glad to have ya both at the party.
+Param/Value/8711CCE3=Mortar Trooper<n/>
+Param/Value/8A39381D=Headquarters
+Param/Value/8B44BE62=Stored Ammonia
+Param/Value/8B97BF7D=<c val="FF0000">MORE CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/8C92B5BF=Alright, I got a bunch of the flyin ones circlin around close to ya'll.  We've got the screaming ones and the blimps we saw earlier.
+Param/Value/8D11FC94=<c val="FF0000">ESCAPE TUNNEL BLOCKED BY DEBRIS!</c>
+Param/Value/8D3FE2D9=<c val="FF0000">CREATURES INBOUND!  FRIENDLY REINFORCEMENTS ENGAGING!</c>
+Param/Value/8D7EAD38=The last known rally point was the intersection of Dessau and Congress
+Param/Value/8D93623C=Raptor Pilot
+Param/Value/8ED7F504=Sewer Exit
+Param/Value/8F06590F=There is debris blocking the sewer exit, likely from bombing runs by UPL Raptors on the streets above.  You will need to blow the exit open.  Find two containers of ammonia that are part of the sewage filtration system and set them near the debris.  Once both are in place, ignite the containers and the path should be cleared.  The UPL bombings have already weakened the load bearing structures of the sewers, and any additional explosions might collapse the entire system.  After you use the explosives, exit as quickly as you can.<n/><n/>Due to their weight, you can only carry one ammonia container at a time.  
+Param/Value/8F5153CF=Line Troops Along<n/>This Wall
+Param/Value/9129DE92=UPL Defense Net
+Param/Value/9268C235=Sergeant
+Param/Value/9301F52E=The <c val="FFFF00">Fusion Generator</c> provides UPL forces with the energy necessary to maintain operational readiness.  Constructing generators allows any UPL base or outpost to increase the number of troops and vehicles it can support in the field.
+Param/Value/93500453=Officer Jenkins
+Param/Value/9370AD92=And from what the troops are telling me, the officer assigned to the UPL battalion was killed so Commander, looks like you're up.
+Param/Value/94736825=A SWAT Van has arrived to assist in the evacuation.  Ensure it is not destroyed while it carries civilians back and forth to the outpost and the Trans-Texas Southern Tunnel Entrance.
+Param/Value/94B9F56D=Raptor Pilot
+Param/Value/95C12241=Darren Rodgers
+Param/Value/96595851=Line Troops Along<n/>This Wall
+Param/Value/96C5CF32=<c val="FFFF00">THE EXIT IS BLOCKED BY DEBRIS!</c>
+Param/Value/98B54FCB=Officer Jenkins
+Param/Value/994902F1=Explosives
+Param/Value/9A459433=<c val="00FF00">COMMANDER, YOU HAVE A NEW OBJECTIVE</c>
+Param/Value/9E60ED24=The southern entrance of the Trans-Texas Tunnel System has collapsed due to damage as a result of the creature attacks.  The UPL Engineering Corps is attempting to burrow through from inside the tunnel.  In the meantime, Commander, you have a tactical option.<n/><n/>The roads in and out of the tunnel are flanked by high ground resting areas.  If you station your troops on these ridges, you can attack the creatures without fear of return fire (at least from ground level).  Just be careful of the flying ones.  It is your option, Commander, and Defense Net will support you if you choose instead to engage the creatures head-on.  The creatures are attacking in waves, so you will have time to reinforce your high-ground positions between those waves.  Optimal high-ground troop deployment locations are marked on your minimap.
+Param/Value/A0864208=This is bullshit!  Commander, I'm gonna have to unload the civvies here until the engineering corps breaks through the debris.  You'll need to keep these folks safe so I can pick up the next group.
+Param/Value/A1FA4421=Davis pull the curtain down dammit!
+Param/Value/A49EFAEE=Hydroelectric Wastewater
+Param/Value/A58C0D7A=UPL Defense Net
+Param/Value/A5F8789A=The last known rally point was at the intersection of Dessau and Congress
+Param/Value/A6517ECC=UPL Defense Net
+Param/Value/AA2D02B9=We understand you are already familiar with Incinerators, Heavy Gunners, and Infantrymen.  You will also be able to equip mortar troopers at this outpost as an inexpensive long-range counter to ground enemies.  
+Param/Value/AB09045C=<c val="FF0000">MORE CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/ACFBBE4B=Aw, shit!  We've got more inbound!
+Param/Value/AFF4ED20=Russell Peters Has Died
+Param/Value/B0B30BCF=<c val="FF0000">COMMANDER, AERIAL ENEMIES INBOUND!</c>
+Param/Value/B17BE1FD=Deploy Troops On The High Ground
+Param/Value/B29ABFE9=Come on man!  Keep these things off of me!
+Param/Value/B4A5EDFE=Got it.  Listen up people!  Darren says we've got a whole mess of these Roaches about a half-a-mile out on Congress and they're coming right at us!  I want both flanks covered now!
+Param/Value/B544C5EA=ESD
+Param/Value/B82C368D=Russell Peters
+Param/Value/B86DFCB9=Deploy Troops On The High Ground
+Param/Value/B900B4C4=<c val="00FF00">COMMANDER, YOU HAVE NEW OBJECTIVES</c>
+Param/Value/B9233ED5=I've got Darren half a mile out, spottin for us in the clock tower.
+Param/Value/BB2E3E38=Commander, we have engineers on the other side of the south tunnel entrance working to excavate the debris.  We cannot set charges or we risk collapsing the tunnel entirely.  You will need to keep the civilians safe until we open the roads.  Our spotters show the enemy is entering the northern tunnel in waves.  You will have time to reinforce your position after each wave is routed.  Make good use of it.
+Param/Value/BB439170=<c val="00FF00">Time to Complete Phase 3:</c>
+Param/Value/BB9EE37C=Bombing Path, Move Your Forces Off the Road
+Param/Value/BC0B6E45=<c val="FF0000">MORE CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/BC241CAB=Darren Rodgers
+Param/Value/BD629AC2=Commander, we can't stay here!  The Trans-Texas underground tunnels are a couple blocks away, if they're not overrun.  It's one hell of a place for a holdout; one way in, one way out!  We can pelt these bastards from higher ground as long as we keep the flying ones off of us.  
+Param/Value/BFF3F12C=Officer Jenkins
+Param/Value/C06323F6=Time To Go
+Param/Value/C35C2673=Sergeant, did you say Darren's out there watching our six?
+Param/Value/C3DFAE2B=Headquarters
+Param/Value/C6A9AF0B=And in case you are not familiar with our purpose, the United Powers League Defense Net is a singular point of information processing and communication across all areas of combat command.  Said differently, we make sure the left hand knows what the right hand is up to, something very much necessary with standing forces deployed worldwide.  
+Param/Value/C755D519=<c val="00FF00">YOU HAVE PREPPED A TANK OF AMMONIA</c>
+Param/Value/C831E857=Set Troops Up On<n/>The High Ground
+Param/Value/C8BD0629=UPL Defense Net
+Param/Value/C91D3010=I've got eyes on that first wave Myra.  Doesn't look like there's a lot of'em but they're stackin up.  Whatever yer doing to get ready over there, do it.
+Param/Value/CA1DD642=Build a mining drone at the headquarters
+Param/Value/CA77B869=Third Wave of Creatures Emerging from Tunnel:
+Param/Value/CB618097=<c val="FF0000">CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/CBF1AF17=Line Troops Along<n/>This Wall
+Param/Value/CD31332D=Davis and Peters must survive
+Param/Value/CD538CE0=Darren Rodgers
+Param/Value/CDC5641E=Darren, are you reading me?
+Param/Value/D024B862=MOVE OUT OF THE TARGET ZONE
+Param/Value/D0E79EC4=Though next time you set off a Francine explosion, I'd really appreciate it if you gave me a heads up a couple minutes before the alarm goes off! 
+Param/Value/D1DB7C89=The <c val="FFFF00">Manufacturing Facility</c> allows UPL forward bases to produce various vehicles such as the Routhe tank and the TR-17 mobile artillery platform.  Unfortunately, this outpost lacks the raw materials necessary to produce these vehicles.<n/><n/>The Manufacturing Facility is also required if a base commander wishes to construct either an <c val="FFFF00">R&D Facility</c>, an <c val="FFFF00">Electrostatic Defense Platform</c>, or a <c val="FFFF00">CARR</c> unit.  If the Manufacturing Facility is destroyed, you will be unable to build either of those structures until it is replaced.
+Param/Value/D23C8105=Protect the emergency generator
+Param/Value/D42F7245=Officer Jenkins
+Param/Value/D439978C=Darren, you've done all the spotting you can for us.  I want every officer at your station to fall back to my position.  We're pulling out in less than five.
+Param/Value/D570EE0B=Jenkins, you keep these civvies safe, and I'll forego the royal ass kicking you were gonna get for bailing on us!
+Param/Value/D6DFB504=Russell Peters
+Param/Value/D7E02563=Stored Ammonia
+Param/Value/DABAA0E9=Commander, group two is unloaded.  Keep'em covered.  I'm heading back to base.
+Param/Value/DB2ADE8D=<c val="FF0000">MORE CREATURES ARE EMERGING FROM THE TUNNEL ENTRANCE!</c>
+Param/Value/DD696939=Second group's got some of the ones without legs that slither around helping out the little ones.   
+Param/Value/DD7CFF72=Use Explosives To<n/>Clear This Debris
+Param/Value/DF1D3ED5=Emergency Generator
+Param/Value/DF2A53F4=Myra?  I had a feeling you'd make it through this thing.  
+Param/Value/DF7CA28E=That's the last of'em Davis, we're movin.  Got a date with the armed forces.
+Param/Value/DFFDC329=I got here a couple minutes ago, and these things have been pounding the base from both cross streets!  We've got limited intel but it looks like they're tunneling underground to get close before they pop up, and believe me, they're popping up everywhere.  Haven't seen any of the flying ones yet but I'm sure that'll change real quick.
+Param/Value/E0B4B96E=Darren Rodgers
+Param/Value/E1579E05=Darren Rodgers
+Param/Value/E3856C70=Officer Jenkins
+Param/Value/E5434938=Russell Peters
+Param/Value/E5B351C5=Welcome Wagon to Four Niner Seven.  We've got the road and are starting our approach.  Time on target, two mikes.
+Param/Value/E67BEED0=Myra Davis has Died
+Param/Value/E8338CC3=Explosives
+Param/Value/E8D4D344=Russell Peters
+Param/Value/E931FADB=<c val="00FF00">YOU HAVE RETRIEVED A TANK OF AMMONIA</c>
+Param/Value/E94F789A=Officer Jenkins
+Param/Value/EA04B7E9=Here they come!
+Param/Value/EA08C440=Looks like everyone's loaded up, Commander.  I'm on my way back to the tunnel now.
+Param/Value/EAE2C5C3=Sergeant
+Param/Value/EAF5AFF7=The Emergency Generator Has Been Destroyed!  Power To The Outpost Is Gone!
+Param/Value/EBE5875C=Darren Rodgers
+Param/Value/EC2FDAC2=Davis, might be good if we split up.  One of us covers the base, the other covers Jenkins.
+Param/Value/ED1B7F9D=Some collateral damage is expected in this operation, however it is expected you will endeavor to protect as many civilians as possible.  
+Param/Value/EF31E495=Sixth Wave of Creatures Emerging from Tunnel:
+Param/Value/EFB20955=R&D
+Param/Value/EFF0B0B5=Myra I've got eyes on the air group.  They're not joking they're inbound. 
+Param/Value/F0D3338B=Welcome Wagon, you've got friendlies all over the place down here!  We'll do our best to clear our teams off the roads before the bombs drop.
+Param/Value/F2611D3D=That's everyone, Commander.  I'll hang here with these folks until the tunnel's open.
+Param/Value/F6B12244=Sergeant
+Param/Value/FA46D233=Open fire!
+Param/Value/FAE6FBFD=Got some of the small armored ones joinin the fun.
+Param/Value/FC4679DA=<c val="FFFF00">PROTECT JENKINS' SWAT VAN</c>
+Param/Value/FD4520F3=Begin Civilian Evacuation:
+Param/Value/FDFBA0AE=I'm on my way back to pick up the next group now.
+Param/Value/FF250427=<c val="FFFF00">Electrostatic Defense Towers (ESD) </c>are stationary short-range automatic defense systems.  These structures will discharge concentrated bolts of electricity at a target in rapid succession.<n/><n/>While lightning bolts often have voltage of 300 million vs the 10 million from an ESD, bolts from both sources in a direct strike have the same effect with flashover (the electricity passing over the skin) deflecting much of the energy and relatively little current passing through the body.  This means the targets are cooked alive vs being electrocuted. 
+Param/Value/FFCB057D=Without a headquarters, you are unable to manufacture mining drones.  While in normal operations, you can simply rebuild a headquarters that is destroyed, in this outpost there will be insufficient power available to start new construction due to pressure on the city grid.  The emergency generator can keep the headquarters running but can't handle power draw requirements for construction.
+SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+Unit/LifeArmorName/None=Terran Infantry Armor
+Unit/Name/ArmoredGenerator=EmergencyGenerator
+Unit/Name/CargoTruckUnitBarrels=Gas Truck
+Unit/Name/Ghost=Cop Pistol
+Unit/Name/GhostAlternate2=Ghost
+Unit/Name/GhostShotgun=Ghost Shotgun
+Unit/Name/HoverHellion=Invisible Vision Provider
+Unit/Name/InvisibleProvider=Invisible Provider
+Unit/Name/TransportTruck=SWAT Van
+Weapon/Name/C10CanisterRifle=BA Hero Service Pistol
+Weapon/Name/LocustPressurizedGlands=Defiled Barbs
+Weapon/Name/MorkilliCustom9=Morkilli Custom 9 "Crowdpleaser"
+Weapon/Name/Nova=BXR Auto-Rifle
+Weapon/Name/NovaWeaponHellfireShotgun=Morkilli Combat Shotgun

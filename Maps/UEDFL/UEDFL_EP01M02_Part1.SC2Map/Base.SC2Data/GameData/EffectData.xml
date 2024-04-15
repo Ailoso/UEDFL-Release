@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectDamage id="C10CanisterRifle">
+        <AttributeBonus index="Light" value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="ExplodingBarrelLargeExplosion">
+        <Amount value="100"/>
+        <AreaArray index="0" Radius="1.4"/>
+        <AreaArray index="1" Radius="1.9" Validator="IsBiological"/>
+        <AreaArray index="2" Radius="2.5" Validator="IsBiological"/>
+    </CEffectDamage>
+    <CEffectDamage id="GasTruckExplosion">
+        <EditorCategories value=""/>
+        <Amount value="700"/>
+        <Death value="Fire"/>
+        <AreaArray Radius="2.2" Fraction="1"/>
+        <AreaArray Radius="2.6" Fraction="0.75"/>
+        <AreaArray Radius="3" Fraction="0.5"/>
+        <AreaArray Radius="3.5" Fraction="0.18"/>
+    </CEffectDamage>
+    <CEffectModifyUnit id="HealPatchEffect">
+        <ValidatorArray value="TargetLifeNotFull2"/>
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/HealerBotHealUnit"/>
+        <VitalArray index="Life">
+            <Change value="100"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectDamage id="HunterKillerMelee">
+        <Amount value="25"/>
+    </CEffectDamage>
+    <CEffectDamage id="HunterKillerU">
+        <Amount value="12"/>
+    </CEffectDamage>
+    <CEffectDamage id="LocustDamage">
+        <Amount value="12"/>
+    </CEffectDamage>
+    <CEffectDamage id="MyraDavisFlameGrenadeDamage2">
+        <EditorCategories value=""/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="20"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectDamage id="MyraDavisFlameGrenadeDoTDamage2">
+        <EditorCategories value=""/>
+        <Flags index="Notification" value="1"/>
+        <Amount value="10"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="MyraDavisFlameGrenadeDoTDamageApply2">
+        <Behavior value="MyraDavisFlameGrenadeDoTDamage2"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="MyraDavisFlameGrenadeDoTSearch2">
+        <EditorCategories value=""/>
+        <SearchFilters value="-;Ally,Air"/>
+        <AreaArray Radius="3" Effect="MyraDavisFlameGrenadeDoTDamageApply2"/>
+    </CEffectEnumArea>
+    <CEffectLaunchMissile id="MyraDavisFlameGrenadeLaunch2">
+        <EditorCategories value=""/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="MyraDavisFlameGrenadeSet2"/>
+        <AmmoUnit value="MyraDavisFlameGrenadeMissile2"/>
+    </CEffectLaunchMissile>
+    <CEffectEnumArea id="MyraDavisFlameGrenadeSearch2">
+        <EditorCategories value=""/>
+        <SearchFilters value="-;Ally,Air"/>
+        <AreaArray Radius="3" Effect="MyraDavisFlameGrenadeDamage2"/>
+    </CEffectEnumArea>
+    <CEffectSet id="MyraDavisFlameGrenadeSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="MyraDavisFlameGrenadeSearch2"/>
+        <EffectArray value="MyraDavisFlameGrenadeDoTSearch2"/>
+    </CEffectSet>
+    <CEffectDamage id="NeedleSpinesDamage">
+        <Amount value="8"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ElectroDisruptionAB">
+        <EditorCategories value=""/>
+        <Behavior value="ElectroDisruption"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="Nova">
+        <Amount value="9"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="NovaGadgetFlashBangGrenadeApplyBehavior">
+        <ValidatorArray index="0" value="TargetIsNotUnstoppable"/>
+        <ValidatorArray index="1" value="NotStructureorIsStructureandNotDetector"/>
+        <ValidatorArray index="2" value="IsNotHerculesCombined"/>
+        <ValidatorArray index="3" removed="1"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="NovaGadgetFlashBangGrenadeSearch">
+        <AreaArray index="0" Radius="1.5" Effect="NovaGadgetFlashBangGrenadeSet"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Destructible,Item,Stasis,Dead,Hidden,Invulnerable,Unstoppable"/>
+    </CEffectEnumArea>
+    <CEffectSet id="NovaGadgetFlashBangGrenadeSet">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/NovaGadgetFlashBangGrenadeSearch"/>
+        <EffectArray value="NovaGadgetFlashBangGrenadeDmg"/>
+        <EffectArray value="NovaGadgetFlashBangGrenadeApplyBehavior"/>
+    </CEffectSet>
+    <CEffectDamage id="NovaGadgetFlashBangGrenadeDmg">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/NovaGadgetFlashBangGrenadeSearch"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectDamage id="NovaWeaponHellfireShotgunCloaked">
+        <AttributeBonus index="Light" value="0"/>
+        <Amount value="22"/>
+        <AreaArray index="0" Radius="0.8"/>
+    </CEffectDamage>
+    <CEffectDamage id="NovaWeaponHellfireShotgunUncloaked">
+        <AttributeBonus index="Light" value="0"/>
+        <Amount value="22"/>
+        <AreaArray index="0" Radius="0.8"/>
+    </CEffectDamage>
+    <CEffectDamage id="ElectroDisruptionDmg" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/PsiBlades"/>
+        <ArmorReduction value="0"/>
+        <Amount value="4.167"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+    <CEffectSet id="SJPirateYamato">
+        <EffectArray index="1" value="ElectroDisruptionAB"/>
+    </CEffectSet>
+    <CEffectDamage id="SJPirateYamatoADamage">
+        <Amount value="0"/>
+    </CEffectDamage>
+</Catalog>

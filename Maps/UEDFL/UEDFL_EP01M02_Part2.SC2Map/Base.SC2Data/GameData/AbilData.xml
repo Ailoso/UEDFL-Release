@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilEffectTarget id="InfestedHeal2">
+        <Alignment value="Positive"/>
+        <OrderArray index="0" DisplayType="Legacy" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="HealPatchEffect"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="NoDeceleration" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Flags index="PassengerAcquirePassengers" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="12"/>
+        </Cost>
+        <InterruptCost>
+            <Charge Link="Abil/InfestedHeal"/>
+            <Cooldown Link="Abil/InfestedHeal"/>
+        </InterruptCost>
+        <TargetFilters value="Ground,Biological,Visible;Enemy,Air,Structure,Missile,UnderConstruction,Dead,Hidden,Invulnerable"/>
+        <TargetSorts RequestCount="1">
+            <SortArray value="TSAlliancePassive"/>
+            <SortArray value="TSDistance"/>
+            <SortArray value="TSLifeFraction"/>
+        </TargetSorts>
+        <Range value="2"/>
+        <SmartValidatorArray value="healSmartTargetFilters"/>
+        <SmartValidatorArray value="NotWarpingIn"/>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Biological,Visible;Enemy,Item,Dead,Hidden,Invulnerable"/>
+        <AutoCastValidatorArray value="IsWarpingIn"/>
+        <Marker Link="Abil/InfestedHeal"/>
+        <UseMarkerArray index="Approach" value="0"/>
+        <UseMarkerArray index="Prep" value="0"/>
+        <AINotifyEffect value="InfestedHeal"/>
+        <DefaultError value="RequiresHealTarget"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HealPatch"/>
+        <AcquireAttackers value="1"/>
+        <FollowRange value="1.5"/>
+        <Arc value="360"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="KD8Charge">
+        <Cost index="0">
+            <Cooldown TimeUse="24"/>
+        </Cost>
+        <Range index="0" value="1"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MyraDavisFlameGrenade2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="MyraDavisFlameGrenade"/>
+        <Effect index="0" value="MyraDavisFlameGrenadeLaunch2"/>
+        <Cost>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+        <Range value="5"/>
+        <CursorEffect value="MyraDavisFlameGrenadeSearch"/>
+        <AINotifyEffect value="CARRGrenadeLauncherSearch"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MyraDavisFlameGrenade"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="NovaGadgetFlashBangGrenades">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="14"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+        <Range index="0" value="6"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Reload">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown TimeUse="2.5"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MercHellion2">
+            <Flags index="Hidden" value="1"/>
+            <Flags index="ShowInGlossary" value="0"/>
+            <Flags index="UseDefaultButton" value="1"/>
+            <Flags index="CreateDefaultButton" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="MercHellion2">
+            <Flags index="ShowInGlossary" value="1"/>
+            <Flags index="UseDefaultButton" value="1"/>
+            <Flags index="CreateDefaultButton" value="1"/>
+        </CmdButtonArray>
+        <Flags index="Transient" value="1"/>
+        <Flags index="TransientPreferred" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="SJPirateYamato">
+        <Cost index="0">
+            <Charge Link="Abil/CalldownMULE"/>
+            <Cooldown Link="Abil/SJPirateYamato" TimeUse="24"/>
+        </Cost>
+        <TargetFilters value="Biological;Player,Ally,Neutral,Structure,RawResource,HarvestableResource,Item,Dead,Hidden,Invulnerable"/>
+        <Range index="0" value="5"/>
+        <PrepTime index="0" value="0"/>
+        <ShowProgressArray index="Prep" value="0"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ElectroDisruptor"/>
+    </CAbilEffectTarget>
+    <CAbilAugment id="YetiCharge">
+        <Flags index="AutoCastOn" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="8"/>
+        </Cost>
+    </CAbilAugment>
+</Catalog>

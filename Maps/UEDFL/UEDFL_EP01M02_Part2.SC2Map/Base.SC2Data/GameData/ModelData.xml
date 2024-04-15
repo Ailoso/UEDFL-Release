@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="BloodTargetImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="Ignorable" value="1"/>
+    </CModel>
+    <CModel id="CargoTruckUnitBarrels">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="Invisible2" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="KD8Charge">
+        <AnimSpeed value="1.200000"/>
+    </CModel>
+    <CModel id="LocustWeapon">
+        <ScaleMax value="1.330000,1.330000,1.330000"/>
+        <ScaleMin value="1.330000,1.330000,1.330000"/>
+    </CModel>
+    <CModel id="ElectroDisruption" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\BattlecruiserDefensiveMatrix\BattlecruiserDefensiveMatrix.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Radius value="2.000000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="FlashBangStun"/>
+    <CModel id="GasTruckExplode" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\Nuke\Nuke.m3"/>
+        <AnimSpeed value="1.700000"/>
+        <EditorCategories value="Race:Terran"/>
+        <RadiusLoose value="1.000000"/>
+        <ScaleMax value="0.570000,0.570000,0.660000"/>
+        <ScaleMin value="0.570000,0.570000,0.660000"/>
+    </CModel>
+    <CModel id="GhostShotgun" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Spectre\Spectre.m3"/>
+        <RequiredAnims value="Assets\Units\Terran\Ghost_SwarmAnims\Ghost_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh04"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseGhost"/>
+        <UnitGlossaryCamera value="Star2CameraHigh04"/>
+    </CModel>
+    <CModel id="Hellion">
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="KerriganGhost">
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="Marine">
+        <ScaleMax value="1.520000,1.520000,1.520000"/>
+        <ScaleMin value="1.520000,1.520000,1.520000"/>
+    </CModel>
+    <CModel id="MedicHealModel">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="MyraDavisFlameGrenadeDoTGlaze2" parent="Glaze">
+        <Model value="Assets\Effects\Glaze\Glaze_TychusFirebat_OilSpill\Glaze_TychusFirebat_OilSpill.m3"/>
+    </CModel>
+    <CModel id="MyraDavisFlameGrenadeFlames2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Neutral\SmokeStack_Fire_Constant_Sm\SmokeStack_Fire_Constant_Sm.m3"/>
+    </CModel>
+    <CModel id="MyraDavisFlameGrenadeImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ThorShoulderMissileImpact\ThorShoulderMissileImpact.m3"/>
+        <Lighting value="ThorHandGunAttackImpact"/>
+    </CModel>
+    <CModel id="MyraDavisFlameGrenadeMissile2" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MolotovMissile\MolotovMissile.m3"/>
+        <Lighting value="AARocket"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="MyraDavisRiotOfficer2" parent="LOTC_OfficerBase">
+        <Model value="Assets\Units\Neutral\UPLRiotOfficer\UPLRiotOfficer.m3"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="MyraDavisRiotOfficerPortrait2" parent="Portrait" Race="UPL">
+        <Model value="Assets\Portraits\UPL\MyraDavisRiotPortrait\MyraDavisRiotPortrait.m3"/>
+        <AnimBlendTime value="0.550000"/>
+        <Image value="Assets\Textures\DavisOfficer_Static.dds"/>
+        <Lighting value="MyraDavisRiotOfficerPortrait"/>
+    </CModel>
+    <CModel id="NovaGadgetFlashBangGrenadesAttackImpact">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow2" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="RainEmitterLarge">
+        <Model value="Assets\Doodads\Shapes\ShapeCylinder\ShapeCylinder.m3"/>
+        <ScaleMax value="3.000000,3.000000,50.000000"/>
+        <ScaleMin value="3.000000,3.000000,50.000000"/>
+    </CModel>
+    <CModel id="SJPirateYamatoAAttackImpact">
+        <Model value="Assets\Effects\Terran\DiamondbackMissileImpact\DiamondbackMissileImpact.m3"/>
+        <ScaleMax value="0.450000,0.450000,0.450000"/>
+        <ScaleMin value="0.450000,0.450000,0.450000"/>
+    </CModel>
+    <CModel id="SJPirateYamatoAWeapon">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="SJPirateYamatoBAttackImpact">
+        <ScaleMax value="0.330000,0.330000,0.330000"/>
+        <ScaleMin value="0.330000,0.330000,0.330000"/>
+    </CModel>
+    <CModel id="SJPirateYamatoBWeapon">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="Ultralisk">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow2" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+</Catalog>

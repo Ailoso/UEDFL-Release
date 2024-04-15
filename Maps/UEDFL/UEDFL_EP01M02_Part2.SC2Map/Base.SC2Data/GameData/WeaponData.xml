@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CWeaponLegacy id="C10CanisterRifle">
+        <Range value="5"/>
+        <Period value="0.9"/>
+        <Icon value="Assets\Textures\btn-upgrade-nova-equipment-gunblade_gun.dds"/>
+        <MinScanRange value="7"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="HunterKiller">
+        <Range value="0"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="HydraliskMelee">
+        <Period value="0.8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="KaiserBlades">
+        <Range value="1.4"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LocustPressurizedGlands">
+        <Options index="Disabled" value="0"/>
+        <Options index="Hidden" value="0"/>
+        <Range value="3"/>
+        <Period value="1.15"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="NeedleSpines">
+        <Period value="0.92"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Nova">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <Range value="6"/>
+        <Period value="0.2"/>
+        <RandomDelayMin value="0"/>
+        <RandomDelayMax value="0"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="NovaWeaponHellfireShotgun">
+        <Period value="1.53"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MorkilliCustom9" parent="NovaWeaponHellfireShotgun">
+        <Name value="Weapon/Name/MorkilliCustom9"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-nova-shotgunaoe.dds"/>
+        <Range value="3"/>
+        <Period value="0.89"/>
+    </CWeaponLegacy>
+</Catalog>

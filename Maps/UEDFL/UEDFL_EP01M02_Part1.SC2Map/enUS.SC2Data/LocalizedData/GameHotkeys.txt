@@ -1,0 +1,10 @@
+﻿Button/Hotkey/Attack2=A
+Button/Hotkey/ElectroDisruptor=E
+Button/Hotkey/HealPatch=Q
+Button/Hotkey/MercHellion2=R
+Button/Hotkey/MercHellion22=D
+Button/Hotkey/Move2=M
+Button/Hotkey/MoveHoldPosition2=H
+Button/Hotkey/MovePatrol2=P
+Button/Hotkey/MyraDavisFlameGrenade2=G
+Button/Hotkey/Stop2=S

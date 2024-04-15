@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="Agria">
+        <ToDInfoArray index="0" AmbientColor="1.000000,1.000000,1.000000" AmbientEnvironmentMultiplier="1.059000">
+            <Param index="HDRExposure" value="0.925000"/>
+            <Param index="HDRBloomThreshold" value="1.625000"/>
+            <Param index="HDRAmbientMultiplier" value="1.100000"/>
+            <Param index="HDRDiffuseMultiplier" value="1.100000"/>
+            <Param index="HDRSpecMultiplier" value="0.630000"/>
+            <Param index="HDREmisMultiplier" value="1.060000"/>
+            <Param index="ColorizationBrightness" value="1.256000"/>
+            <Param index="ColorizationContrast" value="1.211000"/>
+            <DirectionalLight index="Key" Direction="0.011543,-0.103889,-0.994522"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Cybros">
+        <ToDInfoArray index="0" AmbientColor="0.000000,0.000000,0.000000">
+            <Param index="HDRExposure" value="2.650000"/>
+            <Param index="ColorizationBrightness" value="10.000000"/>
+            <Param index="ColorizationContrast" value="0.000000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="DefaultLight">
+        <ToDInfoArray index="0" Id="DefaultLight">
+            <Param index="ColorizationBrightness" value="0.991000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Elsecaro">
+        <ToDInfoArray index="0" DirectionalLightShadows="0">
+            <Param index="ColorizationBrightness" value="1.211000"/>
+            <DirectionalLight index="Key" Color="1.000000,0.929412,0.866667" Direction="0.595524,0.431246,-0.677775"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="HybridLabInner">
+        <ToDInfoArray index="0" Id="HybridLabInner" AmbientEnvironmentMultiplier="0.569000">
+            <Param index="HDRSpecMultiplier" value="1.430000"/>
+            <Param index="HDREmisMultiplier" value="4.250000"/>
+            <Param index="ShadowPenumbraSize" value="0.101000"/>
+            <DirectionalLight index="Key" ColorMultiplier="0.327000" Direction="-0.010382,-0.020759,-0.999731"/>
+            <DirectionalLight index="Fill" Color="0.415686,0.254902,0.513726" Direction="0.176495,0.926975,-0.331008"/>
+            <DirectionalLight index="Back" Direction="0.306862,-0.685357,0.660395"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="IceWorld">
+        <ToDInfoArray index="0" Id="IceWorld">
+            <Param index="ColorizationBrightness" value="0.000000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="Korhal">
+        <ToDInfoArray index="0" Id="Korhal"/>
+    </CLight>
+    <CLight id="MeinhoffCampaignNight">
+        <ToDInfoArray index="0">
+            <Id value="MeinhoffCampaignNight"/>
+            <TimeOfDay value="00"/>
+            <AmbientColor value="0.250980,0.000000,0.501961"/>
+            <AmbientEnvironmentMultiplier value="1.200000"/>
+            <Param index="HDRDiffuseMultiplier" value="1.250000"/>
+            <Param index="HDRSpecMultiplier" value="0.800000"/>
+            <Param index="HDREmisMultiplier" value="1.250000"/>
+            <Param index="CreepHDRDiffuseMultiplier" value="2.500000"/>
+            <Param index="CreepHDRSpecMultiplier" value="0.820000"/>
+            <Param index="ColorizationBrightness" value="1.000000"/>
+            <Param index="ColorizationContrast" value="1.429000"/>
+            <LightRegions index="0">
+                <AmbientColor value="0.003922,0.003922,0.003922"/>
+                <AmbientEnvironmentMultiplier value="0.000000"/>
+                <SpecularColor value="0.003922,0.003922,0.003922"/>
+                <SpecularMultiplier value="0.000000"/>
+                <FogColor value="0.000000,0.000000,0.000000"/>
+                <DiffuseColor index="Key" value="0.003922,0.003922,0.003922"/>
+                <DiffuseColor index="Fill" value="0.003922,0.003922,0.003922"/>
+                <DiffuseColor index="Back" value="0.003922,0.003922,0.003922"/>
+                <DiffuseMultiplier index="Key" value="0.000000"/>
+                <DiffuseMultiplier index="Fill" value="0.000000"/>
+                <DiffuseMultiplier index="Back" value="0.000000"/>
+            </LightRegions>
+        </ToDInfoArray>
+    </CLight>
+</Catalog>

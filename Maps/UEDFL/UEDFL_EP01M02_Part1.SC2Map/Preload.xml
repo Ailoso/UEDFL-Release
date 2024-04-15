@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\police cruiser.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-firebomb.dds" Type="Image"/>
+<Asset path="assets\textures\ui-hericon-davisofficer1.dds" Type="Image"/>
+<Asset path="assets\icons\button_raptor fighter jet\btn-ability-upl-scattershotbomb.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-liquidnitrogencanister.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-sprint.dds" Type="Image"/>
+<Asset path="assets\textures\btn-building-zerg-nydusworm.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-headshot-zergling.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-shotgunswitch.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-upl-uplriotofficer.dds" Type="Image"/>
+<Asset path="assets\textures\ui-heroicon-myradavisofficer.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-load.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-nuclearstrike-color.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-flashgrenade.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-consumption.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-upl-apc.dds" Type="Image"/>
+<Asset path="assets\textures\protect&amp;serve.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-upl-firstaid.dds" Type="Image"/>
+<Asset path="assets\icons\button_infantryflamethrower\btn-unit-upl-infantryflamethrower.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-zerg-ultralisk.dds" Type="Image"/>
+<Asset path="assets\textures\powergrid.dds" Type="Image"/>
+<Abil id="MyraDavisFlashBangGrenade"/>
+<Abil id="MyraDavisFlameGrenade"/>
+<Abil id="MyraDavisSwapToRifle"/>
+<Abil id="MyraDavisSwapToShotgun"/>
+<Abil id="MyraDavisHealingPatch"/>
+<Abil id="MyraDavisHeadshot"/>
+<Abil id="InfestedHeal2"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Aiur_Trees_Regular_Grouped" Variations="2"/>
+<Actor id="ArmoredDoor"/>
+<Actor id="BarrelPhysics"/>
+<Actor id="BattleStation_BridgeSeats" Variations="3"/>
+<Actor id="BattleStation_Line_Decals" Variations="3,5,14,24,28"/>
+<Actor id="BattleStation_Number_Decals" Variations="1,2,3,4,5,6"/>
+<Actor id="BattleStation_Symbol_Decals" Variations="2"/>
+<Actor id="Blast_Craters" Variations="0,1,2,3"/>
+<Actor id="BrokenRocks" Variations="1"/>
+<Actor id="BrokenRocksSmall" Variations="1,3,4,5"/>
+<Actor id="CharDunesCurtain" Variations="1,2"/>
+<Actor id="ChiseledRock" Variations="3"/>
+<Actor id="CompoundMansion_Desk"/>
+<Actor id="CompoundMansion_Door"/>
+<Actor id="CompoundMansion_Grates" Variations="6"/>
+<Actor id="CompoundMansion_Interior_Decor" Variations="2,9"/>
+<Actor id="CompoundMansion_Pillars" Variations="0"/>
+<Actor id="CompoundMansion_Rugs" Variations="1"/>
+<Actor id="CompoundMansion_Vase" Variations="3"/>
+<Actor id="CompoundSewer_Pipes" Variations="5"/>
+<Actor id="CompoundSewers_ExhaustPipes" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="CompoundSewers_FuelingPipes" Variations="7,8,10,11,12,14"/>
+<Actor id="CompoundSewers_FuelingStation" Variations="0"/>
+<Actor id="CompoundSewers_GlassWalls" Variations="4"/>
+<Actor id="CompoundSewers_Grates" Variations="6"/>
+<Actor id="CompoundSewers_Trashes" Variations="7"/>
+<Actor id="CompoundSewers_Water_Effects" Variations="2"/>
+<Actor id="ConstructionCrane"/>
+<Actor id="CreepWeb" Variations="1,3,4,6,8,19"/>
+<Actor id="DOM_CliffStructures" Variations="1"/>
+<Actor id="DOM_Decals" Variations="18,19"/>
+<Actor id="DOM_GroundTrims" Variations="7"/>
+<Actor id="DOM_LabCrates" Variations="0"/>
+<Actor id="DOM_VentTower" Variations="0"/>
+<Actor id="DOM_Walkways" Variations="4"/>
+<Actor id="DefendersCity_Buildings_Pipes_Tanks_Industrial" Variations="1,2,3,9,13,17"/>
+<Actor id="DefendersCity_IndustrialCrane" Variations="3"/>
+<Actor id="Elsecaro_Bush1x1" Variations="0,4"/>
+<Actor id="Elsecaro_Bush4x4" Variations="0"/>
+<Actor id="Elsecaro_Downtown_Building" Variations="6"/>
+<Actor id="Elsecaro_Resorts_Hotels" Variations="1,4"/>
+<Actor id="GenericFire_Large"/>
+<Actor id="GenericFire_Medium"/>
+<Actor id="GenericFire_Medium_Area"/>
+<Actor id="GenericSpacePipes" Variations="8"/>
+<Actor id="HybridWallConsoles" Variations="2"/>
+<Actor id="JarbanMinor_BloodSmear" Variations="1"/>
+<Actor id="JarbanMinor_CranePart" Variations="1,4,5,7"/>
+<Actor id="JarbanMinor_Crate" Variations="1,3,5"/>
+<Actor id="JarbanMinor_FenceBarbwire" Variations="0"/>
+<Actor id="JarbanMinor_Flag" Variations="0"/>
+<Actor id="JarbanMinor_MiningBot" Variations="1,2"/>
+<Actor id="JarbanMinor_SecurityGate" Variations="0"/>
+<Actor id="KorhalRedCarpet"/>
+<Actor id="KorhalSkyScrapersMedium" Variations="4"/>
+<Actor id="KorhalStreet_Props" Variations="2,4"/>
+<Actor id="Korhal_ConstructionCranes_Destroyed" Variations="3,4,5,7"/>
+<Actor id="Korhal_ControlTower"/>
+<Actor id="Korhal_Manhole" Variations="1"/>
+<Actor id="Korhal_Platform_Debris" Variations="1,2,4,5"/>
+<Actor id="Korhal_Platform_OilMarks" Variations="2"/>
+<Actor id="Korhal_Platform_Pipes" Variations="6"/>
+<Actor id="Korhal_Residential_Building_Destroyed" Variations="1"/>
+<Actor id="Korhal_SpacePort_LuggageTruck_Destroyed" Variations="1"/>
+<Actor id="Korhal_SpacePort_Plane_Destroyed" Variations="0"/>
+<Actor id="MoebiusLabConsoles" Variations="0"/>
+<Actor id="MoebiusLabDecals" Variations="9"/>
+<Actor id="MoebiusLabGlassWalls" Variations="1"/>
+<Actor id="OilPuddle" Variations="1"/>
+<Actor id="PortCity_Bench" Variations="3"/>
+<Actor id="PortCity_Fountain"/>
+<Actor id="PortCity_Garden_Plants" Variations="7"/>
+<Actor id="PortCity_StreetAlarms" Variations="3"/>
+<Actor id="PortCity_StreetLight" Variations="0"/>
+<Actor id="PortCity_StreetSigns" Variations="8"/>
+<Actor id="PortCity_Trims" Variations="1,4,14"/>
+<Actor id="Protoss_Base_Screens" Variations="3"/>
+<Actor id="Rock_Cliff" Variations="5"/>
+<Actor id="Shakuras_Stone_Temple_Rubble" Variations="0"/>
+<Actor id="ShipPiping" Variations="2"/>
+<Actor id="SmokePillar_Tall_Generic"/>
+<Actor id="SnowBase_Clouds_Snow"/>
+<Actor id="SnowRefinery_Terran_Pipes" Variations="6"/>
+<Actor id="SpaceFloodLight" Variations="0"/>
+<Actor id="SpacePrisonPlatformScaffold" Variations="2"/>
+<Actor id="SpaceVent"/>
+<Actor id="Sparks_DT"/>
+<Actor id="Sparks_Protoss"/>
+<Actor id="Tarsonis_Bridge_DiagonalAlt"/>
+<Actor id="Tarsonis_Broken_Cliff" Variations="6"/>
+<Actor id="Tarsonis_Building_Roof" Variations="4"/>
+<Actor id="Tarsonis_Carpet" Variations="5,8"/>
+<Actor id="Tarsonis_DeadMarine" Variations="0,1"/>
+<Actor id="Tarsonis_Debris_Splat" Variations="3,4,9"/>
+<Actor id="Tarsonis_Furniture" Variations="2,3,5"/>
+<Actor id="Tarsonis_Garden_Topiary_Plant" Variations="0,1,2,10"/>
+<Actor id="Tarsonis_Guardrail" Variations="2,3"/>
+<Actor id="Tarsonis_Interior_Decor" Variations="0,2,3,4,7"/>
+<Actor id="Tarsonis_Interior_Stairs" Variations="1"/>
+<Actor id="Tarsonis_Ornate_Door" Variations="0,1,3,4"/>
+<Actor id="Tarsonis_Windows" Variations="3"/>
+<Actor id="Tarsonis_WireConduits" Variations="0,2,5,8"/>
+<Actor id="TheVoid_RubblePile" Variations="0,1,2,3"/>
+<Actor id="UmojanLabCatwalkAnimated"/>
+<Actor id="UnbuildableRocks" Variations="0,3"/>
+<Actor id="UnbuildableRocksSmall" Variations="0"/>
+<Actor id="WaterGenerator" Variations="0"/>
+<Actor id="ZergBloodLargeBuilding"/>
+<Actor id="ZergCarcasses" Variations="1,3"/>
+<Actor id="ZergCurbs" Variations="0,1"/>
+<Actor id="ZergRoots" Variations="0,2"/>
+<Actor id="ZergRootsCliff" Variations="0,1,2"/>
+<Actor id="ZergWallDecorTwoHigh" Variations="1,6,7"/>
+<Actor id="ZergWallDecorTwoHighSmall" Variations="0,2"/>
+<Actor id="ZerusChrysalisSpike" Variations="1"/>
+<Actor id="GhostNukeExplode"/>
+<Actor id="AgriaDebris" Variations="0,1"/>
+<Actor id="AgriaTree" Variations="2"/>
+<Actor id="AiurTree" Variations="0,4,5"/>
+<Actor id="AlarmLight" Variations="0"/>
+<Actor id="Antenna" Variations="2"/>
+<Actor id="BarracksWrecked"/>
+<Actor id="BelShirCliffGapFiller"/>
+<Actor id="BelShirTree" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
+<Actor id="BraxisAlphaFloodLights" Variations="0,1,2"/>
+<Actor id="BraxisAlphaTallSign" Variations="0"/>
+<Actor id="Bush" Variations="0,1,2,3,4"/>
+<Actor id="CaveEntrance"/>
+<Actor id="ChainLinkFenceDiagonal" Variations="0,1,2,3"/>
+<Actor id="ChainLinkFencePost"/>
+<Actor id="ChainLinkFenceStraight" Variations="0,2,3,4,6"/>
+<Actor id="CityBillboards" Variations="6"/>
+<Actor id="CityBuilding" Variations="1,2,3,6,7,8,9,10"/>
+<Actor id="Decal" Variations="1,2,17,19,20,22,23,24,28"/>
+<Actor id="Dumpster" Variations="0,1,3"/>
+<Actor id="FanVentCliff" Variations="0"/>
+<Actor id="FireMedium"/>
+<Actor id="Floodlight" Variations="0"/>
+<Actor id="ForceFieldWall"/>
+<Actor id="GasStation"/>
+<Actor id="HavenDoodadsCrates" Variations="0,2,4"/>
+<Actor id="KorhalBuilding" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Actor id="KorhalStoreFront" Variations="0,1,2,3,4,5"/>
+<Actor id="LandingLights" Variations="3"/>
+<Actor id="MarSaraCrack" Variations="3,4,5"/>
+<Actor id="MarSaraDirtPileLarge" Variations="0,1"/>
+<Actor id="MarSaraDirtPileSmall"/>
+<Actor id="MetalGateStraight"/>
+<Actor id="MonlythStonePieces" Variations="1,2"/>
+<Actor id="OilSplash"/>
+<Actor id="Outhouse" Variations="1"/>
+<Actor id="PipesLong" Variations="0"/>
+<Actor id="PipesStack" Variations="0,1"/>
+<Actor id="PortZionBarrel" Variations="1"/>
+<Actor id="PortZionGroundMix" Variations="0,5,6,9"/>
+<Actor id="PortZionTires" Variations="0,1,2"/>
+<Actor id="PowerLine" Variations="0,1,2,5"/>
+<Actor id="Rock" Variations="0,1,2,5,6,7,8,9,10"/>
+<Actor id="RockSmall" Variations="2,3,9"/>
+<Actor id="RooftopAC" Variations="1,2"/>
+<Actor id="RooftopEntrance"/>
+<Actor id="RooftopSolarPanels" Variations="0,1"/>
+<Actor id="RubbleWall45" Variations="5"/>
+<Actor id="RubbleWallCorner" Variations="0,1"/>
+<Actor id="Searchlight" Variations="2"/>
+<Actor id="SecurityFenceDiagonal" Variations="0"/>
+<Actor id="ShakurasRuinDebris" Variations="5"/>
+<Actor id="SignsConstruction" Variations="0"/>
+<Actor id="SignsDirectional" Variations="7,9,17,24"/>
+<Actor id="SignsFunny" Variations="0"/>
+<Actor id="SignsIcons" Variations="1,2,4,5,7,8,10,18,19,20"/>
+<Actor id="SignsWarning" Variations="0"/>
+<Actor id="SmokePillarsTall"/>
+<Actor id="SmokeMedium"/>
+<Actor id="SpacePlatformGroundDecals" Variations="14"/>
+<Actor id="StoreFront2Story" Variations="0,1"/>
+<Actor id="StoreFrontCanopy" Variations="0"/>
+<Actor id="StoreFrontCityProps" Variations="0,1,2,3"/>
+<Actor id="StoreFrontNeonSigns" Variations="0,1,3"/>
+<Actor id="StoreFrontWindows" Variations="0,1,3"/>
+<Actor id="StoreFrontWindows2Story" Variations="0,1,2,3"/>
+<Actor id="Streetlight" Variations="0,1,2,3"/>
+<Actor id="SupplyTanks"/>
+<Actor id="TempleDebris" Variations="1"/>
+<Actor id="TrafficSignalBroken" Variations="6"/>
+<Actor id="WaterTank" Variations="1,2"/>
+<Actor id="WolfStatueDoodad" Variations="0"/>
+<Actor id="WreckedCargoTruckCorpse" Variations="0,1,2"/>
+<Actor id="WreckedVehicles" Variations="0,4"/>
+<Actor id="TOFallenAsteroids"/>
+<Actor id="CargoTruck" Variations="1"/>
+<Actor id="CargoTruckCreep" Variations="0,2"/>
+<Actor id="TrucksDestroyed" Variations="0,1"/>
+<Actor id="WreckedCargoTruck" Variations="0,1,2,3"/>
+<Actor id="ColonistSupplyCrate" Variations="3,4"/>
+<Actor id="CreepCloud"/>
+<Actor id="KorhalBuildingDebris" Variations="1"/>
+<Actor id="SpacePlatformCreepedDoodads" Variations="2,5"/>
+<Actor id="TrainDockingDoor"/>
+<Actor id="CivilianCars" Variations="0,1,2,3,4,5,6"/>
+<Actor id="TarsonisWall2"/>
+<Actor id="TarsonisStation" Variations="1"/>
+<Actor id="TalkIcon"/>
+<Actor id="ColonistCorpse" Variations="0,3,4,5,6,7,10,11,12,15,17"/>
+<Actor id="CreepWebbing" Variations="0,1,2,3,4"/>
+<Actor id="InstallationRoof" Variations="3"/>
+<Actor id="PipeGroundBig" Variations="5"/>
+<Actor id="PipesSmallLong"/>
+<Actor id="PortZionGridFloorLiquidDoodad"/>
+<Actor id="ScientistCorpseGory" Variations="1,6,7"/>
+<Actor id="SpacePlatformSignTowerLargeZerged" Variations="0"/>
+<Actor id="TerrainObjectBraxisAlphaReactorDoodad"/>
+<Actor id="TerrainObjectSubwayEntranceRightRoof"/>
+<Actor id="TerrainObjectSubwayEntranceRoof"/>
+<Actor id="TRaynor01RadarDish"/>
+<Actor id="ValhallaWorkstation" Variations="2"/>
+<Actor id="TruckTanker"/>
+<Actor id="TruckDump"/>
+<Actor id="TruckFlatbedConstruction"/>
+<Actor id="TruckSemi"/>
+<Actor id="UmojanLabCatwalkSectionPlatform" Variations="3"/>
+<Actor id="DefaultExplosionTerranLarge"/>
+<Actor id="DefaultExplosionZergLarge"/>
+<Actor id="Tarsonis_Windows_Zerg_Destructible"/>
+<Actor id="FXDOMExplosionLarge"/>
+<Actor id="VultureChase_CargoTruckUnitFlatbed"/>
+<Actor id="OspreyLandingDust"/>
+<Actor id="UPLPoliceCruiserDoodad"/>
+<Actor id="GhostNukeExplode2"/>
+<Behavior id="CritterWander"/>
+<Behavior id="CritterWanderLeash"/>
+<Behavior id="CritterWanderLeashShort"/>
+<Behavior id="HalfDamageDealt"/>
+<Behavior id="ColonistWander"/>
+<Behavior id="InstallationZergWander"/>
+<Behavior id="TValerian03QueenOfBladesDontDie"/>
+<Behavior id="SuppressCollision"/>
+<Behavior id="NewsHelicopterSpotlight"/>
+<Behavior id="UPLRiotOfficerShotgun"/>
+<Behavior id="MyraDavisShotgun"/>
+<Behavior id="UPLPoliceOfficerShotgun"/>
+<Behavior id="UPLPoliceCruiserOpenLeft"/>
+<Behavior id="UPLPoliceCruiserSirenLights"/>
+<Behavior id="UPLPoliceCruiserOpenRight"/>
+<Behavior id="UPLRiotOfficerRifle"/>
+<Behavior id="UPLPoliceOfficerPistol"/>
+<Behavior id="UPLPoliceOfficerRifle"/>
+<Behavior id="UPLPoliceOfficerShield"/>
+<Behavior id="MyraDavisArmorBonus"/>
+<Behavior id="MyraDavisPistol"/>
+<Behavior id="HugeAggro"/>
+<Behavior id="pt4xUnitSpeed"/>
+<Effect id="LavaDamageMU"/>
+<Effect id="DamageNormal"/>
+<Light id="Agria"/>
+<Light id="KorhalNight"/>
+<Light id="MeinhoffCampaignNight"/>
+<Light id="HybridLabInner"/>
+<Light id="IceWorld"/>
+<Light id="Cybros"/>
+<Light id="Elsecaro"/>
+<Model id="PingBoss"/>
+<Model id="PingObjective"/>
+<Model id="PingSimple"/>
+<Model id="GenericFire_Large"/>
+<Model id="PingCircle"/>
+<Model id="PingDiamond"/>
+<Race id="Zerg"/>
+<Sound id="Egg_Birth"/>
+<Sound id="UI_PingAdvanced_Attack"/>
+<Sound id="Doodad_SecurityGateDiagonalImpact" Variations="0"/>
+<Sound id="Doodad_SecurityGateDiagonalOpen" Variations="0"/>
+<Sound id="UI_ObjectiveComplete"/>
+<Sound id="UI_UnitInfoSelect"/>
+<Sound id="Alert_UniObjectiveCompleted"/>
+<Sound id="Hut_Load"/>
+<Sound id="SpecialOpsDropship_Load"/>
+<Sound id="ZergMothership_ChargeGunImpact" Variations="0"/>
+<Sound id="TextCrawlType" Variations="0"/>
+<Sound id="Amb_ZergHordeQuad_Small" Variations="0"/>
+<Sound id="TreeViper_death" Variations="0"/>
+<Sound id="ZergArmy_Cheer_MassiveRoar"/>
+<Sound id="UI_Void_Actuate_2"/>
+<Sound id="ShadowUnit_Small_DeathFX" Variations="4"/>
+<Sound id="Condor_Unload_Infantry" Variations="0,1"/>
+<Sound id="UPLPoliceCruiser_Unload" Variations="0"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_001"/>
+<Sound id="EP01M02_1_RadioOperator_002"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_003"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_004"/>
+<Sound id="EP01M02_1_RadioOperator_005"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_006"/>
+<Sound id="EP01M02_1_RadioOperator_007"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_008"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_009"/>
+<Sound id="EP01M02_1_RadioOperator_010"/>
+<Sound id="EP01M02_1_RadioOperator_011"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_012"/>
+<Sound id="EP01M02_1_RadioOperator_013"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_014"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_015"/>
+<Sound id="EP01M02_1_UPLAnimalControlOfficer_016"/>
+<Sound id="EP01M02_1_UPLPoliceOfficer_017"/>
+<Sound id="EP01M02_1_UPLAnimalControlOfficer_018"/>
+<Sound id="EP01M02_1_UPLPoliceOfficer_019"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_020"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_021"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_022"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_023"/>
+<Sound id="EP01M02_1_RadioOperator_024"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_025"/>
+<Sound id="EP01M02_1_RadioOperator_026"/>
+<Sound id="EP01M02_1_RadioOperator_027"/>
+<Sound id="EP01M02_1_RadioOperator_028"/>
+<Sound id="EP01M02_1_RadioOperator_029"/>
+<Sound id="EP01M02_1_RadioOperator_030"/>
+<Sound id="EP01M02_1_RadioOperator_031"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_032"/>
+<Sound id="EP01M02_1_RadioOperator_033"/>
+<Sound id="EP01M02_1_RadioOperator_034"/>
+<Sound id="EP01M02_1_RadioOperator_035"/>
+<Sound id="EP01M02_1_RadioOperator_036"/>
+<Sound id="EP01M02_1_RadioOperator_037"/>
+<Sound id="EP01M02_1_RadioOperator_038"/>
+<Sound id="EP01M02_1_RadioOperator_039"/>
+<Sound id="EP01M02_1_RadioOperator_040"/>
+<Sound id="EP01M02_1_RadioOperator_041"/>
+<Sound id="EP01M02_1_RadioOperator_042"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_043"/>
+<Sound id="EP01M02_1_RadioOperator_044"/>
+<Sound id="EP01M02_1_RadioOperator_045"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_046"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_047"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_048"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_049"/>
+<Sound id="EP01M02_1_DeniseAllister_050"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_051"/>
+<Sound id="EP01M02_1_DeniseAllister_052"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_053"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_054"/>
+<Sound id="EP01M02_1_DeniseAllister_055"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_056"/>
+<Sound id="EP01M02_1_DeniseAllister_058"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_059"/>
+<Sound id="EP01M02_1_DeniseAllister_060"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_061"/>
+<Sound id="EP01M02_1_DeniseAllister_062"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_063"/>
+<Sound id="EP01M02_1_DeniseAllister_064"/>
+<Sound id="EP01M02_1_DeniseAllister_066"/>
+<Sound id="EP01M02_1_RadioOperator_067"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_068"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_069"/>
+<Sound id="EP01M02_1_DeniseAllister_070"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_071"/>
+<Sound id="EP01M02_1_DeniseAllister_072"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_073"/>
+<Sound id="EP01M02_1_DeniseAllister_074"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_075"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_076"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_077"/>
+<Sound id="EP01M02_1_DeniseAllister_078"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_079"/>
+<Sound id="EP01M02_1_RadioOperator_080"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_081"/>
+<Sound id="EP01M02_1_FacilityPA_082"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_083"/>
+<Sound id="EP01M02_1_RadioOperator_085"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_086"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_087"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_088"/>
+<Sound id="EP01M02_1_RadioOperator_089"/>
+<Sound id="EP01M02_1_RadioOperator_090"/>
+<Sound id="EP01M02_1_RadioOperator_091"/>
+<Sound id="EP01M02_1_FacilityPA_092"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_093"/>
+<Sound id="EP01M02_1_RadioOperator_094"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_095"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_096"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_097"/>
+<Sound id="EP01M02_1_RadioOperator_098"/>
+<Sound id="EP01M02_1_RadioOperator_099"/>
+<Sound id="EP01M02_1_RadioOperator_100"/>
+<Sound id="EP01M02_1_RadioOperator_101"/>
+<Sound id="EP01M02_1_RadioOperator_102"/>
+<Sound id="EP01M02_1_RadioOperator_103"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_104"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_105"/>
+<Sound id="EP01M02_1_RusellPeters_106"/>
+<Sound id="EP01M02_1_RusellPeters_107"/>
+<Sound id="EP01M02_1_RusellPeters_108"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_109"/>
+<Sound id="EP01M02_1_RusellPeters_110"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_111"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_113"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_114"/>
+<Sound id="EP01M02_1_RusellPeters_115"/>
+<Sound id="EP01M02_1_RusellPeters_117"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_118"/>
+<Sound id="EP01M02_1_RusellPeters_119"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_120"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_121"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_123"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_124"/>
+<Sound id="EP01M02_1_RusellPeters_125"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_126"/>
+<Sound id="EP01M02_1_MyraDavisOfficer_127"/>
+<Sound id="EP01M02_1_RusellPeters_128"/>
+<Sound id="EP01M02_1_RusellPeters_129"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_130"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_131"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_132"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_133"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_134"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_135"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_136"/>
+<Sound id="EP01M02_1_UPLRiotOfficer_137"/>
+<Sound id="EP01M02_1_RadioOperator_138"/>
+<Sound id="EP01M02_1_RadioOperator_139"/>
+<Sound id="EP01M02_1_RusellPeters_140"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_141"/>
+<Sound id="EP01M02_1_RusellPeters_142"/>
+<Sound id="EP01M02_1_RusellPeters_143"/>
+<Sound id="EP01M02_1_RadioOperator_144"/>
+<Sound id="EP01M02_1_RadioOperator_145"/>
+<Sound id="EP01M02_1_RadioOperator_146"/>
+<Sound id="EP01M02_1_RadioOperator_147"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_148"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_149"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_150"/>
+<Sound id="EP01M02_1_RadioOperator_151"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_152"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_153"/>
+<Sound id="EP01M02_1_MyraDavisRiotOfficer_154"/>
+<Sound id="EP01M02_1_RexTheTechnician_194"/>
+<Sound id="EP01M02_1_RexTheTechnician_195"/>
+<Sound id="EP01M02_1_RexTheTechnician_196"/>
+<Sound id="EP01M02_1_RexTheTechnician_197"/>
+<Sound id="EP01M02_1_RexTheTechnician_198"/>
+<Sound id="EP01M02_1_RexTheTechnician_199"/>
+<Sound id="EP01M02_1_RexTheTechnician_200"/>
+<Sound id="EP01M02_1_RexTheTechnician_201"/>
+<Sound id="EP01M02_1_RexTheTechnician_202"/>
+<Sound id="EP01M02_1_DefenseNet_203"/>
+<Sound id="EP01M02_1_DefenseNet_204"/>
+<Sound id="SoundDirective"/>
+<Sound id="M2FrancineBossAlarm1"/>
+<Sound id="M2Darren5"/>
+<Sound id="M2Darren6"/>
+<Sound id="M2Darren7"/>
+<Sound id="M2Darren8"/>
+<Sound id="M2FrancineBossAlarm2"/>
+<Sound id="M2UPLRegionalDispatcher"/>
+<Sound id="M2Fountain" Variations="0"/>
+<Sound id="M2EBSTone"/>
+<Sound id="M2DistantScreamandRoar"/>
+<Sound id="M2FrancineAlarm"/>
+<Sound id="M2FrancineWheelTurn2"/>
+<Sound id="M2FrancineWheelTurn3"/>
+<Sound id="M2FrancineExplosion"/>
+<Sound id="M2FrancineWheelCloseOff"/>
+<Sound id="M2HKGrowl1"/>
+<Sound id="M2HKGrowl2"/>
+<Sound id="M2HKGrowl3"/>
+<Sound id="M2HKGrowl4"/>
+<Sound id="M2HKDeath1"/>
+<Sound id="M2HKDeath2"/>
+<Sound id="M2HKDeath3"/>
+<Sound id="M2OpenCarDing" Variations="0"/>
+<Sound id="M2HydraDies22"/>
+<Sound id="M2RiotCarAlarm1"/>
+<Sound id="M2RiotScreaming1"/>
+<Sound id="M2AUD499ScreamingCivilians"/>
+<Sound id="M2AUD499FourJetFlyby"/>
+<Sound id="M2HysonTowerInteriorExplosion"/>
+<Sound id="M2HysonBossGrowl"/>
+<Sound id="M2NydusWorm1"/>
+<Sound id="M2NydusWorm2"/>
+<Sound id="M2NydusWormDives"/>
+<Sound id="M2RiotScreaming2"/>
+<Sound id="M2SwatVanAirBrakes" Variations="0"/>
+<Sound id="M2TrafficAccidentAmbience232"/>
+<Sound id="M2FrancineWheelTurn1"/>
+<Sound id="M2AlertNegative" Variations="0"/>
+<Sound id="M2AUD24PoliceAnnouncement" Variations="0"/>
+<Sound id="M2AUD499BuildingAlarm" Variations="0"/>
+<Sound id="M2DistantSirens12"/>
+<Sound id="M2DistantSirens122"/>
+<Sound id="M2HydraDies2"/>
+<Sound id="M2UPLCinematicHeloInterior" Variations="0"/>
+<Sound id="M2HydraDies1"/>
+<Sound id="M2PoliceCruiserExplosion" Variations="0"/>
+<Sound id="M2PoliceCruiserBrakes"/>
+<Sound id="M2AUD109CarAlarm"/>
+<Sound id="M2AUD109CarAlarm2"/>
+<Sound id="M2IntroCinematicZerglingGrowl" Variations="0"/>
+<Sound id="M2IntroCinematicZerglingRoar" Variations="0"/>
+<Sound id="M2PoliceCruiserArrives" Variations="0"/>
+<Sound id="M2IntroFastCopDriveBy2"/>
+<Sound id="M2AlertPositive" Variations="0"/>
+<Sound id="M2IntroCinematicNewsCopterFlyby" Variations="0"/>
+<Sound id="M2RiverwalkSewerPowerDown"/>
+<Sound id="M2RiverwalkSewerPowerUp"/>
+<Sound id="M2UPLTankUltraCinematic" Variations="0"/>
+<Sound id="M2ZergRoar3"/>
+<Sound id="M2ScreamingWoman1"/>
+<Sound id="M2TrafficAccidentAmbience"/>
+<Sound id="M2IntroFastCopDriveBy"/>
+<Sound id="M2ScreamingMan1"/>
+<Sound id="M2TrafficAccidentAmbience2" Variations="0"/>
+<Sound id="M2TrafficAccidentAmbience22" Variations="0"/>
+<Sound id="M2IntroCinematicTranqGun"/>
+<Sound id="M2DistantSirens1"/>
+<Sound id="M2TrafficAccidentAmbience23" Variations="0"/>
+<Sound id="M2IntroCinematicRodentAttacks" Variations="0"/>
+<Sound id="M2SwatVanEngineStart"/>
+<Sound id="M2UltraRoar" Variations="0"/>
+<Sound id="M2ZergRoar32"/>
+<Sound id="ApproachApts" Variations="0"/>
+<Sound id="M2DistantGunfire3"/>
+<Sound id="M2DistantGunfire2"/>
+<Sound id="M2DistantGunfire1"/>
+<Sound id="UI_CheckboxSelect2" Variations="0"/>
+<Sound id="M2ScreamingMan4" Variations="0"/>
+<Sound id="M2ScreamingWoman2" Variations="0"/>
+<Soundtrack id="M2LobbyMusic"/>
+<Soundtrack id="M2HysonFireAlarm"/>
+<Soundtrack id="M2Part1"/>
+<Soundtrack id="M2Part2"/>
+<Soundtrack id="M2Part3"/>
+<Soundtrack id="M2RiotTunnel"/>
+<Soundtrack id="M2RiverwalkSewerAmbience"/>
+<Soundtrack id="M2RiverwalkSewerAmbience2"/>
+<Soundtrack id="M2IntroMusic"/>
+<Soundtrack id="M2FrancineCoolantRoomAmbience"/>
+<Soundtrack id="M2DistantSirens"/>
+<Terrain id="KorhalEx1"/>
+<TerrainObject id="TerrainObjectBraxisAlphaReactor1"/>
+<TerrainObject id="TerrainObjectArmoredGenerator1"/>
+<Unit id="Hatchery"/>
+<Unit id="SpawningPool"/>
+<Unit id="EvolutionChamber"/>
+<Unit id="HydraliskDen"/>
+<Unit id="Spire"/>
+<Unit id="NydusNetwork"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Egg"/>
+<Unit id="Zergling"/>
+<Unit id="Overlord"/>
+<Unit id="Hydralisk"/>
+<Unit id="Ultralisk"/>
+<Unit id="Roach"/>
+<Unit id="HydraliskBurrowed"/>
+<Unit id="RoachBurrowed"/>
+<Unit id="ZerglingBurrowed"/>
+<Unit id="NydusCanal"/>
+<Unit id="OverlordTransport"/>
+<Unit id="DestructibleDebris4x4"/>
+<Unit id="DestructibleDebris6x6"/>
+<Unit id="HunterKillerBurrowed"/>
+<Unit id="HunterKiller"/>
+<Unit id="SecretDocuments"/>
+<Unit id="CargoTruckUnitBarrels"/>
+<Unit id="ExplodingBarrelLarge"/>
+<Unit id="SMZergling"/>
+<Unit id="CivilianCarsUnit" Variations="0,1"/>
+<Unit id="CruiserBike"/>
+<Unit id="TruckSemiUnit"/>
+<Unit id="DestructibleCityDebris2x6Vertical"/>
+<Unit id="DestructibleCityDebris2x6Horizontal"/>
+<Unit id="CreepTumorUsed"/>
+<Unit id="LarvalQueen"/>
+<Unit id="Roachling"/>
+<Unit id="PathingBlocker4x4Diagonal"/>
+<Unit id="GuideArrowUnit"/>
+<Unit id="ConstrictionDisabler4x4"/>
+<Unit id="SunkenColony"/>
+<Unit id="Invisible2x2"/>
+<Unit id="GhostVulture"/>
+<Unit id="CargoTruckUnitBarrelsVulturePath"/>
+<Unit id="CruiserBikeVulturePath"/>
+<Unit id="DarrenRodgers"/>
+<Unit id="InfantryRifle"/>
+<Unit id="RusellPeters"/>
+<Unit id="FlameGrenadePickup"/>
+<Unit id="FlashbangGrenadePickup"/>
+<Unit id="Beacon_UPLSmall"/>
+<Unit id="Beacon_UPL"/>
+<Unit id="APC"/>
+<Unit id="Osprey"/>
+<Unit id="Z1"/>
+<Unit id="RoutheTank"/>
+<Unit id="SwatVan"/>
+<Unit id="CARR"/>
+<Unit id="InfantryHeavy"/>
+<Unit id="InfantryFlamethrower"/>
+<Unit id="InfantryOfficer"/>
+<Unit id="UPLPoliceOfficer" Variations="0,1"/>
+<Unit id="UPLRiotOfficer"/>
+<Unit id="UPLAnimalControlOfficer"/>
+<Unit id="UPLDetectiveFemale"/>
+<Unit id="UPLDetectiveMale"/>
+<Unit id="MyraDavisOfficer"/>
+<Unit id="MyraDavisRiotOfficer"/>
+<Unit id="DeniseAllisterRiotOfficer"/>
+<Unit id="HazmatTechnician"/>
+<Unit id="UPLCivilianFemale" Variations="0,1,2,3,5"/>
+<Unit id="UPLCivilianMale" Variations="0,3,4,5,6,7"/>
+<Unit id="UPLBillet"/>
+<Unit id="NewsHelicopter"/>
+<Unit id="UPLPoliceCruiser"/>
+<Unit id="AnimalControl" Variations="1"/>
+<Unit id="Ambulance" Variations="1"/>
+<Unit id="UPLEngineer"/>
+<Unit id="InvisibleProvider"/>
+</Preload>

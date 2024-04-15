@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="241">
+        <name value="RiotCinematic-Area"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="107.2136,190.714"/>
+            <width value="37.8203"/>
+            <height value="61.8354"/>
+        </shape>
+        <shape type="circle">
+            <negative/>
+            <center value="106.21,170.71"/>
+            <radius value="5.115"/>
+        </shape>
+    </region>
+    <region id="281">
+        <name value="UPLHoldout-PlayableArea"/>
+        <shape type="diamond">
+            <center value="134.6203,216.136"/>
+            <width value="42.3032"/>
+            <height value="45.8952"/>
+        </shape>
+    </region>
+    <region id="282">
+        <name value="TowerDefense-PlayableArea"/>
+        <shape type="diamond">
+            <center value="170.6352,201.1337"/>
+            <width value="72.313"/>
+            <height value="118.4147"/>
+        </shape>
+    </region>
+    <region id="283">
+        <name value="UPLHoldout-ZergSpawn1"/>
+        <shape type="diamond">
+            <center value="158.0002,207.0002"/>
+            <width value="11.25"/>
+            <height value="7.7697"/>
+        </shape>
+    </region>
+    <region id="284">
+        <name value="UPLHoldout-ZergSpawn2"/>
+        <shape type="diamond">
+            <center value="110.5002,201.0007"/>
+            <width value="4.8298"/>
+            <height value="6.39"/>
+        </shape>
+    </region>
+    <region id="285">
+        <name value="UPLHoldout-ZergSpawn3"/>
+        <shape type="diamond">
+            <center value="132.0002,182.5002"/>
+            <width value="7.15"/>
+            <height value="8.96"/>
+        </shape>
+    </region>
+    <region id="286">
+        <name value="UPLHoldout-SpawnStart"/>
+        <shape type="diamond">
+            <center value="149.5002,197.5002"/>
+            <width value="10.15"/>
+            <height value="6.0798"/>
+        </shape>
+    </region>
+    <region id="287">
+        <name value="UPLHoldout-AttackArea"/>
+        <shape type="diamond">
+            <center value="131.8002,212.694"/>
+            <width value="23.7788"/>
+            <height value="27.9096"/>
+        </shape>
+    </region>
+    <region id="288">
+        <name value="TowerDefense-CiviliansGather"/>
+        <shape type="circle">
+            <center value="137.001,212.0007"/>
+            <radius value="2.4531"/>
+        </shape>
+    </region>
+    <region id="289">
+        <name value="TowerDefense-Unburrow1"/>
+        <shape type="circle">
+            <center value="172.6955,208.9406"/>
+            <radius value="5.531"/>
+        </shape>
+    </region>
+    <region id="290">
+        <name value="Extraction - 05 End - Enemies Removal"/>
+        <shape type="circle">
+            <center value="196.4377,204.7055"/>
+            <radius value="5.2185"/>
+        </shape>
+    </region>
+    <region id="292">
+        <name value="TowerDefense-TunnelSpawns"/>
+        <shape type="diamond">
+            <center value="222.3845,159.694"/>
+            <width value="7.7905"/>
+            <height value="6.351"/>
+        </shape>
+    </region>
+    <region id="293">
+        <name value="TowerDefense-VanLoadStop"/>
+        <shape type="diamond">
+            <center value="148.1955,197.7656"/>
+            <width value="3.7214"/>
+            <height value="10.4587"/>
+        </shape>
+    </region>
+    <region id="294">
+        <name value="TowerDefense-VanSpot"/>
+        <shape type="circle">
+            <center value="147.6552,197.6843"/>
+            <radius value="2.152"/>
+        </shape>
+    </region>
+    <region id="295">
+        <name value="TowerDefense-CivilianWaitingPoint"/>
+        <shape type="circle">
+            <center value="126.965,155.2983"/>
+            <radius value="5.035"/>
+        </shape>
+    </region>
+    <region id="296">
+        <name value="TowerDefense-SWATVanArrival"/>
+        <shape type="circle">
+            <center value="217.538,181.8073"/>
+            <radius value="4.515"/>
+        </shape>
+    </region>
+    <region id="299">
+        <name value="TowerDefense-CivilianWaitingArea1"/>
+        <shape type="diamond">
+            <center value="214.5314,180.863"/>
+            <width value="3.3508"/>
+            <height value="9.6057"/>
+        </shape>
+    </region>
+    <region id="300">
+        <name value="TowerDefense-CivilianWaitingArea2"/>
+        <shape type="diamond">
+            <center value="220.462,181.3432"/>
+            <width value="5.4218"/>
+            <height value="2.5888"/>
+        </shape>
+    </region>
+    <region id="301">
+        <name value="TowerDefense-Unburrow0"/>
+        <shape type="diamond">
+            <center value="162.2023,210.2968"/>
+            <width value="13.554"/>
+            <height value="8.5505"/>
+        </shape>
+    </region>
+    <region id="291">
+        <name value="TowerDefense-ZergSpawnLeft"/>
+        <shape type="diamond">
+            <center value="115.5,167.0004"/>
+            <width value="3.3872"/>
+            <height value="5.4814"/>
+        </shape>
+    </region>
+    <region id="302">
+        <name value="TowerDefense-ZergSpawnTop"/>
+        <shape type="diamond">
+            <center value="121.0004,193.0004"/>
+            <width value="4.5156"/>
+            <height value="6.3503"/>
+        </shape>
+    </region>
+    <region id="303">
+        <name value="TowerDefense-TunnelMove1"/>
+        <shape type="circle">
+            <center value="173.206,208.7221"/>
+            <radius value="3.7192"/>
+        </shape>
+    </region>
+    <region id="304">
+        <name value="TowerDefense-TunnelMove2"/>
+        <shape type="circle">
+            <center value="196.6652,206.2878"/>
+            <radius value="3.443"/>
+        </shape>
+    </region>
+    <region id="305">
+        <name value="TowerDefense-TunnelMove3"/>
+        <shape type="circle">
+            <center value="218.0522,181.9038"/>
+            <radius value="4.6015"/>
+        </shape>
+    </region>
+    <region id="306">
+        <name value="TowerDefense-UPL Ospreys"/>
+        <shape type="circle">
+            <center value="237.93,185.3852"/>
+            <radius value="7.24"/>
+        </shape>
+    </region>
+    <region id="307">
+        <name value="TowerDefense-RaptorSpawn"/>
+        <shape type="circle">
+            <center value="224.6801,158.4755"/>
+            <radius value="4.6787"/>
+        </shape>
+    </region>
+    <region id="308">
+        <name value="TowerDefense-UPLRaptorDesto"/>
+        <shape type="circle">
+            <center value="135.7216,245.458"/>
+            <radius value="6.3803"/>
+        </shape>
+    </region>
+    <region id="309">
+        <name value="TowerDefense-RaptorBomb1"/>
+        <shape type="diamond">
+            <center value="206.2424,175.0153"/>
+            <width value="7.6945"/>
+            <height value="5.4831"/>
+        </shape>
+    </region>
+    <region id="310">
+        <name value="TowerDefense-RaptorBomb2"/>
+        <shape type="diamond">
+            <center value="201.952,179.3352"/>
+            <width value="7.3154"/>
+            <height value="5.016"/>
+        </shape>
+    </region>
+    <region id="311">
+        <name value="TowerDefense-RaptorBomb3"/>
+        <shape type="diamond">
+            <center value="197.9821,183.5056"/>
+            <width value="7.1796"/>
+            <height value="4.7832"/>
+        </shape>
+    </region>
+    <region id="312">
+        <name value="TowerDefense-RaptorBomb4"/>
+        <shape type="diamond">
+            <center value="194.1843,187.3432"/>
+            <width value="7.1855"/>
+            <height value="5.2353"/>
+        </shape>
+    </region>
+    <region id="313">
+        <name value="TowerDefense-RaptorBomb5"/>
+        <shape type="diamond">
+            <center value="190.2001,191.2656"/>
+            <width value="6.5527"/>
+            <height value="4.8161"/>
+        </shape>
+    </region>
+    <region id="314">
+        <name value="TowerDefense-RaptorBomb6"/>
+        <shape type="diamond">
+            <center value="186.1408,195.527"/>
+            <width value="6.9548"/>
+            <height value="5.74"/>
+        </shape>
+    </region>
+    <region id="315">
+        <name value="TowerDefense-RaptorBomb7"/>
+        <shape type="diamond">
+            <center value="181.9904,199.7624"/>
+            <width value="7.0654"/>
+            <height value="5.4375"/>
+        </shape>
+    </region>
+    <region id="316">
+        <name value="TowerDefense-RaptorBomb8"/>
+        <shape type="diamond">
+            <center value="177.8227,203.7744"/>
+            <width value="6.459"/>
+            <height value="5.1506"/>
+        </shape>
+    </region>
+    <region id="317">
+        <name value="TowerDefense-OspreyDesto1"/>
+        <shape type="circle">
+            <center value="210.0002,171.5002"/>
+            <radius value="5.0905"/>
+        </shape>
+    </region>
+    <region id="318">
+        <name value="TowerDefense-OspreyDesto2"/>
+        <shape type="circle">
+            <center value="190.0002,190.5002"/>
+            <radius value="4.5612"/>
+        </shape>
+    </region>
+    <region id="319">
+        <name value="TowerDefense-OspreyDesto3"/>
+        <shape type="circle">
+            <center value="199.0002,181.5002"/>
+            <radius value="4.953"/>
+        </shape>
+    </region>
+    <region id="320">
+        <name value="TowerDefense-SwatVanStall"/>
+        <shape type="circle">
+            <center value="180.0766,211.0986"/>
+            <radius value="5.2033"/>
+        </shape>
+    </region>
+    <region id="1">
+        <name value="UPLHoldout-ConstantAttackArea"/>
+        <shape type="diamond">
+            <center value="119.5002,205.0002"/>
+            <width value="73.5598"/>
+            <height value="66.461"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="UPLHoldout-OngoingAttacks1"/>
+        <shape type="diamond">
+            <center value="106.0002,194.0002"/>
+            <width value="27.2207"/>
+            <height value="61.8652"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="UPLHoldout-OngoingAttacks2"/>
+        <shape type="diamond">
+            <center value="150.25,199.25"/>
+            <width value="40.3007"/>
+            <height value="9.8984"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="UPLHoldout-MutaSpawn1"/>
+        <shape type="circle">
+            <center value="66.25,180.125"/>
+            <radius value="4.2517"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="UPLHoldout-MutaSpawn2"/>
+        <shape type="circle">
+            <center value="95.5004,155.0002"/>
+            <radius value="4.7563"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="UPLHoldout-MutaSpawn3"/>
+        <shape type="circle">
+            <center value="160,186.5"/>
+            <radius value="7.5661"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Sewer-PlayableArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="67.25,108.75"/>
+            <width value="143.5273"/>
+            <height value="151.3046"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Sewer-Exit"/>
+        <shape type="diamond">
+            <center value="73.5002,30.0002"/>
+            <width value="9.8984"/>
+            <height value="5.6562"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="SewerCinematic-HKMoveTo"/>
+        <shape type="diamond">
+            <center value="97.75,62.75"/>
+            <width value="9.1914"/>
+            <height value="4.2421"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Sewer-Dynamite1"/>
+        <shape type="circle">
+            <center value="69.0002,31.5002"/>
+            <radius value="1.581"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Sewer-Dynamite2"/>
+        <shape type="circle">
+            <center value="74.002,35.002"/>
+            <radius value="1.581"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Sewer-DynamitePickup1"/>
+        <shape type="circle">
+            <center value="66.5,74"/>
+            <radius value="1.5297"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="Sewer-DynamitePickup2"/>
+        <shape type="circle">
+            <center value="122.0026,94.5"/>
+            <radius value="1.5297"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="Sewer-ExitBlocked"/>
+        <shape type="diamond">
+            <center value="70.5002,34.5002"/>
+            <width value="11.666"/>
+            <height value="12.2998"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="TowerDefense-DemoUPL"/>
+        <shape type="diamond">
+            <center value="179.5,192.75"/>
+            <width value="5.3027"/>
+            <height value="20.1503"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="TowerDefense-DemoZerg"/>
+        <shape type="diamond">
+            <center value="202,179.75"/>
+            <width value="8.838"/>
+            <height value="23.6855"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="TowerDefense-Reticle1"/>
+        <shape type="circle">
+            <center value="179.5,191"/>
+            <radius value="2.6574"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="TowerDefense-Reticle2"/>
+        <shape type="circle">
+            <center value="202.25,166.25"/>
+            <radius value="3.2595"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="TowerDefense-Reticle4"/>
+        <shape type="circle">
+            <center value="220.5002,192.0002"/>
+            <radius value="2.795"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="TowerDefense-Reticle3"/>
+        <shape type="circle">
+            <center value="203.5,208.5"/>
+            <radius value="2.5737"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="Sewer-Hide"/>
+        <shape type="rect">
+            <quad value="86,84,102.5,97.5"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="InfoChip1"/>
+        <shape type="circle">
+            <center value="27.25,71.25"/>
+            <radius value="2.5737"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="InfoChip2"/>
+        <shape type="circle">
+            <center value="79.001,207.0012"/>
+            <radius value="2.3583"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="InfoChip3"/>
+        <shape type="circle">
+            <center value="193,219.5"/>
+            <radius value="2.9152"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="no"/>
+        <shape type="circle">
+            <center value="196.0756,12.1274"/>
+            <radius value="2.2478"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="Normal-Remove"/>
+        <shape type="circle">
+            <center value="62.9177,35.2504"/>
+            <radius value="1.414"/>
+        </shape>
+        <shape type="circle">
+            <center value="33.4177,60.2504"/>
+            <radius value="1.414"/>
+        </shape>
+        <shape type="circle">
+            <center value="78.9177,48.2504"/>
+            <radius value="1.414"/>
+        </shape>
+        <shape type="circle">
+            <center value="98.4177,92.2504"/>
+            <radius value="1.414"/>
+        </shape>
+        <shape type="circle">
+            <center value="79.4177,72.7504"/>
+            <radius value="1.414"/>
+        </shape>
+        <shape type="circle">
+            <center value="68,37.5"/>
+            <radius value="1.414"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="Normal-Remove2"/>
+        <shape type="circle">
+            <center value="183.5,212"/>
+            <radius value="2.5737"/>
+        </shape>
+        <shape type="circle">
+            <center value="161.5,210.5"/>
+            <radius value="2.5737"/>
+        </shape>
+        <shape type="circle">
+            <center value="172.5,211.5"/>
+            <radius value="2.5737"/>
+        </shape>
+        <shape type="circle">
+            <center value="199,202.5"/>
+            <radius value="2.5737"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="TowerDefense-Nydus3"/>
+        <shape type="circle">
+            <center value="139.5014,221"/>
+            <radius value="1.25"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="TowerDefense-Nydus4"/>
+        <shape type="circle">
+            <center value="120.5,218.5"/>
+            <radius value="1.414"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="SewerFillVision"/>
+        <shape type="diamond">
+            <center value="120.539,129.8598"/>
+            <width value="34.3347"/>
+            <height value="73.5007"/>
+        </shape>
+        <shape type="diamond">
+            <center value="65.6284,155.1672"/>
+            <width value="25.6525"/>
+            <height value="79.6242"/>
+        </shape>
+    </region>
+</Regions>

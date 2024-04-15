@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CCharacter id="AUD109"/>
+    <CCharacter id="AUD188"/>
+    <CCharacter id="AUD195"/>
+    <CCharacter id="AUD219"/>
+    <CCharacter id="AUD24"/>
+    <CCharacter id="AUD264"/>
+    <CCharacter id="AUD298"/>
+    <CCharacter id="AUD36"/>
+    <CCharacter id="AUD412"/>
+    <CCharacter id="AUD42"/>
+    <CCharacter id="AUD77"/>
+    <CCharacter id="AUD85"/>
+    <CCharacter id="AUD90"/>
+    <CCharacter id="AUD91"/>
+    <CCharacter id="CarRadio"/>
+    <CCharacter id="Dispatch">
+        <Race value="Terran"/>
+        <Color value="255,255,255,128"/>
+        <Variations Model="UPLHeadquartersPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="AUD226"/>
+    <CCharacter id="EAS"/>
+    <CCharacter id="AUD57"/>
+    <CCharacter id="OPDCentralNet"/>
+    <CCharacter id="Sergeant">
+        <Variations Model="RusellPetersPortrait"/>
+        <Image value="Assets\Textures\RussellPeters_Portrait_Static.tga"/>
+        <Color value="255,255,128,128"/>
+    </CCharacter>
+    <CCharacter id="TheMayor"/>
+</Catalog>

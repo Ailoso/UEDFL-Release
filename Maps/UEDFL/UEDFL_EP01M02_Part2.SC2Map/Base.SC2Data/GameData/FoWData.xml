@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CFoW default="1">
+        <Color value="165,255,128,255"/>
+    </CFoW>
+    <CFoW id="Black">
+        <Color value="165,255,128,255"/>
+    </CFoW>
+    <CFoW id="BlackNoUnhide">
+        <Color value="165,255,128,255"/>
+    </CFoW>
+    <CFoW id="Dark">
+        <Color value="165,255,128,255"/>
+    </CFoW>
+</Catalog>

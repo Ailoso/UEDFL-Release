@@ -1,0 +1,349 @@
+﻿Abil/Name/InfestedHeal2=Heal Patch
+Abil/Name/KD8Charge=Dynamite Charge
+Abil/Name/MyraDavisFlameGrenade2=Flame Grenade
+Abil/Name/NovaGadgetFlashBangGrenades=Concussion Grenade
+Abil/Name/Reload=Reload
+Abil/Name/SJPirateYamato=Electro-Disruptor
+Behavior/Name/ElectroDisruption=Electro-Disruption
+Behavior/Name/MyraDavisFlameGrenadeDoTDamage2=MyraDavisFlameGrenade DoT Damage
+Behavior/Name/Reloading=Reloading
+Behavior/Name/UPLPoliceOfficerShotgun2=UPLPoliceOfficerShotgun
+Button/Name/Attack2=Attack
+Button/Name/ElectroDisruptor=Electro-Disruptor
+Button/Name/HealPatch=Heal Patch
+Button/Name/MercHellion2=Reload
+Button/Name/MercHellion22=Dynamite Charge
+Button/Name/Move2=Move
+Button/Name/MoveHoldPosition2=Hold Position
+Button/Name/MovePatrol2=Patrol
+Button/Name/MyraDavisFlameGrenade2=Flame  Grenade
+Button/Name/NovaGadgetFlashBangGrenades=Concussion Grenade
+Button/Name/Stop2=Stop
+Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/ElectroDisruptor=Blasts a biological enemy with an electromagnetic pulse that incapacitates it for 12 seconds and deals 200 damage throughout its duration.
+Button/Tooltip/Ghost=An Odessa officer of the law.
+Button/Tooltip/GhostShotgun=Infiltration unit. Can use Snipe and Cloak abilities. Can also call down Tactical Nukes.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/HealPatch=Heals a friendly biological unit for 100 life.
+Button/Tooltip/MercHellion2=Reloads your equipped weapon. Unable to attack while reloading.
+Button/Tooltip/MercHellion22=Reloads your equipped weapon. Unable to attack while reloading.
+Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MyraDavisFlameGrenade2=Deals <d ref="Effect,MyraDavisFlameGrenadeDamage,Amount"/> damage in a <d ref="Effect,MyraDavisFlameGrenadeSearch,AreaArray[0].Radius"/> radius and deals additional <d ref="Effect,MyraDavisFlameGrenadeDoTDamage,Amount"/> damage each <d time="[d ref='Behavior,MyraDavisFlameGrenadeDoTDamage,Period'/]"/> for <d ref="Behavior,MyraDavisFlameGrenadeDoTDamage,Duration" /> seconds.<n/><n/><c val="#ColorAttackInfo">Can Target Ground units.</c>
+Button/Tooltip/MyraDavisGhost2=An Odessa officer of the law.
+Button/Tooltip/NovaGadgetFlashBangGrenades=Deals 15 damage and stuns enemy units in the target area for <d ref="Behavior,FlashBangGrenade,Duration"/> seconds.</n></n><c val ="#ColorAttackInfo">Massive units have reduced stun and friendly units are immune.</c>
+Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/YamatoGun2=Blasts a biological enemy with an electromagnetic pulse that incapacitates it for 12 seconds and deals 200 damage throughout its duration.
+DocInfo/Author=Unknown Author
+DocInfo/DescLong=Aliens descend on earth after moving through the solar system
+DocInfo/DescShort=1
+DocInfo/Name=10-91 Echo
+Effect/Name/ElectroDisruptionAB=Electro-Disruption AB
+Effect/Name/ElectroDisruptionDmg=Electro-Disruption Dmg
+Effect/Name/GasTruckExplosion=Gas Truck Explosion
+Effect/Name/HealPatchEffect=Heal Patch Effect
+Effect/Name/MyraDavisFlameGrenadeDamage2=MyraDavisFlameGrenade Damage
+Effect/Name/MyraDavisFlameGrenadeDoTDamage2=MyraDavisFlameGrenade DoT Damage
+Effect/Name/MyraDavisFlameGrenadeDoTDamageApply2=MyraDavisFlameGrenade DoT Damage AB
+Effect/Name/MyraDavisFlameGrenadeDoTSearch2=MyraDavisFlameGrenade DoT Search
+Effect/Name/MyraDavisFlameGrenadeLaunch2=MyraDavisFlameGrenade Launch
+Effect/Name/MyraDavisFlameGrenadeSearch2=MyraDavisFlameGrenade  Search
+Effect/Name/MyraDavisFlameGrenadeSet2=MyraDavisFlameGrenade Set
+Effect/Name/NovaGadgetFlashBangGrenadeDmg=NovaGadgetFlashBangGrenadeDmg
+Effect/Name/NovaGadgetFlashBangGrenadeSet=NovaGadgetFlashBangGrenadeSet
+LoadingScreen/TextBody=   "My death does not concern me.  I will die in time, it is imminent.<n/>     What keeps me awake at night is knowing that I cannot save<n/>     the ones I love before I die."<n/><n/>        -Unknown
+LoadingScreen/Tip=There Is Safety In Numbers
+LoadingScreen/TipRestart=Take Care of Allied Units; They Make Things a Lot Easier
+LoadingScreen/Title=10-91 Echo
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Myra Davis
+MapInfo/Player02/Name=Police Force
+MapInfo/Player03/Name=Civilians
+MapInfo/Player04/Name=Unknown Creatures
+MapInfo/Player05/Name=Police Neutral
+MapInfo/Player06/Name=Unknown Creatures Neutral
+MapInfo/Player07/Name=Player 7
+MapInfo/Player08/Name=Player 8
+MapInfo/Player09/Name=Gas Truck
+MapInfo/Player10/Name=Police Forces
+MapInfo/Player11/Name=Player 11
+MapInfo/Player12/Name=Player 12
+MapInfo/Player13/Name=Player 13
+MapInfo/Player14/Name=Player 14
+MapInfo/Player15/Name=Hostile
+Param/Expression/0794AFA2=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/354A42CA=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/56CF7ECF=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/615778B7=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/714FA0A3=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/7BAC88D0=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/7D7C0D41=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/820D7D64=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/873C6C16=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Expression/F00423F5=Help A.U.D. 499 escort civilians to the Police Department (<c val="FFFF00">~A~/10</c>)
+Param/Value/006A2C5B=<c val="FFFF00">UPL EMERGENCY MESSAGE INCOMING</c>
+Param/Value/011F3891=<c val="FF0000">At Least One Of The Blimp Things Got To The Mayor's Building!</c>
+Param/Value/01FCF719=Escort Civilian
+Param/Value/0391A09E=Help A.U.D. 499
+Param/Value/04EA77A9=Attack to Detonate
+Param/Value/05C517C1=You didn't protect the officers.
+Param/Value/0633C29F=Explosive Gas Truck
+Param/Value/06744687=<c val="FFFF00">REWARD EARNED: <n/>Flashbang Grenade</c>
+Param/Value/090834C4=OBJECTIVE UPDATED
+Param/Value/0B5E981D=Sergeant Peters
+Param/Value/0BFA8EEE=Healing Patch
+Param/Value/0DA8279D=<c val="00FF00">The SWAT Vans Have Stopped Until The Creatures Are Removed Ahead</c>
+Param/Value/0E1F65DA=Debris
+Param/Value/1043B8EF=The rapidly dwindling police forces in the city are requesting a heavily armored vehicle to safely carry civilians back to the command post at police headquarters.
+Param/Value/10AD5030=Escort A.U.D. 36
+Param/Value/11A10946=Escort Civilian
+Param/Value/13BEC82A=Escort Civilian
+Param/Value/178A5EE3=<c val="00FF00">*Lobby Music Playing*</c>
+Param/Value/18813F20=<s val="Title1">Odessa, Texas<n/><s val="Title2">October 28th, 2248
+Param/Value/1949E032=Crash Wreck
+Param/Value/19FBC049=Escort the SWAT van
+Param/Value/1AF561A8=<c val="FF0000">OBJECTIVE FAILED:<n/>You didn't protect the officers.</c>
+Param/Value/1B350696=<c val="00FF00">The Enormous Creature Is Neutralized!</c>
+Param/Value/1D530707=Denise Alistair's Position
+Param/Value/1DC22496=Davis Is Dead
+Param/Value/1E72D8DB=Escort Civilian
+Param/Value/1EF81727=Myra Davis has died.
+Param/Value/1FCDE6AE=<c val="FFFF00">Jenkins: </c>Myra, that's the fire alarm, we need to move now!
+Param/Value/1FED3B8B=At least one stranded officer must survive
+Param/Value/214D570B=Darren Rodgers
+Param/Value/22A1DDC7=Escort A.U.D. 36
+Param/Value/27467914=<c val="FFFF00">Jenkins: </c>The riot group's got an APC. Let's make our way toward them.
+Param/Value/27D169FC=A.U.D. 36
+Param/Value/28B70833=Sergeant Peters is standing guard outside the Francine Processing Facility entrance to ensure the creatures could not block off the only streetside escape route once the place goes critical.  You, Commander, and Davis will need to go it alone in here.
+Param/Value/294C9F25=Escort Civilian
+Param/Value/2ADA34F3=Protect And Serve
+Param/Value/2D303983=<c val="FF0000">The Mayor Is Dead.  Darren Is Missing.  Keep Moving, Commander.</c>
+Param/Value/2E82616A=We've got this!
+Param/Value/2E86B35D=Protect the SWAT van while it loads
+Param/Value/2F7A929E=Your Police Cruiser Has Been Destroyed
+Param/Value/321BB143=Officer A.U.D. 109 has been cornered by the unknown creatures.  Get to him before he dies.  To begin the section, move your police cruiser to the beacon.
+Param/Value/3243AB41=Officer Jenkins
+Param/Value/3253051E=You need to stand near the coolant valve, on the beacon, to operate the mechanism.
+Param/Value/3287B659=<c val="FF0000">HEAT LEVELS CRITICAL</c>
+Param/Value/3398BCD4=Escort Civilian
+Param/Value/33E9817F=Kill all creatures that are anywhere near the access door
+Param/Value/347046C9=Incinerator
+Param/Value/34AD247D=City Engineer Requires:
+Param/Value/36AAC5B7=Save the Day
+Param/Value/37460A1B=Move to Officer A.U.D. 109's position
+Param/Value/37A71C36=Move to A.U.D. 24's roadblock
+Param/Value/37D808AB=Get to the patrol car
+Param/Value/38AA93DF=Blow This Up<n/>For A Big Boom
+Param/Value/3A27245E=Flash Bang Grenade
+Param/Value/3B3C7BFD=<c val="FFFF00">Davis: </c>What the hell?!
+Param/Value/3B84794E=Protect And Serve
+Param/Value/3C32DC84=Darren Rodgers
+Param/Value/3E3DB760=Loading Van
+Param/Value/3E99A0EE=Headshot
+Param/Value/3EB084C7=Precinct Headquarters
+Param/Value/3EB9C004=Police Precinct Headquarters
+Param/Value/412C6553=Rifle Switch
+Param/Value/42BD1068=Explosive Gas Truck
+Param/Value/42F56BFF=<c val="FF0000">OBJECTIVE FAILED:<n/>Too Many Civilians Have Died!</c>
+Param/Value/44EE840F=<c val="FFFF00">UPL EMERGENCY MESSAGE INCOMING</c>
+Param/Value/460B7A00=Debris
+Param/Value/46FCE483=Rescue the Mayor on this floor
+Param/Value/478AFAB9=Time Required to Close Valve:
+Param/Value/47A88679=The Incendiary Grenade a/k/a <c val="FFFF00">Flame Grenade</c> will cover a small radius with a fiery liquid, inflicting moderate damage in the initial explosion.  Any humans, creatures, vehicles, or structures caught in the area will then continue to suffer additional burn damage for a short time.<n/><n/>Davis can hold at most <c val="FFFF00">five Flame Grenades </c>at a time.
+Param/Value/4891E980=Healing Patch
+Param/Value/4B254747=Sergeant Peters has been killed.
+Param/Value/4B4749F8=Debris
+Param/Value/50F3A57A=<c val="FFFF00">Officer: </c>Myra, I got here about 30 seconds ago and the mayor's on his way down. Elevator's are out so he's gotta take the stairs. We need to hold the lobby until he gets here.
+Param/Value/52377BBF=Kill all the blimps before they get to the Mayor
+Param/Value/523C94C5=Denise Alistair (A.U.D. 499)
+Param/Value/52D81602=Close off the first coolant valve
+Param/Value/538F4CC9=<c val="FFFF00">REWARD EARNED: <n/>Heal Patch Ability</c>
+Param/Value/53EB1C20=Stranded Officers
+Param/Value/54B9D765=Hydroelectric Control Room
+Param/Value/54E1E795=Debris
+Param/Value/54FD42A1=Flash Bang Grenade
+Param/Value/55F045A0=Explosive Gas Truck
+Param/Value/56070D0C=The creatures have erected structures on some type of fungus near your forward base.  It needs to be eliminated to minimize the ease of enemy counterattack.
+Param/Value/564C6722=<c val="FF0000">OBJECTIVE FAILED:<n/>The SWAT Van Has Been Destroyed!</c>
+Param/Value/57AC5773=H Plus One
+Param/Value/58BC5234=Protect SWAT Van
+Param/Value/594BEB06=Move to Dessau and Congress
+Param/Value/5A8E19B9=Escort stranded civilians to the police headquarters (6 must survive)
+Param/Value/5BFE9360=UPL Regional Dispatch
+Param/Value/5CDB2897=That doesn't sound good...
+Param/Value/5D3A9A9D=<c val="FFFF00">Attack the barrels to ignite the explosives.</c>  The explosions will heavily damage the unknown creatures.  Don't set them off until you're sure friendlies are at a safe distance.<n/>
+Param/Value/5D6C3C53=The UPL has not fully mobilized in the area so you'll need to get creative in killing the beast.
+Param/Value/5DBC2AEC=<c val="FF0000">OBJECTIVE FAILED:<n/>A.U.D. 109 has died.</c>
+Param/Value/5ED2B753=Escort stranded officers to the police station
+Param/Value/5F27993A=The city engineer must survive
+Param/Value/5F65E17B=Multiple stranded civilians have been reported to the operations center at precinct HQ.  The UPL regional magistrate (a position which is ultimately accountable for local law enforcement operations) has ordered various search and rescue teams be deployed to bring as many civilians to the safety of the headquarters as possible.  You and Officer Davis have your assigned rescue points.
+Param/Value/5FAC3F37=Francine Processing Facility
+Param/Value/60FEC3F8=Protect the SWAT vans
+Param/Value/61E343F9=You, Commander, have been assigned to rescue multiple stranded civilians.  Take Officers Davis and Alistair (A.U.D. 499) with you and get it done.  You will need to reach the civilians and ensure you escort them safely back to the police precinct headquarters.  At least 6 civilians must survive.
+Param/Value/620CA023=A.U.D. 109's Location
+Param/Value/625472B3=Several highly explosive gas trucks are scattered throughout the city. You may be able to use them... try not to blow yourself up in the process.
+Param/Value/62671437=Trapped Civilians
+Param/Value/63581AE5=The patch allows Davis to heal herself or police units to full health.  The patch is not able to repair vehicles.
+Param/Value/65A22669=City Engineer Will<n/>Move Here Next
+Param/Value/65F26CCB=Escort Civilian
+Param/Value/68F670FF=Police Cruiser
+Param/Value/690D3192=Riot Group Is This Way
+Param/Value/699CC171=<c val="00FF00">Fall Back!  Fall Back!</c>
+Param/Value/69A72990=Police Cruiser
+Param/Value/6A953A86=Blow This Up<n/>For A Big Boom
+Param/Value/6C393684=<c val="FF0000">Myra Davis has died.</c>
+Param/Value/6C92C922=Debris
+Param/Value/6DA539ED=Officer Davis can use the <c val="FFFF00">flash bang grenade</c> to stun groups of the unknown creatures for a short time.<n/><n/>Davis is only able to hold three flash bang grenades at a time.
+Param/Value/6FBA9B4C=Multiple stranded civilians have been reported to the operations center at precinct HQ.  The UPL regional magistrate (a position which is ultimately accountable for local law enforcement operations) has ordered various search and rescue teams be deployed to bring as many civilians to the safety of the headquarters as possible.  You and Officer Davis have your assigned rescue points.
+Param/Value/707B5443=Darren Rodgers
+Param/Value/71043360=Francine Gas is highly unstable and is often used by the UPL where fusion or other power sources are either too expensive or not practical.  The high risk of explosion is offset by the power efficiency and as many citizens agree, the low cost of the power as a result.  Destroying the facility will take out most of this block, and the creatures' structures along with it.
+Param/Value/72B325E0=Twenty-Two Minutes Later
+Param/Value/76134404=Help A.U.D. 499
+Param/Value/765156A1=<c val="00FF00">Stranded Officers Need You!  The SWAT Van Will Have To Take Care Of Itself.</c>
+Param/Value/78567924=<c val="00FF00">UPL MILITARY FORCES HAVE ARRIVED!</c>
+Param/Value/78C54DA8=What the hell is that?!
+Param/Value/79A8D5F6=Civil Unrest - 1st and McCalle Safe Zone
+Param/Value/7ACD05E6=Stay close to the police squad who were stranded after their barricade was overrun earlier.  A.U.D. 36 (Hank Slawson) is the detective (the one in the suit and tie).  While none of the squad is expendable, the UPL regional magistrate has designated him as a VIP.  Ensure he makes it safely to the police headquarters.
+Param/Value/7BDFEACF=<c val="FFFF00">REWARD EARNED: <n/>Riot Gear (Automatic Weapon Equipped, Armor +1)</c>
+Param/Value/7CB300EF=Blow This Up<n/>For A Big Boom
+Param/Value/7CDA755A=<c val="00FF00">Francine Processing Center - Manual Coolant Control</c>
+Param/Value/7DE47500=<c val="FF0000">The Mayor Is Dead.  Keep Moving, Commander.</c>
+Param/Value/7EA6F7AD=A.U.D. 24's Roadblock
+Param/Value/7ED64AB9=Enormous Creature
+Param/Value/81BD50A2=Explosive Gas Truck
+Param/Value/81C4929A=Myra, I'm with ya on this all the way.
+Param/Value/83A3D26E=City Engineer Will<n/>Move Here Next
+Param/Value/83E8D947=Neutralize the enormous creature
+Param/Value/83F4ADC7=APC
+Param/Value/8462313F=Gas Trucks
+Param/Value/85C4F53B=<c val="FF0000">OBJECTIVE FAILED:<n/>The Civil Engineer Has Died!</c>
+Param/Value/85D1F824=Close off the second coolant valve
+Param/Value/85F97B0C=OBJECTIVE UPDATED
+Param/Value/885A11DD=A.U.D. 499, Sergeant Denise Alistair and a friend of both yours and Officer Davis, was just deployed near the foreign language cinema complex.  The creatures appear to have gone inside the cinema building and are too numerous for just A.U.D. 499 and a couple officers to handle.  Get there to help <c val="FF0000">before your friend is killed!</c>
+Param/Value/887FB14D=Time Required to Close Valve:
+Param/Value/8BFB59C7=Escort Civilian
+Param/Value/8DCAA570=The City of Odessa police cruiser has the ability to seat up to four police officers, from which you can load and unload.
+Param/Value/8EADE29D=A.U.D. 36 has died.
+Param/Value/90AD6F61=Officer Myra Davis must survive
+Param/Value/93C85DA0=Power Grid
+Param/Value/93F3E9B1=<c val="00FF00">The Engineer Has Restored Power To The Lighting</c>
+Param/Value/949DBB20=Access Door
+Param/Value/95023AF0=Save the Day
+Param/Value/9524D2D5=The police APC <c val="FFFF00">can hold up to eight personnel</c>.  The vehicle must be stopped and with its loading door open in order for personnel to enter and exit.<n/><n/>The APC is also equipped with a smoke bomb which will help protect police from projectiles.  If the APC is destroyed, <c val="FF0000">all personnel inside are killed</c>.
+Param/Value/960E0594=Escort Officer A.U.D. 36 to the police headquarters
+Param/Value/9746ED07=You Didn't Protect The SWAT Vans!
+Param/Value/99196E36=Myra Davis
+Param/Value/9B946048=Enormous Creature
+Param/Value/9BA9057C=Kill as many of the remaining blimps as you can
+Param/Value/9BFD57A8=<c val="FFFF00">REWARD EARNED: <n/>Standard Issue Body Armor (Max Life +50)</c>
+Param/Value/9EB9C996=Power Grid
+Param/Value/9F33E5D2=<c val="FFFF00">REWARD EARNED: <n/>Tactical Boots (Movement Speed +35%)</c>
+Param/Value/9F9423E4=Enormous Creature
+Param/Value/A204EB50=Sergeant
+Param/Value/A21D4C8F=AIRLIFT HAS ARRIVED
+Param/Value/A2B90424=Attack to Detonate
+Param/Value/A2C99C37=The Mayor has requested emergency transport from his office building.  The office building is deep in the red zone and is an unsecured area.  UPL and police reinforcements will assist you in green zones however.  Both SWAT vans are needed to ensure there's enough room to transport both the Mayor and his entire team.
+Param/Value/A37445AE=Coolant Stoppage
+Param/Value/A37B51B4=A.U.D. 499 has died.
+Param/Value/A3F6FBF0=A.U.D. 109
+Param/Value/A7C7733B=UPL West Texas Forward Base
+Param/Value/A8D52D14=You need to stand near the coolant valve, on the beacon, to operate the mechanism.
+Param/Value/AABE1438=Enormous Creature
+Param/Value/AB1B2508=You Rescued Some Officers
+Param/Value/AC4804C2=Your Police Cruiser Has Been Destroyed
+Param/Value/ACCB91C8=Escort Civilian
+Param/Value/AD7B09FD=THE RIVER WALK
+Param/Value/AEC6F631=Some flying creatures that resemble a man-o-war just attempted to unload creatures from its innards on your unit, Commander.  Officer Davis called them 'blimps' and more of them appear to be heading toward the Mayor's office.  
+Param/Value/B044F95D=Enormous Creature
+Param/Value/B0C9D717=Offices of the Mayor and McCallister Excavations
+Param/Value/B2F5A3C8=Police Cruiser
+Param/Value/B61002EE=Kill the giant worm
+Param/Value/B6F0BE38=Escort all surviving officers to the police headquarters
+Param/Value/B93E8523=<c val="80FF00">DENISE HAS BEEN RECALLED TO HEADQUARTERS</c>
+Param/Value/B9FEC223=The SWAT Van Has Been Destroyed!
+Param/Value/BA7701F7=It's been two hours, you must have been thrown by one of the explosions at the riot and knocked unconscious.  The Mayor is dead along with all of your team except Davis, the Sergeant, and the Corporal.  Your goal now is to reach the riot group that just communicated by comms.  Who knows how far these things have burrowed into the city while you've been blacked out.
+Param/Value/BB158B3C=A.U.D. 24 has established a roadblock at the exit to one of Odessa's toll road tunnels.  He needs more officers.
+Param/Value/BB439170=<c val="00FF00">Time to Complete Phase 3:</c>
+Param/Value/BDB34013=Close off the third coolant valve
+Param/Value/BE92F28F=Darren must survive
+Param/Value/BFF46B76=Giant Tunneling Worm
+Param/Value/C202AFB4=This is central dispatch, all personnel be advised, satcom is impaired and we have established a communication landlink, there should be no further interruptions.  We're receiving widespread reports of protests against the UPL stay-at-home order.  Civilians are gathering at the safe zones, out. 
+Param/Value/C4BC6DE8=Officer A.U.D. 499 must survive
+Param/Value/C5F5702A=Rifle Switch
+Param/Value/C6762EB6=A.U.D. 109 has died.
+Param/Value/C6E73174=<c val="FF0000">OBJECTIVE FAILED:<n/>A.U.D. 36 has died.</c>
+Param/Value/C7FB2711=<c val="FF0000">Hurry!  A.U.D. 24 needs backup!</c>
+Param/Value/C8F9122C=Protect A.U.D. 109
+Param/Value/CA1B609D=Incinerator
+Param/Value/CA62D542=The Civil Engineer Has Died!
+Param/Value/CB4DADA0=<c val="FF0000">OBJECTIVE FAILED:<n/>You Didn't Protect The SWAT Vans!</c>
+Param/Value/CB840478=Move to the stranded officers' location
+Param/Value/CBA6B784=<c val="FFFF00">Officer Myra Davis</c> is a powerful hero and a nine year veteran of the local police force.  She has a sidearm at the time of first contact.
+Param/Value/CCACD85A=Move to the Francine Gas Facility
+Param/Value/CDE05308=Time Required to Close Valve:
+Param/Value/CF1C9C9F=The United Powers League fire battalions, or <c val="FFFF00">INCINERATORS</c>, are soldiers who prefer to engage enemies in melee range using flamethrowers.  <n/><n/>The Incinerators have the ability <c val="FFFF00">DETONATE</c> where they charge and explode their fuel tanks in the event they are overwhelmed.  The incinerators require a few seconds to prime the detonator and the subsequent explosion will inflict considerable damage on all nearby enemies (and allies).
+Param/Value/CFA4201A=<c val="00FF00">Escort the officers to police headquarters!  UPL troops will accompany you.</c>
+Param/Value/D1069831=Move to A.U.D. 499's Position
+Param/Value/D2A188CC=Myra Davis
+Param/Value/D32EE56C=Darren Rodgers Has Been Killed.
+Param/Value/D67B1CDF=<c val="00FF00">The Engineer Has Restored Power To The Lighting</c>
+Param/Value/D6EAC1BD=Loading Van
+Param/Value/D79694E9=<c val="FF0000">The City Engineer Is About To Cut The Power To This Room For A Few Moments</c>
+Param/Value/D915E773=A colleague of yours on the force for many years, both of you were involved in several joint operations together before your career paths diverged.  Ensuring she lives to fight another day is very important to you.
+Param/Value/D9943B4E=Incendiary Grenade
+Param/Value/D9B1ECC6=The city engineer requires time to redirect power output from the hydroelectric generators from residential zones to critical infrastructure.  The entrance will then be collapsed to prevent other creatures from entering and potentially ruining the equipment.<n/><n/>Note that the engineer is rerouting various circuits so <c val="FF0000">the lights may blink on and off</c> while he's working.
+Param/Value/DA370090=Attack to Detonate
+Param/Value/DBD16EDE=APC
+Param/Value/DC3F7213=Hyson Tower
+Param/Value/DC73475E=Officer Davis can now target <c val="FFFF00">LIGHT BIOLOGICAL</c> enemies with a single focused shot that will inflict terrible, terrible damage.
+Param/Value/DEB6A830=Headshot
+Param/Value/DEFA0A48=Attack to Detonate
+Param/Value/E0612E55=Defend the trapped civilians
+Param/Value/E1BCE491=A.U.D. 36
+Param/Value/E3862A20=Boom Boom!
+Param/Value/E3975110=Civilians are coming out of the burning building.  Keep the van safe while they load in, and then <c val="FFFF00">escort the Swat Van</c> back to police headquarters.
+Param/Value/E3A38AB9=The city is in chaos. Come to the aid of your fellow humans to earn upgrades for Officer Davis.
+Param/Value/E3C1E564=<c val="00FF00">The Enormous Creature Is Neutralized!</c>
+Param/Value/E440F0E4=Creatures' Base
+Param/Value/E5A33F8D=Sergeant Peters
+Param/Value/E5EC2420=Giant Tunneling Worm
+Param/Value/E6CCF6CE=Officer A.U.D. 109 is attempting to escort stranded civilians to the precinct police headquarters.  Ensure he survives so he may complete the task.
+Param/Value/E97DFA22=Debris
+Param/Value/E9ABB144=Coolant Stoppage
+Param/Value/EBA909F1=<c val="FF0000">The City Engineer Is About To Cut The Power To This Room For A Few Moments</c>
+Param/Value/ED18819F=In addition to body armor, Myra Davis has been issued both a close range shotgun and a longer range automatic weapon.  Davis can swap these weapons in battle depending on the situation.  Only the automatic rifle has access to the <c val="FFFF00">Head Shot</c> ability.
+Param/Value/EE429ECB=<c val="00FF00">The Engineer Has Restored Power To The Lighting</c>
+Param/Value/EEC028E0=You'll need Sergeant Peters' help to watch your six while you and Davis head into the Francine Processing Facility.
+Param/Value/F1562384=You don't want the creatures following you down to the underground control room, and the Riverwalk is infested with the things.  This is a good time for Officer Davis to experiment with her new headshot, rifle swap, and flame grenade abilities.
+Param/Value/F26801DF=Your job Commander is to manually disable the coolant systems and cause the processing center to overheat and explode.  You will need to turn various coolant valves completely off.
+Param/Value/F2FBEEC2=<c val="FFFF00">REWARD EARNED: <n/>Experimental Body Armor (Max Life +50, Armor +1)</c>
+Param/Value/F30C023A=Gas Trucks
+Param/Value/F36E471D=You need to stand near the coolant valve, on the beacon, to operate the mechanism.
+Param/Value/F461A83E=<c val="FF0000">OBJECTIVE FAILED:<n/>Darren Rodgers Has Been Killed</c>
+Param/Value/F50F352A=Darren Rodgers
+Param/Value/F71B4D82=CONNELLY APARTMENTS
+Param/Value/F74C8DF1=Rescue the Mayor on the next floor
+Param/Value/F76004F9=Eliminate the creatures' base
+Param/Value/F76E29E5=Incendiary Grenade
+Param/Value/F7E78EB9=Escort Civilian
+Param/Value/F8CD11B3=Blow This Up<n/>For A Big Boom
+Param/Value/FA960BC3=Boom Boom!
+Param/Value/FBCE0A9A=<c val="FF0000">The City Engineer Is About To Cut The Power To This Room For A Few Moments</c>
+Param/Value/FCF3B30F=Sergeant Peters must survive
+Param/Value/FD092C1C=Darren Rodgers
+SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+Unit/LifeArmorName/None=Terran Infantry Armor
+Unit/Name/ArmoredGenerator=EmergencyGenerator
+Unit/Name/CargoTruckUnitBarrels=Gas Truck
+Unit/Name/Ghost=Cop Pistol
+Unit/Name/GhostAlternate2=Ghost
+Unit/Name/GhostShotgun=Ghost Shotgun
+Unit/Name/HoverHellion=Invisible Vision Provider
+Unit/Name/InvisibleProvider=Invisible Provider
+Unit/Name/TransportTruck=SWAT Van
+Weapon/Name/C10CanisterRifle=BA Hero Service Pistol
+Weapon/Name/LocustPressurizedGlands=Defiled Barbs
+Weapon/Name/MorkilliCustom9=Morkilli Custom 9 "Crowdpleaser"
+Weapon/Name/Nova=BXR Auto-Rifle
+Weapon/Name/NovaWeaponHellfireShotgun=Morkilli Combat Shotgun

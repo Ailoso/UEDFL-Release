@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CWater id="Default">
+        <State index="0" Color="0.000000,0.501961,0.501961,0.300000" UvRate="-0.000000,-0.001000,0.000000,0.000000" RefractionDistortion="0.020000"/>
+    </CWater>
+    <CWater id="Helios"/>
+    <CWater id="Korhal">
+        <State index="0" Height="0.900000"/>
+    </CWater>
+    <CWater id="MarSara">
+        <State index="0" Height="2.200000" Color="0.501961,0.247059,0.000000,0.382000"/>
+    </CWater>
+    <CWater id="Shakuras">
+        <State index="0" Height="0.900000"/>
+    </CWater>
+    <CWater id="Tarsonis">
+        <State index="0">
+            <Height value="-3.700000"/>
+            <Color value="0.501961,0.250980,0.000000,0.835000"/>
+            <UvRate value="-0.000000,-0.001000,0.000000,0.000000"/>
+            <RefractionDistortion value="0.020000"/>
+        </State>
+    </CWater>
+</Catalog>

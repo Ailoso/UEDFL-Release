@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="M2LobbyMusic" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2MayorLobbyMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2HysonFireAlarm">
+        <CueArray>
+            <MasterLayer Sound="M2HysonTowerFireAlarm"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2Part1" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2Part1Music1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <Select value="Sequential"/>
+    </CSoundtrack>
+    <CSoundtrack id="M2Part2" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2Part1Music2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2Part3" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2Part1Music3"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2RiotTunnel" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2RiotTunnelMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2RiverwalkSewerAmbience">
+        <CueArray>
+            <MasterLayer Sound="M2RiverwalkSewerEngineRoom"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2RiverwalkSewerAmbience2" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2UltraMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2IntroMusic" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="PAiur03_Music_LastObjective22"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2FrancineCoolantRoomAmbience">
+        <CueArray>
+            <MasterLayer Sound="M2FrancineCoolantRoom"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2DistantSirens">
+        <CueArray>
+            <MasterLayer Sound="M2DistantSirens2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

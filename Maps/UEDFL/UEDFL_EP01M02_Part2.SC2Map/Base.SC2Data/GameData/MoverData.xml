@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CMoverAvoid id="Ground2">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
+    <CMoverMissile id="MyraDavisFlameGrenadeMissileMover2">
+        <MotionPhases Driver="Ballistic" Gravity="12" FlightTime="0.75"/>
+    </CMoverMissile>
+</Catalog>

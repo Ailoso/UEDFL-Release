@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrain id="KorhalEx1">
+        <FixedSkyboxActor value="KorhalFallingSkybox"/>
+        <CreepEdgeNormalMap value="Assets\Textures\creepedgenormal_ex2.dds"/>
+        <CreepSettingsArray index="Low" CreepOpaqueAlphaThreshold="0.200000" CreepTranslucentMinThreshold="0.000000" CreepTranslucentPassTint="1.100000,1.000000,1.100000"/>
+        <CreepSettingsArray index="Medium">
+            <CreepOpaqueAlphaThreshold value="0.200000"/>
+            <CreepTranslucentMinThreshold value="0.000000"/>
+            <CreepTranslucentMaxThreshold value="0.200000"/>
+            <CreepTranslucentPassTint value="1.100000,1.000000,1.100000"/>
+        </CreepSettingsArray>
+        <CreepSettingsArray index="High">
+            <CreepOpaqueAlphaThreshold value="0.200000"/>
+            <CreepTranslucentMinThreshold value="0.000000"/>
+            <CreepTranslucentMaxThreshold value="0.200000"/>
+            <CreepTranslucentPassTint value="1.100000,1.000000,1.100000"/>
+        </CreepSettingsArray>
+        <CreepSettingsArray index="Ultra">
+            <CreepOpaqueAlphaThreshold value="0.200000"/>
+            <CreepTranslucentMinThreshold value="0.000000"/>
+            <CreepTranslucentMaxThreshold value="0.200000"/>
+            <CreepTranslucentPassTint value="1.100000,1.000000,1.100000"/>
+        </CreepSettingsArray>
+        <CreepSettingsArray index="Extreme">
+            <CreepOpaqueAlphaThreshold value="0.200000"/>
+            <CreepTranslucentMinThreshold value="0.000000"/>
+            <CreepTranslucentMaxThreshold value="0.200000"/>
+            <CreepTranslucentPassTint value="1.100000,1.000000,1.100000"/>
+        </CreepSettingsArray>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+</Catalog>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorDoodad id="CaveEntrance">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorSound id="DOMHealthDispenserPickupHealSound">
+        <On Terms="Abil.InfestedHeal2.SourceCastStart" Send="Create"/>
+    </CActorSound>
+    <!--                                                                                         -->
+    <!-- Defiler ............................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="DefilerMP">
+        <BarWidth value="85"/>
+    </CActorUnit>
+    <CActorModel id="ElectroDisruption" parent="ModelAddition">
+        <Inherits index="TintColor" value="0"/>
+        <On Terms="Behavior.ElectroDisruption.On" Send="Create"/>
+        <On Terms="Behavior.ElectroDisruption.Off" Send="AnimBracketStop BSD"/>
+        <On Terms="ActorCreation; ValidateUnit IsColossus" Send="SetScale 1.000000,1.000000,3.000000"/>
+        <On Terms="Behavior.ElectroDisruption.On" Send="SetTintColor {0,105,210 3.000000}"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <AutoScaleFactor value="1.800000"/>
+    </CActorModel>
+    <CActorUnit id="ExplodingBarrelLarge">
+        <StatusBarFlags index="Life" value="0"/>
+    </CActorUnit>
+    <CActorModel id="GenericAttackDamageModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorModel id="GenericAttackImpactModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorModel id="GenericAttackLaunchModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorUnit id="GhostAlternate" unitName="MyraDavisGhost">
+        <BarWidth value="60"/>
+        <On index="0" Terms="UnitBirth.MyraDavisGhost"/>
+        <On index="1" Terms="UnitBirth.MyraDavisGhost"/>
+        <On index="2" Terms="UnitRevive.MyraDavisGhost"/>
+        <On index="3" Terms="UnitRevive.MyraDavisGhost"/>
+        <On index="4" Terms="UnitConstruction.MyraDavisGhost"/>
+        <On index="5" Terms="UnitConstruction.MyraDavisGhost"/>
+    </CActorUnit>
+    <CActorSquib id="GhostNukeExplode2">
+        <On Terms="UnitDeath.CargoTruckUnitBarrels" Send="Create"/>
+        <HostSiteOps Ops="SOpAttachHardPoint"/>
+        <Map index="None" Model="GasTruckExplode" Sound="Ghost_NukeExplode"/>
+    </CActorSquib>
+    <CActorUnit id="GhostShotgun" parent="Ghost" unitName="GhostShotgun">
+        <On index="0" Terms="UnitBirth.GhostShotgun"/>
+        <On index="1" Terms="UnitBirth.GhostShotgun"/>
+        <On index="2" Terms="UnitRevive.GhostShotgun"/>
+        <On index="3" Terms="UnitRevive.GhostShotgun"/>
+        <On index="4" Terms="UnitConstruction.GhostShotgun.Start"/>
+        <On index="5" Terms="UnitConstruction.GhostShotgun.Finish"/>
+        <Model value="GhostShotgun"/>
+        <BuildModel value="GhostShotgun"/>
+        <PlacementModel value="GhostShotgun"/>
+        <HighlightTooltip value="Unit/Name/GhostShotgun"/>
+        <BarWidth value="64"/>
+    </CActorUnit>
+    <CActorUnit id="Hellion">
+        <BarWidth value="80"/>
+    </CActorUnit>
+    <CActorDoodad id="KorhalBuilding">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorDoodad id="Korhal_Residential_Building_Destroyed">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorUnit id="Marine">
+        <BarWidth value="70"/>
+    </CActorUnit>
+    <CActorSound id="MedivacTransportLoadSound">
+        <On Terms="AbilTransport.LoadUnload.TransportLoad" Send="Create"/>
+    </CActorSound>
+    <CActorSound id="MedivacTransportUnloadSound">
+        <On Terms="AbilTransport.LoadUnload.TransportUnload" Send="Create"/>
+    </CActorSound>
+    <CActorModel id="HealPatchModel" parent="ModelAnimationStyleOneShot">
+        <On Terms="Effect.HealPatchEffect.Start; At Target" Send="Create"/>
+        <Host Subject="_Unit"/>
+        <HostSiteOps Ops="SOpAttachOverhead"/>
+        <Model value="MedicHealModel"/>
+    </CActorModel>
+    <CActorAction id="MyraDavisFlameGrenadeAttack2" parent="GenericAttack" effectImpact="MyraDavisFlameGrenadeSearch2" effectLaunch="MyraDavisFlameGrenadeLaunch2">
+        <LaunchAttachQuery Methods="LotC_AMFilterHandLeft"/>
+        <LaunchAssets Model="MissileTurretAttackLaunch" Sound="MyraDavisFlameGrenade_Launch2"/>
+        <LaunchModel value="GenericAttackLaunchModel2"/>
+        <LaunchSound value="GenericAttackLaunchSound2"/>
+        <ContainerModel value="GenericAttackLaunchModel2"/>
+        <ContainerSound value="GenericAttackLaunchSound2"/>
+        <Missile value="MyraDavisFlameGrenadeMissile2"/>
+        <ImpactAttachQuery Methods="AMFilterTarget AMRandomUniform"/>
+        <ImpactMap index="None" Model="MyraDavisFlameGrenadeImpact2" Sound="MyraDavisFlameGrenade_Impact2" ModelReaction="MissileTurretAttackImpactReaction"/>
+        <ImpactMap index="Flesh" ModelReaction="BloodTargetImpact2"/>
+        <ImpactModel value="GenericAttackImpactModel2"/>
+        <ImpactSound value="GenericAttackImpactSound2"/>
+        <DamageModel value="GenericAttackDamageModel2"/>
+        <DamageSound value="GenericAttackDamageSound2"/>
+    </CActorAction>
+    <CActorModelMaterial id="MyraDavisFlameGrenadeDoTGlaze2" parent="BehaviorGlaze" buff="MyraDavisFlameGrenadeDoTDamage2">
+        <EditorCategories value=""/>
+    </CActorModelMaterial>
+    <CActorModel id="MyraDavisFlameGrenadeFlames2" parent="ModelAnimationStyleContinuous">
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Behavior.MyraDavisFlameGrenadeDoTDamage2.On" Send="Create"/>
+        <On Terms="Behavior.MyraDavisFlameGrenadeDoTDamage2.Off" Send="Destroy"/>
+        <HostSiteOps Ops="SOpShadow"/>
+    </CActorModel>
+    <CActorMissile id="MyraDavisFlameGrenadeMissile2" parent="GenericAttackMissile" unitName="MyraDavisFlameGrenadeMissile2">
+        <BarHeight value="7"/>
+        <BarOffset value="100"/>
+        <BarWidth value="60"/>
+        <GroupSoundArray index="Board" value="LarvaReleaseMissileGroupBoard"/>
+        <GroupSoundThreshold value="2"/>
+        <HeroIcon value="Assets\Textures\btn-Missing-kaeo.dds"/>
+        <HighlightTooltip value="Unit/Name/MyraDavisFlameGrenadeMissile2"/>
+        <ShieldArmorIcon value="Assets\Textures\btn-upgrade-zerg-Groundcarapace-level0.dds"/>
+        <SoundArray index="Movement" value="LarvaReleaseMissileMovement"/>
+        <SoundArray index="Turning" value="LarvaReleaseMissileTurning"/>
+        <SoundArray index="Board" value="LarvaReleaseMissileBoard"/>
+        <SoundArray index="Click" value="LarvaReleaseMissileClick"/>
+        <SoundArray index="ClickError" value="LarvaReleaseMissileClickError"/>
+        <SoundArray index="Highlight" value="LarvaReleaseMissileHighlight"/>
+        <StatusColors index="Shields" EmptyColor="255,80,80,80">
+            <ColorArray value="255,0,0,255"/>
+        </StatusColors>
+        <StatusColors index="Life" EmptyColor="255,80,80,80">
+            <ColorArray value="255,208,34,0"/>
+            <ColorArray value="255,229,129,0"/>
+            <ColorArray value="255,229,221,0"/>
+            <ColorArray value="255,22,229,0"/>
+        </StatusColors>
+        <StatusColors index="Energy" EmptyColor="255,80,80,80">
+            <ColorArray value="255,150,40,220"/>
+        </StatusColors>
+        <StatusColors index="Cargo" EmptyColor="255,77,60,15">
+            <ColorArray value="255,255,200,50"/>
+        </StatusColors>
+        <StatusColors index="Progress" EmptyColor="255,80,80,80">
+            <ColorArray value="255,0,200,200"/>
+        </StatusColors>
+        <StatusColors index="Duration" EmptyColor="255,80,80,80">
+            <ColorArray value="255,200,200,200"/>
+        </StatusColors>
+        <UnitIcon value="Assets\Textures\btn-Missing-kaeo.dds"/>
+    </CActorMissile>
+    <CActorUnit id="MyraDavisRiotOfficer2" parent="LOTC_OfficerBase" unitName="MyraDavisAUD36">
+        <On Terms="ActorCreation" Send="Create LotCHeroGlow"/>
+        <On Terms="Abil.MyraDavisFlameGrenade.SourceCastStart" Send="$Spell 0 -1.000000 -1.000000 2.000000 AsTimeScale"/>
+        <Model value="MyraDavisRiotOfficer2"/>
+        <BuildModel value="MyraDavisRiotOfficer2"/>
+        <DeathArray index="Normal" ModelLink="MyraDavisRiotOfficer2"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow2"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow2"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow2"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow2"/>
+        <DeathCustoms index="4" ModelLink="Invisible2"/>
+        <PlacementModel value="MyraDavisRiotOfficer2"/>
+        <PortraitModel value="MyraDavisRiotOfficerPortrait2"/>
+        <GroupIcon>
+            <Image value="Assets\icons\Button_InfantryAssaultRifle\InfantryAssaultRifleWireFrame.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\icons\Button_InfantryAssaultRifle\btn-unit-UPL-InfantryAssaultRifle.dds"/>
+        <HighlightTooltip value="Unit/Name/MyraDavisRiotOfficer2"/>
+        <SoundArray index="Ready" value="MyraDavisRiotOfficer_Ready2"/>
+        <SoundArray index="Help" value="MyraDavisRiotOfficer_Help2"/>
+        <SoundArray index="What" value="MyraDavisRiotOfficer_What2"/>
+        <SoundArray index="Yes" value="MyraDavisRiotOfficer_Yes2"/>
+        <SoundArray index="Attack" value="MyraDavisRiotOfficer_Attack2"/>
+        <SoundArray index="Pissed" value="MyraDavisRiotOfficer_Pissed2"/>
+        <UnitIcon value="Assets\icons\Button_InfantryAssaultRifle\btn-unit-UPL-InfantryAssaultRifle.dds"/>
+        <Wireframe>
+            <Image value="Assets\icons\Button_InfantryAssaultRifle\InfantryAssaultRifleWireFrame.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <!-- Attack                                                                                  -->
+    <CActorAction id="NovaAttack">
+        <LaunchAssets Sound="GeneralDavisDeath_B2"/>
+    </CActorAction>
+    <CActorAction id="SJPirateYamatoAAttack">
+        <On Terms="ActorCreation" Send="SetTintColor {255,0,0 4.000000}"/>
+    </CActorAction>
+    <CActorMissile id="SJPirateYamatoAAttackMissile">
+        <Scale value="0.660000"/>
+    </CActorMissile>
+    <CActorDoodad id="TheVoid_RubblePile">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorDoodad id="TrainDockingDoor">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <!--                                                                                         -->
+    <!-- Transport Truck ....................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="TransportTruck">
+        <BarWidth value="130"/>
+    </CActorUnit>
+    <CActorDoodad id="TruckSemi">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <CActorDoodad id="UPLPoliceCruiserDoodad">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+    <!--                                                                                         -->
+    <!-- Wall Of Fire .......................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="WallOfFire">
+        <Scale value="0.100000"/>
+    </CActorUnit>
+    <CActorDoodad id="ZergCarcasses">
+        <Flags index="SuppressSaveLoad" value="0"/>
+    </CActorDoodad>
+</Catalog>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="M2HoldoutMusic" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2HoldoutMusic1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2FinaleMusic" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="M2FinaleMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2SewerMusic">
+        <CueArray>
+            <MasterLayer Sound="M2SewerMusic"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="M2SewerAmbience">
+        <CueArray>
+            <MasterLayer Sound="M2SewerAmbience"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

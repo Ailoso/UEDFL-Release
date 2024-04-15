@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="Amb_ZergHordeQuad_Small">
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M2AmmoniaDropoff" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-AmmoniaDropoff.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="4.000000,4.000000"/>
+    </CSound>
+    <CSound id="M2FlameGrenadePickup" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\FlameGrenade-Pickup.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="4.000000,4.000000"/>
+    </CSound>
+    <CSound id="M2Darren3" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren3.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren4" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren4.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren5" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren5.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren6" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren6.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren7" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren7.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren8" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren8.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren9" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren9.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2FinaleMusic" parent="MUSIC">
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\UPL - Micro Mission8.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="M2FlashbangPickup" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\FlashbangPickup.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="4.000000,4.000000"/>
+    </CSound>
+    <CSound id="M2Raptor1" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-RaptorPilot1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis65" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisOldLines9g.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet1" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet2" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet3" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet4" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet5" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DefNet6" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DefNet6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2DistantDogsBarking" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-DistantDogsBarking.ogg" Volume="6.000000,6.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="M2AmmoniaGrab" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-AmmoniaTankGrab.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="4.000000,4.000000"/>
+    </CSound>
+    <CSound id="M2HKDeath1" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKDeath1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKDeath2" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKDeath2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKDeath3" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKDeath3.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKGrowl1" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKGrowl1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKGrowl12" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKGrowl2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKGrowl122" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKGrowl3.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2HKGrowl1222" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-HKGrowl4.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2Raptor2" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-RaptorPilot2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Raptor3" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-RaptorPilot3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion5" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2Part2-NewExplosion1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion6" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2Part2NewExplosion2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion7" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2Part2NewExplosion3.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion8" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2Part2NewExplosion4.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX1" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX2" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX2.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX3" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX3.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX4" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX5" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX5.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX6" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX7" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX8" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SergeantX9" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-PetersX9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SewerQuake" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-SewerQuake.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2SewerMusic" parent="MUSIC">
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\M2-SewerMusic1.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\M2-SewerMusic2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="M2SewerAmbience" parent="MUSIC">
+        <AssetArray File="Assets\Textures\PP 2 - Sound Effects\M2-SewerAmbience.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="5.000000,5.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins11" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins12" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins13" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9d.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins14" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9e.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins15" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9f.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins16" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9g.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins17" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9h.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins18" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9i.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins6" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins7" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins8" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins9" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Jenkins10" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Jenkins9a.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion1" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Explosion4.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion2" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Explosion5.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion3" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Explosion6.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorExplosion4" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Explosion7.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2RaptorFlyby2" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-RaptorFlyby2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2RaptorFlyby3" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-RaptorFlyby3.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2RaptorFlyby4" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-RaptorFlyby4.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2RoachesInTheFog" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-RoachesInTheFog.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2Darren1" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren1.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Darren2" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2P2-Darren2.ogg"/>
+            <Volume value="-2.000000,-2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis59" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisNewLines9S.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis60" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisNewLines9T.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis61" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisNewLines9V.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis62" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisOldLines9b.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis63" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisOldLines9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Davis64" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-DavisOldLines9e.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2NydusWorm1" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Nydus1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2NydusWorm2" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-Nydus2.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2GunsPrimed" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-GunsPrimed.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant16" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\PP 2 - Sergeant6.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant15" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-Sergeant5Redux.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant17" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\PP 2 - Sergeant7.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant18" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2-SergeantRedux4.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant19" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2 - Sergeant9c.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant20" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\M2 - Sergeant9e.ogg"/>
+            <Volume value="2.000000,2.000000"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant21" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\PP 2 - Sergeant8.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2Sergeant22" parent="VO">
+        <AssetArray index="0">
+            <File value="Dialogue\PP 2 - Sergeant9.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <FacialFile value=""/>
+            <PortraitModel value=""/>
+            <PortraitActor value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Category value="Mission"/>
+        <SpeakerMixNonLocal index="FrontLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="FrontRight" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackLeft" value="1.000000"/>
+        <SpeakerMixNonLocal index="BackRight" value="1.000000"/>
+    </CSound>
+    <CSound id="M2SewerCollapse" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-SewerCollapse.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2SwatVanAirBrakes" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-SWAT Van Brakes.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2RaptorFlyby1" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-RaptorFlyby1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2SwatVanStall" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-SwatVanStalling.ogg" Volume="4.000000,4.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="M2MutaScream" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\PP 2 - MutaliskRoar1.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2SewerDetonate" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-BuildingExplosion.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2ZergRoar3" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\PP 2 - ZerglingGrowl4.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2SwatVanEngineStart" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\M2-SwatVanStart.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="M2UltraRoar" parent="Foley">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\PP 2 - UltraliskRoar1.ogg" Volume="6.000000,6.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Stream" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Other"/>
+        <Mode value="2D"/>
+        <PanLevel value="0.000000"/>
+        <ResourcePriority value="32"/>
+        <ReverbBalance Direct="-200" Room="1000"/>
+        <SpeakerMix index="Center" value="0.250000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <SustainFade index="1" Time="250" Volume="-96.000000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="MyraDavisFlameGrenade_Impact2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Explosion - Grenade 2.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Explosion - Grenade 3.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Explosion - Grenade.ogg" FacialGroup=""/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="-2.000000,0.000000"/>
+        <Volume value="-9.610000,-9.610000"/>
+    </CSound>
+    <CSound id="MyraDavisFlameGrenade_Launch2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Unit-CARR Grenade Launcher.ogg" FacialGroup=""/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="-2.000000,0.000000"/>
+        <Volume value="-9.610000,-9.610000"/>
+    </CSound>
+    <CSound id="M2HoldoutMusic1" parent="MUSIC">
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\M2-UPLHoldoutMusic2.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\M2-UPLHoldoutMusic3.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+        <AssetArray File="Assets\Textures\PP 2 - Music and Drones\M2-UPLHoldoutMusic1.ogg" Volume="2.000000,2.000000" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="Wait" value="1"/>
+        <Select value="Sequential"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="PPultraroar" parent="Campaign2D">
+        <AssetArray index="0">
+            <File value="Assets\Textures\PP 2 - Sound Effects\PP 2 - UltraliskRoar1.ogg"/>
+            <FacialAnim value=""/>
+            <FacialGroup value=""/>
+            <PortraitModel value=""/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Stream" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Voice"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="TreeViper_death">
+        <Category value="UI"/>
+    </CSound>
+    <CSound id="UI_CheckboxSelect2222223222" parent="UI">
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackImpact0.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackImpact1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackImpact2.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackImpact3.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackLaunch0.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackLaunch1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Zerg\Ultralisk\Ultralisk_AttackLaunch2.wav" FacialGroup=""/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="UI_LoadingFinished">
+        <!-- <AssetArray index="0" File="Assets\Music\UI_Stinger_Hit01.ogg" Pitch="-1.000000,-1.000000" FacialGroup=""/> -->
+        <AssetArray index="0" File="Assets\Textures\PP 2 - Sound Effects\UI_LoadingFinshed2.wav"/>
+    </CSound>
+</Catalog>

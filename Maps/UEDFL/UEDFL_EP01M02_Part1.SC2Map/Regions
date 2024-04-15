@@ -1,0 +1,2724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="3">
+        <name value="StreetName-ConnellyApartments"/>
+        <shape type="diamond">
+            <center value="163.8647,113.543"/>
+            <width value="12"/>
+            <height value="26"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="IntroCinematic-StartDavisRegion"/>
+        <shape type="circle">
+            <center value="107.5456,28.5373"/>
+            <radius value="1.8022"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="ParkEscape-FleeArea1"/>
+        <shape type="diamond">
+            <center value="152.944,119.099"/>
+            <width value="4.6132"/>
+            <height value="3.6372"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="ParkEscape-FleeArea2"/>
+        <shape type="diamond">
+            <center value="168.896,115.6337"/>
+            <width value="3.02"/>
+            <height value="2.561"/>
+        </shape>
+        <shape type="diamond">
+            <center value="170.6367,96.2133"/>
+            <width value="6.5603"/>
+            <height value="2.561"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="IntroCinematic-CivilianRunForest"/>
+        <shape type="rect">
+            <quad value="168.7617,126.686,182.5302,129.1884"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="IntroCinematic-RunPoint1"/>
+        <shape type="rect">
+            <quad value="130.4255,126.906,132.4548,131.1394"/>
+        </shape>
+        <shape type="rect">
+            <quad value="137.3708,114.0466,138.5605,117.152"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="IntroCinematic-RunPoint2"/>
+        <shape type="circle">
+            <center value="132.4824,131.2534"/>
+            <radius value="4.5786"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="IntroCinematic-RunPoint3"/>
+        <shape type="diamond">
+            <center value="133.4301,131.437"/>
+            <width value="5.2705"/>
+            <height value="5.28"/>
+        </shape>
+        <shape type="diamond">
+            <center value="131.7507,110.284"/>
+            <width value="3.7062"/>
+            <height value="2.1887"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="IntroCinematic-CivilianRedirect"/>
+        <shape type="circle">
+            <center value="130.2355,124.3447"/>
+            <radius value="6.4904"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="IntroCinematic-CivilianRedirect2"/>
+        <shape type="circle">
+            <center value="138.3776,115.7312"/>
+            <radius value="1.9736"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="IntroCinematic"/>
+        <shape type="circle">
+            <center value="167.5104,108.5588"/>
+            <radius value="2.008"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="ParkEscape-Bloodshed2CivilianSpawn"/>
+        <shape type="diamond">
+            <center value="183.4211,85.0485"/>
+            <width value="5.1672"/>
+            <height value="1.8681"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="ParkEscape-Bloodshed2ZergSpawn"/>
+        <shape type="diamond">
+            <center value="196.9211,71.5327"/>
+            <width value="6.059"/>
+            <height value="7.519"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="ParkEscape-AUD24Holdout"/>
+        <shape type="circle">
+            <center value="176.1396,91.6184"/>
+            <radius value="1.6586"/>
+        </shape>
+        <shape type="circle">
+            <center value="206.0212,51.9035"/>
+            <radius value="1.6586"/>
+        </shape>
+        <shape type="circle">
+            <center value="214.6416,54.0698"/>
+            <radius value="1.66"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="ParkEscape-Bloodshed6Tripwire"/>
+        <shape type="diamond">
+            <center value="194.7033,57.6164"/>
+            <width value="3.2216"/>
+            <height value="7.5598"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="Various-ZergSpawnTunnel1"/>
+        <shape type="diamond">
+            <center value="180.0222,19.7687"/>
+            <width value="5.8107"/>
+            <height value="2.4152"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="ParkEscape-Zergling1"/>
+        <shape type="diamond">
+            <center value="148.3608,51.3332"/>
+            <width value="12.5312"/>
+            <height value="11.7641"/>
+        </shape>
+        <shape type="diamond">
+            <center value="164.7014,35.615"/>
+            <width value="6.5812"/>
+            <height value="32.8046"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="AUD109-GasStationStartBeacon"/>
+        <shape type="circle">
+            <center value="75.5773,74.4953"/>
+            <radius value="1.3186"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="AUD109-GasStationStartA"/>
+        <shape type="circle">
+            <center value="77.0002,62.0002"/>
+            <radius value="9.6481"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="AUD109-GasStationStartB"/>
+        <shape type="circle">
+            <center value="87.6008,73.3957"/>
+            <radius value="9.6481"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="AUD109-Other Zerg Spawn"/>
+        <shape type="circle">
+            <center value="72.9682,42.5146"/>
+            <radius value="1.3232"/>
+        </shape>
+        <shape type="circle">
+            <center value="89.7834,51.413"/>
+            <radius value="1.3232"/>
+        </shape>
+        <shape type="circle">
+            <center value="105.0407,87.5122"/>
+            <radius value="3.2011"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="AUD109-GasStationStart"/>
+        <shape type="circle">
+            <center value="74.9072,75.893"/>
+            <radius value="4.1848"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="ParkEscape-Zergling2"/>
+        <shape type="diamond">
+            <center value="183.5012,45.525"/>
+            <width value="26.9287"/>
+            <height value="5.3027"/>
+        </shape>
+        <shape type="diamond">
+            <center value="177.224,53.6557"/>
+            <width value="6.1235"/>
+            <height value="13.185"/>
+        </shape>
+        <shape type="diamond">
+            <center value="185.496,34.9687"/>
+            <width value="4.0612"/>
+            <height value="9.8"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="AUD24-Beacon"/>
+        <shape type="circle">
+            <center value="221.6516,43.0014"/>
+            <radius value="1.3413"/>
+        </shape>
+        <shape type="diamond">
+            <center value="221.7666,42.9738"/>
+            <width value="14.7507"/>
+            <height value="0.534"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="AUD24-HoldoutStart"/>
+        <shape type="diamond">
+            <center value="229.838,32.1242"/>
+            <width value="5.355"/>
+            <height value="0.882"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="AUD24-HoldoutGroup"/>
+        <shape type="diamond">
+            <center value="224.0002,40.5002"/>
+            <width value="10.5236"/>
+            <height value="9.4394"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="AUD24-FightArea"/>
+        <shape type="diamond">
+            <center value="220.7614,43.2131"/>
+            <width value="11.674"/>
+            <height value="24.5046"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="Various-ZergSpawn1"/>
+        <shape type="diamond">
+            <center value="125.6486,54.8703"/>
+            <width value="8.8874"/>
+            <height value="10.1794"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="Various-ZergSpawn2"/>
+        <shape type="diamond">
+            <center value="119.7604,79.3256"/>
+            <width value="7.9362"/>
+            <height value="24.038"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="Various-ZergSpawn3"/>
+        <shape type="diamond">
+            <center value="96.5002,21.0002"/>
+            <width value="11.89"/>
+            <height value="10.1794"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="Various-ZergSpawn4"/>
+        <shape type="diamond">
+            <center value="63.3041,28.6616"/>
+            <width value="8.8874"/>
+            <height value="10.1794"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="AUD499-ZergSpawn2"/>
+        <shape type="circle">
+            <center value="123.2687,24.9978"/>
+            <radius value="4.1093"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="AUD499-ZergSpawn3"/>
+        <shape type="diamond">
+            <center value="51.5002,41.5002"/>
+            <width value="10.0002"/>
+            <height value="11.9714"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="AUD499-ZergSpawnTripwire3"/>
+        <shape type="rect">
+            <quad value="115.2104,78.948,125.705,85.7341"/>
+        </shape>
+        <shape type="rect">
+            <quad value="113.839,75.526,120.4758,79.912"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="AUD499-ZergSpawn3"/>
+        <shape type="diamond">
+            <center value="27.806,55.5441"/>
+            <width value="12.54"/>
+            <height value="11.7084"/>
+        </shape>
+        <shape type="diamond">
+            <center value="42.6904,61.32"/>
+            <width value="7.2905"/>
+            <height value="5.756"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="AUD499-ZergSpawn1"/>
+        <shape type="rect">
+            <quad value="112.5288,31.0517,113.921,33.772"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="AUD499-ZergSpawn2"/>
+        <shape type="rect">
+            <quad value="102.441,29.0402,103.833,31.7604"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="AUD499-ZergSpawnTripwire"/>
+        <shape type="diamond">
+            <center value="106.9841,33.7763"/>
+            <width value="2.3073"/>
+            <height value="13.7023"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="Various-ZergSpawn5"/>
+        <shape type="diamond">
+            <center value="118.9353,45.0136"/>
+            <width value="2.5532"/>
+            <height value="10.894"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="AUD499-ZergSpawn1"/>
+        <shape type="rect">
+            <quad value="76.4572,7.4934,79.2697,10.348"/>
+        </shape>
+        <shape type="rect">
+            <quad value="85.6477,7.679,89.3264,10.305"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="AUD499-ZergSpawnTripwire2"/>
+        <shape type="diamond">
+            <center value="59.2443,38.9956"/>
+            <width value="17.8295"/>
+            <height value="2.1296"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="AUD499-InFrontofPoliceHQ"/>
+        <shape type="diamond">
+            <center value="101.3132,48.2783"/>
+            <width value="4.043"/>
+            <height value="6.546"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="AUD499-ZergSpawn5"/>
+        <shape type="diamond">
+            <center value="139.745,58.48"/>
+            <width value="4.3535"/>
+            <height value="3.6645"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="AUD499-ZergSpawnTripwire4"/>
+        <shape type="diamond">
+            <center value="40.706,42.6855"/>
+            <width value="4.3242"/>
+            <height value="3.1965"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="AUD499-ZerglingBullySpawn"/>
+        <shape type="diamond">
+            <center value="80.9978,55.0996"/>
+            <width value="11.0683"/>
+            <height value="9.1145"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="AUD499-ZergSpawn4"/>
+        <shape type="circle">
+            <center value="131.3784,27.7375"/>
+            <radius value="4.453"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="IntroCinematic-ConnellyApartmentReveal"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="178.5537,126.6145"/>
+            <width value="49.0053"/>
+            <height value="49.1193"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="ParkEscape-Zergling3"/>
+        <shape type="diamond">
+            <center value="177.0053,84.8095"/>
+            <width value="10.7458"/>
+            <height value="39.7307"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="ParkEscape-Zergling4"/>
+        <shape type="diamond">
+            <center value="148.624,112.821"/>
+            <width value="10.7458"/>
+            <height value="39.7307"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="ParkEscape-ParkWanderRegions"/>
+        <shape type="rect">
+            <quad value="167.4956,116.5126,170.4423,126.8186"/>
+        </shape>
+        <shape type="rect">
+            <quad value="172.8676,119.8498,176.052,126.6875"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="ParkEscape-Zergling5"/>
+        <shape type="diamond">
+            <center value="151.4077,77.772"/>
+            <width value="34.655"/>
+            <height value="7.6945"/>
+        </shape>
+        <shape type="diamond">
+            <center value="167.5993,74.0463"/>
+            <width value="9.3681"/>
+            <height value="18.4606"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="RiverWalk-ZergSpawnRegion"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="69.7983,100.9291"/>
+            <width value="96.7612"/>
+            <height value="12.0354"/>
+        </shape>
+        <shape type="diamond">
+            <center value="76.1291,94.4553"/>
+            <width value="64.7153"/>
+            <height value="5.4997"/>
+        </shape>
+        <shape type="diamond">
+            <center value="49.3281,68.7856"/>
+            <width value="8.983"/>
+            <height value="3.9912"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="61.2573,86.647"/>
+            <width value="5.984"/>
+            <height value="3.4604"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="73.4338,98.6562"/>
+            <width value="5.1701"/>
+            <height value="3.904"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="85.4633,110.5112"/>
+            <width value="5.1701"/>
+            <height value="3.904"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="49.0068,74.5974"/>
+            <width value="6.1547"/>
+            <height value="4.4931"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="AUD36-End Check"/>
+        <shape type="circle">
+            <center value="106.3005,54.4743"/>
+            <radius value="3.493"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="AUD36-Spawner7"/>
+        <shape type="circle">
+            <center value="137.9746,124.3508"/>
+            <radius value="0.6665"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="AUD36-Spawner8"/>
+        <shape type="circle">
+            <center value="78.9904,63"/>
+            <radius value="1.4516"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="AUD36-Spawner1"/>
+        <shape type="rect">
+            <quad value="149.0053,107.0158,155.6728,115.9743"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="AUD36-Spawner"/>
+        <shape type="rect">
+            <quad value="105.7644,92.8706,117.2626,100.022"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="AUD36-Spawner3"/>
+        <shape type="rect">
+            <quad value="88.1313,115.3027,99.6296,122.454"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="AUD36-Enter1"/>
+        <shape type="diamond">
+            <center value="122.5002,109.5002"/>
+            <width value="5.6606"/>
+            <height value="20.7683"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="AUD36-Spawner4"/>
+        <shape type="rect">
+            <quad value="119.8957,70.7517,131.394,77.903"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="AUD36-Spawner5"/>
+        <shape type="rect">
+            <quad value="69.4611,59.928,81.0927,63.573"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="AUD36-Enter3"/>
+        <shape type="diamond">
+            <center value="98.2932,86.43"/>
+            <width value="5.6606"/>
+            <height value="20.7683"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="AUD36-Spawner6"/>
+        <shape type="rect">
+            <quad value="81.0651,102.4624,88.208,107.6694"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="AUD36-Enter2"/>
+        <shape type="diamond">
+            <center value="111.537,99.1044"/>
+            <width value="5.6606"/>
+            <height value="20.7683"/>
+        </shape>
+    </region>
+    <region id="74">
+        <name value="Riverwalk-ZergSpawn2"/>
+        <shape type="diamond">
+            <center value="91.7656,108.0451"/>
+            <width value="17.1218"/>
+            <height value="5.0388"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="Riverwalk-ZergSpawn1"/>
+        <shape type="diamond">
+            <center value="42.0546,68.724"/>
+            <width value="11.906"/>
+            <height value="16.3044"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="Riverwalk-ZergSpawnRegion2"/>
+        <shape type="diamond">
+            <center value="21.6364,47.5607"/>
+            <width value="6.0898"/>
+            <height value="15.066"/>
+        </shape>
+        <shape type="diamond">
+            <center value="28.262,62.7905"/>
+            <width value="22.2136"/>
+            <height value="5.3518"/>
+        </shape>
+    </region>
+    <region id="77">
+        <name value="AUD36-Spawner9"/>
+        <shape type="diamond">
+            <center value="73.6037,40.0664"/>
+            <width value="4.2131"/>
+            <height value="6.3303"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="AUD36-Enter4"/>
+        <shape type="diamond">
+            <center value="78.7277,69.2646"/>
+            <width value="4.1342"/>
+            <height value="26.0253"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="AUD36-RandomZerglings"/>
+        <shape type="rect">
+            <quad value="119.982,103.7934,128.9714,117.4833"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="SwatVan-HoldoutSpawn1"/>
+        <shape type="circle">
+            <center value="176.6413,25.63"/>
+            <radius value="2.2675"/>
+        </shape>
+    </region>
+    <region id="81">
+        <name value="SwatVan-HoldoutSpawn2"/>
+        <shape type="circle">
+            <center value="171.1186,68.4743"/>
+            <radius value="2.2675"/>
+        </shape>
+    </region>
+    <region id="82">
+        <name value="SwatVan-HoldoutSpawn3"/>
+        <shape type="circle">
+            <center value="185.5002,35.0014"/>
+            <radius value="2.2675"/>
+        </shape>
+    </region>
+    <region id="83">
+        <name value="SwatVan-HoldoutSpawn4"/>
+        <shape type="circle">
+            <center value="194.8093,52.305"/>
+            <radius value="2.2675"/>
+        </shape>
+        <shape type="circle">
+            <center value="192.9997,56.4353"/>
+            <radius value="2.2675"/>
+        </shape>
+    </region>
+    <region id="1">
+        <name value="ConstructionYard-PlayableArea"/>
+        <shape type="diamond">
+            <center value="149.2053,92.0871"/>
+            <width value="23.7275"/>
+            <height value="19.2812"/>
+        </shape>
+    </region>
+    <region id="85">
+        <name value="ConstructionYard-Revealer"/>
+        <color value="255,0,255,128"/>
+        <shape type="diamond">
+            <center value="144.2905,92.504"/>
+            <width value="31.5017"/>
+            <height value="29.1003"/>
+        </shape>
+    </region>
+    <region id="86">
+        <name value="ConstructionYard-ZergSpawn1"/>
+        <shape type="rect">
+            <quad value="136.985,87.837,140.9064,90.985"/>
+        </shape>
+    </region>
+    <region id="87">
+        <name value="SwatVan-ZergSpawnsEnRouteTripwire"/>
+        <shape type="diamond">
+            <center value="153.06,48.713"/>
+            <width value="20.9152"/>
+            <height value="3.5068"/>
+        </shape>
+    </region>
+    <region id="88">
+        <name value="SwatVan-ZergSpawnsEnRoute"/>
+        <shape type="diamond">
+            <center value="152.8461,29.6208"/>
+            <width value="4.4941"/>
+            <height value="3.1513"/>
+        </shape>
+    </region>
+    <region id="89">
+        <name value="ConstructionYard-VariousSpawn1"/>
+        <shape type="diamond">
+            <center value="152.7783,75.7448"/>
+            <width value="6.2055"/>
+            <height value="2.4218"/>
+        </shape>
+    </region>
+    <region id="90">
+        <name value="ConstructionYard-VariousSpawn2"/>
+        <shape type="diamond">
+            <center value="161.5837,91.834"/>
+            <width value="3.8288"/>
+            <height value="2.8188"/>
+        </shape>
+    </region>
+    <region id="91">
+        <name value="ConstructionYard-VariousSpawn3"/>
+        <shape type="diamond">
+            <center value="163.1794,102.068"/>
+            <width value="4.7517"/>
+            <height value="2.7731"/>
+        </shape>
+    </region>
+    <region id="92">
+        <name value="ConstructionYard-VariousSpawn4"/>
+        <shape type="diamond">
+            <center value="155.0703,109.6755"/>
+            <width value="4.7517"/>
+            <height value="2.7731"/>
+        </shape>
+    </region>
+    <region id="93">
+        <name value="ConstructionYard-ZergSpawn2"/>
+        <shape type="rect">
+            <quad value="140.7946,83.786,146.0947,88.0183"/>
+        </shape>
+    </region>
+    <region id="94">
+        <name value="ConstructionYard-ZergSpawn3"/>
+        <shape type="rect">
+            <quad value="143.4956,93.8706,151.933,99.0705"/>
+        </shape>
+    </region>
+    <region id="95">
+        <name value="ConstructionYard-ZergSpawn4"/>
+        <shape type="rect">
+            <quad value="146.51,90.9833,152.4592,95.8413"/>
+        </shape>
+    </region>
+    <region id="96">
+        <name value="ConstructionYard-EscortZergSpawn"/>
+        <shape type="diamond">
+            <center value="146.7458,48.706"/>
+            <width value="10.465"/>
+            <height value="3.7392"/>
+        </shape>
+    </region>
+    <region id="97">
+        <name value="Ultralisk-StartingArea"/>
+        <color value="255,255,128,128"/>
+        <shape type="diamond">
+            <center value="166.63,36.3315"/>
+            <width value="26.7875"/>
+            <height value="49.116"/>
+        </shape>
+    </region>
+    <region id="98">
+        <name value="UltraliskCinematic-ZergSpawn"/>
+        <color value="255,128,0,64"/>
+        <shape type="diamond">
+            <center value="150.3774,49.1767"/>
+            <width value="7.3745"/>
+            <height value="17.6523"/>
+        </shape>
+    </region>
+    <region id="99">
+        <name value="UltraliskCinematic-ZerglingSpawn"/>
+        <shape type="circle">
+            <center value="186.1142,47.4326"/>
+            <radius value="2.9895"/>
+        </shape>
+        <shape type="circle">
+            <center value="182.5361,42.9653"/>
+            <radius value="1.7321"/>
+        </shape>
+    </region>
+    <region id="100">
+        <name value="Ultralisk-VariousZergSpawns"/>
+        <color value="255,128,255,255"/>
+        <shape type="diamond">
+            <center value="99.8913,88.7988"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="53.9294,45.1867"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="93.0456,16.6687"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="133.0083,30.293"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="119.9133,43.1066"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="83.2343,55.6604"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="147.796,72.4284"/>
+            <width value="5.9631"/>
+            <height value="4.5974"/>
+        </shape>
+        <shape type="diamond">
+            <center value="170.4387,95.71"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="139.2231,124.8906"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="173.44,34.1533"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="187.6247,55.7475"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="203.987,61.8544"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="171.607,69.7834"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="diamond">
+            <center value="151.0725,50.2392"/>
+            <width value="5.3354"/>
+            <height value="4.289"/>
+        </shape>
+        <shape type="rect">
+            <quad value="66.1176,51.1713,70.7683,60.3916"/>
+        </shape>
+        <shape type="rect">
+            <quad value="80.1923,62.1848,84.843,71.405"/>
+        </shape>
+        <shape type="diamond">
+            <center value="73.1757,42.9868"/>
+            <width value="7.89"/>
+            <height value="4.8386"/>
+        </shape>
+        <shape type="diamond">
+            <center value="89.3615,29.9116"/>
+            <width value="5.2382"/>
+            <height value="4.5983"/>
+        </shape>
+        <shape type="diamond">
+            <center value="121.9492,109.7937"/>
+            <width value="9.4772"/>
+            <height value="2.339"/>
+        </shape>
+    </region>
+    <region id="101">
+        <name value="Various-ZergSpawn6"/>
+        <shape type="diamond">
+            <center value="90.0437,76.3208"/>
+            <width value="37.4145"/>
+            <height value="10.4963"/>
+        </shape>
+    </region>
+    <region id="103">
+        <name value="MayorSection-FadeEnterHyson"/>
+        <shape type="diamond">
+            <center value="27.1083,120.403"/>
+            <width value="5.7294"/>
+            <height value="16.254"/>
+        </shape>
+    </region>
+    <region id="104">
+        <name value="MayorSection-HysonStairs"/>
+        <shape type="diamond">
+            <center value="31.5356,148.5222"/>
+            <width value="1.71"/>
+            <height value="0.7067"/>
+        </shape>
+    </region>
+    <region id="105">
+        <name value="MayorSection-HysonFrontDoor"/>
+        <shape type="diamond">
+            <center value="25.322,119.5183"/>
+            <width value="2.0498"/>
+            <height value="4.0942"/>
+        </shape>
+    </region>
+    <region id="106">
+        <name value="ParkEscape-InitializeBullies"/>
+        <shape type="circle">
+            <center value="63.1057,51.0065"/>
+            <radius value="5.4191"/>
+        </shape>
+    </region>
+    <region id="107">
+        <name value="MayorSection-ZergSpawnHysonFront"/>
+        <shape type="diamond">
+            <center value="20.2775,114.6992"/>
+            <width value="1.511"/>
+            <height value="13.4514"/>
+        </shape>
+        <shape type="circle">
+            <center value="15.0468,123.7358"/>
+            <radius value="1.543"/>
+        </shape>
+        <shape type="circle">
+            <center value="28.8776,110.2563"/>
+            <radius value="1.543"/>
+        </shape>
+    </region>
+    <region id="108">
+        <name value="MayorSection-HysonFloor1PlayableArea"/>
+        <color value="255,255,128,255"/>
+        <shape type="diamond">
+            <center value="44.6083,138.098"/>
+            <width value="42.0498"/>
+            <height value="46.46"/>
+        </shape>
+    </region>
+    <region id="110">
+        <name value="Protect Mayor Escort"/>
+        <shape type="diamond">
+            <center value="191.448,78.5175"/>
+            <width value="0.8818"/>
+            <height value="3.8908"/>
+        </shape>
+    </region>
+    <region id="115">
+        <name value="AUD24-Revealer"/>
+        <shape type="diamond">
+            <center value="219.7595,40.682"/>
+            <width value="40.8676"/>
+            <height value="41.9448"/>
+        </shape>
+    </region>
+    <region id="117">
+        <name value="Intro-CiviliansInCinematic"/>
+        <color value="255,255,128,255"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="119.8017,56.5246"/>
+            <width value="49.0097"/>
+            <height value="69.7946"/>
+        </shape>
+    </region>
+    <region id="118">
+        <name value="Intro-AccidentSoundTripwire"/>
+        <shape type="diamond">
+            <center value="128.4296,54.369"/>
+            <width value="3.4313"/>
+            <height value="7.37"/>
+        </shape>
+    </region>
+    <region id="119">
+        <name value="Intro-AccidentSoundRemove"/>
+        <shape type="diamond">
+            <center value="112.1137,86.8874"/>
+            <width value="8.8742"/>
+            <height value="3.9133"/>
+        </shape>
+    </region>
+    <region id="120">
+        <name value="Intro-CameraFollowReturnTripwire"/>
+        <shape type="rect">
+            <quad value="126.2224,68.8964,134.3781,71.0146"/>
+        </shape>
+    </region>
+    <region id="121">
+        <name value="Intro-CinematicAccidentSceneCamTripwire"/>
+        <shape type="diamond">
+            <center value="133.6762,59.522"/>
+            <width value="2.38"/>
+            <height value="8.1567"/>
+        </shape>
+    </region>
+    <region id="122">
+        <name value="Intro-FastCopDespawn"/>
+        <shape type="rect">
+            <quad value="95.5097,85.036,98.4912,88.9655"/>
+        </shape>
+    </region>
+    <region id="123">
+        <name value="IntroCinematic-FinalTruckRedirect"/>
+        <shape type="diamond">
+            <center value="138.6162,127.9233"/>
+            <width value="2.5068"/>
+            <height value="2.2341"/>
+        </shape>
+    </region>
+    <region id="125">
+        <name value="ParkEscape-FirstStopTripwire"/>
+        <shape type="diamond">
+            <center value="174.4948,37.0908"/>
+            <width value="2.186"/>
+            <height value="8.3925"/>
+        </shape>
+    </region>
+    <region id="126">
+        <name value="ParkEscape-FirstStopAttackZone"/>
+        <shape type="diamond">
+            <center value="160.2856,39.106"/>
+            <width value="12.18"/>
+            <height value="14.8098"/>
+        </shape>
+    </region>
+    <region id="127">
+        <name value="ParkEscape-FirstStopCiviliansDespawn"/>
+        <shape type="diamond">
+            <center value="179.6896,19.5473"/>
+            <width value="5.914"/>
+            <height value="3.386"/>
+        </shape>
+    </region>
+    <region id="128">
+        <name value="ParkEscape-CivCreator"/>
+        <shape type="diamond">
+            <center value="140.5483,52.4645"/>
+            <width value="7.5095"/>
+            <height value="5.5983"/>
+        </shape>
+    </region>
+    <region id="129">
+        <name value="ParkEscape-CivDeathTripwire1"/>
+        <shape type="diamond">
+            <center value="197.3298,60.4035"/>
+            <width value="2.3425"/>
+            <height value="8.193"/>
+        </shape>
+    </region>
+    <region id="130">
+        <name value="ParkEscape-Bloodshed7PoliceSpawn"/>
+        <shape type="diamond">
+            <center value="179.4382,49.7741"/>
+            <width value="3.0698"/>
+            <height value="2.16"/>
+        </shape>
+    </region>
+    <region id="131">
+        <name value="ParkEscape-Bloodshed7Tripwire"/>
+        <shape type="diamond">
+            <center value="195.9726,66.8764"/>
+            <width value="9.5825"/>
+            <height value="3.8305"/>
+        </shape>
+    </region>
+    <region id="132">
+        <name value="ParkEscape-CivDeathSpawnAttack"/>
+        <shape type="rect">
+            <quad value="196.5881,51.963,202.3803,55.2468"/>
+        </shape>
+    </region>
+    <region id="133">
+        <name value="ParkEscape-Bloodshed1Tripwire"/>
+        <shape type="diamond">
+            <center value="170.5146,92.8298"/>
+            <width value="8.6601"/>
+            <height value="3.0556"/>
+        </shape>
+    </region>
+    <region id="134">
+        <name value="ParkEscape-Bloodshed4Tripwire"/>
+        <shape type="diamond">
+            <center value="189.2434,73.6904"/>
+            <width value="9.1225"/>
+            <height value="3.2912"/>
+        </shape>
+    </region>
+    <region id="135">
+        <name value="ParkEscape-FirstStopArrive"/>
+        <color value="255,255,0,128"/>
+        <shape type="circle">
+            <center value="157.0004,33.0017"/>
+            <radius value="2.0231"/>
+        </shape>
+    </region>
+    <region id="136">
+        <name value="ParkEscape-FirstStopMapBounds"/>
+        <shape type="diamond">
+            <center value="158.8603,38.5021"/>
+            <width value="26.17"/>
+            <height value="29.2697"/>
+        </shape>
+    </region>
+    <region id="137">
+        <name value="AUD109-GasStationMoveTo"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="116.72,49.6198"/>
+            <width value="66.0397"/>
+            <height value="120.0698"/>
+        </shape>
+    </region>
+    <region id="138">
+        <name value="ParkEscape-Bloodshed5Tripwire"/>
+        <shape type="diamond">
+            <center value="191.719,71.6701"/>
+            <width value="9.8332"/>
+            <height value="2.1965"/>
+        </shape>
+    </region>
+    <region id="139">
+        <name value="AUD109-AccidentSceneTripwire"/>
+        <shape type="diamond">
+            <center value="143.7336,54.509"/>
+            <width value="15.593"/>
+            <height value="2.3996"/>
+        </shape>
+    </region>
+    <region id="140">
+        <name value="AUD109-AccidentSceneZerglingSpawn"/>
+        <shape type="diamond">
+            <center value="118.7792,70.8566"/>
+            <width value="3.846"/>
+            <height value="9.8308"/>
+        </shape>
+    </region>
+    <region id="141">
+        <name value="AUD109-AccidentArea"/>
+        <shape type="circle">
+            <center value="138.6596,65.9421"/>
+            <radius value="12.7385"/>
+        </shape>
+    </region>
+    <region id="142">
+        <name value="AUD24-GoTo"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="151.5004,60.5732"/>
+            <width value="111.0942"/>
+            <height value="150.7646"/>
+        </shape>
+    </region>
+    <region id="143">
+        <name value="AUD109-CrashTripwire"/>
+        <shape type="diamond">
+            <center value="96.308,85.7834"/>
+            <width value="3.5798"/>
+            <height value="16.91"/>
+        </shape>
+    </region>
+    <region id="144">
+        <name value="AUD109-CrashSite"/>
+        <shape type="circle">
+            <center value="94.0002,81.001"/>
+            <radius value="2.7221"/>
+        </shape>
+    </region>
+    <region id="145">
+        <name value="AUD109-CrashSiteBrakes"/>
+        <shape type="circle">
+            <center value="86.4846,73.8876"/>
+            <radius value="2.7221"/>
+        </shape>
+    </region>
+    <region id="146">
+        <name value="IntroCinematic-Bloodsplats"/>
+        <shape type="circle">
+            <center value="183.9621,117.4003"/>
+            <radius value="2.1215"/>
+        </shape>
+    </region>
+    <region id="147">
+        <name value="ParkEscape-FastCopDespawn"/>
+        <shape type="circle">
+            <center value="135.977,130.0686"/>
+            <radius value="3.1254"/>
+        </shape>
+    </region>
+    <region id="148">
+        <name value="AUD24-BlockadeTripwire"/>
+        <shape type="diamond">
+            <center value="96.9921,86.0417"/>
+            <width value="3.1896"/>
+            <height value="13.2023"/>
+        </shape>
+    </region>
+    <region id="149">
+        <name value="AUD24-BlockadeArea"/>
+        <shape type="diamond">
+            <center value="105.9301,93.5507"/>
+            <width value="5.1198"/>
+            <height value="4.23"/>
+        </shape>
+    </region>
+    <region id="150">
+        <name value="AUD24-BlockadeSpawn"/>
+        <shape type="diamond">
+            <center value="123.5002,77.0002"/>
+            <width value="7.3496"/>
+            <height value="8.278"/>
+        </shape>
+    </region>
+    <region id="151">
+        <name value="AUD24-BlockadeZergDespawn"/>
+        <shape type="diamond">
+            <center value="53.6936,42.0275"/>
+            <width value="15.3098"/>
+            <height value="14.5097"/>
+        </shape>
+    </region>
+    <region id="152">
+        <name value="AUD24-BlockadeZergSpawnRegion"/>
+        <shape type="diamond">
+            <center value="136.292,127.5417"/>
+            <width value="9.4521"/>
+            <height value="14.3374"/>
+        </shape>
+    </region>
+    <region id="153">
+        <name value="AUD24-Unburrow1"/>
+        <shape type="diamond">
+            <center value="162.3178,58.229"/>
+            <width value="9.5405"/>
+            <height value="2.9953"/>
+        </shape>
+    </region>
+    <region id="154">
+        <name value="AUD24-Unburrow2"/>
+        <shape type="diamond">
+            <center value="171.507,65.8315"/>
+            <width value="13.4194"/>
+            <height value="5.2868"/>
+        </shape>
+    </region>
+    <region id="155">
+        <name value="AUD24-PoliceAnnouncementTripwire"/>
+        <shape type="diamond">
+            <center value="166.3315,34.5363"/>
+            <width value="10.24"/>
+            <height value="3.23"/>
+        </shape>
+    </region>
+    <region id="156">
+        <name value="AUD24-RemoveZerg"/>
+        <shape type="diamond">
+            <center value="180.8063,47.8225"/>
+            <width value="31.6506"/>
+            <height value="24.908"/>
+        </shape>
+    </region>
+    <region id="157">
+        <name value="AUD24-HydraSpawn1"/>
+        <shape type="diamond">
+            <center value="124.629,75.3032"/>
+            <width value="5.3847"/>
+            <height value="10.5632"/>
+        </shape>
+    </region>
+    <region id="158">
+        <name value="AUD24-HydraSpawn2"/>
+        <shape type="diamond">
+            <center value="149.2824,51.2355"/>
+            <width value="6.2102"/>
+            <height value="14.031"/>
+        </shape>
+    </region>
+    <region id="159">
+        <name value="AUD24-HydraSpawn3"/>
+        <shape type="rect">
+            <quad value="160.0808,30.2714,173.4343,36.1704"/>
+        </shape>
+    </region>
+    <region id="160">
+        <name value="AUD24-HydraSpawn4"/>
+        <shape type="diamond">
+            <center value="128.9797,55.8952"/>
+            <width value="4.2116"/>
+            <height value="8.705"/>
+        </shape>
+    </region>
+    <region id="161">
+        <name value="AUD24-PoliceAnnouncerZergSpawn"/>
+        <shape type="diamond">
+            <center value="181.165,61.2822"/>
+            <width value="3.1413"/>
+            <height value="5.421"/>
+        </shape>
+    </region>
+    <region id="162">
+        <name value="AUD24-HoldoutPoliceTransportDesto"/>
+        <shape type="circle">
+            <center value="212.4211,55.9714"/>
+            <radius value="2.16"/>
+        </shape>
+    </region>
+    <region id="163">
+        <name value="AUD24-HoldoutPart1PlayArea"/>
+        <shape type="diamond">
+            <center value="221.9196,42.1726"/>
+            <width value="23.3591"/>
+            <height value="31.276"/>
+        </shape>
+    </region>
+    <region id="164">
+        <name value="AUD24-HoldoutPart2PlayArea"/>
+        <shape type="diamond">
+            <center value="218.9345,45.3574"/>
+            <width value="21.679"/>
+            <height value="56.031"/>
+        </shape>
+    </region>
+    <region id="165">
+        <name value="AUD24-HoldoutRearAttack"/>
+        <shape type="diamond">
+            <center value="195.3398,66.8457"/>
+            <width value="12.2912"/>
+            <height value="4.4216"/>
+        </shape>
+    </region>
+    <region id="166">
+        <name value="PlayableArea-AUD499"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="132.1638,45.3666"/>
+            <width value="139.2353"/>
+            <height value="129.7053"/>
+        </shape>
+    </region>
+    <region id="167">
+        <name value="AUD499-BuildingAlarm"/>
+        <shape type="circle">
+            <center value="168.2456,47.4294"/>
+            <radius value="17.025"/>
+        </shape>
+    </region>
+    <region id="168">
+        <name value="AUD499-PoliceHQ"/>
+        <shape type="diamond">
+            <center value="99.3598,48.579"/>
+            <width value="27.711"/>
+            <height value="19.136"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="AUD499-SWATVanBoom"/>
+        <shape type="circle">
+            <center value="90.0002,14.0007"/>
+            <radius value="2.9448"/>
+        </shape>
+    </region>
+    <region id="169">
+        <name value="AUD499-ScreamingCiviliansMove1"/>
+        <shape type="diamond">
+            <center value="76.788,16.8146"/>
+            <width value="11.5"/>
+            <height value="4.0297"/>
+        </shape>
+    </region>
+    <region id="170">
+        <name value="AUD499-ScreamingCiviliansDespawn"/>
+        <shape type="rect">
+            <quad value="119.9863,16.5803,126.0144,20.4216"/>
+        </shape>
+    </region>
+    <region id="171">
+        <name value="AUD499-ScreamingCiviliansTripwire"/>
+        <shape type="diamond">
+            <center value="71.5817,21.6276"/>
+            <width value="12.3037"/>
+            <height value="3.4667"/>
+        </shape>
+    </region>
+    <region id="172">
+        <name value="AUD499-APCTrigger"/>
+        <shape type="diamond">
+            <center value="89.0002,76.5002"/>
+            <width value="43.5"/>
+            <height value="19.16"/>
+        </shape>
+    </region>
+    <region id="173">
+        <name value="StreetName-Riverwalk"/>
+        <shape type="diamond">
+            <center value="63.9726,82.2663"/>
+            <width value="91.1381"/>
+            <height value="5.728"/>
+        </shape>
+    </region>
+    <region id="174">
+        <name value="StreetName-PoliceHQ"/>
+        <shape type="diamond">
+            <center value="102.9782,50.3703"/>
+            <width value="12.8984"/>
+            <height value="12.0456"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="AUD36-EASRegion"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="137.5683,95.7993"/>
+            <width value="53.98"/>
+            <height value="57.1552"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="AUD36-FireRegion"/>
+        <shape type="diamond">
+            <center value="130.6784,86.239"/>
+            <width value="29.654"/>
+            <height value="28.6523"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="AUD36-BuildingExplosion"/>
+        <shape type="diamond">
+            <center value="123.3552,78.0556"/>
+            <width value="12.515"/>
+            <height value="9.033"/>
+        </shape>
+    </region>
+    <region id="175">
+        <name value="Riverwalk-SewerEntrance"/>
+        <shape type="circle">
+            <center value="60.0017,83.0034"/>
+            <radius value="0.6848"/>
+        </shape>
+    </region>
+    <region id="176">
+        <name value="Riverwalk-AreatoClear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="55.0002,83.5002"/>
+            <width value="62.2397"/>
+            <height value="21.5112"/>
+        </shape>
+    </region>
+    <region id="177">
+        <name value="Riverwalk-PlayArea"/>
+        <shape type="diamond">
+            <center value="72.4931,82.2312"/>
+            <width value="135.0898"/>
+            <height value="54.5747"/>
+        </shape>
+    </region>
+    <region id="178">
+        <name value="Riverwalk-StartingUnits"/>
+        <shape type="circle">
+            <center value="77.5002,68.0004"/>
+            <radius value="4.6982"/>
+        </shape>
+    </region>
+    <region id="179">
+        <name value="Riverwalk-SewerArea"/>
+        <shape type="diamond">
+            <center value="166.0002,175.5002"/>
+            <width value="29.39"/>
+            <height value="37.1198"/>
+        </shape>
+    </region>
+    <region id="180">
+        <name value="Riverwalk-Beacon"/>
+        <shape type="circle">
+            <center value="59.7822,83.105"/>
+            <radius value="0.8176"/>
+        </shape>
+    </region>
+    <region id="181">
+        <name value="Riverwalk-SewerStart"/>
+        <shape type="diamond">
+            <center value="161.8293,169.5761"/>
+            <width value="4.536"/>
+            <height value="4.8098"/>
+        </shape>
+    </region>
+    <region id="182">
+        <name value="Riverwalk-CivilianEngineerArea"/>
+        <shape type="circle">
+            <center value="163.0944,190.7055"/>
+            <radius value="1.3383"/>
+        </shape>
+    </region>
+    <region id="183">
+        <name value="Riverwalk-SewerSpawnArea"/>
+        <shape type="diamond">
+            <center value="166.5,175.5002"/>
+            <width value="23.7597"/>
+            <height value="30.9333"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="157.361,189.3615,165.6306,195.631"/>
+        </shape>
+        <shape type="circle">
+            <negative/>
+            <center value="151.5,183.9"/>
+            <radius value="4.17"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="177.5,164.9"/>
+            <width value="24.67"/>
+            <height value="3.95"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="182.39,175.206"/>
+            <width value="5.2998"/>
+            <height value="13.44"/>
+        </shape>
+        <shape type="circle">
+            <negative/>
+            <center value="182.0898,169.21"/>
+            <radius value="4.21"/>
+        </shape>
+        <shape type="circle">
+            <negative/>
+            <center value="172.0898,159.21"/>
+            <radius value="4.21"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="168.0898,176.21"/>
+            <width value="13.7998"/>
+            <height value="19.44"/>
+        </shape>
+    </region>
+    <region id="184">
+        <name value="Riverwalk-SewerMinimap"/>
+        <shape type="circle">
+            <center value="244.0002,177.0002"/>
+            <radius value="4.7268"/>
+        </shape>
+    </region>
+    <region id="185">
+        <name value="SwatVan-StartingPoint"/>
+        <shape type="diamond">
+            <center value="118.398,53.1474"/>
+            <width value="3.0954"/>
+            <height value="2.7766"/>
+        </shape>
+    </region>
+    <region id="186">
+        <name value="SwatVan-PlayableArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="151.5073,51.1811"/>
+            <width value="75.6098"/>
+            <height value="60.44"/>
+        </shape>
+    </region>
+    <region id="187">
+        <name value="SwatVan-CivilianLoadingArea"/>
+        <shape type="circle">
+            <center value="176.0021,48.1877"/>
+            <radius value="3.1064"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="ConstructionYard-MoveToArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="159.7224,78.0505"/>
+            <width value="52.7148"/>
+            <height value="90.0444"/>
+        </shape>
+    </region>
+    <region id="84">
+        <name value="ConstructionYard-Unburrow"/>
+        <shape type="diamond">
+            <center value="167.808,73.937"/>
+            <width value="9.3303"/>
+            <height value="19.1145"/>
+        </shape>
+    </region>
+    <region id="188">
+        <name value="ConstructionYard-Unburrow2"/>
+        <shape type="diamond">
+            <center value="182.851,77.1262"/>
+            <width value="14.3852"/>
+            <height value="29.1796"/>
+        </shape>
+    </region>
+    <region id="189">
+        <name value="ConstructionYard-OspreyDespawn"/>
+        <shape type="circle">
+            <center value="208.9653,52.57"/>
+            <radius value="1.9135"/>
+        </shape>
+    </region>
+    <region id="190">
+        <name value="ConstructionYard-OspreySpawn"/>
+        <shape type="diamond">
+            <center value="195.0197,66.9665"/>
+            <width value="13.2097"/>
+            <height value="2.238"/>
+        </shape>
+    </region>
+    <region id="191">
+        <name value="ConstructionYard-UPLAttackGrid"/>
+        <shape type="diamond">
+            <center value="143.8105,91.0776"/>
+            <width value="14.3298"/>
+            <height value="11.5598"/>
+        </shape>
+    </region>
+    <region id="192">
+        <name value="ConstructionYard-Officers"/>
+        <shape type="diamond">
+            <center value="135.1997,91.859"/>
+            <width value="4.9335"/>
+            <height value="3.19"/>
+        </shape>
+    </region>
+    <region id="193">
+        <name value="ConstructionYard-EscortArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="131.6525,67.0852"/>
+            <width value="93.806"/>
+            <height value="53.515"/>
+        </shape>
+    </region>
+    <region id="194">
+        <name value="ConstructionYard-PoliceGroupDespawn"/>
+        <shape type="diamond">
+            <center value="114.8974,51.5324"/>
+            <width value="4.2333"/>
+            <height value="1.6015"/>
+        </shape>
+    </region>
+    <region id="195">
+        <name value="UltraliskSection-GarrisonArea"/>
+        <shape type="diamond">
+            <center value="161.5781,36.0307"/>
+            <width value="14.1313"/>
+            <height value="9.6923"/>
+        </shape>
+    </region>
+    <region id="196">
+        <name value="Ultralisk-RoutheChangesOwner"/>
+        <shape type="diamond">
+            <center value="171.9616,33.0908"/>
+            <width value="2.2233"/>
+            <height value="3.946"/>
+        </shape>
+    </region>
+    <region id="197">
+        <name value="PlayableArea-Ultralisk"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="137.181,39.5673"/>
+            <width value="157.005"/>
+            <height value="149.439"/>
+        </shape>
+    </region>
+    <region id="198">
+        <name value="UPLCinematic-OspreySpawn"/>
+        <shape type="circle">
+            <center value="115.727,9.696"/>
+            <radius value="6.3718"/>
+        </shape>
+    </region>
+    <region id="199">
+        <name value="UPLCinematic-TroopsDespawn"/>
+        <shape type="circle">
+            <center value="133.91,60.8967"/>
+            <radius value="10.0803"/>
+        </shape>
+    </region>
+    <region id="200">
+        <name value="UPLCinematic-CivilianDespawn"/>
+        <shape type="circle">
+            <center value="106.797,55.311"/>
+            <radius value="2.9138"/>
+        </shape>
+    </region>
+    <region id="201">
+        <name value="UPLCinematic-ZergCarcass"/>
+        <shape type="circle">
+            <center value="128.2224,31.892"/>
+            <radius value="2.6582"/>
+        </shape>
+    </region>
+    <region id="203">
+        <name value="UPLCinematic-ZergBase"/>
+        <shape type="diamond">
+            <center value="93.052,131.6555"/>
+            <width value="22.0996"/>
+            <height value="30.281"/>
+        </shape>
+    </region>
+    <region id="204">
+        <name value="UPLCinematic-ShowUPLAndCivilians"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="113.236,39.4201"/>
+            <width value="78.004"/>
+            <height value="98.1518"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="127.24,53.42"/>
+            <width value="27.0297"/>
+            <height value="15.0297"/>
+        </shape>
+    </region>
+    <region id="205">
+        <name value="PlayableArea-UPLSection"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="84.9213,101.9567"/>
+            <width value="99.3266"/>
+            <height value="66.5322"/>
+        </shape>
+    </region>
+    <region id="207">
+        <name value="UPLCinematic-Troops1"/>
+        <shape type="diamond">
+            <center value="99.2966,28.6962"/>
+            <width value="5.9995"/>
+            <height value="1.7714"/>
+        </shape>
+    </region>
+    <region id="208">
+        <name value="UPLCinematic-Troops2"/>
+        <shape type="diamond">
+            <center value="100.689,27.2392"/>
+            <width value="5.9616"/>
+            <height value="1.8195"/>
+        </shape>
+    </region>
+    <region id="206">
+        <name value="UPLCinematic-DavisOspreyDesto"/>
+        <shape type="circle">
+            <center value="78.002,53.5087"/>
+            <radius value="2.032"/>
+        </shape>
+    </region>
+    <region id="209">
+        <name value="UPLCinematic-Officers"/>
+        <shape type="diamond">
+            <center value="70.2226,50.209"/>
+            <width value="3.2541"/>
+            <height value="2.4562"/>
+        </shape>
+    </region>
+    <region id="210">
+        <name value="UPLCinematic-OspreyDespawn"/>
+        <shape type="circle">
+            <center value="124.059,79.7883"/>
+            <radius value="6.7468"/>
+        </shape>
+    </region>
+    <region id="211">
+        <name value="UPLCinematic-OspreyLandingSite"/>
+        <shape type="circle">
+            <center value="96.0275,48.0617"/>
+            <radius value="0.98"/>
+        </shape>
+    </region>
+    <region id="212">
+        <name value="UPLCinematic-OspreyDespawn2"/>
+        <shape type="circle">
+            <center value="135.7875,25.2072"/>
+            <radius value="3.2392"/>
+        </shape>
+    </region>
+    <region id="213">
+        <name value="UPLSection-Unburrow"/>
+        <shape type="diamond">
+            <center value="96.2968,101.5405"/>
+            <width value="11.5546"/>
+            <height value="21.6557"/>
+        </shape>
+    </region>
+    <region id="214">
+        <name value="UPLSection-Incinerators"/>
+        <shape type="diamond">
+            <center value="82.0192,53.588"/>
+            <width value="9.14"/>
+            <height value="10.8198"/>
+        </shape>
+    </region>
+    <region id="215">
+        <name value="WomenandChildren-IncineratorMoveRegion"/>
+        <shape type="diamond">
+            <center value="72.1923,25.4797"/>
+            <width value="3.0197"/>
+            <height value="6.7558"/>
+        </shape>
+    </region>
+    <region id="216">
+        <name value="WomenandChildren-TroopSpawn"/>
+        <shape type="diamond">
+            <center value="44.4033,49.8496"/>
+            <width value="4.0898"/>
+            <height value="9.3"/>
+        </shape>
+    </region>
+    <region id="217">
+        <name value="WomenandChildren-FirstZergSpawn"/>
+        <shape type="diamond">
+            <center value="129.4665,56.8781"/>
+            <width value="15.0498"/>
+            <height value="8.8425"/>
+        </shape>
+    </region>
+    <region id="218">
+        <name value="PlayableArea-WomenandChildren"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="136.9467,48.6967"/>
+            <width value="146.4294"/>
+            <height value="91.9821"/>
+        </shape>
+    </region>
+    <region id="219">
+        <name value="WomenandChildren-TroopsMove1"/>
+        <shape type="circle">
+            <center value="76.3037,18.8122"/>
+            <radius value="2.247"/>
+        </shape>
+    </region>
+    <region id="220">
+        <name value="WomenandChildren-TroopsMove2"/>
+        <shape type="circle">
+            <center value="90.072,17.6127"/>
+            <radius value="2.505"/>
+        </shape>
+    </region>
+    <region id="221">
+        <name value="WomenandChildren-TroopsMove3"/>
+        <shape type="diamond">
+            <center value="110.1328,35.101"/>
+            <width value="11.6672"/>
+            <height value="9.2402"/>
+        </shape>
+    </region>
+    <region id="222">
+        <name value="WomenandChildren-TroopDespawn"/>
+        <shape type="diamond">
+            <center value="42.4743,68.563"/>
+            <width value="11.8071"/>
+            <height value="14.726"/>
+        </shape>
+    </region>
+    <region id="223">
+        <name value="WomenandChildren-RedZoneEntry"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="162.282,72.495"/>
+            <width value="73.0637"/>
+            <height value="132.8874"/>
+        </shape>
+    </region>
+    <region id="224">
+        <name value="WomenandChildren-Bullies1"/>
+        <color value="255,255,0,128"/>
+        <shape type="diamond">
+            <center value="107.0002,93.5002"/>
+            <width value="18.24"/>
+            <height value="17.98"/>
+        </shape>
+    </region>
+    <region id="225">
+        <name value="WomenandChildren-Bullies2"/>
+        <color value="255,128,0,255"/>
+        <shape type="diamond">
+            <center value="122.5002,74.5002"/>
+            <width value="16.99"/>
+            <height value="8.41"/>
+        </shape>
+    </region>
+    <region id="226">
+        <name value="WomenandChildren-BulliesSpawn1"/>
+        <shape type="circle">
+            <center value="165.5002,91.5002"/>
+            <radius value="3.3791"/>
+        </shape>
+    </region>
+    <region id="227">
+        <name value="WomenandChildren-BulliesSpawn2"/>
+        <shape type="circle">
+            <center value="83.5002,76.5002"/>
+            <radius value="2.978"/>
+        </shape>
+    </region>
+    <region id="228">
+        <name value="ConstructionYard-Staging"/>
+        <shape type="circle">
+            <center value="183.6003,49.0703"/>
+            <radius value="3.4875"/>
+        </shape>
+    </region>
+    <region id="229">
+        <name value="SwatVan-RemovePolice"/>
+        <shape type="diamond">
+            <center value="192.3151,53.0388"/>
+            <width value="11.1533"/>
+            <height value="11.1274"/>
+        </shape>
+    </region>
+    <region id="230">
+        <name value="WomenandChildren-SWATVanStop"/>
+        <shape type="circle">
+            <center value="90,14.0002"/>
+            <radius value="3.7448"/>
+        </shape>
+    </region>
+    <region id="231">
+        <name value="WomenandChildren-CivilianSpawn"/>
+        <shape type="diamond">
+            <center value="172.3642,42.3522"/>
+            <width value="1.93"/>
+            <height value="1.7797"/>
+        </shape>
+    </region>
+    <region id="232">
+        <name value="WomenandChildren-MoveTo1"/>
+        <shape type="diamond">
+            <center value="106.5126,93.363"/>
+            <width value="7.5974"/>
+            <height value="5.9787"/>
+        </shape>
+    </region>
+    <region id="233">
+        <name value="WomenandChildren-CiviliansMoveToFinal"/>
+        <shape type="diamond">
+            <center value="118.1945,114.5654"/>
+            <width value="6.308"/>
+            <height value="2.3156"/>
+        </shape>
+    </region>
+    <region id="234">
+        <name value="WomenandChildren-WomenandChildrenTripwire"/>
+        <shape type="diamond">
+            <center value="164.7543,36.506"/>
+            <width value="5.7485"/>
+            <height value="2.2375"/>
+        </shape>
+    </region>
+    <region id="235">
+        <name value="WomenandChildren-OverlordSpawn"/>
+        <shape type="diamond">
+            <center value="119.0002,80.0002"/>
+            <width value="13.0297"/>
+            <height value="9.25"/>
+        </shape>
+    </region>
+    <region id="236">
+        <name value="WomenandChildren-OverlordDespawn"/>
+        <shape type="circle">
+            <center value="90.0004,97.5012"/>
+            <radius value="2.3183"/>
+        </shape>
+    </region>
+    <region id="237">
+        <name value="MayorSection-GreatDespawn"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="123.2033,71.858"/>
+            <width value="187.9868"/>
+            <height value="147.8332"/>
+        </shape>
+    </region>
+    <region id="102">
+        <name value="WomenandChildren-OverlordMobDespawn"/>
+        <shape type="diamond">
+            <center value="194.8105,82.2932"/>
+            <width value="7"/>
+            <height value="26.4016"/>
+        </shape>
+    </region>
+    <region id="109">
+        <name value="MayorSection-ElevatorZergSpawn"/>
+        <shape type="diamond">
+            <center value="49.5502,147.56"/>
+            <width value="1.0178"/>
+            <height value="2.4357"/>
+        </shape>
+    </region>
+    <region id="111">
+        <name value="MayorSection-BossFightArea"/>
+        <shape type="rect">
+            <quad value="180.5715,220.0104,234.0014,251.9904"/>
+        </shape>
+    </region>
+    <region id="112">
+        <name value="MayorSection-NydusCrater1"/>
+        <shape type="circle">
+            <center value="193.7551,240.153"/>
+            <radius value="1.8513"/>
+        </shape>
+    </region>
+    <region id="113">
+        <name value="MayorSection-NydusCrater2"/>
+        <shape type="circle">
+            <center value="194.041,234.556"/>
+            <radius value="1.8427"/>
+        </shape>
+    </region>
+    <region id="114">
+        <name value="MayorSection-NydusCrater3"/>
+        <shape type="circle">
+            <center value="200.1728,228.1687"/>
+            <radius value="1.714"/>
+        </shape>
+    </region>
+    <region id="116">
+        <name value="MayorSection-NydusCrater4"/>
+        <shape type="circle">
+            <center value="211.4057,227.4582"/>
+            <radius value="1.6103"/>
+        </shape>
+    </region>
+    <region id="238">
+        <name value="MayorSection-NydusCrater5"/>
+        <shape type="circle">
+            <center value="218.1264,235.105"/>
+            <radius value="1.5698"/>
+        </shape>
+    </region>
+    <region id="239">
+        <name value="MayorSection-NydusCrater6"/>
+        <shape type="circle">
+            <center value="217.8007,242.9443"/>
+            <radius value="1.5998"/>
+        </shape>
+    </region>
+    <region id="240">
+        <name value="MayorSection-NydusCrater7"/>
+        <shape type="circle">
+            <center value="205.7145,236.8857"/>
+            <radius value="1.6098"/>
+        </shape>
+    </region>
+    <region id="241">
+        <name value="RiotCinematic-Area"/>
+        <shape type="diamond">
+            <center value="107.2136,190.714"/>
+            <width value="37.8203"/>
+            <height value="61.8354"/>
+        </shape>
+        <shape type="circle">
+            <negative/>
+            <center value="106.21,170.71"/>
+            <radius value="5.115"/>
+        </shape>
+    </region>
+    <region id="242">
+        <name value="Riot-MarchingCiviliansSpawn"/>
+        <shape type="diamond">
+            <center value="115.813,163.5297"/>
+            <width value="1.75"/>
+            <height value="7.8503"/>
+        </shape>
+    </region>
+    <region id="243">
+        <name value="Riot-MarchingCiviliansDesto"/>
+        <shape type="diamond">
+            <center value="132.1872,179.9135"/>
+            <width value="8.5046"/>
+            <height value="7.0002"/>
+        </shape>
+    </region>
+    <region id="244">
+        <name value="Riot-ZergSpawnRear"/>
+        <shape type="diamond">
+            <center value="91.882,204.5341"/>
+            <width value="16.984"/>
+            <height value="2.2897"/>
+        </shape>
+    </region>
+    <region id="245">
+        <name value="Riot-ZergSpawnLeft"/>
+        <shape type="diamond">
+            <center value="116.6567,164.6276"/>
+            <width value="4.36"/>
+            <height value="6.7521"/>
+        </shape>
+    </region>
+    <region id="247">
+        <name value="Riot-Nydus3"/>
+        <shape type="circle">
+            <center value="132.3327,179.5893"/>
+            <radius value="2.167"/>
+        </shape>
+    </region>
+    <region id="248">
+        <name value="Riot-Nydus2"/>
+        <shape type="circle">
+            <center value="113.659,179.265"/>
+            <radius value="2.7934"/>
+        </shape>
+    </region>
+    <region id="249">
+        <name value="Riot-DavisRun1"/>
+        <shape type="circle">
+            <center value="117.5925,191.4448"/>
+            <radius value="2.279"/>
+        </shape>
+    </region>
+    <region id="250">
+        <name value="Riot-DavisRun3"/>
+        <shape type="circle">
+            <center value="116.6381,175.0141"/>
+            <radius value="1.8977"/>
+        </shape>
+    </region>
+    <region id="251">
+        <name value="Riot-TunnelFightArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="65.4943,193.8178"/>
+            <width value="37.659"/>
+            <height value="125.0241"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Riot-TunnelUnburrow1"/>
+        <shape type="diamond">
+            <center value="64.9113,199.9494"/>
+            <width value="21.6235"/>
+            <height value="8.7014"/>
+        </shape>
+    </region>
+    <region id="252">
+        <name value="Riot-TunnelUnburrow2"/>
+        <shape type="diamond">
+            <center value="75.3918,188.125"/>
+            <width value="9.526"/>
+            <height value="22.1687"/>
+        </shape>
+    </region>
+    <region id="253">
+        <name value="Riot-TunnelUnburrow3"/>
+        <shape type="diamond">
+            <center value="54.3366,208.483"/>
+            <width value="28.0756"/>
+            <height value="18.5998"/>
+        </shape>
+    </region>
+    <region id="254">
+        <name value="Riot-TunnelUnburrow4"/>
+        <shape type="diamond">
+            <center value="42.4912,221.176"/>
+            <width value="17.4548"/>
+            <height value="17.5075"/>
+        </shape>
+    </region>
+    <region id="255">
+        <name value="Riot-TunnelGasWheel1"/>
+        <shape type="circle">
+            <center value="225.5214,219.925"/>
+            <radius value="0.5"/>
+        </shape>
+    </region>
+    <region id="256">
+        <name value="Riot-TunnelGasWheel2"/>
+        <shape type="circle">
+            <center value="239.134,220.945"/>
+            <radius value="0.6848"/>
+        </shape>
+    </region>
+    <region id="257">
+        <name value="Riot-TunnelGasWheel3"/>
+        <shape type="circle">
+            <center value="245.501,202.5014"/>
+            <radius value="1.431"/>
+        </shape>
+    </region>
+    <region id="258">
+        <name value="Riot-TunnelFrancineBossArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="233.2321,213.9257"/>
+            <width value="35.2448"/>
+            <height value="29.1447"/>
+        </shape>
+    </region>
+    <region id="259">
+        <name value="Riot-CivilianRiotMovements"/>
+        <shape type="diamond">
+            <center value="110.192,195.3198"/>
+            <width value="24.5876"/>
+            <height value="11.0676"/>
+        </shape>
+    </region>
+    <region id="260">
+        <name value="ConstructionYard-UPLReinforcementsDesto"/>
+        <shape type="diamond">
+            <center value="125.7727,52.3356"/>
+            <width value="12.3388"/>
+            <height value="7.767"/>
+        </shape>
+    </region>
+    <region id="261">
+        <name value="WomenandChildren-ZergRemove"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="53.5002,56.0002"/>
+            <width value="66.9267"/>
+            <height value="47.709"/>
+        </shape>
+    </region>
+    <region id="262">
+        <name value="MayorCinematic-StartArea"/>
+        <shape type="diamond">
+            <center value="33.9592,136.361"/>
+            <width value="72.1408"/>
+            <height value="53.864"/>
+        </shape>
+    </region>
+    <region id="263">
+        <name value="AUD499-BuildingFire"/>
+        <shape type="circle">
+            <center value="164.9228,44.958"/>
+            <radius value="3.4555"/>
+        </shape>
+    </region>
+    <region id="264">
+        <name value="Swatvan-BuildingFire"/>
+        <shape type="circle">
+            <center value="170.675,44.1936"/>
+            <radius value="3.1696"/>
+        </shape>
+    </region>
+    <region id="265">
+        <name value="Riot-TunnelFrancinePoint"/>
+        <shape type="circle">
+            <center value="41.6655,230.1315"/>
+            <radius value="0.865"/>
+        </shape>
+    </region>
+    <region id="266">
+        <name value="FrancineExplosionCinematic-Region1"/>
+        <shape type="diamond">
+            <center value="78.3027,143.227"/>
+            <width value="12.3322"/>
+            <height value="4.4816"/>
+        </shape>
+    </region>
+    <region id="267">
+        <name value="FrancineExplosionCinematic-Region2"/>
+        <shape type="diamond">
+            <center value="74.9372,146.5493"/>
+            <width value="12.0085"/>
+            <height value="4.5593"/>
+        </shape>
+    </region>
+    <region id="268">
+        <name value="FrancineExplosionCinematic-Region3"/>
+        <shape type="diamond">
+            <center value="71.363,150.2761"/>
+            <width value="12.135"/>
+            <height value="4.6418"/>
+        </shape>
+    </region>
+    <region id="269">
+        <name value="FrancineExplosionCinematic-Region4"/>
+        <shape type="diamond">
+            <center value="66.9606,154.169"/>
+            <width value="10.0456"/>
+            <height value="5.82"/>
+        </shape>
+    </region>
+    <region id="270">
+        <name value="FrancineExplosionCinematic-Region5"/>
+        <shape type="diamond">
+            <center value="63.4636,158.0351"/>
+            <width value="10.143"/>
+            <height value="5.083"/>
+        </shape>
+    </region>
+    <region id="271">
+        <name value="FrancineExplosionCinematic-Region6"/>
+        <shape type="diamond">
+            <center value="59.612,161.8222"/>
+            <width value="9.883"/>
+            <height value="5.2824"/>
+        </shape>
+    </region>
+    <region id="272">
+        <name value="FrancineExplosionCinematic-Region7"/>
+        <shape type="diamond">
+            <center value="55.2414,166.0905"/>
+            <width value="10.09"/>
+            <height value="6.4211"/>
+        </shape>
+    </region>
+    <region id="273">
+        <name value="FrancineExplosionCinematic-InteriorRegion"/>
+        <shape type="diamond">
+            <center value="64.3933,163.1086"/>
+            <width value="32.3796"/>
+            <height value="60.945"/>
+        </shape>
+    </region>
+    <region id="274">
+        <name value="FrancineExplosionCinematic-Boom1"/>
+        <shape type="circle">
+            <center value="39.486,231.6865"/>
+            <radius value="4.2131"/>
+        </shape>
+    </region>
+    <region id="275">
+        <name value="FrancineExplosionCinematic-Boom2"/>
+        <shape type="circle">
+            <center value="41.9294,229.623"/>
+            <radius value="4.9526"/>
+        </shape>
+    </region>
+    <region id="276">
+        <name value="FrancineExplosionCinematic-Boom3"/>
+        <shape type="circle">
+            <center value="41.477,226.2954"/>
+            <radius value="6.0986"/>
+        </shape>
+    </region>
+    <region id="277">
+        <name value="FrancineExplosionCinematic-Boom4"/>
+        <shape type="circle">
+            <center value="42.7622,220.9272"/>
+            <radius value="8.0756"/>
+        </shape>
+    </region>
+    <region id="278">
+        <name value="FrancineExplosionCinematic-Boom5"/>
+        <shape type="circle">
+            <center value="48.0002,214.0002"/>
+            <radius value="11.0913"/>
+        </shape>
+    </region>
+    <region id="279">
+        <name value="FrancineExplosionCinematic-Boom6"/>
+        <shape type="circle">
+            <center value="55.5021,211.389"/>
+            <radius value="9.2626"/>
+        </shape>
+    </region>
+    <region id="280">
+        <name value="FrancineExplosionCinematic-Boom7"/>
+        <shape type="circle">
+            <center value="59.5378,206.7275"/>
+            <radius value="11.5056"/>
+        </shape>
+    </region>
+    <region id="297">
+        <name value="Utility-BlockerDoodads1"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="217.0002,220.5002"/>
+            <width value="30.3198"/>
+            <height value="69.1098"/>
+        </shape>
+    </region>
+    <region id="321">
+        <name value="UPLCreateCivilians"/>
+        <shape type="circle">
+            <center value="122.9941,24.08"/>
+            <radius value="2.671"/>
+        </shape>
+    </region>
+    <region id="202">
+        <name value="AUD109-OfficersMoveTo"/>
+        <shape type="circle">
+            <center value="79.5,77.5"/>
+            <radius value="1.0605"/>
+        </shape>
+    </region>
+    <region id="323">
+        <name value="AUD499-RescueCivilianDespawn"/>
+        <shape type="circle">
+            <center value="106.75,55.25"/>
+            <radius value="2.8503"/>
+        </shape>
+    </region>
+    <region id="324">
+        <name value="AUD499-RescueCivilians9&amp;8"/>
+        <shape type="diamond">
+            <center value="113.0004,22.0007"/>
+            <width value="2.95"/>
+            <height value="3.5397"/>
+        </shape>
+    </region>
+    <region id="325">
+        <name value="AUD499-RescueCivilians2&amp;3"/>
+        <shape type="diamond">
+            <center value="46,33.0004"/>
+            <width value="7.4238"/>
+            <height value="3.8886"/>
+        </shape>
+    </region>
+    <region id="326">
+        <name value="AUD499-RescueCivilians4&amp;5"/>
+        <shape type="diamond">
+            <center value="73.5,77.5"/>
+            <width value="4.9492"/>
+            <height value="3.5351"/>
+        </shape>
+    </region>
+    <region id="327">
+        <name value="AUD499-RescueCivilians6&amp;7"/>
+        <shape type="diamond">
+            <center value="116.5,13.25"/>
+            <width value="3.1816"/>
+            <height value="5.3027"/>
+        </shape>
+    </region>
+    <region id="328">
+        <name value="AUD499-RescueCivilians1&amp;10"/>
+        <shape type="diamond">
+            <center value="152.5,28.75"/>
+            <width value="3.8886"/>
+            <height value="4.5957"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="AUD499-Despawn"/>
+        <shape type="circle">
+            <center value="106.0014,55.0014"/>
+            <radius value="1.7675"/>
+        </shape>
+    </region>
+    <region id="329">
+        <name value="AUD499-MoveNeutralOfficers"/>
+        <shape type="circle">
+            <center value="87.0002,18.0004"/>
+            <radius value="3.3598"/>
+        </shape>
+    </region>
+    <region id="330">
+        <name value="SwatVan-Despawn"/>
+        <shape type="diamond">
+            <center value="116,50.75"/>
+            <width value="4.5957"/>
+            <height value="2.4746"/>
+        </shape>
+    </region>
+    <region id="124">
+        <name value="IntroCinematic-NewsCopterDestination"/>
+        <shape type="circle">
+            <center value="136.5903,129.946"/>
+            <radius value="2.813"/>
+        </shape>
+    </region>
+    <region id="331">
+        <name value="SwatVan-Staging"/>
+        <shape type="circle">
+            <center value="182.5012,47"/>
+            <radius value="2.95"/>
+        </shape>
+    </region>
+    <region id="332">
+        <name value="SwatVan-VanParks"/>
+        <shape type="circle">
+            <center value="178.5,51.25"/>
+            <radius value="1.9523"/>
+        </shape>
+    </region>
+    <region id="333">
+        <name value="IntroCinematic-Fountain"/>
+        <shape type="circle">
+            <center value="138.25,111.25"/>
+            <radius value="11.275"/>
+        </shape>
+    </region>
+    <region id="335">
+        <name value="WomenandChildren-RCSection"/>
+        <shape type="diamond">
+            <center value="136.5002,94.5002"/>
+            <width value="71.0566"/>
+            <height value="67.5214"/>
+        </shape>
+    </region>
+    <region id="336">
+        <name value="WomenandChildren-RCSectionStaging"/>
+        <shape type="circle">
+            <center value="127.75,65.5"/>
+            <radius value="2.4621"/>
+        </shape>
+    </region>
+    <region id="334">
+        <name value="WomenandChildren-OverlordHoldoutArrival"/>
+        <shape type="circle">
+            <center value="118.5026,114.0026"/>
+            <radius value="1.25"/>
+        </shape>
+    </region>
+    <region id="337">
+        <name value="WomenandChildrenHoldout-AirliftRescue"/>
+        <shape type="circle">
+            <center value="107.5004,118.0004"/>
+            <radius value="3.0207"/>
+        </shape>
+    </region>
+    <region id="338">
+        <name value="WomenandChildren-HoldoutArea"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="121.5002,114.0002"/>
+            <width value="44.8198"/>
+            <height value="40.0297"/>
+        </shape>
+    </region>
+    <region id="339">
+        <name value="WomenandChildrenHoldout-AirliftMoveTo"/>
+        <shape type="circle">
+            <center value="120.75,111"/>
+            <radius value="3.816"/>
+        </shape>
+    </region>
+    <region id="340">
+        <name value="FrancineCinematic-AboveGround"/>
+        <shape type="diamond">
+            <center value="48.25,215.75"/>
+            <width value="43.836"/>
+            <height value="55.8554"/>
+        </shape>
+    </region>
+    <region id="246">
+        <name value="Artifact-Davis"/>
+        <shape type="circle">
+            <center value="148.5,59"/>
+            <radius value="1.118"/>
+        </shape>
+    </region>
+    <region id="281">
+        <name value="Artifact-Surplus"/>
+        <shape type="circle">
+            <center value="164.5,61.25"/>
+            <radius value="1.25"/>
+        </shape>
+    </region>
+    <region id="282">
+        <name value="Artifact-Denise"/>
+        <shape type="circle">
+            <center value="183.25,24.625"/>
+            <radius value="1.7543"/>
+        </shape>
+    </region>
+    <region id="283">
+        <name value="Artifact-BoomBoom"/>
+        <shape type="circle">
+            <center value="160.75,71"/>
+            <radius value="2.0153"/>
+        </shape>
+    </region>
+    <region id="284">
+        <name value="Artifact-Incinerator"/>
+        <shape type="circle">
+            <center value="102.002,53.002"/>
+            <radius value="1.581"/>
+        </shape>
+    </region>
+    <region id="285">
+        <name value="Artifact-Francine"/>
+        <shape type="circle">
+            <center value="41,205.25"/>
+            <radius value="1.677"/>
+        </shape>
+    </region>
+    <region id="286">
+        <name value="AUD499-DeniseRemoveZergArea"/>
+        <shape type="circle">
+            <center value="90.5,19.25"/>
+            <radius value="21.513"/>
+        </shape>
+    </region>
+    <region id="287">
+        <name value="UltraliskSection-RemovePolice"/>
+        <shape type="diamond">
+            <center value="95.5,53.25"/>
+            <width value="65.4003"/>
+            <height value="33.584"/>
+        </shape>
+    </region>
+    <region id="288">
+        <name value="AUD24-HoldoutRetreat"/>
+        <shape type="diamond">
+            <center value="212.5,51"/>
+            <width value="8.4843"/>
+            <height value="5.6562"/>
+        </shape>
+    </region>
+    <region id="289">
+        <name value="Riot-ArrivalMove"/>
+        <shape type="diamond">
+            <center value="107.5012,208.0012"/>
+            <width value="2.121"/>
+            <height value="2.8281"/>
+        </shape>
+    </region>
+    <region id="290">
+        <name value="Riverwalk-RemoveZerg"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="78.25,68.75"/>
+            <width value="37.4726"/>
+            <height value="21.211"/>
+        </shape>
+    </region>
+    <region id="291">
+        <name value="Riverwalk-RevealArea"/>
+        <shape type="diamond">
+            <center value="42.5,76.5"/>
+            <width value="70.7031"/>
+            <height value="28.2812"/>
+        </shape>
+    </region>
+    <region id="292">
+        <name value="ParkEscape_CameraBounds"/>
+        <shape type="rect">
+            <quad value="148.3217,96.0864,188.3981,138.8015"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="WomenandChildren-RemoveZerg"/>
+        <shape type="diamond">
+            <center value="71.5,23"/>
+            <width value="14.8476"/>
+            <height value="33.2304"/>
+        </shape>
+    </region>
+    <region id="347">
+        <name value="AUD499-RescueOfficers"/>
+        <shape type="diamond">
+            <center value="192.25,53.75"/>
+            <width value="16.2617"/>
+            <height value="9.8984"/>
+        </shape>
+    </region>
+    <region id="293">
+        <name value="Various-RescueOfficerZoneEarly"/>
+        <shape type="circle">
+            <center value="138.25,64"/>
+            <radius value="5.3676"/>
+        </shape>
+    </region>
+    <region id="294">
+        <name value="RiotSquad-EarlyRescue"/>
+        <shape type="circle">
+            <center value="81.5,75.5"/>
+            <radius value="3.905"/>
+        </shape>
+    </region>
+    <region id="295">
+        <name value="Normal-Remove"/>
+        <shape type="circle">
+            <center value="163.5,78"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="163.75,60"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="92,124"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="170,72"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="180,83.5"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="187.5,76.5"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="116.5,83.5"/>
+            <radius value="3.473"/>
+        </shape>
+        <shape type="circle">
+            <center value="105.5,130"/>
+            <radius value="3.473"/>
+        </shape>
+    </region>
+    <region id="296">
+        <name value="Normal-Remove2"/>
+        <shape type="circle">
+            <center value="42,214.5"/>
+            <radius value="3.2595"/>
+        </shape>
+        <shape type="circle">
+            <center value="61,198"/>
+            <radius value="3.2595"/>
+        </shape>
+        <shape type="circle">
+            <center value="66,207.5"/>
+            <radius value="3.2595"/>
+        </shape>
+        <shape type="circle">
+            <center value="73,192"/>
+            <radius value="3.2595"/>
+        </shape>
+        <shape type="circle">
+            <center value="38,224.5"/>
+            <radius value="3.2595"/>
+        </shape>
+        <shape type="circle">
+            <center value="54,209.5"/>
+            <radius value="3.2595"/>
+        </shape>
+    </region>
+</Regions>
