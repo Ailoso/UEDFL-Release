@@ -1,0 +1,13 @@
+include "TriggerLibs/NativeLib"
+include "Script/StringSupport"
+include "Script/UnitSupport"
+include "Script/debug"
+include "Script/math/math"
+
+void LotC_Main(){
+    int i;
+    gt_DebugCommands = TriggerCreate("gt_DebugCommands_Func");
+    TriggerAddEventChatMessage(gt_DebugCommands, c_playerAny, "-", false);
+    lib1926661B_gf_LotCInitialize();
+    return;
+}

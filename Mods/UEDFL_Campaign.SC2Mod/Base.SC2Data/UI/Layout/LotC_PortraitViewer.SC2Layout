@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <!-- Templates -->
+    <Frame type="Portrait" name="PreviewPortraitTemplate">
+        <Width val="213"/>
+        <Height val="300"/>
+        <BorderImage val="BorderImage"/>
+        <BackgroundImage val="BackgroundImage"/>
+        <AcceptsMouse val="False"/>
+        <UseTransition val="False"/>
+        <UseAlternateTime val="False"/>
+        <RenderType val="HDR"/>
+        <Visible val="False"/>
+
+        <Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+            <Visible val="False"/>
+        </Frame>
+
+        <Frame type="Image" name="BackgroundImage">
+            <Anchor relative="$parent"/>
+            <Visible val="False"/>
+        </Frame>
+
+        <!--ModelLink val="Marine_Merc_Portrait"/-->
+    </Frame>
+
+    <!-- Viewer -->
+
+    <!--Frame type="Frame" name="ViewerPanelTemplate">
+        <Anchor relative="$parent"/>
+        <Visible val="False"/>
+
+        <Frame type="Image" name="Cover">
+            <Anchor relative="$parent"/>
+            <Color val="000000"/>
+            <RenderType val="HDR"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait1" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+
+            <ModelLink val="CARRPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait2" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait1" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+
+            <ModelLink val="AlyndreaPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait3" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait1" pos="Max" offset="0"/>
+            <ModelLink val="WilliamGravesPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait4" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait3" pos="Max" offset="0"/>
+
+            <ModelLink val="HazmatTechnicianPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait5" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait2" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="MyraDavisRiotPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait6" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait5" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="AltonPetersPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait7" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait4" pos="Max" offset="0"/>
+            <ModelLink val="VaeregothPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait8" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait7" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="TR17Portrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait9" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait6" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="InfantryFlamethrowerPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait10" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait9" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="InfantryOfficerPortrait"/>
+        </Frame>
+        
+        <Frame type="Portrait" name="Portrait11" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait8" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="KatherineHalseyPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait12" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait11" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="MiningDronePortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait13" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait10" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="OspreyPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait14" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait13" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="LegionPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait15" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait12" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="LillyRollinsPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait16" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait15" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="UPLSpecOpsPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait17" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait14" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="CoraninePortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait18" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait16" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="ZathrenPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait19" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait17" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <ModelLink val="A6Portrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait20" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait19" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait19" pos="Max" offset="0"/>
+            <ModelLink val="UPLRiotOfficerPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait21" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait18" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="XanonPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait22" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait21" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait7" pos="Min" offset="0"/>
+            <ModelLink val="RileyJericoPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait23" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait19" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait20" pos="Max" offset="0"/>
+            <ModelLink val="RaptorJetPortrait"/>
+        </Frame>
+
+        <Frame type="Portrait" name="Portrait24" template="LotC_PortraitViewer/PreviewPortraitTemplate">
+            <Anchor side="Left" relative="$parent/Portrait19" pos="Min" offset="0"/>
+            <Anchor side="Top" relative="$parent/Portrait23" pos="Max" offset="0"/>
+            <ModelLink val="TrevorRandPortrait"/>
+        </Frame>
+        
+    </Frame-->
+
+    <!-- Templates -->
+
+    <Frame type="Frame" name="UnitRenderer">
+        <Anchor side="Left" relative="$parent" pos="Min" offset="180"/>
+        <Anchor side="Top" relative="$parent" pos="Min" offset="280"/>
+
+        <Width val="327"/>
+        <Height val="327"/>
+        <Visible val="False"/>
+
+        <Animation name="Birth/Death">
+            <Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+            <Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+            <Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+                <Key type="Curve" time="0.0" value="-600"/>
+                <Key type="Curve" time="0.3" value="0"/>
+            </Controller>
+
+            <Controller type="Visibility" end="Pause" frame="$this">
+                <Key type="Bool" time="0.0" value="False"/>
+                <Key type="Bool" time="0.001" value="True"/>
+                <Key type="Bool" time="0.3" value="True"/>
+            </Controller>
+        </Animation>
+
+        <Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Image" name="BackgroundGrid">
+            <Anchor relative="$parent" offset="-10"/>
+
+            <Texture val="Assets\Textures\ui_battlenet_glues_collection_bundles_skin_grid.dds"/>
+            <ColorAdjustMode val="Fill"/>
+            <AdjustmentColor val="3a9220"/>
+            <Tiled val="True"/>
+            <SubpixelRendering val="True"/>
+            <Alpha val="180"/>
+        </Frame>
+
+        <Frame type="UnitModelFrame" name="UnitModel">
+            <Anchor relative="$parent" offset="-25"/>
+            <LightLink val="CinematicBaseLighting"/>
+                
+            <TeamColorIndex val="2"/>
+
+            <UnitLink val="Z1"/>
+            <UnitWorldZ val="0.1"/>
+            <Camera val="Star2CameraHigh02"/>
+                
+            <Frame type="Model" name="Model">
+                <Anchor relative="$parent"/>
+                <UseAlternateTime val="false"/>
+                <UseAspectScaling val="false"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Label" name="UnitName">
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-45"/>
+
+            <Style val="UED_PhaseTitle"/>
+        </Frame>
+
+        <Frame type="Image" name="GridOverlay">
+            <Anchor relative="$parent" offset="-10"/>
+
+            <SubpixelRendering val="True"/>
+
+            <LayerCount val="2"/>
+
+            <Tiled val="True" layer="0"/>
+            <Texture val="Assets\Textures\ui_battlenet_glues_collection_bundles_skin_grid.dds" layer="0"/>
+            <AlphaLayer val="True" layer="0"/>
+
+            <Texture val="Assets\Textures\ui_battlenet_glues_collection_voicepack_characterframe_default_executorshimmer.dds" layer="1"/>
+            <Tiled val="False" layer="1"/>
+            <ColorAdjustMode val="Colorize" layer="1"/>
+            <AdjustmentColor val="68fc3b" layer="1"/>
+
+            <Animation name="Shimmer">
+                <Event event="OnShown" action="DirectionForward" frame="$parent"/>
+                <Event event="OnShown" action="Play" frame="$parent"/>
+         
+                <Controller type="LayerUV" layer="1" side="Top" relative="False" sidelock="True" end="Loop" >
+                    <Key type="Curve" time="0" value="-1" inout="Smooth"/>
+                    <Key type="Curve" time="6.50" value="1" inout="Smooth"/>
+                    <Key type="Curve" time="8.50" value="1" inout="Smooth"/>
+                </Controller>
+            </Animation>
+        </Frame>
+
+        <Frame type="Image" name="CalloutLeft">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="-400"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-60"/>
+
+            <Texture val="Assets\Textures\ReadyRoom_PanelCallout_Left.dds"/>
+            <Width val="700"/>
+            <Height val="355"/>
+            <Unclipped val="True"/>
+        </Frame>
+    </Frame>
+
+    <Frame type="Frame" name="UnitDataTemplate">
+        <Anchor side="Right" relative="$parent" pos="Max" offset="-100"/>
+        <Anchor side="Top" relative="$parent" pos="Min" offset="280"/>
+        <Anchor side="Bottom" relative="$this/DataLabel" pos="Max" offset="25"/>
+
+        <Width val="450"/>
+        <Height val="600"/>
+        <Visible val="False"/>
+
+        <Animation name="Birth/Death">
+            <Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+            <Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+            <Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+                <Key type="Curve" time="0.0" value="600"/>
+                <Key type="Curve" time="0.3" value="0"/>
+            </Controller>
+
+            <Controller type="Visibility" end="Pause" frame="$this">
+                <Key type="Bool" time="0.0" value="False"/>
+                <Key type="Bool" time="0.001" value="True"/>
+                <Key type="Bool" time="0.3" value="True"/>
+            </Controller>
+
+            <Controller type="Visibility" end="Pause" frame="$this/DataLabel">
+                <Key type="Bool" time="0.0" value="False"/>
+                <Key type="Bool" time="0.3" value="False"/>
+                <Key type="Bool" time="0.35" value="True"/>
+            </Controller>
+        </Animation>
+
+        <Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <!-- Unit Data -->
+
+        <Frame type="Label" name="DataLabel">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="25"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="25"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-45"/>
+
+            <Style val="UED_UnitShowcaseDesc"/>
+            <Text val="Designation: SWATT Officer"/>
+            <WriteOutText val="True"/>
+            <WriteOutTextDuration val="15"/>
+            <Visible val="False"/>
+        </Frame>
+
+        <Frame type="Image" name="CalloutRight">
+            <Anchor side="Right" relative="$parent" pos="Max" offset="400"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-60"/>
+
+            <Texture val="Assets\Textures\ReadyRoom_PanelCallout_Left.dds"/>
+            <Width val="700"/>
+            <Height val="355"/>
+            <Unclipped val="True"/>
+            <TextureCoords top="0" left="1" bottom="1" right="0"/>
+        </Frame>
+    </Frame>
+
+    <!-- Portrait Recorder -->
+
+    <Frame type="Frame" name="PortraitRecorderTemplate">
+        <Anchor relative="$parent"/>
+        <Visible val="False"/>
+
+        <Frame type="Image" name="Vignette">
+            <Width val="852"/>
+            <Height val="1200"/>
+
+            <Texture val="Assets\Textures\ui_battlenet_glue_coop_vinette.dds"/>
+        </Frame>
+
+        <Frame type="Frame" name="UnitRenderer" template="LotC_PortraitViewer/UnitRenderer"/>
+
+        <Frame type="Frame" name="UnitData" template="LotC_PortraitViewer/UnitDataTemplate"/>
+    </Frame>
+
+    <!-- UI Override -->
+
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+        <Frame type="Frame" name="PortraitViewerPanel" template="LotC_PortraitViewer/ViewerPanelTemplate"/>
+
+        <Frame type="Frame" name="PortraitRecorderOverlay" template="LotC_PortraitViewer/PortraitRecorderTemplate"/>
+    </Frame>
+</Desc>

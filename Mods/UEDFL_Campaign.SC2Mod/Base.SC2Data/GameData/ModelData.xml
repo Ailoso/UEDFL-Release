@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="FlashRescueSelection">
+        <Model value="Assets\UI\Feedback\FlashUnitSelection_Void\FlashUnitSelection_Void.m3"/>
+    </CModel>
+    <CModel id="FlashRescueSelectionAir">
+        <Model value="Assets\UI\Feedback\FlashUnitSelection_Void\FlashUnitSelection_Void.m3"/>
+    </CModel>
+    <CModel id="OspreyAirMissile">
+        <Flags index="GrowBoundsByElements" value="1"/>
+    </CModel>
+    <CModel id="SMX2_Bridge05Edited" parent="SMSET">
+        <Model value="Assets\StoryModeSets\Protoss\SMX2_Bridge\SMX2_Bridge_05edited.m3"/>
+    </CModel>
+    <CModel id="SMX2_StasisCore05Edited" parent="SMSET">
+        <Model value="Assets\StoryModeSets\Protoss\SMX2_StasisCore\SMX2_StasisCore_05edited.m3"/>
+    </CModel>
+</Catalog>

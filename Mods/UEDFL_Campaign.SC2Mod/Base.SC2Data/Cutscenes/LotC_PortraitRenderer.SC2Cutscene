@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneState cutsceneVersion="1.300000">
+    <CCutsceneNodeDirector guid="13313672356314186414" name="Director">
+        <CCutsceneNodeActiveCamera guid="13681335444285199139" name="Active Camera">
+            <CCutsceneElementActiveCamera guid="7963072435975596113" cameraIndex="0" objectGuid="12487122261178525782"/>
+        </CCutsceneNodeActiveCamera>
+        <CCutsceneNodeActiveLight guid="10979063984029187098" name="Active Light">
+            <CCutsceneElementActiveLight guid="9032987553473672532" lightGUID="0" lightID="Carrier_AmonBrood_Collection_Portrait" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+        <CCutsceneNodeActiveLight guid="12091640982127819446" name="Active Light">
+            <CCutsceneElementActiveLight guid="5264587789924088502" lightGUID="0" lightID="UPL_icon_light_mask" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+    </CCutsceneNodeDirector>
+    <CCutsceneNodeTargetCamera guid="12487122261178525782" name="Target Camera" position="-1.416065,1.713676,-0.139400" fov="27.799999" nearClip="0.100000" farClip="545.454529" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" eyePositionX="0.981461" eyePositionY="-1.170830" eyePositionZ="0.451481" targetPositionX="-1.416065" targetPositionY="1.713676" targetPositionZ="-0.139400">
+        <CCutsceneElementObject guid="4625096733639780438" duration="5000" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeActor guid="10173814752761591512" enabled="0" name="MyraDavisOfficerPortrait" position="-0.006226,0.002487,-0.000002" modelLink="MyraDavisOfficerPortrait" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="6346570138325333720" duration="5000" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="13147957426871678164" enabled="0" name="Animation Layer">
+            <CCutsceneElementAnim guid="4901281113703789780" duration="5000" lockedToEnd="1" anim="Stand" priority="3" originalDuration="5466" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="12593466095058536031" name="Shape Box" position="-0.315739,1.517372,-0.832550" scale="3.000000,3.000000,3.000000" modelLink="ShapeBox" shadowBox="0" tintColorRed="0.000000" tintColorGreen="0.000000" tintColorBlue="0.000000" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5600904577166853727" duration="5000" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10183969234925536554" name="Animation Layer">
+            <CCutsceneElementAnim guid="6757017900348753194" duration="5000" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeLight guid="10651795382782044992" enabled="0" name="Spot Light" position="1.190163,-1.073147,1.000000" rotation="55.268482,29.115683,-90.000000" type="2" colorR="0.168627" colorG="0.443137" colorB="0.666667" specularColorMultiplier="0.000000" attenuationStart="2.009037" range="2.009037">
+        <CCutsceneElementObject guid="6620587508807674688" duration="5000" lockedToEnd="1"/>
+    </CCutsceneNodeLight>
+    <CCutsceneNodeActor guid="11548218193129650050" enabled="0" name="LotC - WilliamGraves Portrait" position="-0.048012,0.059166,-0.105857" modelLink="WilliamGravesPortrait" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7960390513359730562" duration="5000" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11137752313294370690" enabled="0" name="Animation Layer">
+            <CCutsceneElementAnim guid="9180564312399427458" duration="5000" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="11837669556204783377" enabled="0" name="KatherineHalseyPortrait" position="-0.017044,0.018715,-0.022693" scale="2.000000,2.000000,2.000000" modelLink="KatherineHalseyPortrait" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7538307108501636881" duration="5000" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="12252448632206879074" enabled="0" name="Animation Layer">
+            <CCutsceneElementAnim guid="6837842405055097186" duration="5000" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="11856712717056614088" name="Secret Documents" position="-0.015572,-0.031570,-0.082315" scale="0.300000,0.300000,0.300000" rotation="0.000000,0.000000,-49.500008" modelLink="SecretDocuments" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="6953043654932176584" duration="5000" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="12248519278978145992" name="Animation Layer">
+            <CCutsceneElementAnim guid="6277884549871705800" duration="5000" lockedToEnd="1" anim="Stand" priority="3" originalDuration="6667" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+</CutsceneState>

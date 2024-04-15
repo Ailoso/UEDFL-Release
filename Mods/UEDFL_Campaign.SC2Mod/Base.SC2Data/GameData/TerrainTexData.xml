@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <!-- Tau Ceti UED First Light -->
+    <CTerrainTex id="TauCetiAsteroid1">
+        <Texture value="Assets\Textures\TauCetiAsteroid_1.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_1normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_1normal.dds"/>
+        <HeightMapScale value="5.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid2">
+        <Texture value="Assets\Textures\TauCetiAsteroid_2.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_2normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_2normal.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid3">
+        <Texture value="Assets\Textures\TauCetiAsteroid_3.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_3normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_3normal.dds"/>
+        <DoodadEntry>
+            <Model value="RockMixTheVoid"/>
+            <RandomRotation value="1"/>
+            <Probability value="0.500000"/>
+            <PlacementRadius value="1.000000"/>
+        </DoodadEntry>
+        <PhysicsMaterial value="Sand"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid4">
+        <Texture value="Assets\Textures\TauCetiAsteroid_4.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_4normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_4normal.dds"/>
+        <HeightMapScale value="20.000000"/>
+        <PhysicsMaterial value="Rock"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid5">
+        <Texture value="Assets\Textures\TauCetiAsteroid_5.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_5normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_5normal.dds"/>
+        <HeightMapScale value="2.000000"/>
+        <PhysicsMaterial value="MetalHeavy"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid6">
+        <Texture value="Assets\Textures\TauCetiAsteroid_6.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_6normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_6normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <PhysicsMaterial value="Rock"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid7">
+        <Texture value="Assets\Textures\TauCetiAsteroid_7.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_7normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_7normal.dds"/>
+        <HeightMapScale value="15.000000"/>
+        <PhysicsMaterial value="MetalLight"/>
+    </CTerrainTex>
+    <CTerrainTex id="TauCetiAsteroid8">
+        <Texture value="Assets\Textures\TauCetiAsteroid_8.dds"/>
+        <Normalmap value="Assets\Textures\TauCetiAsteroid_8normal.dds"/>
+        <Heightmap value="Assets\Textures\TauCetiAsteroid_8normal.dds"/>
+        <HeightMapScale value="15.000000"/>
+        <PhysicsMaterial value="MetalLight"/>
+    </CTerrainTex>
+    <!-- Antiga Prime Koprulu -->
+    <CTerrainTex id="AntigaPrimeDirt">
+        <Texture value="assets\textures\antigaprime_dirt.dds"/>
+        <Normalmap value="assets\textures\antigaprime_dirt_normal.dds"/>
+        <Heightmap value="assets\textures\antigaprime_dirt_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <HeightMapScale value="5.000000"/>
+        <EditorIcon value="assets\textures\ui-editoricon-antigaprime_dirt.dds"/>
+        <DoodadEntry>
+            <Model value="RockMixAiurTemple"/>
+            <RandomRotation value="1"/>
+            <Probability value="0.300000"/>
+            <PlacementRadius value="3.000000"/>
+        </DoodadEntry>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeGrass">
+        <Texture value="assets\textures\antigaprime_grass.dds"/>
+        <Normalmap value="assets\textures\antigaprime_grass_normal.dds"/>
+        <Heightmap value="assets\textures\antigaprime_grass_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <HeightMapScale value="20.000000"/>
+        <EditorIcon value="assets\textures\ui-editoricon-antigaprime_grass.dds"/>
+        <DoodadEntry Model="DynamicGrassTarsonis" Probability="5.000000"/>
+        <DoodadEntry Model="PlantMixTarsonis" RandomRotation="1" Probability="0.100000"/>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeMud">
+        <Texture value="assets\textures\antigaprime_mud.dds"/>
+        <Normalmap value="assets\textures\antigaprime_mud_normal.dds"/>
+        <Heightmap value="assets\textures\antigaprime_mud_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <EditorIcon value="assets\textures\ui-editoricon-antigaprime_mud.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeRockyGround">
+        <Texture value="assets\textures\antigaprime_rockyground.dds"/>
+        <Normalmap value="assets\textures\antigaprime_rockyground_normal.dds"/>
+        <Heightmap value="Assets\Textures\Endion_4Normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <HeightMapScale value="15.000000"/>
+        <EditorIcon value="Assets\Textures\ui-editoricon-antigaprime_rockyground.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="Endion52">
+        <Texture value="assets\textures\antigaprime_panels.dds"/>
+        <Normalmap value="assets\textures\antigaprime_panels_normal.dds"/>
+        <Heightmap value="assets\textures\antigaprime_panels_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <EditorIcon value="assets\textures\ui-editoricon-antigaprime_panels.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeConcrete">
+        <Texture value="assets\textures\antigaprime_asphalt.dds"/>
+        <Normalmap value="assets\textures\antigaprime_asphalt_normal.dds"/>
+        <Heightmap value="assets\textures\antigaprime_asphalt_normal.dds"/>
+        <HeightMapOffset value="0.500000"/>
+        <HeightMapScale value="25.000000"/>
+        <EditorIcon value="assets\textures\ui-editoricon-antigaprime_asphalt.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeDirtLight">
+        <Texture value="Assets\Textures\antigaprime_dirthigh.dds"/>
+        <Normalmap value="Assets\Textures\antigaprime_dirthigh_normal.dds"/>
+        <Heightmap value="Assets\Textures\antigaprime_dirthigh_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <HeightMapScale value="2.000000"/>
+        <EditorIcon value="Assets\Textures\ui-editoricon-antigaprime_dirthigh.dds"/>
+        <DoodadEntry Model="RockMixAiurTemple" RandomRotation="1" Probability="0.400000"/>
+    </CTerrainTex>
+    <CTerrainTex id="AntigaPrimeCrackedGround">
+        <Texture value="Assets\Textures\antigaprime_crackedground.dds"/>
+        <Normalmap value="Assets\Textures\antigaprime_crackedground_normal.dds"/>
+        <Heightmap value="Assets\Textures\antigaprime_crackedground_normal.dds"/>
+        <HeightMapOffset value="0.300000"/>
+        <EditorIcon value="Assets\Textures\ui-editoricon-Endion_8.dds"/>
+    </CTerrainTex>
+</Catalog>

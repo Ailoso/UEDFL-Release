@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CObjective id="EP01M03Primary01">
+        <Type value="Primary"/>
+        <RequiredCount value="350"/>
+    </CObjective>
+    <CObjective id="EP01M03Primary02">
+        <RequiredCount value="10"/>
+    </CObjective>
+    <CObjective id="EP01M03Primary03"/>
+    <CObjective id="EP01M03Primary04"/>
+    <CObjective id="EP01M03Primary05"/>
+    <CObjective id="EP01M03Primary06"/>
+    <CObjective id="EP01M08Primary01">
+        <Type value="Primary"/>
+        <RequiredCount value="100"/>
+    </CObjective>
+    <CObjective id="EP01M08Primary02">
+        <Type value="Primary"/>
+        <RequiredCount value="1"/>
+    </CObjective>
+    <CObjective id="EP01M08Bonus01">
+        <RequiredCount value="1"/>
+    </CObjective>
+    <CObjective id="EP01M08Optional01">
+        <RequiredCount value="10"/>
+    </CObjective>
+    <CObjective id="EP01M08Optional02"/>
+    <CObjective id="EP01M08Optional03"/>
+</Catalog>

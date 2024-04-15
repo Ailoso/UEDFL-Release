@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack default="1" id="LotC_Music" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="##id##"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_DistantBattleAmbient" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="UED_DistantBattleAmbience"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_DistantBattleFarAmbient" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="UED_DistantBattleFarAmbience"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_AirRaidSiren" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="EP01M03_AirRaidSiren"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_SewerAmbient" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="UED_SewerAmbience"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_MusicMain" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="EP01M06_MusicMain012"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M03_MusicGas" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="EP01M03_MusicGas"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="UED_CreditsOutro" parent="LotC_Music"/>
+    <CSoundtrack id="UED_CreditsOutroFull" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M03_MusicCountdown" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M06_MusicMain01" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M06_MusicMain02" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M06_MusicMain03" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M06_MusicInterior" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M06_OutsideBattleSFX" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="LotC_Battle3"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M06_OutsideBattleSFXQuiet" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="LotC_Battle6"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M06_BattleAmbienceInsidePrison" parent="Ambience_Map"/>
+    <CSoundtrack id="EP01M06_MusicPrisonEscape" parent="LotC_Music"/>
+    <CSoundtrack id="EP01M08_MusicNight">
+        <CueArray>
+            <MasterLayer Sound="EP01M08_MusicNight"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_MusicMain">
+        <CueArray Weight="30">
+            <MasterLayer Sound="EP01M08_MusicMain1"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray Weight="30">
+            <MasterLayer Sound="EP01M08_MusicMain2"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+        <CueArray Weight="30">
+            <MasterLayer Sound="EP01M08_MusicMain3"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_MusicIntro">
+        <CueArray>
+            <MasterLayer Sound="EP01M08_MusicIntro"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_Stinger_QuenSighted">
+        <CueArray>
+            <MasterLayer Sound="EP01M08_Stinger_QueenSighted"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_CaveAmbient" parent="Ambience_Map"/>
+    <CSoundtrack id="EP01M08_MusicBuild" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="EP01M08_MusicBuild"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_MusicCave" parent="Music">
+        <CueArray>
+            <MasterLayer Sound="EP01M08_MusicCave"/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+            <SlaveLayers/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="EP01M08_WeatherThunder" parent="Ambience_Map"/>
+    <CSoundtrack id="EP01M08_WhistlingWind" parent="Ambience_Map"/>
+    <CSoundtrack id="EP01M08_WindHarsh" parent="Ambience_Map"/>
+    <CSoundtrack id="EP01M01_MusicEnd" parent="LotC_Music">
+        <Flags index="Continuous" value="0"/>
+        <Next value="Music_Silence"/>
+    </CSoundtrack>
+    <CSoundtrack id="Music_Silence">
+        <Flags index="Continuous" value="1"/>
+    </CSoundtrack>
+</Catalog>

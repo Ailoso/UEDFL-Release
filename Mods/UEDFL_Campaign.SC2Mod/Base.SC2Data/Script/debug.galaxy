@@ -1,0 +1,754 @@
+const int c_DEBUG_TYPE_MAIN = 10;
+// LOTC Debug Variable
+bool DEBUG_MODE = false;
+void Dbg(string message);
+void DbgSetOnOff( bool set);
+bool IsDebugOn();
+
+void Dbg(string message) {
+    TriggerDebugOutput(c_DEBUG_TYPE_MAIN, StringToText(message), DEBUG_MODE);
+    return;
+}
+
+void Err(string message) {
+    if(DEBUG_MODE) {
+        UIDisplayMessage(PlayerGroupActive(), c_messageAreaError, StringToText(message));
+    }
+    return;
+}
+
+void UIMsg (int area, text message){
+    UIDisplayMessage(PlayerGroupActive(), area, message);
+}
+
+void DbgSetOnOff( bool set) {
+    DEBUG_MODE = set;
+    return;
+}
+
+bool IsDebugOn(){
+    if(DEBUG_MODE){ return true; }
+    return false;
+}
+
+// --------------------
+// DEBUG COMMANDS
+// --------------------
+
+const int c_DC_MSG_DISPLAY_AREA = c_messageAreaSubtitle;
+const int ge_DebugCommands_Help = 0;
+const int ge_DebugCommands_Bounds = 1;
+const int ge_DebugCommands_Aspect = 2;
+const int ge_DebugCommands_MapPath = 3;
+const int ge_DebugCommands_UnPause = 4;
+const int ge_DebugCommands_Doodads = 5;
+const int ge_DebugCommands_Terrain = 6;
+const int ge_DebugCommands_Fog = 7;
+const int ge_DebugCommands_Debug = 8;
+const int ge_DebugCommands_SetSpeed = 9;
+const int ge_DebugCommands_Cooldowns = 10;
+const int ge_DebugCommands_Controls = 11;
+const int ge_DebugCommands_FreeCam = 12;
+const int ge_DebugCommands_ClearChat = 13;
+
+const string c_DC_USER_TYPE = "DebugCommands";
+const int c_DC_HELP_ENTRY_PER_PAGE = 5;
+
+
+trigger gt_DebugCommands;
+
+text dC_Help ();
+text dC_Bounds ();
+text dC_Aspect ();
+text dC_PauseUnits (bool pauseUnpause);
+text dC_ToggleDoodads ();
+text dC_ToggleTerrain ();
+text dC_ToggleFog ();
+text dC_Debug ();
+text dC_SetSpeed();
+text dC_Cooldowns();
+
+string GetAllianceAspectName (int aspect);
+int GetAspectFromString (string fullString);
+
+
+text dC_Help () {
+    string instance;
+    text msg = StringToText("");
+    int i;
+    int start = 1;
+    int end = 2;
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+    int instanceCount = UserDataInstanceCount(userType);
+    int enabledCount = 0;
+    int k;
+
+    for (i = 1; i <= UserDataInstanceCount(userType); i += 1) {
+        instance = UserDataInstance( c_DC_USER_TYPE, i);        
+        if (UserDataGetInt(userType, instance, "Enabled", 1) == 1) {
+            enabledCount += 1;
+        }
+    }
+
+    start = 1;
+    end = c_DC_HELP_ENTRY_PER_PAGE;
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (StringOnlyNumbers(s)) {
+            if(StringToInt(s) > 0){
+                end = c_DC_HELP_ENTRY_PER_PAGE * StringToInt(s);
+                if (end > instanceCount) { end = instanceCount; }
+                start = end - (c_DC_HELP_ENTRY_PER_PAGE - 1);
+            }
+
+            // if ((StringToInt(s) >= 1) && (StringToInt(s) <= 2)) {
+            //     end = (c_DC_HELP_ENTRY_PER_PAGE * StringToInt(s));
+            //     if (end > instanceCount) { end = instanceCount; }
+            //     start = end - (c_DC_HELP_ENTRY_PER_PAGE - 1);
+            // }
+        }
+    }
+
+    // Showing commands ~start~ - ~end~ of ~instanceCount~
+    msg = StringToText("Showing commands ") + StringToText(IntToString(start)+" - "+IntToString(end))
+        + StringToText(" of " + IntToString(enabledCount));
+
+    for (i = start; i <= end; i += 1) {
+        instance = UserDataInstance( c_DC_USER_TYPE, i);        
+        if (i <= instanceCount && (UserDataGetInt(userType, instance, "Enabled", 1) == 1)) {
+            // msg+</n>~UserDataName~ | ~UserDataDescription~ 
+            msg = msg + StringToText("</n>")
+            + UserDataGetText(userType, instance, "Name", 1) + StringToText(" | ")+ UserDataGetText(userType, instance, "Description", 1);
+            k += 1;
+        }
+        if(k >= enabledCount){
+            break;
+        }
+    }
+    return msg;
+}
+
+text dC_Bounds () {
+    text msg = StringToText("");
+    playergroup pg = PlayerGroupSingle(EventPlayer());
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+    }
+    if (s != "") {
+        if (s == "0" || s == "camera") {
+            CameraSetBounds(pg, RegionEntireMap(), true);
+            msg = UserDataGetText(userType, "Bounds", "Message", 1);
+        }
+        else if (s == "1" || s == "map") {
+            RegionPlayableMapSet(RegionEntireMap());
+            msg = UserDataGetText(userType, "Bounds", "Message", 2);
+        }
+        else if (true) {
+            return UserDataGetText(userType, "Bounds", "Error", 1);
+        }
+    }
+    else {
+        return UserDataGetText(userType, "Bounds", "Error", 1);
+    }
+    return msg;
+}
+
+text dC_Aspect () {
+    text msg = StringToText("");
+    int i;
+    int k;
+    int p = EventPlayer();
+    string s = "";
+    text a;
+    text b;
+    const string userType = c_DC_USER_TYPE;
+    int aspect;
+
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        aspect = GetAspectFromString(s);
+        if (aspect != -1) {
+            if (DataTableValueExists(false, "option 3")) {
+                s = DataTableGetString(false, "option 3");
+
+                // check that the option string is only numbers and withing bounds 0-15
+                if (StringOnlyNumbers(s)) {
+                    if ((StringToInt(s) >= 0) && (StringToInt(s) <= 15)) {
+                        DataTableSetInt(false, "target", StringToInt(s));
+                        if (DataTableValueExists(false, "option 2")) {
+                            s = DataTableGetString(false, "option 2");
+    
+                            // check that number string is only numbers and withing bounds 0-15                        
+                            if ((StringOnlyNumbers(s) && ((StringToInt(s) >= 0) && (StringToInt(s) <= 15)))) {
+                                DataTableSetInt(false, "source", StringToInt(s));
+                            }
+                            else {
+                                return UserDataGetText(userType, "Aspect", "Error", 2);
+                            }
+                        }
+                    }
+                    else { return UserDataGetText(userType, "Aspect", "Error", 3); }
+                }
+                else { return UserDataGetText(userType, "Aspect", "Error", 3); }
+            }
+            else {
+                DataTableSetInt(false, "target", p);
+                if (DataTableValueExists(false, "option 2")) {
+                    s = DataTableGetString(false, "option 2");
+                    if (StringOnlyNumbers(s)) {
+                        if ((StringToInt(s) >= 0) && (StringToInt(s) <= 15)) {
+                            DataTableSetInt(false, "source", StringToInt(s));
+                        }
+                        else { return UserDataGetText(userType, "Aspect", "Error", 2); }
+                    }
+                    else { return UserDataGetText(userType, "Aspect", "Error", 2); }
+                }
+
+            }
+            i = DataTableGetInt(false, "source");
+            k = DataTableGetInt(false, "target");
+            // Toggle aspect depending on the current state
+            if (PlayerGetAlliance(i,  aspect, k)) {
+                s = "OFF";
+                PlayerSetAlliance(i,  aspect, k, false);
+            }
+            else {
+                s = "ON";
+                PlayerSetAlliance(i,  aspect, k, true);
+            }
+            // Check if players are valid, if so print out their name, else display their number.
+            if (PlayerGroupHasPlayer(PlayerGroupActive(), i)) {
+                a = TextWithColor(PlayerName(i), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(i, false)));
+            }
+            else {
+                a = TextWithColor(IntToText(i), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(i, false)));
+            }
+            if (PlayerGroupHasPlayer(PlayerGroupActive(), k)) {
+                b = TextWithColor(PlayerName(k), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(k, false)));
+            }
+            else {
+                b = TextWithColor(IntToText(k), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(k, false)));
+            }
+            // Print out message the end message
+            // Turned player ~source~ ~aspect~ ~State~ toward player ~target~
+            msg = StringToText("Turned player ") + a + StringToText(" ")
+            + StringToText(GetAllianceAspectName(aspect))+StringToText(" ")+StringToText(s) 
+            + StringToText(" toward player ") + b;
+        }
+        else {
+            return UserDataGetText(userType, "Aspect", "Error", 1);
+        }
+    }
+    else {
+        return UserDataGetText(userType, "Aspect", "Error", 1);
+    }
+    return msg;
+}
+
+text dC_PauseUnits (bool pauseUnpause) {
+    text msg = StringToText("");
+    string s = "";
+    const string userType  = c_DC_USER_TYPE;
+    unitgroup ug = UnitGroupEmpty();
+    int target = -1;
+    int p = EventPlayer();
+
+    unitgroup group;
+    int u;
+    unit tempUnit;
+    
+    if (DataTableValueExists(false, "option 2")) {
+        s = DataTableGetString(false, "option 2");
+        if ((StringOnlyNumbers(s) && ((StringToInt(s) >= 0) && (StringToInt(s) <= 15)))) {
+            target = StringToInt(s);
+        }
+        else { return UserDataGetText(userType, "(Un)Pause Units", "Error", 2); }
+    }
+
+    if (pauseUnpause) { msg = StringToText("Paused "); }
+    else { msg = StringToText("Unpaused "); }
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (s == "all") {
+            if (target == -1) {
+                ug = UnitGroup(null, c_playerAny, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 0);
+                msg = msg + StringToText("all units in the map.");
+            }
+            else {
+                ug = UnitGroup(null, target, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 0);
+                msg = msg + StringToText("all units in the map owned by player ") + IntToText(target);
+            }
+        }
+        else { return UserDataGetText(userType, "(Un)Pause Units", "Error", 3); }
+    }
+    else {
+        ug = UnitGroupSelected(p);
+        msg = msg + StringToText("selected units.");
+    }
+    if (UnitGroupCount(ug, c_unitCountAlive) > 0) {
+        group = ug;
+        u = UnitGroupCount(group, c_unitCountAll);
+        for (;; u -= 1) {
+            tempUnit = UnitGroupUnitFromEnd(group, u);
+            if (tempUnit == null) { break; }
+            libNtve_gf_PauseUnit(tempUnit, pauseUnpause);
+        }
+    }
+    else { return UserDataGetText(userType, "(Un)Pause Units", "Error", 1); }
+    return msg;
+}
+
+text dC_ToggleDoodads () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+    bool showHide = true;
+    string type;
+
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (s == "show" || s == "hide") {
+            if (s == "show") {
+                showHide = true;
+                msg = StringToText("Shown ");
+            }
+            else {
+                showHide = false;
+                msg = StringToText("Hidden ");
+            }
+        }
+        else { return UserDataGetText(userType, "Show/Hide Doodads", "Error", 1); }
+    }
+    else { return UserDataGetText(userType, "Show/Hide Doodads", "Error", 1); }
+    if (DataTableValueExists(false, "option 2")) {
+        s = DataTableGetString(false, "option 2");
+        if (s != "") {
+            type = s;
+            msg = msg + UserDataGetText(userType, "Show/Hide Doodads", "Message", 2) + StringToText(s);
+        }
+        else {
+            return UserDataGetText(userType, "Show/Hide Doodads", "Error", 2);
+        }
+    }
+    else { msg = (msg + UserDataGetText(userType, "Show/Hide Doodads", "Message", 1)); }
+    libNtve_gf_ShowHideDoodadsInRegion(showHide, RegionEntireMap(), type);
+    return msg;
+}
+
+text dC_ToggleTerrain () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+    bool showHide = true;
+
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (s == "show" || s == "hide") {
+            if (s == "show") {
+                showHide = true;
+                msg = StringToText("Shown ");
+            }
+            else {
+                showHide = false;
+                msg = StringToText("Hidden ");
+            }
+        }
+        else { return UserDataGetText(userType, "Toggle Terrain", "Error", 1); }
+    }
+    else { return UserDataGetText(userType, "Toggle Terrain", "Error", 1); }
+    msg = msg + UserDataGetText(userType, "Toggle Terrain", "Message", 1);
+    TerrainShowRegion(RegionEntireMap(), showHide);
+    return msg;
+}
+
+text dC_ToggleFog () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+    bool b;
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (WordExistsInString("enabled 1 true", s) || WordExistsInString("disabled 0 false", s)) {
+            if (WordExistsInString("enabled 1 true", s)){
+                b = true;
+                msg = StringToText("Enabled ");
+            }
+            else {
+                b = false;
+                msg = StringToText("Disabled ");
+            }
+        }
+        else { return UserDataGetText(userType, "Toggle Fog", "Error", 1); }
+    }
+    else { return UserDataGetText(userType, "Toggle Fog", "Error", 1); }
+    msg = msg + UserDataGetText(userType, "Toggle Fog", "Message", 1);
+    FogSetEnabled(b);
+    return msg;
+}
+
+text dC_Debug () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType = c_DC_USER_TYPE;
+    bool b;
+    if (DataTableValueExists(false, "option 1")) {
+        s = DataTableGetString(false, "option 1");
+        if (WordExistsInString("enabled 1 true", s) || WordExistsInString("disabled 0 false", s)) {
+            if (WordExistsInString("enabled 1 true", s)){
+                b = true;
+                msg = StringToText("Enabled ");
+            }
+            else {
+                b = false;
+                msg = StringToText("Disabled ");
+            }
+        }
+        else { return UserDataGetText(userType, "Debug", "Error", 1); }
+        msg = msg + UserDataGetText(userType, "Debug", "Message", 1);
+    }
+    else {
+        //Toggle 
+        b = !DEBUG_MODE;
+        if(b == false){
+            msg = StringToText("Toggled debug off.");
+        }
+        else{
+            msg = StringToText("Toggled debug on.");
+        }
+    }
+    
+    DbgSetOnOff(b);
+    return msg;
+}
+
+text dC_SetSpeed () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType  = c_DC_USER_TYPE;
+    string instance = "Set Speed";
+    unitgroup ug = UnitGroupEmpty();
+    fixed value;
+    int p = EventPlayer();
+
+    unitgroup group;
+    int u;
+    unit tempUnit;
+    ug = UnitGroupSelected(p);
+
+    if (UnitGroupCount(ug, c_unitCountAlive) > 0) {
+
+        if (DataTableValueExists(false, "option 1")) {
+            s = DataTableGetString(false, "option 1");
+            if (s == ""){
+                return UserDataGetText(userType, instance, "Error", 2);
+            }
+    
+            value = StringToFixed(s);
+            if(value < 0.0){
+                return UserDataGetText(userType, instance, "Error", 2); 
+            }
+    
+        }
+        else { return UserDataGetText(userType, instance, "Error", 2); }
+
+        group = ug;
+        u = UnitGroupCount(group, c_unitCountAll);
+        for (;; u -= 1) {
+            tempUnit = UnitGroupUnitFromEnd(group, u);
+            if (tempUnit == null) { break; }
+            UnitSetPropertyFixed(tempUnit, c_unitPropBaseMovementSpeed, value);
+        }
+        msg = StringToText("Successfully set speed");
+    }
+    else { return UserDataGetText(userType, instance, "Error", 1); }
+    return msg;
+}
+
+text dC_Cooldowns () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType  = c_DC_USER_TYPE;
+    string instance = "Cooldowns";
+    unitgroup ug = UnitGroupEmpty();
+    fixed value;
+    int p = EventPlayer();
+
+    unitgroup group;
+    int u;
+    unit tempUnit;
+    ug = UnitGroupSelected(p);
+
+    if (UnitGroupCount(ug, c_unitCountAlive) > 0) {
+        group = ug;
+        u = UnitGroupCount(group, c_unitCountAll);
+        for (;; u -= 1) {
+            tempUnit = UnitGroupUnitFromEnd(group, u);
+            if (tempUnit == null) { break; }
+            UnitClearCooldowns(tempUnit, true);
+        }
+        msg = StringToText("Cooldowns refreshed..");
+    }
+    else { return UserDataGetText(userType, instance, "Error", 1); }
+    return msg;
+}
+
+// text dC_FreeCam () {
+//     text msg = StringToText("");
+//     const string userType  = c_DC_USER_TYPE;
+//     string instance = "FreeCam";
+//     int p = EventPlayer();
+//     if(FreeCam_Active[p] == false){
+//         FreeCam_Active[p] = true;
+//         FreeCam_Player = p;
+//         TriggerExecute(TriggerCreate("FreeCam_Func"), false, false);
+//         msg = UserDataGetText(userType, instance, "Message", 1);
+//     }
+//     else{
+//         FreeCam_Active[p] = false;
+//         msg = UserDataGetText(userType, instance, "Message", 2);
+//     }
+
+//     return msg;
+// }
+
+text dC_ClearChat () {
+    text msg = StringToText("");
+    string s = "";
+    const string userType  = c_DC_USER_TYPE;
+    int p = EventPlayer();
+    playergroup pg = PlayerGroupSingle(p);
+    int area = c_messageAreaChat;
+    if (DataTableValueExists(false, "option 1")) {
+        s = StringCase(DataTableGetString(false, "option 1"), c_stringNoCase);
+        if(s == "dbg" || s == "d" || s == "debug"){
+            msg = StringToText("debug");
+            area = c_messageAreaDebug;
+        }
+        else if(s == "err" || s == "e" || s == "error"){
+            msg = StringToText("error");
+            area = c_messageAreaError;
+        }
+        else if(s == "sub" || s == "s" || s == "subtitle"){
+            msg = StringToText("subtitle");
+            area = c_messageAreaSubtitle;
+        }
+        else if(s == "war" || s == "w" || s == "warning"){
+            msg = StringToText("warning");
+            area = c_messageAreaWarning;
+        }
+        else if(s == "cheat"){
+            msg = StringToText("cheat");
+            area = c_messageAreaCheat;
+        }
+        else if(s == "cin" || s == "cinematic"){
+            msg = StringToText("cinematic");
+            area = c_messageAreaCinematic;
+        }
+        else if(s == "dir" || s == "directive"){
+            msg = StringToText("directive");
+            area = c_messageAreaDirective;
+        }
+        else if(s == "o" || s == "obj" || s == "objective"){
+            msg = StringToText("objective");
+            area = c_messageAreaObjective;
+        }
+        else if(s == "all"){
+            msg = StringToText("all");
+            area = c_messageAreaAll;
+        }
+        else{
+            msg = StringToText("chat");
+            area = c_messageAreaChat;
+        }
+    }
+    UIClearMessages(pg,area);
+    if(area == c_messageAreaAll || area == c_messageAreaChat){
+        msg = null;
+    }
+    else{
+        msg = UserDataGetText(userType, "Clear Chat", "Message", 1) + msg + UserDataGetText(userType, "Clear Chat", "Message", 2);
+    }
+    return msg;
+}
+
+string GetAllianceAspectName (int aspect) {
+    if (aspect == c_allianceIdPassive)          { return c_allianceIdPassiveName; }
+    else if (aspect == c_allianceIdVision)      { return c_allianceIdVisionName; }
+    else if (aspect == c_allianceIdControl)     { return c_allianceIdControlName; }
+    else if (aspect == c_allianceIdSpend)       { return c_allianceIdSpendName; }
+    else if (aspect == c_allianceIdTrade)       { return c_allianceIdTradeName; }
+    else if (aspect == c_allianceIdSeekHelp)    { return c_allianceIdSeekHelpName; }
+    else if (aspect == c_allianceIdGiveHelp)    { return c_allianceIdGiveHelpName; }
+    else if (aspect == c_allianceIdChat)        { return c_allianceIdChatName; }
+    else if (aspect == c_allianceIdDefeat)      { return c_allianceIdDefeatName; }
+    else if (aspect == c_allianceIdPushable)    { return c_allianceIdPushableName; }
+    else if (aspect == c_allianceIdPower)       { return c_allianceIdPowerName; }
+    else if (true) {} return "";
+}
+
+int GetAspectFromString (string fullString) {
+    if      (WordExistsInString("a agression passive", fullString))  { return c_allianceIdPassive; }
+    else if (WordExistsInString("c control", fullString))    { return c_allianceIdControl; }
+    else if (WordExistsInString("v vision", fullString))     { return c_allianceIdVision; }
+    else if (WordExistsInString("p pushable", fullString))   { return c_allianceIdPushable; }
+    else if (WordExistsInString("s spending", fullString))   { return c_allianceIdSpend; }
+    else if (true) {} return -1;
+}
+
+void DebugParseEntry (int entry, string options, playergroup pg) {
+    text msg = StringToText("");
+    const string userType = c_DC_USER_TYPE;
+    string tempWord;
+
+    int counter;
+    int end;
+
+    counter = 1;
+    end = WordCount(options)+1;
+    while (counter < end) {
+        tempWord = StringWord(options, counter);
+        DataTableSetString(false, ("option " + IntToString(counter)), tempWord);
+        counter += 1;
+    }
+
+    if      (entry == ge_DebugCommands_Help)    { msg = dC_Help(); }
+    else if (entry == ge_DebugCommands_Bounds)  { msg = dC_Bounds(); }
+    else if (entry == ge_DebugCommands_Aspect)  { msg = dC_Aspect(); }
+    else if (entry == ge_DebugCommands_MapPath){
+        msg = (UserDataGetText(userType, "Map Path", "Message", 1) + StringToText(" ") + StringToText(GameMapPath()));
+    }
+    else if (entry == ge_DebugCommands_UnPause) {
+        if (StringWord(EventChatMessage(false), 1) == "-pause") { msg =  dC_PauseUnits(true); }
+        else { msg =  dC_PauseUnits(false); }
+    }
+    else if (entry == ge_DebugCommands_Doodads)  { msg = dC_ToggleDoodads(); }
+    else if (entry == ge_DebugCommands_Terrain)  { msg = dC_ToggleTerrain(); }
+    else if (entry == ge_DebugCommands_Fog)      { msg = dC_ToggleFog(); }
+    else if (entry == ge_DebugCommands_Debug)    { msg = dC_Debug(); }
+    else if (entry == ge_DebugCommands_SetSpeed) { msg = dC_SetSpeed(); }
+    else if (entry == ge_DebugCommands_Cooldowns) { msg = dC_Cooldowns(); }
+    else if (entry == ge_DebugCommands_Controls) {
+        msg = (UserDataGetText(userType, "Controls", "Message", 1));
+    }
+    // else if (entry == ge_DebugCommands_FreeCam) { msg = dC_FreeCam(); }
+    else if (entry == ge_DebugCommands_ClearChat) { msg = dC_ClearChat(); }
+    else if (true) {}
+    if (msg != null) { UIDisplayMessage(pg, c_DC_MSG_DISPLAY_AREA, StringToText("<s val=\"DebugCommands_Small\">")+msg+StringToText("</s>")); }
+}
+
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Debug Commands
+//--------------------------------------------------------------------------------------------------
+bool gt_DebugCommands_Func (bool testConds, bool runActions) {
+    string s = "";
+    int entry = -1;
+    string options = "";
+    string chatString = EventChatMessage(false);
+    int cl;
+    playergroup pg = PlayerGroupSingle(EventPlayer());
+    string instance;
+    const string userType = c_DC_USER_TYPE;
+
+    int counter;
+    int i;
+    int end;
+
+    if (testConds) {
+        if (!StringLength(chatString) > 1) {
+            return false;
+        }
+        if (!DEBUG_MODE) {
+            return false;
+        }
+    }
+    // Actions
+    if (!runActions) { return true; }
+
+    s = StringWord(chatString, 1);
+    if (s == "-") {  return true; }
+    else {
+        for (counter = 1; counter <= UserDataInstanceCount(userType) ; counter += 1 ) {
+            instance = UserDataInstance(userType, counter);
+            // UIDisplayMessage(PlayerGroupActive(),c_messageAreaDebug,StringToText(instance));         
+            if (UserDataGetInt(userType, instance, "Enabled", 1) == 1) {
+                i = 1;
+                end = WordCount(UserDataGetString(userType, instance, "Trigger", 1))+1;
+                while (i < end) {
+                    if (StringWord(UserDataGetString(userType, instance, "Trigger", 1), i) == s) {
+                        entry = UserDataGetInt(userType, instance, "Index", 1);
+                        break;
+                    }
+                    i += 1;
+                }
+                if (entry != -1) { continue; }
+            }
+        }
+        cl = StringLength(chatString);  
+        if (entry == -1) { return true; }
+        else {
+            options = StringSub(chatString, 1 + StringFind(chatString, (" "+StringWord(chatString, 2)), c_stringCase), cl);
+            DebugParseEntry(entry, options, pg);
+        }
+    }
+    return true;
+}
+
+// -----------------------------------------------------
+void DebugPoint2 (point lp_point, fixed lp_radius);
+void DebugFlashUnit (unit lp_unit);
+void CreateDebugPoint (point p, bool fading, fixed fadeStart);
+
+void DebugPoint2 (point lp_point, fixed lp_radius) {
+    CatalogFieldValueSet(c_gameCatalogEffect, "DebugPointCircle", "AreaArray[" + IntToString(0) + "].Radius", 0, FixedToString(lp_radius, c_fixedPrecisionAny));
+    PlayerCreateEffectPoint(0, "DebugPointCircle", lp_point);
+}
+
+void DebugUnitRectangle (unit u, fixed width, fixed height) {
+    CatalogFieldValueSet(c_gameCatalogEffect, "DebugUnitRectangle", "AreaArray[" + IntToString(0) + "].RectangleWidth", 0, FixedToString(width, c_fixedPrecisionAny));
+    CatalogFieldValueSet(c_gameCatalogEffect, "DebugUnitRectangle", "AreaArray[" + IntToString(0) + "].RectangleHeight", 0, FixedToString(height, c_fixedPrecisionAny));
+    PlayerCreateEffectUnit(0, "DebugUnitRectangle", u);
+}
+
+void DebugFlashUnit (unit lp_unit) {
+    libNtve_gf_SendActorMessageToUnit(lp_unit, "SetTintColor 255,0,0");
+    libNtve_gf_SendActorMessageToUnit(lp_unit, "SetTintColor 255,255,255 1.000000");
+}
+
+void CreateDebugPoint (point p, bool fading, fixed fadeStart) {
+    if(DEBUG_MODE == false){ return; }
+    ActorCreate(null, "PointNormal", null, null, null);
+    ActorSend(libNtve_gf_ActorLastCreated(), libNtve_gf_SetPosition(PointGetX(p), PointGetY(p), PointGetHeight(p)));
+    
+    if (fading == true) {
+        ActorSend(libNtve_gf_ActorLastCreated(), libNtve_gf_TimerSet(fadeStart, "Fade"));
+    }
+}
+
+void CreateDebugSphere (point p, bool fading, fixed fadeStart, bool setHeight) {
+    if(DEBUG_MODE == false){ return; }
+    ActorCreate(null, "DebugSphere", null, null, null);
+    ActorSend(libNtve_gf_ActorLastCreated(), libNtve_gf_SetPosition2D(PointGetX(p), PointGetY(p)));
+    
+    if (fading == true) {
+        ActorSend(libNtve_gf_ActorLastCreated(), libNtve_gf_TimerSet(fadeStart, "Fade"));
+    }
+    
+    if(setHeight){
+        ActorSend(libNtve_gf_ActorLastCreated(), libNtve_gf_SetZ(PointGetHeight(p)));
+    }
+}
+
+void SetDebugPointText( actor a, string s){
+    actor textActor = ActorFromScope(ActorScopeFromActor(a), "_Text");
+    ActorSend(textActor, "SetText "+ s);
+}
+void CreateDebugPointName (point p, bool fading, fixed fadeStart, string name) {
+    if(DEBUG_MODE == false){ return; }
+    CreateDebugPoint(p, fading, fadeStart);
+    SetDebugPointText(ActorLastCreated(), name);
+}

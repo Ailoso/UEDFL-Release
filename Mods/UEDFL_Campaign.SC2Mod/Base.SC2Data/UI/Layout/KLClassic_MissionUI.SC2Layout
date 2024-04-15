@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+	<Frame type="Button" name="StandardGreenButtonTemplate">
+		<NormalImage val="NormalImage"/>
+		<HoverImage val="HoverImage"/>
+		<Style val="UED_PhaseTitle"/>
+
+		<HoverSound val="@UED_UI_Hover"/>
+		<ClickSound val="@UED_UI_Click"/>
+
+		<Frame type="Image" name="NormalImage">
+			<Anchor relative="$parent"/>
+
+			<Alpha val="180"/>
+			<Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameBorder.dds"/>
+			<TextureType val="NineSlice"/>
+		</Frame>
+
+		<Frame type="Image" name="HoverImage">
+			<Anchor relative="$parent"/>
+
+			<Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameBorder.dds"/>
+			<TextureType val="NineSlice"/>
+		</Frame>
+
+		<Frame type="Image" name="ScanlinesBackground">
+            <Anchor relative="$parent"/>
+
+            <Color val="327e1a"/>
+            <Alpha val="130"/>
+
+            <LayerCount val="2"/>
+            <Texture val="Assets/Textures/Glues_Scanlines.dds" layer="1"/>
+            <TextureType val="Normal" layer="1"/>
+            <Tiled val="True" layer="1"/>
+
+            <Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameMask.dds" layer="0"/>
+            <AlphaLayer val="True" layer="0"/>
+            <TextureType val="NineSlice" layer="0"/>
+        </Frame>
+	</Frame>
+
+	<!-- Checkpoint Directive -->
+
+	<Frame type="Frame" name="CheckpointDirectiveTemplate">
+		<Anchor side="Bottom" relative="$parent" pos="Max" offset="-290"/>
+		<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+		<Height val="60"/>
+		<Width val="600"/>
+		<Alpha val="0"/>
+		<Visible val="False"/>
+
+		<Frame type="Image" name="BorderImage">
+			<Anchor relative="$parent"/>
+
+			<Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+		</Frame>
+
+		<Frame type="Label" name="Label">
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+			<Text val="@Checkpoint/Reminder"/>
+			<Style val="KLC_CheckpointReminder"/>
+		</Frame>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Fade" end="Pause" frame="$this">
+				<Key type="Curve" time="0.0" value="0"/>
+				<Key type="Curve" time="0.3" value="255"/>
+			</Controller>
+		</Animation>
+	</Frame>
+
+	<!-- Contamination Panel -->
+
+	<Frame type="Frame" name="ContaminationPanelTemplate">
+		<Anchor side="Top" relative="$parent" pos="Min" offset="80"/>
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+
+		<Width val="380"/>
+		<Height val="110"/>
+		<Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+				<Key type="Curve" time="0.0" value="420" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
+
+			<Style val="UED_ContaminationTitle"/>
+			<Text val="Lake Contamination"/>
+		</Frame>
+
+		<Frame type="Image" name="ProgressBarBackground" template="KLClassic_GlueTemplates/ProgressBarBackgroundTemplate">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="6"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+			<Height val="32"/>
+		</Frame>
+
+		<Frame type="ProgressBar" name="ProgressBar" template="KLClassic_GlueTemplates/StandardProgressBarTemplate">
+			<Anchor relative="$parent/ProgressBarBackground" offset="-4"/>
+
+			<Value val="105"/>
+			<MaxValue val="500"/>
+
+			<Frame type="Frame" name="FillImageContainer">
+				<Frame type="Image" name="FillImage">
+					<Texture val="Assets/Textures/ui_ued_glues_progressbarfill_red.dds"/>
+				</Frame>
+			</Frame>
+		</Frame>
+
+		<Frame type="Label" name="ValueLabel">
+			<Anchor side="Top" relative="$parent/ProgressBar" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent/ProgressBar" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent/ProgressBar" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent/ProgressBar" pos="Mid" offset="0"/>
+
+			<Style val="UED_GasValue"/>
+		</Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Left" relative="$parent" pos="Min" offset="125"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-130"/>
+
+			<Width val="800"/>
+			<Height val="155"/>
+			<Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+	</Frame>
+
+	<!-- Timer Window -->
+
+	<Frame type="Frame" name="KLTimerWindowTemplate">
+		<Anchor side="Top" relative="$parent" pos="Min" offset="80"/>
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+		<Anchor side="Left" relative="$this/TimerTitle" pos="Min" offset="-20"/>
+
+        <Visible val="False"/>
+        <Height val="84"/>
+		<CollapseLayout val="True"/>
+		<PreserveAnchorOffset val="True"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Top" relative="True">
+				<Key type="Curve" time="0.0" value="-250" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+        
+        <Frame type="Image" name="BackgroundImage">
+			<Anchor relative="$parent"/>
+
+            <Texture val="Assets/Textures/Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Image" name="Highlight">
+			<Anchor relative="$parent/BackgroundImage"/>
+			<Texture val="Assets/Textures/Glues_StandardButton_Over.dds"/>
+			<TextureType val="NineSlice"/>
+            <Alpha val="0"/>
+            <Visible val="False"/>
+			
+			<Animation name="Highlight">
+				<Event event="Highlight" action="Reset" frame="$parent"/>	
+                <Event event="Highlight" action="Play" frame="$parent"/>
+				<Event event="Danger" action="Reset" frame="$parent"/>	
+                <Event event="Danger" action="Play" frame="$parent"/>	
+                <Controller type="Fade" end="PingPong">
+					<Key type="Curve" time="0" value="0" out="Slow"/>
+					<Key type="Curve" time="1" value="255" out="Slow"/>
+					<Key type="Curve" time="2" value="0" in="Slow"/>
+				</Controller>
+            </Animation>
+			<Animation name="HighlightVisibility">
+				<Event event="Highlight" action="Reset" frame="$parent"/>				                
+                <Event event="Highlight" action="Play" frame="$parent"/>		
+				<Event event="Danger" action="Reset" frame="$parent"/>	
+                <Event event="Danger" action="Play" frame="$parent"/>					
+                <Controller type="Visibility" end="Pause">
+					<Key type="Bool" time="0" value="true"/>
+				</Controller>
+            </Animation>
+			<Animation name="HighlightVisibilityOff">
+				<Event event="HighlightStop" action="Reset" frame="$parent"/>
+				<Event event="HighlightStop" action="Play" frame="$parent"/>
+				<Event event="DangerStop" action="Reset" frame="$parent"/>	
+                <Event event="DangerStop" action="Play" frame="$parent"/>	
+
+				<Controller type="Visibility" end="Pause">
+					<Key type="Bool" time="0" value="false"/>
+				</Controller>
+			</Animation>	
+		</Frame>	
+        
+        <Frame type="Label" name="TimerTitle">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+            <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+
+			<Style val="UED_TimerTitleLabel"/>
+        </Frame>
+        
+        <Frame type="Label" name="TimerText">
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="5"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-10"/>
+            <Anchor side="Left" relative="$parent/TimerTitle" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent/TimerTitle" pos="Mid" offset="0"/>
+
+			<Style val="UED_TimerTimeLabel"/>
+        </Frame>
+
+		<!-- Callout -->
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-184"/>
+            <Anchor side="Left" relative="$parent" pos="Max" offset="-445"/>
+
+			<Unclipped val="True"/>
+			<Texture val="Assets/Textures/ReadyRoom_Callout_Cancel.DDS"/>
+			<Width val="965"/>
+			<Height val="280"/>
+        </Frame>
+    </Frame>
+
+	<Frame type="TimerWindow" name="TimerWindowTemplate" file="TriggerWindowPanel">
+		<Anchor side="Right" relative="$parent" pos="Mid" offset="200"/>
+		<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+		<Handle val="KLTimerWindow"/>
+
+		<Height val="84"/>
+
+		<StateGroup name="Position">
+			<DefaultState val="Top-Center"/>
+
+			<State name="Top-Right">
+				<When type="AnimationState" frame="$this" Position="Top-Right"/>
+
+				<Action type="SetAnchor" frame="$this" side="Right" relative="$parent" pos="Max" offset="-50"/>
+				<Action type="SetAnchor" frame="$this" side="Top" relative="$parent" pos="Min" offset="0"/>
+			</State>
+
+			<State name="Top-Center">
+				<When type="AnimationState" frame="$this" Position="Top-Center"/>
+
+				<Action type="SetAnchor" frame="$this" side="Right" relative="$parent" pos="Mid" offset="200"/>
+			</State>
+
+			<State name="Bottom-Right">
+				<When type="AnimationState" frame="$this" Position="Bottom-Right"/>
+
+				<Action type="SetAnchor" frame="$this" side="Top" relative="$parent" pos="Mid" offset="280"/>
+			</State>
+		</StateGroup>
+        
+        <Frame type="Image" name="BackgroundImage">
+            <Texture val="Assets/Textures/Glues_StandardButton_Normal.dds" layer="0"/>
+            <TextureType val="Nineslice" layer="0"/>
+            <Tiled val="false" layer="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+        </Frame>
+        
+        <Frame type="Image" name="BackgroundColor">
+            <Alpha val="0"/>
+        </Frame>
+        
+		<Frame type="Label" name="TimerTitle">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+            <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="15"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-15"/>
+            
+			<Animation name="Danger">
+				<Event event="DangerKL" action="Play" frame="$parent"/>					
+				<Controller type="Style" end="Pause" style1="TimerTitleTop" style2="TimerTitleTopDanger">
+					<Key type="Curve" time="0.0" value="1.0" out="Auto"/>
+				</Controller>
+			</Animation>
+			
+			<Animation name="DangerEnd">
+				<Event event="DangerStopKL" action="Play" frame="$parent"/>					
+				<Controller type="Style" end="Pause" style1="TimerTitleTopDanger" style2="TimerTitleTop">
+					<Key type="Curve" time="0.0" value="1.0" out="Auto"/>
+				</Controller>
+			</Animation>	
+        </Frame>
+        
+        <Frame type="Label" name="TimerText">
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="5"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-10"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-15"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="15"/>
+        </Frame>
+		
+		<Animation name="DangerKL">
+			<Event event="DangerKL" action="Play"/>	
+			<Event event="DangerStopKL" action="Reset"/>	
+			<Controller type="Texture" end="Pause" frame="BackgroundImage">
+				<Key type="Image" time="0.0" image="Assets/Textures/Glues_StandardButton_Normal.dds"/>
+			</Controller>
+			<Controller type="Texture" end="Pause" frame="Highlight">
+				<Key type="Image" time="0.0" image="Assets/Textures/Glues_StandardButton_Normal.dds"/>
+			</Controller>
+		</Animation>	
+        
+        <Frame type="Image" name="TimerProgressFrame">
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="5"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Width val="296"/>
+            <Height val="36"/>
+            <Texture val="@@UI/LotV_Shared_InGame_TimerPanel_ProgressFrame"/>
+            <TextureType val="NineSlice" layer="0"/>
+        </Frame>
+        
+        <Frame type="Image" name="TimerProgressFill">
+            <Anchor side="Top" relative="$parent/TimerProgressFrame" pos="Min" offset="5"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Width val="296"/>
+            <Height val="36"/>
+            <Texture val="@@UI/LotV_Shared_InGame_TimerPanel_ProgressFill"/>
+            <TextureType val="NineSlice" layer="0"/>
+        </Frame>
+		
+		<Frame type="Image" name="Highlight">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+			<Texture val="Assets/Textures/Glues_StandardButton_Over.dds"/>
+			<TextureType val="NineSlice"/>
+            <Alpha val="0"/>
+            <Visible val="False"/>
+			
+			<Animation name="HighlightKL">
+				<Event event="HighlightKL" action="Reset" frame="$parent"/>	
+                <Event event="HighlightKL" action="Play" frame="$parent"/>
+				<Event event="DangerKL" action="Reset" frame="$parent"/>	
+                <Event event="DangerKL" action="Play" frame="$parent"/>	
+                <Controller type="Fade" end="PingPong">
+					<Key type="Curve" time="0" value="0" out="Slow"/>
+					<Key type="Curve" time="1" value="255" out="Slow"/>
+					<Key type="Curve" time="2" value="0" in="Slow"/>
+				</Controller>
+            </Animation>
+			<Animation name="HighlightVisibility">
+				<Event event="HighlightKL" action="Reset" frame="$parent"/>				                
+                <Event event="HighlightKL" action="Play" frame="$parent"/>		
+				<Event event="DangerKL" action="Reset" frame="$parent"/>	
+                <Event event="DangerKL" action="Play" frame="$parent"/>					
+                <Controller type="Visibility" end="Pause">
+					<Key type="Bool" time="0" value="true"/>
+				</Controller>
+            </Animation>
+			<Animation name="HighlightVisibilityOff">
+				<Event event="HighlightStopKL" action="Reset" frame="$parent"/>
+				<Event event="HighlightStopKL" action="Play" frame="$parent"/>
+				<Event event="DangerStopKL" action="Reset" frame="$parent"/>	
+                <Event event="DangerStopKL" action="Play" frame="$parent"/>	
+
+				<Controller type="Visibility" end="Pause">
+					<Key type="Bool" time="0" value="false"/>
+				</Controller>
+			</Animation>	
+		</Frame>	
+        
+        <Frame type="Image" name="Callout">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-184"/>
+            <Anchor side="Left" relative="$parent" pos="Max" offset="-445"/>
+
+			<Unclipped val="True"/>
+			<Texture val="Assets/Textures/ReadyRoom_Callout_Cancel.DDS"/>
+			<Width val="965"/>
+			<Height val="280"/>
+        </Frame>
+	</Frame>
+
+	<Frame type="Frame" name="FuelPanelTemplate">
+		<Anchor side="Right" relative="$parent" pos="Max" offset="20"/>
+	</Frame>
+
+	<!--
+		Phase Panel
+	-->
+
+	<Frame type="Frame" name="PhasePanelTemplate">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="40"/>
+        <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+        <Width val="360"/>
+        <Height val="115"/>
+        <Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Top" relative="True">
+				<Key type="Curve" time="0.0" value="-250" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+        <Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Image" name="Callout">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-405"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="65"/>
+
+            <Texture val="Assets\Textures\ReadyRoom_PanelCallout_TopSmall.dds"/>
+            <Unclipped val="True"/>
+            <Width val="355"/>
+            <Height val="700"/>
+        </Frame>
+
+        <Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-26"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+			<Text val="Current Mission Phase:"/>
+			<Style val="UED_PhaseTitle"/>
+		</Frame>
+
+		<Frame type="Label" name="PhaseLabel">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="5"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+			<Text val="One"/>
+			<Style val="UED_PhaseName"/>
+		</Frame>
+	</Frame>
+
+	<!--
+		Unit Choice Panel
+	-->
+
+	<Frame type="Button" name="UnitChoiceButtonTemplate">
+		<Width val="260"/>
+		<Height val="180"/>
+
+		<NormalImage val="NormalImage"/>
+		<HoverImage val="HoverImage"/>
+		<HoverSound val="@UED_UI_Hover"/>
+		<ClickSound val="@UED_UI_Activate"/>
+
+		<Frame type="Image" name="NormalImage">
+			<Anchor relative="$parent"/>
+
+			<Alpha val="180"/>
+			<Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameBorder.dds"/>
+			<TextureType val="NineSlice"/>
+			<DesaturateOnDisable val="False"/>
+		</Frame>
+
+		<Frame type="Image" name="HoverImage">
+			<Anchor relative="$parent"/>
+
+			<Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameBorder.dds"/>
+			<TextureType val="NineSlice"/>
+			<DesaturateOnDisable val="False"/>
+		</Frame>
+
+		<Frame type="Image" name="ScanlinesBackground">
+            <Anchor relative="$parent"/>
+
+            <Color val="327e1a"/>
+            <Alpha val="100"/>
+
+            <LayerCount val="2"/>
+            <Texture val="Assets/Textures/Glues_Scanlines.dds" layer="1"/>
+            <TextureType val="Normal" layer="1"/>
+            <Tiled val="True" layer="1"/>
+
+            <Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameMask.dds" layer="0"/>
+            <AlphaLayer val="True" layer="0"/>
+            <TextureType val="NineSlice" layer="0"/>
+			<DesaturateOnDisable val="False"/>
+        </Frame>
+
+		<Frame type="Image" name="UnitIcon">
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+			<Texture val="Assets\Textures\ui_nova_zergselection_unit_ultralisk.dds"/>
+			<ColorAdjustMode val="AddSelf"/>
+			<AdjustmentColor val="fc3b3b"/>
+			<DesaturateOnDisable val="False"/>
+		</Frame>
+
+		<Frame type="Label" name="UnitName">
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Max" offset="-12"/>
+
+			<Style val="UED_PhaseTitle"/>
+			<Text val="Pressure Cooker"/>
+		</Frame>
+
+		<StateGroup name="HoverState">
+			<State name="Normal">
+				<When type="Property" frame="$this" Hovering="False"/>
+				<Action type="SetProperty" frame="$this/UnitIcon" AdjustmentColor="fc3b3b"/>
+			</State>
+
+			<State name="Hovering">
+				<When type="Property" frame="$this" Hovering="True"/>
+
+				<Action type="SetProperty" frame="$this/UnitIcon" AdjustmentColor="68fc3b"/>
+			</State>
+		</StateGroup>
+
+		<Frame type="Image" name="UnitShimmer">
+			<Anchor relative="$parent/UnitIcon"/>
+			<DesaturateOnDisable val="False"/>
+
+			<LayerCount val="2"/>
+
+			<Texture val="Assets\Textures\ui_nova_zergselection_unit_ultralisk_mask.dds" layer="0"/>
+			<AlphaLayer val="True" layer="0"/>
+
+			<Texture val="Assets\Textures\ui_nova_zergselection_unit_shimmer.dds" layer="1"/>
+
+			<Animation name="Shimmer">
+                <Event event="OnShown" action="DirectionForward" frame="$parent"/>
+                <Event event="OnShown" action="Play" frame="$parent"/>
+         
+                <Controller type="LayerUV" layer="1" side="Bottom" relative="False" sidelock="True" end="Loop" >
+                    <Key type="Curve" time="0" value="2" inout="Smooth"/>
+                    <Key type="Curve" time="11.50" value="-1" inout="Smooth"/>
+                    <Key type="Curve" time="13.50" value="-1" inout="Smooth"/>
+                </Controller>
+            </Animation>
+		</Frame>
+	</Frame>
+
+	<Frame type="Frame" name="UnitChoicePanelTemplate">
+		<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Bottom" relative="$parent" pos="Max" offset="-150"/>
+
+		<Width val="600"/>
+		<Height val="285"/>
+		<Visible val="False"/>
+		
+		<Frame type="Image" name="Vignette">
+			<Anchor relative="$parent/$parent"/>
+
+            <Texture val="Assets\Textures\ui_battlenet_glue_coop_vinette.dds"/>
+			<Alpha val="0"/>
+			<Unclipped val="True"/>
+			<AcceptsMouse val="True"/>
+		</Frame>
+
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Bottom" relative="True">
+				<Key type="Curve" time="0.0" value="550" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+
+			<Controller type="Fade" end="Pause" frame="$this/Vignette">
+				<Key type="Curve" time="0.0" value="0"/>
+				<Key type="Curve" time="0.5" value="255"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="14"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+			<Text val="Choose one to Destroy"/>
+			<Style val="UED_WhatToKillTitle"/>
+		</Frame>
+
+		<Frame type="Button" name="UltraliskButton" template="KLClassic_MissionUI/UnitChoiceButtonTemplate">
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="17"/>
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="35"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+
+			<Frame type="Image" name="UnitIcon">
+				<TextureCoords top="0" left="1" bottom="1" right="0"/>
+			</Frame>
+
+			<Frame type="Image" name="UnitShimmer">
+				<TextureCoords top="0" left="1" bottom="1" right="0"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="MutaliskButton" template="KLClassic_MissionUI/UnitChoiceButtonTemplate">
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-17"/>
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="35"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+
+			<Frame type="Image" name="UnitIcon">
+				<Texture val="Assets\Textures\ui_nova_zergselection_unit_mutalisk.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="UnitShimmer">
+				<Texture val="Assets\Textures\ui_nova_zergselection_unit_mutalisk_mask.dds" layer="0"/>
+			</Frame>
+
+			<Frame type="Label" name="UnitName">
+				<Text val="Oven"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Image" name="Callout">
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="405"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="65"/>
+
+            <Texture val="Assets\Textures\ReadyRoom_PanelCallout_TopSmall.dds"/>
+            <Unclipped val="True"/>
+            <Width val="355"/>
+            <Height val="700"/>
+			<TextureCoords top="1" left="0" bottom="0" right="1"/>
+        </Frame>
+	</Frame>
+
+	<Frame type="Frame" name="PhaseConfirmationTemplate">
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-70"/>
+		<Anchor side="Top" relative="$parent" pos="Mid" offset="-250"/>
+
+		<Width val="335"/>
+		<Height val="160"/>
+		<Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+				<Key type="Curve" time="0.0" value="420" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
+
+			<Style val="UED_PhaseConfirmTitle"/>
+			<Text val="Begin Phase Four?"/>
+		</Frame>
+
+		<Frame type="Label" name="WarningLabel">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="2"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-5"/>
+
+			<Style val="UED_PhaseConfirmWarning"/>
+			<Text val="Make sure all 4 condors are loaded before proceeding."/>
+		</Frame>
+
+		<Frame type="Button" name="ConfirmationButton" template="KLClassic_MissionUI/StandardGreenButtonTemplate">
+			<Anchor side="Top" relative="$parent/WarningLabel" pos="Max" offset="10"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+			<Anchor side="Bottom" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+			<Text val="Confirm"/>
+			<ClickSound val="@UED_UI_Activate"/>
+		</Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Left" relative="$parent" pos="Min" offset="125"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-130"/>
+
+			<Width val="800"/>
+			<Height val="155"/>
+			<Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+	</Frame>
+
+	<Frame type="Frame" name="ArtilleryCalldownTemplate">
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-70"/>
+		<Anchor side="Top" relative="$parent" pos="Min" offset="40"/>
+
+		<Width val="335"/>
+		<Height val="160"/>
+		<Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+				<Key type="Curve" time="0.0" value="420" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
+
+			<Style val="UED_PhaseConfirmTitle"/>
+			<Text val="Call Artillery?"/>
+		</Frame>
+
+		<Frame type="Label" name="WarningLabel">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="2"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-5"/>
+
+			<Style val="UED_PhaseConfirmWarning"/>
+			<Text val="Target the Roach Nest in Range"/>
+		</Frame>
+
+		<Frame type="Button" name="ConfirmationButton" template="KLClassic_MissionUI/StandardGreenButtonTemplate">
+			<Anchor side="Top" relative="$parent/WarningLabel" pos="Max" offset="10"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+			<Anchor side="Bottom" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+			<Text val="Confirm"/>
+			<ClickSound val="@UED_UI_Activate"/>
+		</Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Left" relative="$parent" pos="Min" offset="125"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-130"/>
+
+			<Width val="800"/>
+			<Height val="155"/>
+			<Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+	</Frame>
+
+	<Frame type="Frame" name="SniperAmmoCounter">
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-150"/>
+		<Anchor side="Bottom" relative="$parent" pos="Max" offset="-150"/>
+
+		<Width val="300"/>
+		<Height val="170"/>
+		<Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+				<Key type="Curve" time="0.0" value="420" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Image" name="WeaponWireframe">
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+
+			<Texture val="Assets/Textures/ui_ued_weaponicon.dds"/>
+			<Width val="242"/>
+			<Height val="80"/>
+		</Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/WeaponWireframe" pos="Max" offset="-14"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+			<Style val="UED_PhaseConfirmTitle"/>
+			<Text val="HMR-16"/>
+		</Frame>
+
+		<Frame type="Image" name="AmmoIcon">
+			<Anchor side="Top" relative="$parent/ValueCountLabel" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent/ValueCountLabel" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Mid" offset="-60"/>
+
+			<Width val="40"/>
+			<Height val="40"/>
+			<Texture val="Assets\Textures\btn-techupgrade-terran-fullborecanisterammo.dds"/>
+		</Frame>
+
+		<Frame type="Label" name="ValueCountLabel">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="8"/>
+			<Anchor side="Left" relative="$parent/AmmoIcon" pos="Max" offset="10"/>
+
+			<Style val="UED_PhaseConfirmTitle"/>
+			<Text val="0100"/>
+		</Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Left" relative="$parent" pos="Min" offset="125"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-130"/>
+
+			<Width val="800"/>
+			<Height val="155"/>
+			<Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+	</Frame>
+
+	<Frame type="Frame" name="GasPumpTemplate">
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-70"/>
+		<Anchor side="Top" relative="$parent" pos="Mid" offset="-200"/>
+
+		<Width val="320"/>
+		<Height val="160"/>
+		<Visible val="False"/>
+
+		<Animation name="Birth/Death">
+			<Event event="Birth" action="Reset,DirectionForward,Play" frame="$this"/>
+			<Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+			<Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+				<Key type="Curve" time="0.0" value="420" inout="Auto"/>
+				<Key type="Curve" time="0.5" value="0" inout="Auto"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="False"/>
+				<Key type="Bool" time="0.01" value="True"/>
+				<Key type="Bool" time="0.5" value="True"/>
+			</Controller>
+		</Animation>
+
+		<Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+		<Frame type="Label" name="TitleLabel">
+			<Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="5"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="5"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
+
+			<Style val="UED_PhaseConfirmTitle"/>
+			<Text val="Gas Valve"/>
+		</Frame>
+
+		<Frame type="Image" name="GasBarBackground" template="KLClassic_GlueTemplates/ProgressBarBackgroundTemplate">
+			<Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="4"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+			<Height val="28"/>
+		</Frame>
+
+		<Frame type="ProgressBar" name="GasBar" template="KLClassic_GlueTemplates/StandardProgressBarTemplate">
+			<Anchor relative="$parent/GasBarBackground" offset="-4"/>
+
+			<Value val="100"/>
+			<MaxValue val="500"/>
+		</Frame>
+
+		<Frame type="TextFormatFrame" name="FormatFrame">
+			<Anchor relative="$parent"/>
+			<FormatText val="%0% / %1%"/>
+			<Replacement index="0" val="{$parent/GasBar/@Value}"/>
+			<Replacement index="1" val="{$parent/GasBar/@MaxValue}"/>
+		</Frame>
+
+		<Frame type="Label" name="ValueCountLabel">
+			<Anchor side="Top" relative="$parent/GasBar" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent/GasBar" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent/GasBar" pos="Mid" offset="0"/>
+			<Anchor side="Right" relative="$parent/GasBar" pos="Mid" offset="0"/>
+
+			<Style val="UED_GasValue"/>
+			<Text val="{$parent/FormatFrame/@Text}"/>
+		</Frame>
+
+		<Frame type="Button" name="ConfirmationButton" template="KLClassic_MissionUI/StandardGreenButtonTemplate">
+			<Anchor side="Top" relative="$parent/GasBar" pos="Max" offset="10"/>
+			<Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+			<Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+			<Anchor side="Bottom" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+			<Text val="Open Valve"/>
+			<Toggleable val="True"/>
+			<ClickSound val="@UED_UI_Click"/>
+
+			<StateGroup name="ToggledState">
+				<State name="Normal">
+					<When type="Property" frame="$this" Toggled="False"/>
+					<Action type="SetProperty" frame="$this" Text="Open Valve"/>
+					<Action type="SetProperty" frame="$this" ClickSound="@UED_UI_Click"/>
+				</State>
+
+				<State name="Toggled">
+					<When type="Property" frame="$this" Toggled="True"/>
+
+					<Action type="SetProperty" frame="$this/NormalImage" Texture="Assets/Textures/Glues_VictoryFrame_InnerFrame_Red.dds"/>
+					<Action type="SetProperty" frame="$this/HoverImage" Texture="Assets/Textures/Glues_VictoryFrame_InnerFrame_Red.dds"/>
+					<Action type="SetProperty" frame="$this/ScanlinesBackground" Color="ac261d"/>
+					<Action type="SetProperty" frame="$this" Text="Close Valve"/>
+					<Action type="SetProperty" frame="$this" ClickSound="@UED_UI_Cancel"/>
+				</State>
+			</StateGroup>
+		</Frame>
+
+		<Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+		<Frame type="Image" name="Callout">
+			<Anchor side="Left" relative="$parent" pos="Min" offset="125"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="-130"/>
+
+			<Width val="800"/>
+			<Height val="155"/>
+			<Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+	</Frame>
+
+	<!-- Tactical Map Panel -->
+
+	<Frame type="Frame" name="TacMapPanelTemplate">
+		<Anchor side="Top" relative="$parent" pos="Min" offset="240"/>
+		<Anchor side="Right" relative="$parent" pos="Max" offset="-120"/>
+
+		<Width val="333"/>
+		<Height val="600"/>
+		<Visible val="False"/>
+
+		<Animation name="Show/Hide">
+            <Event event="ShowPanel" action="DirectionForward,Play" frame="$this"/>
+            <Event event="HidePanel" action="DirectionReverse,Play" frame="$this"/>
+
+            <Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+                <Key type="Curve" time="0.0" value="480" out="Fast" in="Smooth"/>
+                <Key type="Curve" time="0.22" value="50" in="Slow" out="Fast"/>
+                <Key type="Curve" time="0.3" value="0" in="Slow" out="Slow"/>
+            </Controller>
+        </Animation>
+
+		<Frame type="Image" name="Background">
+			<Anchor relative="$parent/TacMapBase" offset="10"/>
+
+			<TextureType val="NineSlice"/>
+			<Texture val="Assets/Textures/Glues_StandardButton_Normal.dds"/>
+			<Unclipped val="True"/>
+		</Frame>
+
+		<Frame type="Image" name="TacMapBase">
+			<Anchor relative="$parent"/>
+
+			<Texture val="Assets/Textures/ui_ued_tacmap_base.dds"/>
+		</Frame>
+
+		<Frame type="Image" name="BoundsMask">
+            <Anchor side="Top" relative="$parent/TacMapBase" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/TacMapBase" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/TacMapBase" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent/TacMapBase" pos="Max" offset="0"/>
+
+			<Alpha val="220"/>
+			<LayerCount val="2"/>
+			<ColorAdjustMode val="Colorize"/>
+            <AdjustmentColor val="180,50,50"/>
+
+			<Texture val="Assets/Textures/ui_ued_tacmap_boundsmask.dds" layer="0"/>
+			<AlphaLayer val="True" layer="0"/>
+
+			<Texture val="Assets\Textures\ui_nova_storymode_briefing_warningzone.dds" layer="1"/>
+			<WrapUV val="True" layer="1"/>
+			<TextureCoords left="0" right="30" top="0" bottom="30" layer="1"/>
+
+			<Animation name="Shimmer">
+				<Event event="OnShown" action="DirectionForward" frame="$parent"/>
+				<Event event="OnShown" action="Play" frame="$parent"/>
+		 
+                <Controller type="LayerUV" layer="1" side="Top" relative="False" sidelock="True" end="Loop">
+                    <Key type="Curve" time="0" value="1" inout="linear"/>
+                    <Key type="Curve" time="2.5" value="0" inout="linear"/>
+                </Controller>
+			</Animation>
+		</Frame>
+
+
+
+		<!-- Buttons -->
+
+		<Frame type="Button" name="TacMapButton1" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button1mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button1.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button1mask.dds"/>
+			</Frame>
+			
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-142"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="160"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="TacMapButton2" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button2mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button2.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button2mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-225"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="236"/>
+			</Frame>
+		</Frame>'
+
+		<Frame type="Button" name="TacMapButton3" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button3mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button3.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button3mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-114"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="260"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="TacMapButton4" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button4mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button4.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button4mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-108"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="355"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="TacMapButton5" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button5mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button5.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button5mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-144"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="442"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="TacMapButton6" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button6mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button6.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button6mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-264"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="374"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Button" name="TacMapButton7" template="LotC_TacMap/TacMapButtonTemplate">
+			<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button7mask.dds"/>
+
+			<Frame type="Image" name="NormalImage">
+				<Texture val="Assets/Textures/ui_ued_tacmap_button7.dds"/>
+				<AlphaMaskTexture val="Assets/Textures/ui_ued_tacmap_button7mask.dds"/>
+			</Frame>
+
+			<Frame type="Image" name="Icon">
+				<Anchor side="Right" relative="$parent" pos="Max" offset="-251"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="473"/>
+			</Frame>
+		</Frame>
+
+		<!-- FoWElements -->
+		<Frame type="Image" name="FoWAreaUnrevealable">
+			<Anchor relative="$parent"/>
+
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowareaunrevealable.dds"/>
+		</Frame>
+
+		<Frame type="Image" name="Fowarea1" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea1.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea2" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea2.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea3" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea3.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea4" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea4.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea5" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea5.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea6" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea6.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea7" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea7.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea8" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea8.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea9" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea9.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea10" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea10.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea11" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea11.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea12" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea12.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea13" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea13.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea14" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea14.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea15" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea15.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea16" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea16.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea17" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea17.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea18" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea18.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea19" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea19.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea20" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea20.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea21" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea21.dds"/>
+		</Frame>
+		<Frame type="Image" name="FoWArea22" template="LotC_TacMap/FoWElementTemplate">
+			<Texture val="Assets/Textures/ui_ued_tacmap_fowarea22.dds"/>
+		</Frame>
+
+		<!-- Callout -->
+
+		<Frame type="Image" name="CalloutRight">
+            <Anchor side="Right" relative="$parent" pos="Max" offset="410"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-80"/>
+
+            <Texture val="Assets\Textures\ReadyRoom_PanelCallout_Left.dds"/>
+            <Width val="700"/>
+            <Height val="355"/>
+            <Unclipped val="True"/>
+            <TextureCoords top="0" left="1" bottom="1" right="0"/>
+        </Frame>
+	</Frame>
+
+	<!-- Boss Bar -->
+
+	<Frame type="UnitStatusFrame" name="BossBarTemplateUIDriven">
+		<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Top" relative="$parent" pos="Min" offset="50"/>
+
+		<Width val="520"/>
+		<Height val="120"/>
+		<Visible val="False"/>
+
+		<Frame type="UnitFrame" name="UnitFrame">
+			<UnitTag val="{$parent/@UnitTag}"/>
+		</Frame>
+
+        <Frame type="UnitCacheFrame" name="UnitCacheFrame">
+			<Unit val="{$parent/UnitFrame/@UnitLink}"/>
+		</Frame>
+
+		<Frame type="Image" name="PortraitBorder">
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="18"/>
+
+			<Width val="80"/>
+			<Height val="80"/>
+		</Frame>
+		
+		<Frame type="Image" name="IconMasked">
+			<Anchor relative="$parent/PortraitBorder" offset="-5"/>
+		</Frame>
+
+		<Frame type="UnitStatusUnitName" name="UnitNameLabel">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+			<Frame type="Label" name="Label">
+				<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+				<Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+				<Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+				<Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+				<Style val="@HeroUnitFrameUnitName_Terr"/>
+			</Frame>
+		</Frame>
+
+		<Frame type="Image" name="HPBarBorder">
+			<Anchor side="Left" relative="$parent/PortraitBorder" pos="Max" offset="20"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+
+			<Height val="38"/>
+		</Frame>
+
+		<Frame type="UnitStatusHealthBar" name="HPBar">
+			<Anchor relative="$parent/HPBarBorder" offset="-4"/>
+            
+			<Texture val="Assets\Textures\hud_bar_health_generic_straight.dds"/>
+			<BackgroundShown val="False"/>
+			<BackgroundColor val="0,0,0"/>
+			<BarInsetRect top="0" left="0" bottom="0" right="0"/>
+			<BackgroundInsetRect top="0" left="0" bottom="0" right="0"/>
+			<OwnerColor val="52,255,52" />
+			<ReductionColor val="255,52,52" />
+			<ReductionShown val="true" />
+			<ApplyToTotal val="true" />
+			<IncreaseDuration val="1000" />
+            <DecreaseDuration val="2000" />
+            <CollapseLayout val="True"/>
+            <Segmented val="False"/>
+            <SegmentValue val="5"/>
+            <MaxSegmentCount val="25"/>
+        </Frame>
+
+        <Frame type="MathFrame" name="HPRound">
+            <Anchor relative="$parent"/>
+            <Visible val="False"/>
+
+            <A val="{$parent/UnitFrame/@CurrentHealth}"/>
+            <B val="0"/>
+            <Operator val="Add"/>
+        </Frame>
+
+        <Frame type="Label" name="HealthLabel">
+            <Anchor side="Top" relative="$parent/UnitStatusHealthBar" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/UnitStatusHealthBar" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent/UnitStatusHealthBar" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent/UnitStatusHealthBar" pos="Mid" offset="0"/>
+            
+            <Style val="HeroUnitFrameBarValue_Prot"/>
+            <Text val="{$parent/HPRound/@ResultRound}"/>
+            <Visible val="True"/>
+        </Frame>
+	</Frame>
+
+	<Frame type="Frame" name="BossBarTemplate">
+		<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+		<Anchor side="Top" relative="$parent" pos="Min" offset="70"/>
+
+		<Width val="520"/>
+		<Height val="120"/>
+		<Visible val="False"/>
+		<CollapseLayout val="True"/>
+		<PreserveAnchorOffset val="False"/>
+
+		<StateGroup name="RaceStyle">
+			<DefaultState val="Zerg"/>
+
+			<State name="Terran">
+				<When type="AnimationState" frame="$this" RaceStyle="Terran"/>
+
+				<Action type="SetState" frame="$this/BarBorder" group="RaceStyle" state="Terran"/>
+				<Action type="SetState" frame="$this/PortraitBorder" group="RaceStyle" state="Terran"/>
+			</State>
+
+            <State name="Zerg">
+				<When type="AnimationState" frame="$this" RaceStyle="Zerg"/>
+
+				<Action type="SetState" frame="$this/BarBorder" group="RaceStyle" state="Zerg"/>
+				<Action type="SetState" frame="$this/PortraitBorder" group="RaceStyle" state="Zerg"/>
+
+				<Action type="SetProperty" frame="$this/HPBar/FillImageContainer/FillImage" Texture="Assets/Textures/ui_ued_glues_progressbarfill_Zerg.dds"/>
+				<Action type="SetProperty" frame="$this/UnitNameLabel" Style="UED_BossFrameTitleLabel_Zerg"/>
+			</State>
+
+            <State name="Protoss">
+				<When type="AnimationState" frame="$this" RaceStyle="Protoss"/>
+
+				<Action type="SetState" frame="$this/BarBorder" group="RaceStyle" state="Protoss"/>
+				<Action type="SetState" frame="$this/PortraitBorder" group="RaceStyle" state="Protoss"/>
+
+				<Action type="SetProperty" frame="$this/HPBar/FillImageContainer/FillImage" Texture="Assets/Textures/ui_ued_glues_progressbarfill_Prot.dds"/>
+				<Action type="SetProperty" frame="$this/UnitNameLabel" Style="UED_BossFrameTitleLabel_Prot"/>
+			</State>
+		</StateGroup>
+		
+
+		<Frame type="Frame" name="BarBorder" template="KLClassic_GlueTemplates/StandardRaceContainer">
+			<Anchor side="Left" relative="$parent/PortraitBorder" pos="Max" offset="-8"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+			<Anchor side="Bottom" relative="$parent" pos="Max" offset="-26"/>
+			
+			<Height val="38"/>
+		</Frame>
+
+		<Frame type="Image" name="HPBarBorder" template="KLClassic_GlueTemplates/ProgressBarBackgroundTemplate">
+			<Anchor relative="$parent/BarBorder" offset="-4"/>
+		</Frame>
+
+		<Frame type="ProgressBar" name="HPBar" template="KLClassic_GlueTemplates/StandardProgressBarTemplate">
+			<Anchor relative="$parent/HPBarBorder" offset="-4"/>
+
+			<MaxValue val="100"/>
+			<Value val="30"/>
+        </Frame>
+
+		<Frame type="Frame" name="PortraitBorder" template="KLClassic_GlueTemplates/StandardRaceContainer">
+			<Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="18"/>
+
+			<Width val="80"/>
+			<Height val="80"/>
+		</Frame>
+
+		<Frame type="Image" name="Icon">
+			<Anchor relative="$parent"/>
+			<Visible val="False"/>
+		</Frame>
+		
+		<Frame type="Image" name="IconMasked">
+			<Anchor relative="$parent/PortraitBorder" offset="0"/>
+
+            <LayerCount val="2"/>
+            <Texture val="{$parent/Icon/@Texture}" layer="1"/>
+            <TextureType val="Normal" layer="1"/>
+
+            <Texture val="Assets/Textures/Glues_VictoryFrame_InnerFrameMask.dds" layer="0"/>
+            <AlphaLayer val="True" layer="0"/>
+            <TextureType val="NineSlice" layer="0"/>
+		</Frame>
+
+		<Frame type="Label" name="UnitNameLabel">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="24"/>
+            <Anchor side="Left" relative="$parent/HPBar" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent/HPBar" pos="Mid" offset="0"/>
+
+			<Style val="UED_BossFrameTitleLabel_Terr"/>
+		</Frame>
+
+		<Frame type="TextFormatFrame" name="FormatFrame">
+			<Anchor relative="$parent"/>
+			<FormatText val="%0% / %1%"/>
+			<Replacement index="0" val="{$parent/HPBar/@Value}"/>
+			<Replacement index="1" val="{$parent/HPBar/@MaxValue}"/>
+		</Frame>
+
+        <Frame type="Label" name="HealthLabel">
+            <Anchor side="Top" relative="$parent/HPBar" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/HPBar" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent/HPBar" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent/HPBar" pos="Mid" offset="0"/>
+            
+            <Style val="UED_GasValue"/>
+            <Text val="{$parent/FormatFrame/@Text}"/>
+            <Visible val="True"/>
+        </Frame>
+	</Frame>
+
+	<!--
+		UI Displays
+	-->
+
+	<Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
+		<Frame type="Frame" name="TimerWindow3" template="KLClassic_MissionUI/KLTimerWindowTemplate">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="288"/>
+		</Frame>
+		
+		<Frame type="Frame" name="TimerWindow2" template="KLClassic_MissionUI/KLTimerWindowTemplate">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="184"/>
+		</Frame>
+		<Frame type="Frame" name="TimerWindow1" template="KLClassic_MissionUI/KLTimerWindowTemplate">
+			<!-- Modify and Add remaining Timer Windows -->
+		</Frame>
+
+		<Frame type="Frame" name="ContaminationPanel" template="KLClassic_MissionUI/ContaminationPanelTemplate"/>
+
+		<Frame type="Frame" name="CheckpointDirectivePanel" template="KLClassic_MissionUI/CheckpointDirectiveTemplate"></Frame>
+		<Frame type="Frame" name="BossBar1" template="KLClassic_MissionUI/BossBarTemplate"/>
+		<Frame type="Frame" name="BossBar2" template="KLClassic_MissionUI/BossBarTemplate">
+			<Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+		</Frame>
+		<Frame type="Frame" name="BossBar3" template="KLClassic_MissionUI/BossBarTemplate">
+			<Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+		</Frame>
+	</Frame>
+
+	<Frame type="ConfirmationDialog" name="ConfirmationDialogTemplate" file="StandardDialog">
+		<Handle val="ConfirmDialogKL"/>
+	</Frame>
+
+	<Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+		<Frame type="Frame" name="SavePanelContainer">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Min" offset="0"/>
+            <Alpha val="0"/>
+
+            <Frame type="Label" name="Label">
+                <Anchor relative="$parent"/>
+                <Text val="Name of file name"/>
+                <Handle val="LabelTest"/>
+            </Frame>
+    
+            <StateGroup name="SetFileName">
+                <DefaultState val="Reset"/>
+                <State name="SetFile">
+                    <Action type="SetProperty" frame="$GameUI/$parent/$parent/GameMenuDialogTemplate/SavePanel/SavePanel/EditBoxContainer/FileEditBox" Text="{$LabelTest/@Text}" undo="False"/>
+                </State>
+                <State name="Reset"/>
+            </StateGroup>
+    
+            <Frame type="Frame" name="SavePanel" template="KLClassic_GlueTemplates/StandardGlueButton">
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent" pos="Min" offset="0"/>
+                <Width val="1"/>
+                <Height val="1"/>
+                <Visible val="False"/>
+    
+                <Animation name="SavePanel">
+                    <Event event="OnShown" action="Reset,Play" frame="$this"/>
+    
+                    <!-- Menu Button -->
+                    <Controller type="Event" end="Pause" frame="$GameUI_MenuBar/MenuButton">
+                        <Key type="Event" time="0.2" event="ControlClickRequest"/>
+                    </Controller>
+                    <!-- Save Button -->
+                    <Controller type="Event" end="Pause" frame="$GameUI/$parent/$parent/GameMenuDialogTemplate/MainPanel/SaveButton/Button">
+                        <Key type="Event" time="0.2" event="ControlClickRequest"/>
+                    </Controller>
+                    <!-- Edit Value -->
+                    <Controller type="State" stateGroup="SetFileName" frame="$parent" end="Pause">
+                        <Key type="Identifier" time="0.2" value="SetFile"/>
+                        <Key type="Identifier" time="0.3" value="Reset"/>
+                    </Controller>
+                    <!-- Save Button -->
+                    <Controller type="Event" end="Pause" frame="$GameUI/$parent/$parent/GameMenuDialogTemplate/SavePanel/AcceptButton">
+                        <Key type="Event" time="0.2" event="ControlClickRequest"/>
+                    </Controller>
+					<!-- Override Button -->
+					<Controller type="Event" end="Pause" frame="$ConfirmDialogKL/Button">
+						<Key type="Event" time="0.2" event="ControlClickRequest"/>
+					</Controller>
+                </Animation>
+            </Frame>
+        </Frame>
+		<Frame type="Frame" name="PhasePanel" template="KLClassic_MissionUI/PhasePanelTemplate"/>
+		<Frame type="Frame" name="UnitChoicePanel" template="KLClassic_MissionUI/UnitChoicePanelTemplate"/>
+		<Frame type="Frame" name="PhaseConfirmPanel" template="KLClassic_MissionUI/PhaseConfirmationTemplate"/>
+		<Frame type="Frame" name="GasPumpPanel" template="KLClassic_MissionUI/GasPumpTemplate"/>
+		<Frame type="Frame" name="SniperAmmoCounterPanel" template="KLClassic_MissionUI/SniperAmmoCounter"/>
+		<Frame type="Frame" name="TacMapPanel" template="KLClassic_MissionUI/TacMapPanelTemplate"/>
+
+		<Frame type="Frame" name="LoreWindow" template="LotC_LorePanel/LorePanelTemplate"/>
+		<Frame type="Frame" name="ArtilleryCalldownPanel" template="KLClassic_MissionUI/ArtilleryCalldownTemplate"/>
+
+        <Frame type="TextCrawlPanel" name="TextCrawlPanel">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="20"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-180"/>
+            <Width val="1200.000000"/>
+            <Height val="200.000000"/>
+            <Visible val="false"/>
+
+            <!-- MOVES THE PANEL TO THE BOTTOM LEFT -->
+            <!-- MOVES THE PANEL TO THE BOTTOM LEFT -->
+            <Frame type="FlashFrame" name="FlashFrame">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <File val="UI/Flash/GameUI/TextCrawl_Green.swf"/>
+                <FlashInputEnabled val="false"/>
+                <UseAlternateTime val="false"/>
+            </Frame>
+        </Frame>
+
+		<Frame type="Frame" name="KLCreditsPanel" template="UED_CreditsTemplates/CreditsPanelTemplate">
+			<Visible val="False"/>
+		</Frame>
+    </Frame>
+</Desc>

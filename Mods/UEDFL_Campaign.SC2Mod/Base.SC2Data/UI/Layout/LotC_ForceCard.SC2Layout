@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <!--
+        Constants
+    -->
+    <Constant name="ForceCardWidth" val="294"/>
+    <Constant name="ForceCardHeight" val="364"/>
+    <Constant name="ForceButtonSize" val="120"/>
+    <Constant name="ForceButtoOffset" val="10"/>
+    <Constant name="ForceButtonOffsetNegative" val="-10"/>
+
+    <!--
+        Templates
+    -->
+    <Frame type="Button" name="ForceCardButtonTemplate">
+        <Width val="#ForceButtonSize"/>
+        <Height val="#ForceButtonSize"/>
+        <NormalImage val="NormalImage"/>
+        <HoverImage val="HoverImage"/>
+        <Enabled val="False"/>
+        <ClickSound val="*@UI_SoA_SpellClick"/>
+
+        <Frame type="Image" name="BackgroundImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButtonBorderless_Background"/>
+            <TextureType val="NineSlice"/>
+            <DesaturateOnDisable val="False"/>
+        </Frame>
+
+        <Frame type="Image" name="NormalImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButtonBorderless_Normal"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Image" name="HoverImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButtonBorderless_Over"/>
+            <TextureType val="NineSlice"/>
+            <DesaturateOnDisable val="False"/>
+        </Frame>
+
+        <Frame type="Image" name="IconImage">
+            <Anchor relative="$parent" offset="-5"/>
+
+            <Texture val="Assets/Textures/LotC_ForceCard_AA.dds"/>
+        </Frame>
+
+        <Frame type="Image" name="CooldownImage">
+            <Anchor side="Top" relative="$parent/IconImage" pos="Min" offset="-5"/>
+            <Anchor side="Bottom" relative="$parent/IconImage" pos="Max" offset="5"/>
+            <Anchor side="Left" relative="$parent/IconImage" pos="Min" offset="-5"/>
+            <Anchor side="Right" relative="$parent/IconImage" pos="Max" offset="5"/>
+
+            <Visible val="False"/>
+            <Texture val="Assets\Textures\cooldown16x8_hots.dds"/>
+            <TextureCoords top="0.000000" left="0.000000" bottom="0.125000" right="0.062500"/>
+            <Animating val="True"/>
+            <AnimColumns val="16"/>
+            <AnimCount val="128"/>
+            <AnimDuration val="60000"/>
+            <DesaturateOnDisable val="False"/>
+        </Frame>
+    </Frame>
+
+    <Frame type="Frame" name="ForceCardTemplate">
+        <Anchor side="Right" relative="$parent" pos="Max" offset="-100"/>
+        <Anchor side="Top" relative="$parent" pos="Min" offset="250"/>
+        <Visible val="False"/>
+
+        <Width val="#ForceCardWidth"/>
+        <Height val="#ForceCardHeight"/>
+
+        <Frame type="Image" name="Background">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButton_Normal"/>
+            <TextureType val="NineSlice"/>
+            <AcceptsMouse val="True"/>
+        </Frame>
+
+        <Frame type="Frame" name="AnchorFrame">
+            <Anchor relative="$parent" offset="-10"/>
+        </Frame>
+
+        <Frame type="Label" name="TitleLabel">
+            <Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+            <Anchor side="Bottom" relative="$parent/ForceButton1" pos="Min" offset="-5"/>
+            <Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="10"/>
+            <Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="-10"/>
+
+            <Style val="LotC_ForcePanelTitle"/>
+            <Text val="Deploy Reinforcements"/>
+        </Frame>
+
+        <Frame type="Image" name="Callout">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-55"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="348"/>
+
+            <Texture val="@UI/ReadyRoom/MainPanel_Callout"/>
+            <TextureCoords top="0.000000" left="1.000000" bottom="1.000000" right="0.000000"/>
+            <Unclipped val="True"/>
+            <Width val="600"/>
+            <Height val="305"/>
+        </Frame>
+
+        <Frame type="Button" name="ForceButton1" template="LotC_ForceCard/ForceCardButtonTemplate">
+            <Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="80"/>
+            <Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="#ForceButtonOffsetNegative"/>
+
+            <Frame type="Image" name="IconImage">
+                <Texture val="Assets/Textures/LotC_ForceCard_Infantry.dds"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Button" name="ForceButton2" template="LotC_ForceCard/ForceCardButtonTemplate">
+            <Anchor side="Bottom" relative="$parent/AnchorFrame" pos="Max" offset="#ForceButtonOffsetNegative"/>
+            <Anchor side="Right" relative="$parent/AnchorFrame" pos="Max" offset="#ForceButtonOffsetNegative"/>
+
+            <Frame type="Image" name="IconImage">
+                <Texture val="Assets/Textures/LotC_ForceCard_Tank.dds"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Button" name="ForceButton3" template="LotC_ForceCard/ForceCardButtonTemplate">
+            <Anchor side="Top" relative="$parent/AnchorFrame" pos="Min" offset="80"/>
+            <Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="#ForceButtoOffset"/>
+
+            <Frame type="Image" name="IconImage">
+                <Texture val="Assets/Textures/LotC_ForceCard_Air.dds"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Button" name="ForceButton4" template="LotC_ForceCard/ForceCardButtonTemplate">
+            <Anchor side="Bottom" relative="$parent/AnchorFrame" pos="Max" offset="#ForceButtonOffsetNegative"/>
+            <Anchor side="Left" relative="$parent/AnchorFrame" pos="Min" offset="#ForceButtoOffset"/>
+
+            <Frame type="Image" name="IconImage">
+                <Texture val="Assets/Textures/LotC_ForceCard_AA.dds"/>
+            </Frame>
+        </Frame>
+
+        <Animation name="Flash">
+            <Event event="Suggest" action="Reset,Play" frame="$this"/>
+
+            <Controller type="Texture" end="Pause" frame="$this/Background">
+                <Key type="Image" time="0.0" image="@UI/Glues/StandardButton_Normal"/>
+                <Key type="Image" time="0.6" image="@UI/Glues/StandardButton_Over"/>
+                <Key type="Image" time="1.2" image="@UI/Glues/StandardButton_Normal"/>
+                <Key type="Image" time="1.8" image="@UI/Glues/StandardButton_Over"/>
+                <Key type="Image" time="2.4" image="@UI/Glues/StandardButton_Normal"/>
+                <Key type="Image" time="3.0" image="@UI/Glues/StandardButton_Over"/>
+                <Key type="Image" time="3.6" image="@UI/Glues/StandardButton_Normal"/>
+            </Controller>
+        </Animation>
+    </Frame>
+
+    <!--
+        Frame
+    -->
+    <Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
+        <Frame type="Frame" name="ForceCard" template="LotC_ForceCard/ForceCardTemplate"/>
+    </Frame>
+</Desc>

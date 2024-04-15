@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneState cutsceneVersion="1.300000">
+    <CCutsceneNodeDirector guid="13066471981861726570" name="Director">
+        <CCutsceneNodeActiveCamera guid="13521487663377836394" name="Active Camera">
+            <CCutsceneElementActiveCamera guid="6649198316539505002" cameraIndex="0" objectGuid="13604926302274873706"/>
+            <CCutsceneElementActiveCamera guid="9122498612141722745" start="4498" cameraIndex="0" objectGuid="11784508265489553466"/>
+            <CCutsceneElementActiveCamera guid="8052340555404419444" start="6177" cameraIndex="0" objectGuid="10640195447499268509"/>
+            <CCutsceneElementActiveCamera guid="8711494708465622394" start="7523" cameraIndex="0" objectGuid="10011013747363040177"/>
+            <CCutsceneElementActiveCamera guid="7397909957654406125" start="10198" cameraIndex="0" objectGuid="11366926882487638574"/>
+        </CCutsceneNodeActiveCamera>
+    </CCutsceneNodeDirector>
+    <CCutsceneNodeTargetCamera guid="10640195447499268509" name="Shot04" position="-35.356178,-20.247231,-5.863458" fov="27.799999" nearClip="0.100000" farClip="730.293701" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="-3.275139" eyePositionY="-9.144054" eyePositionZ="-7.741342" targetPositionX="-35.356178" targetPositionY="-20.247231" targetPositionZ="-5.863458">
+        <CCutsceneElementObject guid="7670846399837905309" duration="15382" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeTargetCamera guid="10011013747363040177" name="Shot05" position="-25.020035,-21.565292,-5.863458" fov="27.799999" nearClip="0.100000" farClip="730.293701" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="7.061005" eyePositionY="-10.462116" eyePositionZ="-7.741342" targetPositionX="-25.020035" targetPositionY="-21.565292" targetPositionZ="-5.863458">
+        <CCutsceneElementObject guid="8882414084207692721" duration="15382" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeTargetCamera guid="11366926882487638574" name="Shot06" position="-4.626530,-9.731743,-25.743761" fov="27.799999" nearClip="0.100000" farClip="730.293701" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="4.876579" eyePositionY="-2.591137" eyePositionZ="-24.899643" targetPositionX="-4.626530" targetPositionY="-9.731743" targetPositionZ="-25.743761">
+        <CCutsceneElementObject guid="8586870495398566446" duration="15382" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeFolder guid="13296618899351729742" name="Shot02">
+        <CCutsceneNodeTargetCamera guid="13604926302274873706" name="Shot02" position="-13.182404,-26.944748,0.246777" fov="27.799999" nearClip="0.100000" farClip="726.000000" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="10.669426" eyePositionY="5.060715" eyePositionZ="-21.076118" targetPositionX="-13.182404" targetPositionY="-26.944748" targetPositionZ="0.246777">
+            <CCutsceneElementObject guid="5160306139119118698" duration="4498"/>
+        </CCutsceneNodeTargetCamera>
+        <CCutsceneNodeActor guid="9616541661718276458" name="LotC - LotC - Vehicle - Condor @ Condor" position="-11.902191,-10.928318,-3.619398" modelLink="Condor" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="4827607118988601706" duration="4498"/>
+            <CCutsceneNodeAnimLayer guid="9271771846455748970" name="Animation Layer">
+                <CCutsceneElementAnim guid="4827371509967645034" duration="4498" anim="Walk" priority="5" originalDuration="4000" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11714299028768713066" name="Tarsonis Building Wall Concrete Straight" position="-0.965393,-14.069618,-28.339651" scale="2.400000,2.400000,2.400000" rotation="0.000000,0.000000,83.000076" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7273162755756419434" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9908684942055205226" name="Animation Layer">
+                <CCutsceneElementAnim guid="9115047111140206954" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11955617727709079914" name="SMX2 CoreIntro Embers" position="3.796547,-0.281311,0.000000" modelLink="SMX2_CoreIntro_Embers" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="8633753148964890986" duration="4498"/>
+            <CCutsceneNodeAnimLayer guid="9982752696751778154" name="Animation Layer">
+                <CCutsceneElementAnim guid="5504949583558895978" duration="4498" anim="Stand" priority="3" originalDuration="1667" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="12143321830202435946" name="Smoke Embers Medium" position="-5.765495,4.948380,0.000000" modelLink="SmokeEmbersMedium" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5521798950714501482" duration="4498"/>
+            <CCutsceneNodeAnimLayer guid="12120971567718361450" name="Animation Layer">
+                <CCutsceneElementAnim guid="7844574061038823786" duration="4498" anim="Stand" priority="5" originalDuration="8000"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="12930056544866167146" name="LotC - LotC - Vehicle - Condor @ Condor" position="-6.552311,-18.099091,-1.505806" rotation="0.000000,0.000000,-84.500000" modelLink="Condor" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="6060907648049899882" duration="4498"/>
+            <CCutsceneNodeAnimLayer guid="10937126852631095658" name="Animation Layer">
+                <CCutsceneElementAnim guid="5270303863637174634" duration="15382" lockedToEnd="1" anim="Walk" priority="5" originalDuration="4000" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="10242527836530698602" name="SMX1 Zergling T1" position="3.328712,-8.652477,-22.265921" rotation="-76.057686,21.961506,-18.564518" modelLink="SMX1ZerglingT1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="8874798610675820906" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="13399469463564609898" name="Animation Layer">
+                <CCutsceneElementAnim guid="8065919976641816938" duration="15382" lockedToEnd="1" anim="Walk Complex" priority="5" originalDuration="2000" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeLight guid="11205725345589651818" name="Spot Light" position="7.710442,-5.881409,-25.864525" rotation="-153.495178,27.760803,-90.000000" type="2" colorG="0.705882" colorB="0.705882" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="23.533018" range="23.533018" hotspot="0.500000">
+            <CCutsceneElementObject guid="8713067807508949354" duration="15382" lockedToEnd="1"/>
+        </CCutsceneNodeLight>
+        <CCutsceneNodeActor guid="12291177994922649962" name="SMX1 Zergling T1" position="5.395264,-8.652477,-22.869072" rotation="-76.057686,21.961506,-18.564518" modelLink="SMX1ZerglingT1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7482249434537290090" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="12768664614618949994" name="Animation Layer">
+                <CCutsceneElementAnim guid="8669257534771980650" duration="15382" lockedToEnd="1" anim="Walk Complex" priority="5" originalDuration="2000" looping="1" startOffset="100"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="13082573814254430570" name="Tarsonis Building Wall Concrete Straight" position="-19.348881,-11.808842,-28.339643" scale="2.400000,2.400000,2.400000" rotation="0.000000,0.000000,83.000076" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="9029400846168123754" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11985366818684823914" name="Animation Layer">
+                <CCutsceneElementAnim guid="8710799240142940522" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11312604685214313482" name="Hive" position="-7.304489,-4.477169,-21.122877" scale="2.000000,2.000000,2.000000" rotation="0.000000,0.000000,-97.500000" modelLink="Hive" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7662033116707318794" duration="7305"/>
+            <CCutsceneNodeAnimLayer guid="10542520308348452992" name="Animation Layer">
+                <CCutsceneElementAnim guid="7375146618069418112" duration="4498" anim="Stand C" priority="3" originalDuration="6667" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeFolder guid="10608032369828944678" name="Shot03">
+        <CCutsceneNodeTargetCamera guid="11784508265489553466" name="Shot03" position="-25.648449,-29.878761,-3.431962" fov="27.799999" nearClip="0.100000" farClip="726.000000" shadowClip="75.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="10.884430" eyePositionY="-5.497253" eyePositionZ="-14.332232" targetPositionX="-25.648449" targetPositionY="-29.878761" targetPositionZ="-3.431962">
+            <CCutsceneElementObject guid="5901369789798471738" duration="15382" lockedToEnd="1"/>
+        </CCutsceneNodeTargetCamera>
+        <CCutsceneNodeActor guid="13316359797924910460" name="LotC - LotC - Vehicle - Condor @ Condor" position="-16.877140,-24.043324,-2.595802" rotation="0.000000,0.000000,68.499954" modelLink="Condor" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="4677717308965868924" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9976115559472518524" name="Animation Layer">
+                <CCutsceneElementAnim guid="5328246851052983676" duration="15382" lockedToEnd="1" anim="Walk" priority="5" originalDuration="4000" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11522184248502736252" name="LotC - LotC - Vehicle - Condor @ Condor" position="-11.197327,-28.572815,-1.505806" rotation="0.000000,0.000000,62.000397" modelLink="Condor" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7638759765322716540" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="13445283832703702396" name="Animation Layer">
+                <CCutsceneElementAnim guid="7857511963060557180" duration="15382" lockedToEnd="1" anim="Walk" priority="5" originalDuration="4000" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeFolder guid="9643628385642852805" name="CitySet">
+        <CCutsceneNodeActor guid="9414904640826637099" name="LotC - LotC - Vehicle - TR17 @ TR-17" position="-12.469467,-16.562225,-9.167765" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,68.999771" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5125709916518417316" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9765861772379232578" name="Animation Layer">
+                <CCutsceneElementAnim guid="7870765808739883330" duration="15382" lockedToEnd="1" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="9960019611608853818" name="LotC - LotC - Vehicle - TR17 @ TR-17" position="-8.389641,-17.397968,-9.167765" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,77.499863" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7709189468395056442" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11507409840601214266" name="Animation Layer">
+                <CCutsceneElementAnim guid="9111119673446804794" duration="15382" lockedToEnd="1" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11278828213947996512" name="LotC - LotC - Vehicle - TR17 @ TR-17" position="-3.537102,-18.291687,-9.167765" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,65.999863" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5972613934711445856" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9645767165655521632" name="Animation Layer">
+                <CCutsceneElementAnim guid="5410408080079198560" duration="15382" lockedToEnd="1" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="9630611718469463646" name="LotC - LotC - Vehicle - TR17 @ TR-17" position="-18.934456,-16.064449,-9.167765" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,70.499863" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="8610980525279424094" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="10385807539090894430" name="Animation Layer">
+                <CCutsceneElementAnim guid="8777522881523756638" duration="15382" lockedToEnd="1" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="9278574096777493150" name="Tarsonis Building Wall Glass Diagonal" position="-63.937603,-19.540504,2.108370" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-13.999886" modelLink="Tarsonis_BuildingWall_Glass_Diagonal" variation="5" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7398780846039526663" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11665049385182802202" name="Animation Layer">
+                <CCutsceneElementAnim guid="7098304042786064968" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11171515539141690835" name="Tarsonis Building Top" position="-67.981300,-18.572750,1.981199" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-16.000027" modelLink="Tarsonis_Building_Top" variation="1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="8406936822617998803" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="13568969575454769851" name="Animation Layer">
+                <CCutsceneElementAnim guid="4652052202820804320" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="12300098836597889714" name="Tarsonis Building Wall Concrete Straight" position="-83.896240,-2.170559,-22.252987" scale="4.000000,4.000000,4.000000" rotation="0.000000,0.000000,-14.499992" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="6361704386873055922" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9859766452372475237" name="Animation Layer">
+                <CCutsceneElementAnim guid="6245096957874376037" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="13267497139786088770" name="Tarsonis Building Decor" position="-58.703133,-10.436172,3.439329" scale="4.000000,4.000000,4.000000" rotation="0.000000,0.000000,75.000015" modelLink="Tarsonis_Building_Decor" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5156173873388323138" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="9789580260677958036" name="Animation Layer">
+                <CCutsceneElementAnim guid="6024249910505945492" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="10607245174999125501" name="Tarsonis Building" position="-93.959335,-68.402023,-24.261827" scale="4.000000,4.000000,4.000000" rotation="0.000000,0.000000,-132.499817" modelLink="CityBuilding" variation="3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="7677844910943014397" duration="15382" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11977714342519896580" name="Animation Layer">
+                <CCutsceneElementAnim guid="8660610335591365124" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeActor guid="13442110575656955197" name="Store Front 2 Story" position="-3.637543,-13.981243,-28.369295" rotation="0.000000,0.000000,83.000000" modelLink="StoreFront2Story" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5988873330907540797" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11921171267311661513" name="Animation Layer">
+            <CCutsceneElementAnim guid="8083044124870341065" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="13472979130501050812" name="Store Front" position="-9.233795,-12.432751,-28.355526" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,83.000000" modelLink="KorhalStoreFront" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7057502200322601404" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="13445844612442705783" name="Animation Layer">
+            <CCutsceneElementAnim guid="5249088546095667802" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="12762819142519573611" name="Tarsonis Concrete Cliff" position="11.747589,-12.457039,-30.697460" scale="4.000000,4.000000,4.000000" rotation="90.002068,79.501488,89.999313" modelLink="Tarsonis_Concrete_Cliff" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5959528372255539638" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10801430042858016159" name="Animation Layer">
+            <CCutsceneElementAnim guid="7769032327212396109" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="11904381485168094125" name="Blast Craters Doodad" position="-5.167496,-1.649769,-28.413107" modelLink="BlastCratersDoodad" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7057282081544367021" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="12922144423826511380" name="Animation Layer">
+            <CCutsceneElementAnim guid="6961850004578850324" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10850050375892849500" name="Tarsonis Concrete Cliff" position="-9.752716,-9.722610,-30.697460" scale="4.000000,4.000000,4.000000" rotation="90.002068,79.501488,89.999313" modelLink="Tarsonis_Concrete_Cliff" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7445859224068805468" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10440567510992409436" name="Animation Layer">
+            <CCutsceneElementAnim guid="6784827653719315292" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="13176575117346272769" name="Aiur City Creep Webbing" position="-0.779179,-14.179142,-29.798895" rotation="0.000000,0.000000,53.500034" modelLink="Aiur_City_CreepWebbing" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="8549410139863315969" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="9623142178846534205" name="Animation Layer">
+            <CCutsceneElementAnim guid="8519771011853969981" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="43333" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10089729996065765117" name="Cargo Truck Creep" position="-9.961403,-11.059460,-28.494892" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,-40.000084" modelLink="CargoTruckCreep" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="8821092632166561533" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11058224522246282195" name="Animation Layer">
+            <CCutsceneElementAnim guid="7232431400597642195" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="2667" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="9320904081055432898" name="Creep Spore Emitter" position="-5.342548,-15.259983,-28.061872" modelLink="CreepSporeEmitter" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="8915533990938296514" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11038089930244083058" name="Animation Layer">
+            <CCutsceneElementAnim guid="8152410586425314674" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="33333" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10841955243436127296" name="Creep Web" position="-5.881618,-10.752060,-28.057384" rotation="0.000000,0.000000,57.499931" modelLink="CreepWeb" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5041948896301003840" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10740649949905850000" name="Animation Layer">
+            <CCutsceneElementAnim guid="7957938804876414608" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16700" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="11353774135814425084" name="Creep Web" position="-8.954613,-8.449223,-27.980448" rotation="56.568336,-41.863098,57.821770" modelLink="CreepWeb" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="8328654306454309372" duration="15382" lockedToEnd="1"/>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10944868057888363398" name="SMX1 Zergling T1" position="-4.858723,-10.848049,-28.376884" scale="2.500000,2.500000,2.500000" rotation="0.000000,0.000000,-18.000038" modelLink="SMX1ZerglingT1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="8440707162869896070" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="12046717737011286918" name="Animation Layer">
+            <CCutsceneElementAnim guid="6368673042149970822" duration="15382" lockedToEnd="1" anim="Dead B 01" priority="11" originalDuration="1133"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="12852179625960804686" name="SMX1 Zergling T1" position="-6.935360,-8.655109,-28.376884" scale="2.500000,2.500000,2.500000" rotation="0.000000,0.000000,50.499969" modelLink="SMX1ZerglingT1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="4844635783185305934" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11489227176833192270" name="Animation Layer">
+            <CCutsceneElementAnim guid="7884371652541681998" duration="15382" lockedToEnd="1" anim="Dead A" priority="11" originalDuration="1000"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10758955766728315908" name="SMX1 Zergling T1" position="-12.353760,-8.097321,-28.376884" scale="2.500000,2.500000,2.500000" rotation="0.000000,0.000000,50.499969" modelLink="SMX1ZerglingT1" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5015477657429300228" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10953672305275524100" name="Animation Layer">
+            <CCutsceneElementAnim guid="7109951814039720964" duration="15382" lockedToEnd="1" anim="Dead C" priority="11" originalDuration="1000"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="10650881804216934754" name="MoebiusFireLarge (Unnamed)" position="-12.099697,-7.759861,-27.964493" scale="1.500000,1.500000,1.500000" modelLink="MoebiusFireLarge" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="6767114202518382019" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11288852799391595658" name="Animation Layer">
+            <CCutsceneElementAnim guid="6504728796762220773" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="2000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="13381176573493514926" name="MoebiusFireLarge (Unnamed)" position="-9.458252,-10.464344,-27.325865" scale="2.000000,2.000000,2.000000" modelLink="MoebiusFireLarge" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="7287767429682041518" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="10871402203463815854" name="Animation Layer">
+            <CCutsceneElementAnim guid="5334475720038814382" duration="15382" lockedToEnd="1" anim="Stand" priority="3" originalDuration="2000" looping="1"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+    <CCutsceneNodeActor guid="13682396433238009525" name="Hatchery Death" position="-8.901718,-8.114555,-28.141979" modelLink="HatcheryDeath" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+        <CCutsceneElementObject guid="5068711067943814943" duration="15382" lockedToEnd="1"/>
+        <CCutsceneNodeAnimLayer guid="11221100488319438210" name="Animation Layer">
+            <CCutsceneElementAnim guid="7363959302320426370" start="10055" duration="5327" lockedToEnd="1" anim="Death" priority="11" originalDuration="10000" startOffset="5000" timeScale="0.000010"/>
+        </CCutsceneNodeAnimLayer>
+    </CCutsceneNodeActor>
+</CutsceneState>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrain id="TauCetiAsteroid">
+        <EditorCategories value="Climate:Lunar"/>
+        <Lighting value="TauCetiExterior"/>
+        <Ambience value="Ambience_BraxisAlpha"/>
+        <HideLowestLevel value="1"/>
+        <BlendTextures value="TauCetiAsteroid1"/>
+        <BlendTextures value="TauCetiAsteroid2"/>
+        <BlendTextures value="TauCetiAsteroid3"/>
+        <BlendTextures value="TauCetiAsteroid4"/>
+        <BlendTextures value="TauCetiAsteroid5"/>
+        <BlendTextures value="TauCetiAsteroid6"/>
+        <BlendTextures value="TauCetiAsteroid7"/>
+        <BlendTextures value="TauCetiAsteroid8"/>
+        <CliffSets value="ShadowCorpsPlatformCliff0"/>
+        <CliffSets value="BraxisAlphaEx1Cliff0"/>
+        <FixedSkyboxModel value="CastanarSkybox"/>
+        <NonFixedSkyboxModel value="AvernusSkyParallax"/>
+        <FogColor value="255,55,69,132"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+    <CTerrain id="AntigaPrime">
+        <EditorCategories value="Climate:Wasteland"/>
+        <LoadingScreen value="Assets\Textures\loading-haven.dds"/>
+        <Ambience value="Ambience_Haven"/>
+        <ReverbAmbient value="BetaVerb"/>
+        <BlendTextures value="AntigaPrimeDirt"/>
+        <BlendTextures value="AntigaPrimeDirtLight"/>
+        <BlendTextures value="AntigaPrimeCrackedGround"/>
+        <BlendTextures value="AntigaPrimeGrass"/>
+        <BlendTextures value="AntigaPrimeMud"/>
+        <BlendTextures value="AntigaPrimeConcrete"/>
+        <BlendTextures value="AntigaPrimeRockyGround"/>
+        <HardTiles value="MarSaraTile"/>
+        <CliffSets value="AntigaPrimeOrganicCliffs"/>
+        <CliffSets value="AntigaPrimeManmadeCliffs"/>
+        <FogEnabled value="1"/>
+        <FogColor value="255,43,52,77"/>
+        <FogDensity value="0.050000"/>
+        <FogFalloff value="0.100000"/>
+        <FogStartingHeight value="-2.000000"/>
+        <CreepBaseTexture value="Assets\Textures\Creep_Haven.dds"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+</Catalog>

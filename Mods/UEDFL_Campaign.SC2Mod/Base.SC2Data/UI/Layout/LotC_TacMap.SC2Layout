@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <!-- Constants -->
+	<Constant name="TacMapIconAttack" val="Assets\Textures\ui_ued_tacmap_iconatt.dds"/>
+	<Constant name="TacMapIconReinforce" val="Assets\Textures\ui_ued_tacmap_icondef.dds"/>
+	<Constant name="TacMapIconCapture" val="Assets\Textures\ui_ued_tacmap_iconcap.dds"/>
+
+    <!-- Templates -->
+	<Frame type="Button" name="TacMapButtonTemplate">
+		<Anchor relative="$parent"/>
+
+		<NormalImage val="NormalImage"/>
+		<HoverImage val="HoverImage"/>
+		<Visible val="True"/>
+		<DisabledAlpha val="200"/>
+		<!-- Replace Mask -->
+		<HitTestTexture val="Assets/Textures/ui_ued_tacmap_button1mask.dds"/>
+		<Enabled val="True"/>
+		<HoverSound val="@UED_UI_Hover"/>
+		<ClickSound val="@UED_UI_Activate"/>
+
+		<Animation name="Shown">
+			<Event event="OnShown" action="Reset,Play" frame="$this"/>
+			
+			<Controller type="Fade" end="Pause" frame="$this">
+				<Key type="Curve" time="0.0" value="0"/>
+				<Key type="Curve" time="0.2" value="255"/>
+			</Controller>
+		</Animation>
+
+		<StateGroup name="ButtonMode">
+			<DefaultState val="None"/>
+
+			<State name="None">
+				<When type="AnimationState" frame="$this" ButtonMode="None"/>
+				<When type="Property" frame="$this" Enabled="False"/>
+				<Action type="SetProperty" frame="$this" Visible="False"/>
+			</State>
+
+			<State name="Disabled">
+				<When type="AnimationState" frame="$this" ButtonMode="Disabled"/>
+
+				<Action type="SetProperty" frame="$this/Icon" Visible="False"/>
+				<Action type="SetProperty" frame="$this" Enabled="False"/>
+				<Action type="SetProperty" frame="$this/NormalImage" AdjustmentColor="214,214,214"/>
+			
+			</State>
+
+			<State name="ModeAttack">
+				<When type="AnimationState" frame="$this" ButtonMode="ModeAttack"/>
+
+				<Action type="SetProperty" frame="$this/NormalImage" AdjustmentColor="255,0,0"/>
+				<Action type="SetProperty" frame="$this/Icon" Texture="#TacMapIconAttack"/>
+			</State>
+
+			<State name="ModeDefense">
+				<When type="AnimationState" frame="$this" ButtonMode="ModeDefense"/>
+
+				<Action type="SetProperty" frame="$this/NormalImage" AdjustmentColor="251,255,0"/>
+				<Action type="SetProperty" frame="$this/Icon" Texture="#TacMapIconCapture"/>
+			</State>
+
+			<State name="ModeReinforce">
+				<When type="AnimationState" frame="$this" ButtonMode="ModeReinforce"/>
+
+				<Action type="SetProperty" frame="$this/NormalImage" AdjustmentColor="30,255,0"/>
+				<Action type="SetProperty" frame="$this/Icon" Texture="#TacMapIconReinforce"/>
+			</State>
+		</StateGroup>
+
+		<Frame type="Image" name="NormalImage">
+			<Anchor relative="$parent"/>
+
+			<Alpha val="200"/>
+			<Texture val="Assets/Textures/ui_ued_tacmap_button1.dds"/>
+			<AlphaMaskTexture val="{$parent/@HitTestTexture}"/>
+
+			<ColorAdjustMode val="Fill"/>
+			<AdjustmentColor val="255,0,0"/>
+			<DesaturateOnDisable val="True"/>
+			<Desaturated val="{$parent/@Enabled}"/>
+		</Frame>
+
+		<Frame type="Image" name="HoverImage">
+			<Anchor relative="$parent"/>
+
+			<ColorAdjustMode val="Fill"/>
+			<AdjustmentColor val="{$parent/NormalImage/@AdjustmentColor}"/>
+			<Texture val="{$parent/NormalImage/@Texture}"/>
+			<AlphaMaskTexture val="{$parent/NormalImage/@AlphaMaskTexture}"/>
+			<DesaturateOnDisable val="True"/>
+			<Desaturated val="{$parent/@Enabled}"/>
+		</Frame>
+
+		<Frame type="Image" name="Icon">
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-142"/>
+			<Anchor side="Top" relative="$parent" pos="Min" offset="160"/>
+			<Visible val="True"/>
+
+			<StateGroup name="Hovering">
+				
+				<State name="Normal">
+					<When type="Property" frame="$parent" Hovering="False"/>
+
+					<Action type="SetProperty" frame="$this" Alpha="200"/>
+				</State>
+
+				<State name="Hovering">
+					<When type="Property" frame="$parent" Hovering="True"/>
+
+					<Action type="SetProperty" frame="$this" Alpha="255"/>
+				</State>
+			</StateGroup>
+
+			<ColorAdjustMode val="Colorize"/>
+			<AdjustmentColor val="{$parent/NormalImage/@AdjustmentColor}"/>
+			<Texture val="#TacMapIconAttack"/>
+			<Width val="35"/>
+			<Height val="35"/>
+		</Frame>
+	</Frame>
+
+	<Frame type="Image" name="FoWElementTemplate">
+		<Anchor relative="$parent"/>
+
+		<Animation name="FadeOut">
+			<Event event="HideFog" action="DirectionForward,Play" frame="$this"/>
+
+			<Controller type="Fade" end="Pause" frame="$this">
+				<Key type="Curve" time="0.0" value="255" inout="Linear"/>
+				<Key type="Curve" time="0.2" value="0" inout="Linear"/>
+			</Controller>
+
+			<Controller type="Visibility" end="Pause" frame="$this">
+				<Key type="Bool" time="0.0" value="True"/>
+				<Key type="Bool" time="0.2" value="False"/>
+			</Controller>
+		</Animation>
+	</Frame>
+
+    <!-- Frame Display -->
+</Desc>

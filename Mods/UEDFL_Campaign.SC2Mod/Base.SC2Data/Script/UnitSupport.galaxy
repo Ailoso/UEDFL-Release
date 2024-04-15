@@ -1,0 +1,54 @@
+unitgroup UnitsInUnitGroupMatchingBehavior (unitgroup unitGroup, string behavior, bool match) {
+    int i;
+    unitgroup group = unitGroup;
+    unit tmp_unit;
+    unitgroup returnGroup = UnitGroupEmpty();
+    int count = UnitGroupCount(group, c_unitCountAll);
+
+    for (i = 1; i <= count; i += 1) {
+        tmp_unit = UnitGroupUnit(group, i);
+        if ((UnitHasBehavior2(tmp_unit, behavior) == match)) {
+            UnitGroupAdd(returnGroup, tmp_unit);
+        }
+    }
+    return returnGroup;
+}
+
+bool UnitHasBehaviorWithBehaviorFlag (unit inUnit, int behaviorFlag) {
+    int behaviorCount;
+    string pickedBehavior;
+    int i;
+    if (inUnit == null) {
+        return false;
+    }
+    behaviorCount = UnitBehaviorCountAll(inUnit);
+    for (i = 1; i <= behaviorCount; i += 1) {
+        pickedBehavior = UnitBehaviorGet(inUnit, i);
+        if ((UnitBehaviorHasFlag(pickedBehavior, behaviorFlag) == true)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool UnitGroupHasUnitType (unitgroup inGroup, string inUnitType){
+    int i;
+    unitgroup group = inGroup;
+    for (i = 1; i <= UnitGroupCount(group, c_unitCountAll); i += 1) {
+        if (UnitGetType(UnitGroupUnit(group, i)) == inUnitType){ return true; }
+    }
+    return false;
+}
+
+bool UnitGroupOnlyHasUnitType (unitgroup inGroup, string inUnitType){
+    int i;
+    unitgroup group = inGroup;
+    for (i = 1; i <= UnitGroupCount(group, c_unitCountAll); i += 1) {
+        if (UnitGetType(UnitGroupUnit(group, i)) != inUnitType){ return false; }
+    }
+    return true;
+}
+
+unitgroup UnitGroupAllUnits(){
+    return UnitGroup(null, c_playerAny, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 0);
+}

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Constant name="SoAEnergyHeight" val="84"/>
+    <Constant name="SoAEnergyHeightDouble" val="168"/>
+    <Constant name="SoAEnergyWidth" val="83"/>
+    <Constant name="SoAEnergyGrowth" val="-82"/>    
+    
+    <Frame type="CommandButton" name="ClassicCommandButtonTemplate" template="CommandButton/CommandButtonTemplate">
+        <!--Width val="76"/>
+        <Height val="76"/>
+        
+        <Frame type="Image" name="GameButtonBorderImage">
+            <LayerCount val="2"/>
+            <Texture val="Assets\Textures\ui_void_mission_soa_frame_ability_normal.dds" layer="0"/>
+            <Texture val="Assets\Textures\ui_void_mission_soa_frame_ability_pressed.dds" layer="1"/>
+        </Frame-->
+
+        <!--Frame type="Image" name="NormalImage">
+            <Texture val="Assets\Textures\ui_console_commandbutton_normal_purifier.dds" layer="0"/>
+        </Frame>
+
+        <Frame type="Image" name="HoverImage">
+            <Texture val="Assets\Textures\ui_console_commandbutton_highlighted_purifier.dds" layer="0"/>
+        </Frame-->
+    </Frame>
+
+    <Frame type="CommandPanel" name="NukeCommandPanelTemplate" template="CommandPanel/CommandPanelTemplate">
+        <Anchor relative="$parent"/>
+
+        <HideUnusedButtons val="true"/>
+        <DisplayCancelCommandCard val="false"/>
+        <UseGridHotkeys val="false"/>
+        
+        <Animation name="FadeIn">
+            <Event event="OnShown" action="Reset"/>
+            <Event event="OnShown" action="Play"/>                
+            <Controller type="Fade" end="Pause">
+                <Key type="Curve" time="0" value="0" out="Slow"/>
+                <Key type="Curve" time="0.25" value="255" in="Slow"/>
+            </Controller>
+        </Animation>
+
+        <Frame type="CommandTooltip" name="ClassicCommandTooltip" template="CommandButton/CommandTooltipTemplate">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="88"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton00" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+            <TooltipFrame val="ClassicCommandTooltip"/>
+            <ClickSound val="*@UI_SoA_SpellClick"/>
+            <HotkeyUse val="CommanderAbility0"/>
+        </Frame>        
+        
+        <Frame type="CommandButton" name="CommandButton01" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton02" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton03" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton04" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton05" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton06" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton07" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton08" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton09" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton10" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton11" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton12" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton13" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton14" template="KL_CastingPanel/ClassicCommandButtonTemplate">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Label" name="RowText0">
+            <Anchor side="Top" relative="$parent/CommandButton00" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/CommandButton00" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="@@CommandRow"/>
+        </Frame>
+
+        <Frame type="Label" name="RowText1">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Label" name="RowText2">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Image" name="CommandTargetImage">
+            <Anchor side="Left" relative="$parent" pos="Max" offset="200"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="200"/>
+            <Anchor side="Top" relative="$parent" pos="Max" offset="200"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="200"/>
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Label" name="CommandTargetName">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Label" name="CommandTargetPrompt">
+            <Visible val="false"/>
+        </Frame>
+
+        <Frame type="Frame" name="UncontrollableUnitFrame">
+            <Visible val="false"/>
+            
+            <Frame type="Label" name="UncontrollableUnitTitleLabel">
+                <Visible val="false"/>
+            </Frame>
+            
+            <Frame type="Label" name="UncontrollableUnitPromptLabel">
+                <Visible val="false"/>
+            </Frame>
+        </Frame>
+    </Frame> 
+    <Frame type="Frame" name="NukePanelTemplate">
+        <Width val="786"/>
+        <Height val="225"/>
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Mid" offset="-393"/>
+        <Visible val="true"/>
+        
+        <Frame type="CutsceneFrame" name="SoACommandCutscene">
+            <Width val="1000"/>
+            <Height val="1000"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="-501"/>
+            
+            <RenderType val="HDR"/>
+            <ToneMapping val="False"/>
+        </Frame>     
+
+        <Frame type="CutsceneFrame" name="SoAOverlayCutscene">
+            <Anchor relative="$parent/SoACommandCutscene"/>
+            <File val="Cutscenes/UI_SoAMission_Glass.SC2Cutscene"/>
+            <RenderType val="HDR"/>
+            <ToneMapping val="False"/>
+            <RenderPriority val="515"/>
+            <AutoPlay val="true"/>
+        </Frame>            
+        <Frame type="Frame" name="SoAButtonHolder">
+            <Width val="688"/>
+            <Height val="700"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="-344"/>
+        </Frame>                       
+        
+        <Frame type="StandardTooltip" name="SoAEnergyTooltip" template="StandardTooltip/StandardTooltip">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="88"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="-225"/>
+            <MinWidth val="450"/>
+            <MaxWidth val="450"/>
+            <Width val="450"/>
+            <Height val="300"/>
+
+            <Frame type="Label" name="Label">
+                <Width val="420"/>
+            </Frame>
+        </Frame>              
+    </Frame>
+
+    <Frame type="Frame" name="NukePanelTemplateTest">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="250"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="-15"/>
+
+        <Width val="92"/>
+        <Height val="92"/>
+
+        <Frame type="Image" name="Background">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets/Textures/Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="CommandPanel" name="NukeCommandPanel" template="KL_CastingPanel/NukeCommandPanelTemplate"></Frame>
+
+        <Frame type="Image" name="Callout">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="-15"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-60"/>
+
+            <Width val="420"/>
+            <Height val="75"/>
+            <Texture val="Assets/Textures/Glues_StandardCallout_TopLeft.dds"/>
+            <Unclipped val="True"/>
+        </Frame>
+    </Frame>
+
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+        <Frame type="Frame" name="NukePanel" template="KL_CastingPanel/NukePanelTemplateTest">
+            <Visible val="False"/>
+        </Frame>
+    </Frame>
+
+
+</Desc>

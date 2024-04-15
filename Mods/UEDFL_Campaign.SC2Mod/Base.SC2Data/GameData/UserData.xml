@@ -1,0 +1,3114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <!--Categories Start From Int "1"-->
+    <CUser id="Achievements">
+        <Instances Id="EP01PrologueStory">
+            <Image Image="Assets\Textures\ep01m00-story.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01PStory">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01PrologueStory_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01PrologueStory_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M00-Normal">
+            <Image Image="Assets\Textures\EP01M00-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="2">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M00-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M00-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M00-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M00-Hard">
+            <Image Image="Assets\Textures\EP01M00-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="2">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M00-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M00-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M00-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M00-Brutal">
+            <Image Image="Assets\Textures\EP01M00-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="2">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M00-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M00-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M00-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M00-Feat">
+            <Image Image="Assets\Textures\EP01M00-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M00-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M00-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M00-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M01-Normal">
+            <Image Image="Assets\Textures\EP01M01-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M01-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M01-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M01-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M01-Hard">
+            <Image Image="Assets\Textures\EP01M01-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M01-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M01-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M01-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M01-Brutal">
+            <Image Image="Assets\Textures\EP01M01-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M01-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M01-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M01-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P1-Normal">
+            <Image Image="Assets\Textures\EP01M02P1-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-1-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P1-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P1-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P1-Hard">
+            <Image Image="Assets\Textures\EP01M02P1-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-1-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P1-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P1-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P1-Brutal">
+            <Image Image="Assets\Textures\EP01M02P1-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-1-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P1-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P1-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P2-Normal">
+            <Image Image="Assets\Textures\EP01M02P2-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-2-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P2-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P2-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P2-Hard">
+            <Image Image="Assets\Textures\EP01M02P2-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-2-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P2-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P2-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P2-Brutal">
+            <Image Image="Assets\Textures\EP01M02P2-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M02-2-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P2-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P2-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M03-Normal">
+            <Image Image="Assets\Textures\EP01M03-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M03-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M03-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M03-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M03-Hard">
+            <Image Image="Assets\Textures\EP01M03-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M03-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M03-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M03-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M03-Brutal">
+            <Image Image="Assets\Textures\EP01M03-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="3">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M03-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M03-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M03-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M04-Normal">
+            <Image Image="Assets\Textures\EP01M04-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M04-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M04-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M04-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M04-Hard">
+            <Image Image="Assets\Textures\EP01M04-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M04-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M04-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M04-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M04-Brutal">
+            <Image Image="Assets\Textures\EP01M04-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M04-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M04-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M04-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M05-Normal">
+            <Image Image="Assets\Textures\EP01M05-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M05-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M05-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M05-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M05-Hard">
+            <Image Image="Assets\Textures\EP01M05-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M05-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M05-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M05-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M05-Brutal">
+            <Image Image="Assets\Textures\EP01M05-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M05-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M05-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M05-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M06-Normal">
+            <Image Image="Assets\Textures\EP01M06-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M06-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M06-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M06-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M06-Hard">
+            <Image Image="Assets\Textures\EP01M06-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M06-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M06-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M06-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M06-Brutal">
+            <Image Image="Assets\Textures\EP01M06-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M06-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M06-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M06-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M07-Normal">
+            <Image Image="Assets\Textures\EP01M07-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M07-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M07-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M07-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M07-Hard">
+            <Image Image="Assets\Textures\EP01M07-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M07-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M07-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M07-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M07-Brutal">
+            <Image Image="Assets\Textures\EP01M07-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="4">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M07-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M07-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M07-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M08-Normal">
+            <Image Image="Assets\Textures\EP01M08-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M08-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M08-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M08-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M08-Hard">
+            <Image Image="Assets\Textures\EP01M08-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M08-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M08-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M08-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M08-Brutal">
+            <Image Image="Assets\Textures\EP01M08-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M08-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M08-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M08-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M09-Normal">
+            <GameLink GameLink="Zerg">
+                <Field Id="Race"/>
+            </GameLink>
+            <Image Image="Assets\Textures\EP01M09-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M09-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M09-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M09-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M09-Hard">
+            <GameLink GameLink="Zerg">
+                <Field Id="Race"/>
+            </GameLink>
+            <Image Image="Assets\Textures\EP01M09-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M09-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M09-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M09-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M09-Brutal">
+            <GameLink GameLink="Zerg">
+                <Field Id="Race"/>
+            </GameLink>
+            <Image Image="Assets\Textures\EP01M09-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M09-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M09-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M09-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M10-Normal">
+            <Image Image="Assets\Textures\EP01M10-Normal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M10-Normal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M10-Normal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M10-Normal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M10-Hard">
+            <Image Image="Assets\Textures\EP01M10-Hard.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M10-Hard">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M10-Hard_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M10-Hard_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M10-Brutal">
+            <Image Image="Assets\Textures\EP01M10-Brutal.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="5">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M10-Brutal">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M10-Brutal_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M10-Brutal_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc01Missions">
+            <Image Image="Assets\Textures\EP01-Arc01Missions.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="EP01-Arc01Missions">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc01Missions_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc01Missions_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc02Missions">
+            <Image Image="Assets\Textures\EP01-Arc02Missions.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="EP01-Arc02Missions">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc02Missions_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc02Missions_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc03Missions">
+            <Image Image="Assets\Textures\EP01-Arc03Missions.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="EP01-Arc03Missions">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc03Missions_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc03Missions_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-NormalCompletion">
+            <Image Image="Assets\Textures\EP01-NormalCompletion.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-NormalCompletion">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-NormalCompletion_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-NormalCompletion_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-HardCompletion">
+            <Image Image="Assets\Textures\EP01-HardCompletion.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-HardCompletion">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-HardCompletion_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-HardCompletion_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc01Mastery">
+            <Image Image="Assets\Textures\EP01-Arc01Mastery.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="20">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-Arc01Mastery">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc01Mastery_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc01Mastery_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc02Mastery">
+            <Image Image="Assets\Textures\EP01-Arc02Mastery.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="20">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-Arc02Mastery">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc02Mastery_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc02Mastery_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Arc03Mastery">
+            <Image Image="Assets\Textures\EP01-Arc03Mastery.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="20">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-Arc03Mastery">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Arc03Mastery_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Arc03Mastery_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M01-Feat">
+            <Image Image="Assets\Textures\EP01M01-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M01-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M01-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M01-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P1-Feat">
+            <Image Image="Assets\Textures\EP01M02P1-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M02-P1-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P1-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P1-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M02-P2-Feat">
+            <Image Image="Assets\Textures\EP01M02P2-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M02-P2-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M02-P2-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M02-P2-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M03-Feat">
+            <Image Image="Assets\Textures\EP01M03-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M03-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M03-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M03-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M04-Feat">
+            <Image Image="Assets\Textures\EP01M04-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M04-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M04-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M04-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M05-Feat">
+            <Image Image="Assets\Textures\EP01M05-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M05-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M05-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M05-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M06-Feat">
+            <Image Image="Assets\Textures\EP01M06-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M06-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M06-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M06-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M07-Feat">
+            <Image Image="Assets\Textures\EP01M07-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M07-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M07-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M07-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M08-Feat">
+            <Image Image="Assets\Textures\EP01M08-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M08-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M08-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M08-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M09-Feat">
+            <Image Image="Assets\Textures\EP01M09-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <String String="EP01M09-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M09-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M09-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01M10-Feat">
+            <Image Image="Assets\Textures\EP01M10-Feat.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="7">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01M10-Feat">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01M10-Feat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01M10-Feat_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Lore01">
+            <Image Image="Assets\Textures\EP01-Lore01.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="5">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-Lore01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Lore01_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Lore01_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Lore02">
+            <Image Image="Assets\Textures\EP01-Lore02.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <String String="EP01-Lore02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Lore02_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Lore02_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="EP01-Lore03">
+            <Image Image="Assets\Textures\EP01-Lore03.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <String String="EP01-Lore03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Achievements/EP01-Lore03_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Achievements/EP01-Lore03_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+    </CUser>
+    <CUser id="Episode1Maps" parent="Maps">
+        <Fields index="0">
+            <Id value="CompletedAge"/>
+            <Type value="Text"/>
+            <GameLinkType value="Unknown"/>
+            <EditorColumn value="5"/>
+        </Fields>
+        <Fields index="1" Id="AvailableAge" Type="Int" Count="4">
+            <Flags index="Modifiable" value="1"/>
+        </Fields>
+        <Fields index="2" Id="UI_MissionArchive_Background" Type="Image" GameLinkType="Unknown">
+            <Flags index="Modifiable" value="0"/>
+            <Flags index="ConvState" value="0"/>
+        </Fields>
+        <Fields index="3" Id="IsCurrent" Type="Int" GameLinkType="Unknown">
+            <Flags index="Modifiable" value="1"/>
+            <Flags index="ConvState" value="1"/>
+        </Fields>
+        <Fields index="4">
+            <Id value="Index"/>
+            <Type value="Int"/>
+            <GameLinkType value="Achievement"/>
+            <Count value="3"/>
+        </Fields>
+        <Fields index="5">
+            <Id value="NameLowerCase"/>
+            <Type value="Text"/>
+            <EditorColumn value="5"/>
+            <EditorText value="Name"/>
+        </Fields>
+        <Fields index="6">
+            <Id value="BestTime"/>
+            <Type value="Int"/>
+            <Count value="4"/>
+            <EditorColumn value="5"/>
+            <Flags index="Modifiable" value="1"/>
+        </Fields>
+        <Fields index="7" Id="LoadingScreenVictoryTitle" Type="Text"/>
+        <Fields index="8" Id="LoadingScreenVictorySubtitle" Type="Text" EditorColumn="5"/>
+        <Fields index="9" Id="LoadingScreenVictoryBody" Type="Text" Count="4"/>
+        <Fields index="10" Id="UI_VictoryScreen_Background" Type="Image" GameLinkType="Soundtrack">
+            <Flags index="Modifiable" value="0"/>
+            <Flags index="ConvState" value="0"/>
+        </Fields>
+        <Fields index="11">
+            <Id value="LoadingScreenVictoryImage"/>
+            <Type value="Image"/>
+            <GameLinkType value="Unknown"/>
+            <Count value="0"/>
+        </Fields>
+        <Fields index="12">
+            <Id value="Achievements"/>
+            <Type value="User"/>
+            <GameLinkType value="Unknown"/>
+            <UserType value="Achievements"/>
+            <Count value="3"/>
+            <EditorColumn value="1"/>
+        </Fields>
+        <Fields index="13">
+            <Id value="Location"/>
+            <Type value="User"/>
+            <GameLinkType value="Unknown"/>
+            <UserType value="Locations"/>
+            <EditorColumn value="5"/>
+        </Fields>
+        <Fields index="14">
+            <Id value="ArchivesImageSettings"/>
+            <Type value="Fixed"/>
+            <UserType value=""/>
+            <Count value="3"/>
+            <EditorColumn value="0"/>
+        </Fields>
+        <Fields index="15">
+            <Id value="ArchivesIconImage"/>
+            <Type value="Image"/>
+            <GameLinkType value="Unknown"/>
+            <Count value="0"/>
+            <EditorColumn value="0"/>
+        </Fields>
+        <Fields index="16">
+            <Id value="Feat of Strength"/>
+            <Type value="User"/>
+            <UserType value="Achievements"/>
+            <EditorColumn value="2"/>
+        </Fields>
+        <Fields index="17">
+            <Id value="Lore"/>
+            <Type value="User"/>
+            <UserType value="Lore"/>
+            <Count value="10"/>
+            <EditorColumn value="3"/>
+        </Fields>
+        <Fields index="18" removed="1"/>
+        <Fields index="19" removed="1"/>
+        <Fields index="20" removed="1"/>
+        <Fields index="21" removed="1"/>
+        <Fields index="22" removed="1"/>
+        <Fields index="23" removed="1"/>
+        <Fields index="24" removed="1"/>
+        <Fields index="25" removed="1"/>
+        <Fields index="26" removed="1"/>
+        <Fields index="27" removed="1"/>
+        <Fields index="28" removed="1"/>
+        <Instances index="0" Id="[Default]">
+            <GameLink index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+        </Instances>
+        <Instances index="1" Id="LotC_EP01M00">
+            <Fixed index="0" Fixed="0.3298"/>
+            <Fixed index="1" Fixed="0.66">
+                <Field Id="ArchivesImageSettings" Index="1"/>
+            </Fixed>
+            <Fixed index="2" Fixed="0.7998">
+                <Field Id="ArchivesImageSettings" Index="2"/>
+            </Fixed>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <GameLink index="9" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission0.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Image index="1" removed="1"/>
+            <String index="0" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M00-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M00-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M00-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M00-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M00-CARR Unit">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M00-Commanders">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M00-Tau Ceti">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M00-Trams">
+                <Field Id="Lore" Index="3"/>
+            </User>
+        </Instances>
+        <Instances index="2" Id="LotC_EP01M01">
+            <Fixed index="0" Fixed="0.3098">
+                <Field Id="ArchivesImageSettings" Index="0"/>
+            </Fixed>
+            <Fixed index="1" Fixed="0.8698"/>
+            <Fixed index="2" Fixed="0.3698">
+                <Field Id="ArchivesImageSettings" Index="1"/>
+            </Fixed>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <GameLink index="9" removed="1"/>
+            <Image index="0" Image="">
+                <Field Id="UI_VictoryScreen_Background"/>
+            </Image>
+            <Image>
+                <Field Id="LoadingScreenVictoryImage"/>
+            </Image>
+            <Image>
+                <Field Id="UI_MissionArchive_Background"/>
+            </Image>
+            <Image Image="Assets\Textures\ui_ued_archives_mission1.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M01-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M01-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M01-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M01-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M01-Alton Peters">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M01-Audiolog1">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M01-Audiolog2">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M01-Charon Station">
+                <Field Id="Lore" Index="3"/>
+            </User>
+            <User Type="Lore" Instance="M01-Lilly Rollins">
+                <Field Id="Lore" Index="4"/>
+            </User>
+            <User Type="Lore" Instance="M01-Redundancy">
+                <Field Id="Lore" Index="5"/>
+            </User>
+            <User Type="Lore" Instance="M01-Trevor Rand">
+                <Field Id="Lore" Index="6"/>
+            </User>
+            <User Type="Lore" Instance="M01-Audiolog3">
+                <Field Id="Lore" Index="7"/>
+            </User>
+            <User Type="Lore" Instance="M01-Audiolog4">
+                <Field Id="Lore" Index="8"/>
+            </User>
+        </Instances>
+        <Instances index="3" Id="LotC_EP01M02-P1">
+            <Fixed index="0" Fixed="0.4296">
+                <Field Id="ArchivesImageSettings" Index="1"/>
+            </Fixed>
+            <Fixed index="1" Fixed="1.0097">
+                <Field Id="ArchivesImageSettings" Index="2"/>
+            </Fixed>
+            <Fixed index="2" Fixed="0.6601">
+                <Field Id="ArchivesImageSettings" Index="0"/>
+            </Fixed>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <GameLink index="9" removed="1"/>
+            <GameLink index="10" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission2-1.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M02-P1-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P1-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P1-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P1-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-Boom">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-Francine">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-DeniseAlistair">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-Incinerators">
+                <Field Id="Lore" Index="3"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-Surplus">
+                <Field Id="Lore" Index="5"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-MyraDavis">
+                <Field Id="Lore" Index="4"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-EMS1">
+                <Field Id="Lore" Index="6"/>
+            </User>
+            <User Type="Lore" Instance="M02P1-EMS2">
+                <Field Id="Lore" Index="7"/>
+            </User>
+        </Instances>
+        <Instances index="4" Id="LotC_EP01M02-P2">
+            <Fixed index="0" Fixed="0.6948"/>
+            <Fixed index="1" Fixed="0.5698"/>
+            <Fixed index="2" removed="1"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission2-2.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <String index="0" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M02-P2-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P2-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P2-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M02-P2-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M02P2-Outposts">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M02P2-Sewer System">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M02P2-UndergroundTunnels">
+                <Field Id="Lore" Index="2"/>
+            </User>
+        </Instances>
+        <Instances index="5" Id="LotC_EP01M03">
+            <Fixed index="0" Fixed="0.58"/>
+            <Fixed index="1" Fixed="0.5197"/>
+            <Fixed index="2" Fixed="1.0798"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image Image="Assets\Textures\ui_ued_archives_mission3.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M03-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M03-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M03-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M03-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M03-CSV">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M03-Invasion">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M03-Fungus">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M03-Newscast">
+                <Field Id="Lore" Index="3"/>
+            </User>
+            <User Type="Lore" Instance="M03-Sweep">
+                <Field Id="Lore" Index="4"/>
+            </User>
+        </Instances>
+        <Instances index="6" Id="LotC_EP01M04">
+            <Fixed index="0" Fixed="0.6901"/>
+            <Fixed index="1" Fixed="0.41"/>
+            <Fixed index="2" Fixed="0.91"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission4.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M04-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M04-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M04-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M04-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M04-Colonel Graves">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M04-Refugees">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M04-Riley Jerico">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M04-Routhe Tank">
+                <Field Id="Lore" Index="3"/>
+            </User>
+            <User Type="Lore" Instance="M04-Z1">
+                <Field Id="Lore" Index="4"/>
+            </User>
+        </Instances>
+        <Instances index="7" Id="LotC_EP01M05">
+            <Fixed index="0" Fixed="0.5297"/>
+            <Fixed index="1" Fixed="0.64"/>
+            <Fixed index="2" Fixed="0.75"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <GameLink index="9" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission5.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M05-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M05-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M05-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M05-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M05-NoBunkers">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M05-Stress">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M05-ToxicDump">
+                <Field Id="Lore" Index="2"/>
+            </User>
+        </Instances>
+        <Instances index="8" Id="LotC_EP01M06">
+            <Fixed index="0" Fixed="0.4"/>
+            <Fixed index="1" Fixed="0.68"/>
+            <Fixed index="2" Fixed="0.8098"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image Image="Assets\Textures\ui_ued_archives_mission6.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M06-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M06-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M06-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M06-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M06-Legacy">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M06-Meteor">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M06-Temples">
+                <Field Id="Lore" Index="2"/>
+            </User>
+        </Instances>
+        <Instances index="9" Id="LotC_EP01M07">
+            <Fixed index="0" Fixed="0.72"/>
+            <Fixed index="1" Fixed="0.48"/>
+            <Fixed index="2" Fixed="1.0698"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image Image="Assets\Textures\ui_ued_archives_mission7.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M07-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M07-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M07-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M07-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M07-August">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M07-Backswing">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M07-Gideon">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M07-ParticleBeams">
+                <Field Id="Lore" Index="3"/>
+            </User>
+        </Instances>
+        <Instances index="10" Id="LotC_EP01M08">
+            <Fixed index="0" Fixed="0.5"/>
+            <Fixed index="1" Fixed="0.5397"/>
+            <Fixed Fixed="1.0698">
+                <Field Id="ArchivesImageSettings" Index="2"/>
+            </Fixed>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission8.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <Int index="3" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M08-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M08-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M08-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M08-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M08-Calm">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M08-OP">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M08-Preppers">
+                <Field Id="Lore" Index="2"/>
+            </User>
+        </Instances>
+        <Instances index="11" Id="LotC_EP01M09">
+            <Fixed index="0" Fixed="0.4"/>
+            <Fixed index="1" Fixed="0.49"/>
+            <Fixed index="2" Fixed="1"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <GameLink index="9" removed="1"/>
+            <Image Image="Assets\Textures\ui_ued_archives_mission9.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M09-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M09-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M09-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M09-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M09-EMS">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M09-Roaches">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M09-Ships">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M09-Slohr">
+                <Field Id="Lore" Index="3"/>
+            </User>
+            <User Type="Lore" Instance="M09-TheBrood">
+                <Field Id="Lore" Index="4"/>
+            </User>
+        </Instances>
+        <Instances index="12" Id="LotC_EP01M10">
+            <Fixed index="0" Fixed="0.65"/>
+            <Fixed index="1" Fixed="0.48"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" Image="Assets\Textures\ui_ued_archives_mission10.dds">
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+            <User Type="Achievements" Instance="EP01M10-Normal">
+                <Field Id="Achievements"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M10-Hard">
+                <Field Id="Achievements" Index="1"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M10-Brutal">
+                <Field Id="Achievements" Index="2"/>
+            </User>
+            <User Type="Achievements" Instance="EP01M10-Feat">
+                <Field Id="Feat of Strength"/>
+            </User>
+            <User Type="Lore" Instance="M10-Desertions">
+                <Field Id="Lore"/>
+            </User>
+            <User Type="Lore" Instance="M10-EggFarms">
+                <Field Id="Lore" Index="1"/>
+            </User>
+            <User Type="Lore" Instance="M10-Scotland">
+                <Field Id="Lore" Index="2"/>
+            </User>
+            <User Type="Lore" Instance="M10-SETI">
+                <Field Id="Lore" Index="3"/>
+            </User>
+        </Instances>
+        <Instances index="13" Id="LotC_EP01M11">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" removed="1"/>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="14" Id="LotC_EP01M12">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" removed="1"/>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="15" Id="LotC_EP01M13">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="16" Id="LotC_EP01M14">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" removed="1"/>
+            <Image index="1" removed="1"/>
+            <Int index="0" removed="1"/>
+            <Int index="1" removed="1"/>
+            <Int index="2" removed="1"/>
+            <Int index="3" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="17" Id="LotC_EP01M15">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Int index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="18" Id="LotC_EP01M16">
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <Image index="0" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="19" Id="LotC_EP01M17">
+            <Fixed index="0" removed="1"/>
+            <Fixed index="1" removed="1"/>
+            <GameLink index="0" removed="1"/>
+            <GameLink index="1" removed="1"/>
+            <GameLink index="2" removed="1"/>
+            <GameLink index="3" removed="1"/>
+            <GameLink index="4" removed="1"/>
+            <GameLink index="5" removed="1"/>
+            <GameLink index="6" removed="1"/>
+            <GameLink index="7" removed="1"/>
+            <GameLink index="8" removed="1"/>
+            <String index="0" removed="1"/>
+            <String index="1" removed="1"/>
+            <String index="2" removed="1"/>
+            <Text index="0" removed="1"/>
+            <Text index="1" removed="1"/>
+            <Text index="2" removed="1"/>
+            <Text index="3" removed="1"/>
+            <User index="0" Type="Locations" Instance="[Default]"/>
+        </Instances>
+        <Instances index="20" Id="LotC_Story">
+            <Image>
+                <Field Id="ArchivesIconImage"/>
+            </Image>
+            <User index="0" removed="1"/>
+        </Instances>
+        <Instances index="21" removed="1"/>
+        <Instances index="22" removed="1"/>
+        <Instances index="23" removed="1"/>
+        <Instances index="24" removed="1"/>
+    </CUser>
+    <CUser id="DebugCommands">
+        <Fields Id="Trigger" Type="String"/>
+        <Fields Id="Name" Type="Text"/>
+        <Fields Id="Description" Type="Text"/>
+        <Fields Id="Message" Type="Text" Count="4"/>
+        <Fields Id="Error" Type="Text" Count="4"/>
+        <Fields Id="Enabled" Type="Int"/>
+        <Fields Id="Index" Type="Int"/>
+        <Instances Id="[Default]">
+            <Int Int="1">
+                <Field Id="Enabled"/>
+            </Int>
+            <Int Int="-1">
+                <Field Id="Index"/>
+            </Int>
+            <Text Text="UserData/DebugCommands/[Default]_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="Help">
+            <Int>
+                <Field Id="Index"/>
+            </Int>
+            <String String="-h -help">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Help_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Help_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="Bounds">
+            <Int Int="1">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-bounds">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Bounds_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Bounds_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Bounds_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Bounds_Message_001">
+                <Field Id="Message" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Bounds_Error">
+                <Field Id="Error"/>
+            </Text>
+        </Instances>
+        <Instances Id="Aspect">
+            <Int Int="2">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-asp -aspect">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Aspect_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Aspect_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Aspect_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Aspect_Error_001">
+                <Field Id="Error" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Aspect_Error_002">
+                <Field Id="Error" Index="2"/>
+            </Text>
+        </Instances>
+        <Instances Id="Map Path">
+            <Int Int="3">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-mappath">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Map Path_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Map Path_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Map Path_Message">
+                <Field Id="Message"/>
+            </Text>
+        </Instances>
+        <Instances Id="(Un)Pause Units">
+            <Int Int="4">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-pause -unpause">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/(Un)Pause Units_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/(Un)Pause Units_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/(Un)Pause Units_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/(Un)Pause Units_Error_001">
+                <Field Id="Error" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/(Un)Pause Units_Error_002">
+                <Field Id="Error" Index="2"/>
+            </Text>
+        </Instances>
+        <Instances Id="Show/Hide Doodads">
+            <Int Int="5">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-doodads -doodad">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Message_001">
+                <Field Id="Message" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Error_001">
+                <Field Id="Error" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Show/Hide Doodads_Message">
+                <Field Id="Message"/>
+            </Text>
+        </Instances>
+        <Instances Id="Toggle Terrain">
+            <Int Int="6">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-terrain">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Toggle Terrain_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Terrain_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Terrain_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Terrain_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="Toggle Fog">
+            <Int Int="7">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-fog">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Toggle Fog_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Fog_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Fog_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Toggle Fog_Name">
+                <Field Id="Name"/>
+            </Text>
+        </Instances>
+        <Instances Id="Debug">
+            <Int Int="8">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-debug -dbg">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Debug_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Debug_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Debug_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Debug_Name">
+                <Field Id="Name"/>
+            </Text>
+        </Instances>
+        <Instances Id="Set Speed">
+            <Int Int="9">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-setspeed -sp -unitsetspeed">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Set Speed_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Set Speed_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Set Speed_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Set Speed_Error_001">
+                <Field Id="Error" Index="1"/>
+            </Text>
+        </Instances>
+        <Instances Id="Cooldowns">
+            <Int Int="10">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-cd -cooldown -cooldowns">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Cooldowns_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Cooldowns_Error">
+                <Field Id="Error"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Cooldowns_Name">
+                <Field Id="Name"/>
+            </Text>
+        </Instances>
+        <Instances Id="Controls">
+            <Int Int="11">
+                <Field Id="Index"/>
+            </Int>
+            <Int>
+                <Field Id="Enabled"/>
+            </Int>
+            <String String="-controls">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Controls_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Controls_Name">
+                <Field Id="Name"/>
+            </Text>
+        </Instances>
+        <Instances Id="FreeCam">
+            <Int Int="12">
+                <Field Id="Index"/>
+            </Int>
+            <Int>
+                <Field Id="Enabled"/>
+            </Int>
+            <String String="-fc -freecamera -freecam">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/FreeCam_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/FreeCam_Message_001">
+                <Field Id="Message" Index="1"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/FreeCam_Message_002">
+                <Field Id="Message" Index="2"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/FreeCam_Name">
+                <Field Id="Name"/>
+            </Text>
+        </Instances>
+        <Instances Id="Clear Chat">
+            <Int Int="13">
+                <Field Id="Index"/>
+            </Int>
+            <String String="-cc -clearchat -clear">
+                <Field Id="Trigger"/>
+            </String>
+            <Text Text="UserData/DebugCommands/Clear Chat_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Clear Chat_Name">
+                <Field Id="Name"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Clear Chat_Message">
+                <Field Id="Message"/>
+            </Text>
+            <Text Text="UserData/DebugCommands/Clear Chat_Message_001">
+                <Field Id="Message" Index="1"/>
+            </Text>
+        </Instances>
+    </CUser>
+    <CUser id="Lore">
+        <Fields Id="Title" Type="Text" EditorColumn="1"/>
+        <Fields Id="Description" Type="Text" EditorColumn="3"/>
+        <Fields Id="Icon Image" Type="Image" EditorColumn="2"/>
+        <Fields Id="ID" Type="String" EditorColumn="4"/>
+        <Fields>
+            <Id value="SoundFile"/>
+            <Type value="GameLink"/>
+            <GameLinkType value="Sound"/>
+            <EditorColumn value="5"/>
+        </Fields>
+        <Instances Id="[Default]">
+            <Image>
+                <Field Id="Icon Image"/>
+            </Image>
+            <Text Text="UserData/Lore/[Default]_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M00-CARR Unit">
+            <Image Image="Assets\Textures\UED_Lore_CARRLore.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M00-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M00-CARR Unit_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M00-CARR Unit_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M00-Tau Ceti">
+            <Image Image="Assets\Textures\UED_Lore_TauCetiLore.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M00-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M00-Tau Ceti_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M00-Tau Ceti_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M00-Trams">
+            <Image Image="Assets\Textures\UED_Lore_TramLore.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M00-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M00-Trams_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M00-Trams_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M00-Commanders">
+            <Image Image="Assets\Textures\UED_Lore_CommanderLore.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M00-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M00-Commanders_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M00-Commanders_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Lilly Rollins">
+            <Image Image="Assets\Textures\UED_Lore_M01LillyRollins.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M01-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Lilly Rollins_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Lilly Rollins_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Charon Station">
+            <Image Image="Assets\Textures\UED_Lore_M01CharonStation.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M01-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Charon Station_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Charon Station_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Audiolog1">
+            <GameLink GameLink="M01ScienceLog01">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M01-06">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Audiolog1_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Audiolog1_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Alton Peters">
+            <Image Image="Assets\Textures\UED_Lore_M01AltonPeters.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M01-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Alton Peters_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Alton Peters_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Audiolog2">
+            <GameLink GameLink="M01ScienceLog02">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M01-07">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Audiolog2_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Audiolog2_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Audiolog3">
+            <GameLink GameLink="M01ScienceLog03">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M01-08">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Audiolog3_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Audiolog3_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Trevor Rand">
+            <Image Image="Assets\Textures\UED_Lore_M01TrevorRand.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M01-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Trevor Rand_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Trevor Rand_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Audiolog4">
+            <GameLink GameLink="M01ScienceLog04">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M01-09">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Audiolog4_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Audiolog4_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M01-Redundancy">
+            <Image Image="Assets\Textures\UED_Lore_M01Redundancy.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M01-05">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M01-Redundancy_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M01-Redundancy_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-MyraDavis">
+            <Image Image="Assets\Textures\UED_Lore_M02P1MyraDavis.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-MyraDavis_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-MyraDavis_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-Surplus">
+            <Image Image="Assets\Textures\UED_Lore_M02P1MilitarySurplus.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-Surplus_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-Surplus_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-DeniseAlistair">
+            <Image Image="Assets\Textures\UED_Lore_M02P1DeniseAlistair.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-DeniseAlistair_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-DeniseAlistair_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-EMS1">
+            <GameLink GameLink="EP01M02_1_FacilityPA_082">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M02P1-EMS1">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-EMS1_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-EMS1_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-Boom">
+            <Image Image="Assets\Textures\UED_Lore_M02P1Boom.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-Boom_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-Boom_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-Incinerators">
+            <Image Image="Assets\Textures\UED_Lore_M02P1Incinerator.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-05">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-Incinerators_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-Incinerators_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-EMS2">
+            <GameLink GameLink="EP01M02_1_FacilityPA_092">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M02P1-EMS2">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-EMS2_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-EMS2_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P1-Francine">
+            <Image Image="Assets\Textures\UED_Lore_M02P1Francine.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P1-06">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P1-Francine_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P1-Francine_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P2-Sewer System">
+            <Image Image="Assets\Textures\UED_Lore_M02P2OdessaSewers.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P2-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P2-Sewer System_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P2-Sewer System_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P2-Outposts">
+            <Image Image="Assets\Textures\UED_Lore_M02P2Outposts.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P2-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P2-Outposts_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P2-Outposts_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M02P2-UndergroundTunnels">
+            <Image Image="Assets\Textures\UED_Lore_M02P2UndergroundCorridor.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M02P2-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M02P2-UndergroundTunnels_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M02P2-UndergroundTunnels_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M03-Sweep">
+            <Image Image="Assets\Textures\UED_Lore_M03Sweep.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M03-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M03-Sweep_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M03-Sweep_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M03-Invasion">
+            <Image Image="Assets\Textures\UED_Lore_M03Invasion.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M03-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M03-Invasion_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M03-Invasion_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M03-Fungus">
+            <Image Image="Assets\Textures\UED_Lore_M03Fungus.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M03-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M03-Fungus_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M03-Fungus_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M03-CSV">
+            <Image Image="Assets\Textures\UED_Lore_M03CSV.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M03-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M03-CSV_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M03-CSV_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M03-Newscast">
+            <GameLink GameLink="EP01M03_NewsCast_085">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M03-5">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M03-Newscast_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M03-Newscast_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M04-Z1">
+            <Image Image="Assets\Textures\UED_Lore_M04Z1.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M04-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M04-Z1_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M04-Z1_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M04-Routhe Tank">
+            <Image Image="Assets\Textures\UED_Lore_M04RoutheTank.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M04-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M04-Routhe Tank_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M04-Routhe Tank_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M04-Colonel Graves">
+            <Image Image="Assets\Textures\UED_Lore_M04ColonelGraves.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M04-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M04-Colonel Graves_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M04-Colonel Graves_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M04-Riley Jerico">
+            <Image Image="Assets\Textures\UED_Lore_M04RileyJerico.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M04-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M04-Riley Jerico_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M04-Riley Jerico_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M04-Refugees">
+            <Image Image="Assets\Textures\UED_Lore_M04Refugees.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M04-05">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M04-Refugees_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M04-Refugees_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M05-ToxicDump">
+            <Image Image="Assets\Textures\UED_Lore_M05ToxicDump.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M05-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M05-ToxicDump_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M05-ToxicDump_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M05-Stress">
+            <Image Image="Assets\Textures\UED_Lore_M05Stress.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M05-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M05-Stress_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M05-Stress_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M05-NoBunkers">
+            <Image Image="Assets\Textures\UED_Lore_M05NoBunkers.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M05-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M05-NoBunkers_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M05-NoBunkers_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M06-Meteor">
+            <Image Image="Assets\Textures\UED_Lore_M06Meteor.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M06-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M06-Meteor_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M06-Meteor_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M06-Legacy">
+            <Image Image="Assets\Textures\UED_Lore_M06Legacy.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M06-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M06-Legacy_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M06-Legacy_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M06-Temples">
+            <Image Image="Assets\Textures\UED_Lore_M06Temples.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M06-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M06-Temples_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M06-Temples_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M07-August">
+            <Image Image="Assets\Textures\UED_Lore_M07August.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M07-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M07-August_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M07-August_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M07-Gideon">
+            <Image Image="Assets\Textures\UED_Lore_M07Gideon.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M07-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M07-Gideon_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M07-Gideon_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M07-ParticleBeams">
+            <Image Image="Assets\Textures\UED_Lore_M07ParticleBeams.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M07-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M07-ParticleBeams_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M07-ParticleBeams_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M07-Backswing">
+            <Image Image="Assets\Textures\UED_Lore_M07Backswing.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M07-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M07-Backswing_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M07-Backswing_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M08-Preppers">
+            <Image Image="Assets\Textures\UED_Lore_M08Preppers.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M08-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M08-Preppers_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M08-Preppers_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M08-OP">
+            <Image Image="Assets\Textures\UED_Lore_M08OP.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M08-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M08-OP_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M08-OP_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M08-Calm">
+            <Image Image="Assets\Textures\UED_Lore_M08Calm.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M08-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M08-Calm_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M08-Calm_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M09-Slohr">
+            <Image Image="Assets\Textures\UED_Lore_M09Slohr.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M09-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M09-Slohr_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M09-Slohr_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M09-TheBrood">
+            <Image Image="Assets\Textures\UED_Lore_M09TheBrood.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M09-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M09-TheBrood_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M09-TheBrood_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M09-Roaches">
+            <Image Image="Assets\Textures\UED_Lore_M09Roaches.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M09-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M09-Roaches_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M09-Roaches_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M09-Ships">
+            <Image Image="Assets\Textures\UED_Lore_M09ColonyShip.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M09-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M09-Ships_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M09-Ships_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M09-EMS">
+            <GameLink GameLink="M09Radio">
+                <Field Id="SoundFile"/>
+            </GameLink>
+            <String String="M09-05">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M09-EMS_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M09-EMS_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M10-SETI">
+            <Image Image="Assets\Textures\UED_Lore_M10SETI.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M10-01">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M10-SETI_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M10-SETI_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M10-Desertions">
+            <Image Image="Assets\Textures\UED_Lore_M10Desertions.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M10-02">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M10-Desertions_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M10-Desertions_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+        <Instances Id="M10-EggFarms">
+            <Image Image="Assets\Textures\UED_Lore_M10Farms.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M10-03">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M10-EggFarms_Title">
+                <Field Id="Title"/>
+            </Text>
+            <Text Text="UserData/Lore/M10-EggFarms_Description">
+                <Field Id="Description"/>
+            </Text>
+        </Instances>
+        <Instances Id="M10-Scotland">
+            <Image Image="Assets\Textures\UED_Lore_M10Scotland.dds">
+                <Field Id="Icon Image"/>
+            </Image>
+            <String String="M10-04">
+                <Field Id="ID"/>
+            </String>
+            <Text Text="UserData/Lore/M10-Scotland_Description">
+                <Field Id="Description"/>
+            </Text>
+            <Text Text="UserData/Lore/M10-Scotland_Title">
+                <Field Id="Title"/>
+            </Text>
+        </Instances>
+    </CUser>
+</Catalog>

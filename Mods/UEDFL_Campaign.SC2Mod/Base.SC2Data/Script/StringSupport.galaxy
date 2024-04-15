@@ -1,0 +1,129 @@
+const string c_NUMBERS = "0123456789";
+const string c_HEXADECIMAL = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+";
+
+string ConvertPointXYtoString (point p, int precision) {
+    return (FixedToString(PointGetX(p), precision) + ", " + FixedToString(PointGetY(p), precision));
+}
+
+string ConvertPointXYZtoString (point p, int precision) {
+    return (FixedToString(PointGetX(p), precision) + ", " + FixedToString(PointGetY(p), precision)+ ", " + FixedToString(PointGetHeight(p), precision));
+}
+
+bool StringContainsSpaces (string s) {
+    if (StringContains(s, " ", c_stringAnywhere, c_stringNoCase)){ return true;}    
+    return false;
+}
+
+bool StringIsValid (string s) {
+    if ((s != "") && (s != null)) { return true; }
+    return false;
+}
+
+string Capitalize (string input) {
+    string result = "";
+    result = (StringCase(StringSub(input, 1, 1), true) + StringSub(input, 2, StringLength(input)));
+    return result;
+}
+
+string IntToStringDoubleDigit (int value) {
+    string s;
+    s = IntToString(value);
+    if (StringLength(s) == 1) {
+        s = ("0" + s);
+    }
+    return s;
+}
+
+
+int WordCount (string fullString) {
+    int count = 0;
+    int i;
+    if (fullString != "") {
+        while (true) {
+            i += 1;
+            if (StringWord(fullString, i) == "") { break; }
+            count += 1;
+        }
+    }
+    return count;
+}
+
+bool StringOnlyNumbers (string fullString) {
+    int i;
+
+    int end = StringLength(fullString);
+
+    for (i = 1; i <= end; i += 1) {
+        if (!StringContains(c_NUMBERS, StringSub(fullString, i, i), c_stringAnywhere, c_stringNoCase)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool WordExistsInString (string fullString, string word) {
+    int counter = 1;
+    int end = WordCount(fullString);
+    while (counter <= end) {
+        if (StringWord(fullString, counter) == word) { return true; }
+        counter += 1;
+    }
+    return false;
+}
+
+int WordIndexInString (string fullString, string word) {
+    int i = 1;
+    int end = WordCount(fullString);
+    string s;
+    for (i = 1; i <= end; i += 1) {
+        if (StringWord(fullString, i) == word) { return i; }
+    }
+    return -1;
+}
+
+string GenerateID (int charCount) {
+    string result = "";
+    string ch;
+    int i;
+    while (charCount > 0) {
+        i = RandomInt(1, 62);
+        ch = StringSub(c_HEXADECIMAL, i, i);
+        result = (result + ch);
+        charCount -= 1;
+    }
+    return result;
+}
+
+
+string StringIncludeOnlyNumbers (string fullString) {
+    int i;
+    int length = StringLength(fullString);
+    string s;
+    string returnString = null;
+    if(StringOnlyNumbers(fullString) == true){
+        returnString = fullString;
+    }
+    else{
+        for (i = 1; i <= length; i += 1) {
+            s = StringSub(fullString, i, i);
+            if(StringOnlyNumbers(s)){
+                returnString = returnString + s;
+            }
+        }
+    }
+    return returnString;
+}
+
+string StringStripFrontZeroes (string fullString) {
+    int i;
+    int length = StringLength(fullString);
+    string s;
+    string returnString = null;
+    for (i = 1; i <= length; i += 1) {
+        s = StringSub(fullString, i, i);
+        if(s != "0"){
+            return StringSub(fullString, i, length);
+        }
+    }
+    return StringSub(fullString, length, length);
+}

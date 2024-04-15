@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CCharacter id="AltonPeters">
+        <Color value="255,128,0,0"/>
+    </CCharacter>
+    <CCharacter id="AltonPetersZ1">
+        <Color value="255,128,64,64"/>
+    </CCharacter>
+    <CCharacter id="Base">
+        <Race value="Terran"/>
+        <Variations Model="UPLHeadquartersPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,255,255,128"/>
+    </CCharacter>
+    <CCharacter id="Darren">
+        <Name value="Character/Name/Base2"/>
+        <Race value="Terran"/>
+        <RaceCustom value="Character/Race/Base2"/>
+        <Attitude value="Character/Attitude/Base2"/>
+        <Timbre value="Character/Timbre/Base2"/>
+        <Dialect value="Character/Dialect/Base2"/>
+        <VoiceRef value="Character/VoiceRef/Base2"/>
+        <Description value="Character/Description/Base2"/>
+        <Color value="255,160,177,222"/>
+        <Variations Model="DarrenRodgersPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="BaseOfficer">
+        <Age value="35"/>
+        <Race value="Terran"/>
+        <Color value="255,255,255,0"/>
+        <Variations Model="UPLHeadquartersPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="CARR">
+        <Color value="255,0,128,255"/>
+    </CCharacter>
+    <CCharacter id="CARR1661">
+        <Race value="Terran"/>
+        <Image value="Assets\Textures\CARRPortrait_Static.dds"/>
+        <Color value="255,128,64,64"/>
+        <Unit value="CARR"/>
+        <Variations Name="Character/Name/CARR/Var1" Model="CARRPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Condor">
+        <Image value="Assets\Textures\MedivacPortrait_Static.dds"/>
+        <Color value="255,82,188,156"/>
+        <Unit value="Condor"/>
+        <Variations Model="CondorPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="DarrenRodgers">
+        <Color value="255,72,236,81"/>
+    </CCharacter>
+    <CCharacter id="DeniseAllister">
+        <Race value="Unknown"/>
+    </CCharacter>
+    <CCharacter id="Drealan">
+        <Color value="255,243,65,69"/>
+    </CCharacter>
+    <CCharacter id="HazmatTechnician">
+        <Image value="Assets\Textures\Scientist1Portrait_Static.dds"/>
+        <Color value="255,236,241,44"/>
+        <Unit value="HazmatTechnician"/>
+        <Variations Model="HazmatTechnicianPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Jenkins">
+        <Color value="255,215,68,68"/>
+        <Variations Model="OfficerJenkinsPortrait"/>
+    </CCharacter>
+    <CCharacter id="MilesJenkins">
+        <Color value="255,98,68,219"/>
+    </CCharacter>
+    <CCharacter id="NewsAnchor">
+        <Color value="255,128,128,255"/>
+    </CCharacter>
+    <CCharacter id="NewsCast">
+        <Color value="255,67,186,231"/>
+    </CCharacter>
+    <CCharacter id="RexTheTechnician">
+        <Image value="Assets\Textures\malecivilian7portrait_static.dds"/>
+        <Color value="255,236,241,44"/>
+        <Unit value="UPLEngineer"/>
+        <Variations Model="UPLEngineerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Lurker">
+        <Image value="Assets\Textures\LurkerPortrait_Static.dds"/>
+        <Unit value="Lurker"/>
+        <Variations Model="LurkerEx1BPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Orsus">
+        <Color value="255,9,234,37"/>
+    </CCharacter>
+    <CCharacter id="Prisoner">
+        <Color value="255,34,171,179"/>
+        <Variations Model="Zealot_Golden_Portrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="RusellPeters">
+        <Color value="255,235,35,55"/>
+    </CCharacter>
+    <CCharacter id="SergeantPeters"/>
+    <CCharacter id="Slohr">
+        <Race value="Terran"/>
+        <Image value="Assets\Textures\overmindportrait_static.dds"/>
+        <Color value="255,0,128,255"/>
+        <Unit value="CARR"/>
+        <Variations Name="Character/Name/CARR/Var1" Model="OvermindPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="NydusWorm">
+        <Variations Model="NydusWormPortrait"/>
+    </CCharacter>
+    <CCharacter id="Osprey">
+        <Image value="Assets\Textures\OspreyPortrait_Static.dds"/>
+        <Color value="255,0,128,255"/>
+        <Unit value="Osprey"/>
+        <Variations Model="OspreyPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="UPLAnimalControlOfficer">
+        <Image value="Assets\Textures\infantryrifle_portrait_static.dds"/>
+        <Color value="255,125,233,109"/>
+        <Unit value="UPLAnimalControlOfficer"/>
+        <Variations Model="UPLAnimalControlOfficerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Ultralisk">
+        <Variations Model="UltraliskPortrait"/>
+    </CCharacter>
+    <CCharacter id="GasStationAttendant">
+        <Race value="Terran"/>
+        <Color value="255,68,157,30"/>
+        <Variations Name="Character/Name/GasStationAttendant/Var1" Model="MaleCivilian3Portrait">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="InfantryFlamethrower">
+        <Image value="Assets\Textures\InfantryFlamethrowerPortrait_Static.dds"/>
+        <Unit value="InfantryFlamethrower"/>
+        <Variations Model="InfantryFlamethrowerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,64,0,128"/>
+    </CCharacter>
+    <CCharacter id="InfantryHeavy">
+        <Image value="Assets\Textures\InfantryHeavyPortrait_Static.dds"/>
+        <Unit value="InfantryHeavy"/>
+        <Variations Model="InfantryHeavyPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,128,0,255"/>
+    </CCharacter>
+    <CCharacter id="InfantryMortar">
+        <Image value="Assets\Textures\InfantryMortarPortrait_Static.dds"/>
+        <Unit value="InfantryMortar"/>
+        <Variations Model="InfantryMortarPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,128,255,128"/>
+    </CCharacter>
+    <CCharacter id="InfantryOfficer">
+        <Image value="Assets\Textures\InfantryOfficerPortrait_Static.dds"/>
+        <Unit value="InfantryOfficer"/>
+        <Variations Model="InfantryOfficerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,128,128,0"/>
+    </CCharacter>
+    <CCharacter id="InfantryRifle">
+        <Color value="255,128,64,0"/>
+    </CCharacter>
+    <CCharacter id="InfantryRocket">
+        <Image value="Assets\Textures\InfantryRocketPortrait_Static.dds"/>
+        <Unit value="InfantryRocket"/>
+        <Variations Model="InfantryRocketPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,128,255,0"/>
+    </CCharacter>
+    <CCharacter id="KatherineHalsey">
+        <Color value="255,0,128,192"/>
+    </CCharacter>
+    <CCharacter id="LillyRollins">
+        <Color value="255,128,128,255"/>
+    </CCharacter>
+    <CCharacter id="MyraDavisOfficer">
+        <Color value="255,0,0,160"/>
+    </CCharacter>
+    <CCharacter id="MyraDavisRiotOfficer">
+        <Color value="255,0,0,160"/>
+    </CCharacter>
+    <CCharacter id="FacilityPA">
+        <Race value="Terran"/>
+    </CCharacter>
+    <CCharacter id="NoSpeaker"/>
+    <CCharacter id="RichardGideon">
+        <Color value="255,255,47,198"/>
+        <Image value="Assets\Textures\ghost_eidolon_collection_portrait_static.dds"/>
+    </CCharacter>
+    <CCharacter id="RileyJerico">
+        <Color value="255,255,128,192"/>
+    </CCharacter>
+    <CCharacter id="SergeantToombs">
+        <Age value="35"/>
+        <Race value="Terran"/>
+        <Color value="255,121,55,121"/>
+        <Variations Model="UPLRiotOfficerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="PrivateTucker">
+        <Age value="20"/>
+        <Race value="Terran"/>
+        <Color value="255,121,55,121"/>
+        <Variations Model="InfantryRiflePortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="Spitter"/>
+    <CCharacter id="Trenchard">
+        <Age value="35"/>
+        <Race value="Terran"/>
+        <Color value="255,48,129,124"/>
+        <Variations Name="Character/Name/Trenchard/Var1" Model="InfantryHeavyPortrait">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="RadioOperator">
+        <Age value="35"/>
+        <Race value="Terran"/>
+        <Color value="255,128,255,255"/>
+        <Variations Model="UPLHeadquartersPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="DefenseNet">
+        <Age value="35"/>
+        <Race value="Terran"/>
+        <Color value="255,163,14,148"/>
+        <Variations Model="DefenseNetPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+    </CCharacter>
+    <CCharacter id="TrevorRand">
+        <Color value="255,128,128,192"/>
+    </CCharacter>
+    <CCharacter id="UPLPoliceOfficer">
+        <Image value="Assets\Textures\TerranPortraitTransition_Static.dds"/>
+        <Unit value="UPLPoliceOfficer"/>
+        <Variations Model="StaticPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,0,128,64"/>
+    </CCharacter>
+    <CCharacter id="UPLRiotOfficer">
+        <Image value="Assets\Textures\infantryrifle_portrait_static.dds"/>
+        <Unit value="UPLRiotOfficer"/>
+        <Variations Model="UPLRiotOfficerPortrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,0,128,128"/>
+    </CCharacter>
+    <CCharacter id="UPLScout">
+        <Color value="255,255,128,255"/>
+    </CCharacter>
+    <CCharacter id="UPLSpecOps">
+        <Color value="255,94,109,18"/>
+        <Image value="Assets\Textures\ghost_eidolon_collection_portrait_static.dds"/>
+    </CCharacter>
+    <CCharacter id="Hydralisk">
+        <Variations Model="HydraliskPortrait"/>
+    </CCharacter>
+    <CCharacter id="Vaeregoth">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="Coranine">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="Legion">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="KiriathZealot">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="Xanon">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="Mallock">
+        <Color value="255,255,0,255"/>
+    </CCharacter>
+    <CCharacter id="Alyndrea">
+        <Color value="255,255,128,0"/>
+    </CCharacter>
+    <CCharacter id="WilliamGraves">
+        <Color value="255,255,128,0"/>
+    </CCharacter>
+    <CCharacter id="Z1">
+        <Image value="Assets\Textures\Z1Portrait_Static.dds"/>
+        <Unit value="Z1"/>
+        <Variations Name="Character/Name/Z1/Var1" Model="Z1Portrait" Actor="PortraitActor">
+            <DefaultCategories value="Default"/>
+        </Variations>
+        <Color value="255,0,128,64"/>
+    </CCharacter>
+</Catalog>

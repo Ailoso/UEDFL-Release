@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <!-- Templates -->
+    <Frame type="Frame" name="LorePanelTemplate">
+        <Anchor side="Right" relative="$parent" pos="Max" offset="-120"/>
+        <Anchor side="Top" relative="$parent" pos="Min" offset="115"/>
+
+        <Visible val="False"/>
+
+        <Animation name="Show/Hide">
+            <Event event="ShowPanel" action="DirectionForward,Play" frame="$this"/>
+            <Event event="HidePanel" action="DirectionReverse,Play" frame="$this"/>
+            <Event event="OnClick" action="DirectionReverse,Play" frame="$this/CloseButton"/>
+
+            <Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+                <Key type="Curve" time="0.0" value="680" out="Fast" in="Smooth"/>
+                <Key type="Curve" time="0.22" value="50" in="Slow" out="Fast"/>
+                <Key type="Curve" time="0.3" value="0" in="Slow" out="Slow"/>
+            </Controller>
+        </Animation>
+
+        <Width val="450"/>
+        <Height val="725"/>
+
+        <Frame type="Image" name="BorderImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="Assets\Textures\Glues_StandardButton_Normal.dds"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Image" name="BackgroundImage">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+
+            <Texture val="Assets/Textures/UED_Lore_CARRLore.dds"/>
+            <Width val="410"/>
+            <Height val="410"/>
+        </Frame>
+
+        <Frame type="Image" name="CalloutFrame">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="260"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-120"/>
+
+            <Unclipped val="True"/>
+            <Texture val="Assets/Textures/ReadyRoom_PortraitCallout_Right.dds"/>
+
+            <Width val="773"/>
+            <Height val="150"/>
+        </Frame>
+        
+        <Frame type="Button" name="CloseButton" template="KLClassic_GlueTemplates/StandardGlueButton">
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="20"/>
+
+            <Width val="150"/>
+            <Height val="60"/>
+
+            <Text val="@UI/KLC/GameUI/LoreClose"/>
+            <Shortcut val="@UI/KLC/GameUI/LoreClose_Hotkey"/>
+            <Unclipped val="True"/>
+        </Frame>
+
+        <Frame type="ScrollableFrame" name="ScrollableFrame">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="20"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-20"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="20"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-40"/>
+
+            <AcceptsMouse val="True"/>
+            <PreserveAnchorOffset val="True"/>
+    
+            <Frame type="Frame" name="ContainerFrame">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+
+                <Anchor side="Bottom" relative="$this/BufferFrame" pos="Max" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Right" relative="$parent/ScrollBarBackground" pos="Min" offset="0"/>
+                
+                <Frame type="Label" name="TitleLabel">
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        
+                    <Visible val="False"/>
+                    <Style val="UED_LoreTitle"/>
+                </Frame>
+        
+                <Frame type="Label" name="Descriptionlabel">
+                    <Anchor side="Top" relative="$parent/TitleLabel" pos="Max" offset="5"/>
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="-0"/>
+        
+                    <Visible val="False"/>
+                    <Style val="UED_LoreDescription"/>
+                </Frame>
+
+                <Frame type="Frame" name="BufferFrame">
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+                    <Anchor side="Top" relative="$parent/Descriptionlabel" pos="Max" offset="0"/>
+                    
+                    <Height val="20"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Image" name="ScrollBarBackground" template="KLClassic_GlueTemplates/ScrollBarBackgroundTemplate">
+                <Visible val="{$parent/ScrollBar/@Visible}"/>
+                <CollapseLayout val="True"/>
+            </Frame>
+    
+            <Frame type="ScrollBar" name="ScrollBar" template="KLClassic_GlueTemplates/ScrollBarTemplate">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="7"/>
+                <Anchor side="Bottom" relative="$parent" pos="Max" offset="-7"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-7"/>
+            </Frame>
+        </Frame>
+    </Frame>
+</Desc>

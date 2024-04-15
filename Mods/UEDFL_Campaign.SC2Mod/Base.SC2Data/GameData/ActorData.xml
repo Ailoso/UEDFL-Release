@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorUnit id="MilesJenkins">
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+    </CActorUnit>
+    <CActorModel id="PointNormal">
+        <On Terms="TimerExpired; TimerName Fade" Send="SetOpacity 1.000000 0.062500"/>
+        <On Terms="TimerExpired; TimerName Fade" Send="TimerSet 0.125000 Kill"/>
+        <On Terms="TimerExpired; TimerName Kill" Send="Destroy"/>
+        <FogVisibility value="Visible"/>
+    </CActorModel>
+    <CActorModel id="DebugSphere">
+        <On Terms="ActorCreation" Send="Create PointNormalName"/>
+        <On Terms="TimerExpired; TimerName Fade" Send="SetOpacity 1.000000 0.062500"/>
+        <On Terms="TimerExpired; TimerName Fade" Send="TimerSet 0.125000 Kill"/>
+        <On Terms="TimerExpired; TimerName Kill" Send="Destroy"/>
+        <Model value="ActorShapeSphere"/>
+    </CActorModel>
+    <CActorText id="PointNormalName">
+        <Aliases value="_Text"/>
+        <Inherits index="LocalTintColor" value="1"/>
+        <Inherits index="Opacity" value="1"/>
+        <Inherits index="Scale" value="1"/>
+        <Inherits index="TintColor" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <FogVisibility value="Visible"/>
+        <Supporter Subject="::Creator"/>
+        <On Terms="SupporterDestruction" Send="Destroy"/>
+    </CActorText>
+    <CActorModel id="PointThreeD">
+        <On Terms="TimerExpired; TimerName Fade" Send="SetOpacity 1.000000 0.062500"/>
+        <On Terms="TimerExpired; TimerName Fade" Send="TimerSet 0.125000 Kill"/>
+        <On Terms="TimerExpired; TimerName Kill" Send="Destroy"/>
+    </CActorModel>
+    <CActorText id="PointThreeDName">
+        <Aliases value="_Text"/>
+        <On Terms="ActorOrphan" Send="Destroy"/>
+    </CActorText>
+    <CActorUnit id="AltonPeters">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="CARR">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="KatherineHalsey">
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="LillyRollins">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="RileyJerico">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShield"/>
+    </CActorUnit>
+    <CActorUnit id="RusellPeters">
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+    </CActorUnit>
+    <CActorUnit id="TrevorRand">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="UPLEngineer">
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+    </CActorUnit>
+    <CActorUnit id="WilliamGraves">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="MyraDavisOfficer">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="MyraDavisRiotOfficer">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="AltonPetersZ1">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShield"/>
+    </CActorUnit>
+    <CActorUnit id="RichardGideon">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="DarrenRodgers">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+    <CActorUnit id="DeniseAllisterRiotOfficer">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+        <CActorUnit id="GordonTrenchard">
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+        <CustomUnitStatusFrame value="KLClassic_UnitStatus/ClassicHeroUnitStatusFrameTemplateNoShieldNoEnergy"/>
+    </CActorUnit>
+</Catalog>

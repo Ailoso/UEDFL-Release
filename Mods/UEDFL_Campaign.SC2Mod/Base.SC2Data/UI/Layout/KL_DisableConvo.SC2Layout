@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+        <Frame type="Button" name="ConvoButton01">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="Button" name="ConvoButton02">
+            <Visible val="False"/>
+        </Frame>
+        <Frame type="Button" name="ConvoButton03">
+            <Visible val="False"/>
+        </Frame>
+    </Frame>
+</Desc>

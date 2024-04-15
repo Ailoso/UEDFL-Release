@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneState cutsceneVersion="1.300000">
+    <CCutsceneNodeDirector guid="10511081653657982120" name="Director">
+        <CCutsceneNodeActiveCamera guid="10083631453743127567" name="Active Camera">
+            <CCutsceneElementActiveCamera guid="7578761994669160456" cameraIndex="0" objectGuid="10128329573056754812"/>
+            <CCutsceneElementActiveCamera guid="7273069370692801682" start="12594" cameraIndex="0" objectGuid="10899876433803057476"/>
+        </CCutsceneNodeActiveCamera>
+        <CCutsceneNodeFade guid="10450228307257419896" name="Fade">
+            <CCutsceneElementFade guid="4950960621069756536" duration="2500" colorR="0.000000" colorG="0.000000" colorB="0.000000" amount="1.000000" unfadedAmount="0.000000" fadeIn="1"/>
+            <CCutsceneElementFade guid="4757841167021392416" start="10000" duration="2000" colorR="0.000000" colorG="0.000000" colorB="0.000000" amount="1.000000" unfadedAmount="0.000000" fadeIn="0"/>
+            <CCutsceneElementFade guid="7813373911272067269" start="12594" duration="2500" colorR="0.000000" colorG="0.000000" colorB="0.000000" amount="1.000000" unfadedAmount="0.000000" fadeIn="1"/>
+            <CCutsceneElementFade guid="8292029034553565974" start="24573" duration="2500" colorR="0.000000" colorG="0.000000" colorB="0.000000" amount="1.000000" unfadedAmount="0.000000" fadeIn="0"/>
+        </CCutsceneNodeFade>
+        <CCutsceneNodeEndScene guid="12852592576225050492" name="End Scene Markers">
+            <CCutsceneElementEndScene guid="8059824988069383209" start="27331"/>
+        </CCutsceneNodeEndScene>
+        <CCutsceneNodeActiveLight guid="12000086099673349510" name="Active Light">
+            <CCutsceneElementActiveLight guid="5092277779849151917" lightGUID="0" lightID="EP01M03_Scene01" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+        <CCutsceneNodeBookmark guid="13119450929517833622" name="Bookmarks">
+            <CCutsceneElementBookmark guid="8448619003000661508" start="7246"/>
+            <CCutsceneElementBookmark guid="6309185313920111289" start="22811"/>
+        </CCutsceneNodeBookmark>
+        <CCutsceneNodeMasterSound guid="13477686193497677820" name="Master Sound Node" soundLink="30SecondSilence" assetDuration="27000">
+            <CCutsceneElementObject guid="8051203329505468412" duration="30013"/>
+        </CCutsceneNodeMasterSound>
+    </CCutsceneNodeDirector>
+    <CCutsceneNodeFolder guid="10361198247172609109" name="Cameras">
+        <CCutsceneNodeTargetCamera guid="10128329573056754812" name="Camera_S01" position="-46.234642,-61.334694,32.107094" fov="27.799999" nearClip="0.100000" farClip="600.000000" shadowClip="1.000000" depthOfField="1.000000" focalDepth="30.000000" falloffStart="100.000000" falloffEnd="1100.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="1.000000" roll="0.000000" verticalFOV="1" eyePositionX="-40.795670" eyePositionY="-69.485970" eyePositionZ="18.042480" targetPositionX="-46.234642" targetPositionY="-61.334694" targetPositionZ="32.107094">
+            <CCutsceneElementObject guid="8073600287889273980" duration="12000"/>
+            <CCutsceneNodePropertyValue guid="12854501085056898886" name="Property - Target Position X" propertyName="targetPositionX">
+                <CCutsceneElementPropertyCurve guid="8589258529016476050" value="-46.234642" time="0.000000" curveInValue="-33.333336,-46.244251" curveOutValue="1656.333374,-45.757133" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="7881741800297444330" start="4969" value="-43.369591" time="4969.000000" curveInValue="3312.666504,-44.845894" curveOutValue="5307.000000,-43.068329" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5686947109280168029" start="5983" value="-42.146667" time="5983.000000" curveInValue="5645.000000,-41.867977" curveOutValue="6265.333496,-42.379459" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="7185253420614906443" start="6830" value="-44.564926" time="6830.000000" curveInValue="6547.666016,-46.189503" curveOutValue="6939.333496,-43.935810" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="4707960945144420800" start="7158" value="-39.853752" time="7158.000000" curveInValue="7048.666504,-40.015079" curveOutValue="7510.333496,-39.333870" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="7574880905427639083" start="8215" value="-51.916508" time="8215.000000" curveInValue="7862.666504,-47.153790" curveOutValue="8313.000000,-53.241238" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5615158776389435148" start="8509" value="-56.509689" time="8509.000000" curveInValue="8411.000000,-55.546379" curveOutValue="8846.666992,-59.828846" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="8780879414972877386" start="9522" value="-60.598446" time="9522.000000" curveInValue="9184.333008,-59.810711" curveOutValue="9920.000000,-61.526932" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="8228454927525841201" start="10716" value="-61.350029" time="10716.000000" curveInValue="10318.000000,-61.511726" curveOutValue="11586.000000,-60.996567" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="4863579589070982889" start="13326" value="-57.586342" time="13326.000000" curveInValue="12456.000000,-57.586342" curveOutValue="13327.000000,-57.586342" curveOutType="7" curveInType="7"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="9594215717455293663" name="Property - Target Position Y" propertyName="targetPositionY">
+                <CCutsceneElementPropertyCurve guid="8609178707718073567" value="-61.334694" time="0.000000" curveInValue="-33.333336,-61.336441" curveOutValue="1994.333374,-61.230183" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5649213270245272799" start="5983" value="-60.707634" time="5983.000000" curveInValue="3988.665527,-61.131470" curveOutValue="6265.333496,-60.647633" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5201443722065703499" start="6830" value="-60.436386" time="6830.000000" curveInValue="6547.666016,-60.591309" curveOutValue="6939.333496,-60.376392" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="8140571113239320041" start="7158" value="-60.181458" time="7158.000000" curveInValue="7048.666504,-60.204666" curveOutValue="7510.333496,-60.106663" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="6245658041445692941" start="8215" value="-60.554218" time="8215.000000" curveInValue="7862.666504,-60.229370" curveOutValue="8313.000000,-60.644573" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5019663059742621452" start="8509" value="-60.992664" time="8509.000000" curveInValue="8411.000000,-60.883060" curveOutValue="8846.666992,-61.370316" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5426456998020053164" start="9522" value="-61.747875" time="9522.000000" curveInValue="9184.333008,-61.602379" curveOutValue="9920.000000,-61.919369" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="7738747909652446798" start="10716" value="-61.886696" time="10716.000000" curveInValue="10318.000000,-61.934319" curveOutValue="11586.000000,-61.782597" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="5721869811800772329" start="13326" value="-60.958656" time="13326.000000" curveInValue="12456.000000,-60.958656" curveOutValue="13327.000000,-60.958656" curveOutType="7" curveInType="7"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="12445391835602351043" name="Property - Falloff End" propertyName="falloffEnd">
+                <CCutsceneElementPropertyCurve guid="5708004959105053635" value="1100.000000" time="0.000000" curveInValue="-1.000000,1100.000000" curveOutValue="1808.000000,1100.000000" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="7093870015241988958" start="5424" value="1100.000000" time="5424.000000" curveInValue="3616.000000,1100.000000" curveOutValue="5498.666504,810.000000" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="7034689383383436653" start="5648" value="230.000000" time="5648.000000" curveInValue="5573.333496,520.000000" curveOutValue="5837.666504,230.000000" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="6410070683672279278" start="6217" value="230.000000" time="6217.000000" curveInValue="6027.333496,230.000000" curveOutValue="6421.333496,213.333328" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="4685844957051892260" start="6830" value="180.000000" time="6830.000000" curveInValue="6625.666504,196.666672" curveOutValue="8165.000000,196.666672" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="6549511434061557617" start="10835" value="230.000000" time="10835.000000" curveInValue="9500.000000,213.333328" curveOutValue="11085.666992,520.000000" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="8859640982562296113" start="11587" value="1100.000000" time="11587.000000" curveInValue="11336.333008,810.000000" curveOutValue="11588.000000,1100.000000" curveOutType="3" curveInType="3"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="11343320897374834309" name="Property - Falloff Start" propertyName="falloffStart">
+                <CCutsceneElementPropertyCurve guid="5779739262795304581" value="100.000000" time="0.000000" curveInValue="-1.000000,100.000000" curveOutValue="1808.000000,100.000000" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="5187845223850126174" start="5424" value="100.000000" time="5424.000000" curveInValue="3616.000000,100.000000" curveOutValue="5498.666504,66.666763" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="5814792364918840939" start="5648" value="0.000300" time="5648.000000" curveInValue="5573.333496,33.333538" curveOutValue="5837.666504,33.333538" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="7549017309590747374" start="6217" value="100.000000" time="6217.000000" curveInValue="6027.333496,66.666763" curveOutValue="7756.333496,66.666763" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="7114747285041917809" start="10835" value="0.000300" time="10835.000000" curveInValue="9295.666992,33.333538" curveOutValue="11085.666992,33.333538" curveOutType="3" curveInType="3"/>
+                <CCutsceneElementPropertyCurve guid="9210553863778488625" start="11587" value="100.000000" time="11587.000000" curveInValue="11336.333008,66.666763" curveOutValue="11588.000000,100.000000" curveOutType="3" curveInType="3"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="13367033062463026843" name="Property - Field of View" propertyName="fov">
+                <CCutsceneElementPropertyCurve guid="9215941329723504283" value="27.799999" time="0.000000" curveInValue="-1.000000,27.799999" curveOutValue="1961.333374,27.799999" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="8519399343518761587" start="5884" value="27.799999" time="5884.000000" curveInValue="3922.670898,27.799999" curveOutValue="6108.380371,27.799999" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="5993680271300093160" start="6557" value="14.000000" time="6557.000000" curveInValue="6332.666504,16.299999" curveOutValue="7207.666504,7.328975" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="4725192758396531589" start="8509" value="14.000000" time="8509.000000" curveInValue="7858.332031,16.898294" curveOutValue="8658.666992,13.333333" curveOutType="5" curveInType="5"/>
+                <CCutsceneElementPropertyCurve guid="6988681439825901775" start="8958" value="10.000000" time="8958.000000" curveInValue="8808.334961,10.666669" curveOutValue="8991.333008,9.851521" curveOutType="5" curveInType="5"/>
+            </CCutsceneNodePropertyValue>
+        </CCutsceneNodeTargetCamera>
+        <CCutsceneNodeTargetCamera guid="10899876433803057476" name="Camera_S02" position="-38.097645,-30.292076,30.936832" fov="27.799999" nearClip="0.100000" farClip="600.000000" shadowClip="1.000000" depthOfField="0.000000" focalDepth="8.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="0.000000" roll="0.000000" verticalFOV="1" eyePositionX="-31.420937" eyePositionY="-73.385765" eyePositionZ="20.677757" targetPositionX="-38.097645" targetPositionY="-30.292076" targetPositionZ="30.936832">
+            <CCutsceneElementObject guid="7822604406773719057" start="12000" duration="45483" lockedToEnd="1"/>
+            <CCutsceneNodePropertyValue guid="12496472108897853793" name="Property - Eye Position X" propertyName="eyePositionX">
+                <CCutsceneElementPropertyCurve guid="7309008263736910177" start="13266" value="-31.420937" time="13266.000000" curveInValue="13265.000000,-31.420937" curveOutValue="14239.666992,-31.420937" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="8855901961092675108" start="16187" value="-31.420937" time="16187.000000" curveInValue="15213.333984,-31.420937" curveOutValue="25396.335938,-22.619053" curveOutType="0" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="5363167264844840174" start="30486" value="-51.862762" time="30486.000000" curveInValue="22676.666016,-53.155743" curveOutValue="30487.000000,-51.862762" curveOutType="7" curveInType="0"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="11306646788604507745" name="Property - Eye Position Y" propertyName="eyePositionY">
+                <CCutsceneElementPropertyCurve guid="8109607196571285089" start="13266" value="-73.385765" time="13266.000000" curveInValue="13265.000000,-73.385765" curveOutValue="14239.666992,-73.385765" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="7209926517371778596" start="16187" value="-73.385765" time="16187.000000" curveInValue="15213.333008,-73.385765" curveOutValue="23848.667969,-70.895714" curveOutType="0" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="5193312883224902894" start="30486" value="-81.362579" time="30486.000000" curveInValue="22743.332031,-81.718300" curveOutValue="30487.000000,-81.362579" curveOutType="7" curveInType="0"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="10769500859990958233" name="Property - Eye Position Z" propertyName="eyePositionZ">
+                <CCutsceneElementPropertyCurve guid="6152409973113905305" start="13266" value="20.677757" time="13266.000000" curveInValue="13265.000000,20.677757" curveOutValue="14239.666992,20.677757" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="7076049212774626852" start="16187" value="20.677757" time="16187.000000" curveInValue="15213.333008,20.677757" curveOutValue="20953.333984,20.677757" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="7025369481557081326" start="30486" value="25.744881" time="30486.000000" curveInValue="25719.666016,25.744881" curveOutValue="30487.000000,25.744881" curveOutType="7" curveInType="7"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="10470072610745376921" name="Property - Target Position X" propertyName="targetPositionX">
+                <CCutsceneElementPropertyCurve guid="6875638010045165141" start="13266" value="-38.097645" time="13266.000000" curveInValue="13265.000000,-38.097645" curveOutValue="14239.666992,-38.097645" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="8134114187100894756" start="16187" value="-38.097645" time="16187.000000" curveInValue="15213.333984,-38.097645" curveOutValue="25111.335938,-37.839050" curveOutType="0" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="6030905589835791598" start="30486" value="-55.820778" time="30486.000000" curveInValue="22148.666016,-64.871620" curveOutValue="30487.000000,-55.820778" curveOutType="7" curveInType="0"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="10682261094923923029" name="Property - Target Position Y" propertyName="targetPositionY">
+                <CCutsceneElementPropertyCurve guid="5009863826925288127" start="13266" value="-30.292076" time="13266.000000" curveInValue="13265.000000,-30.292076" curveOutValue="14239.666992,-30.292076" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="7957695587919148580" start="16187" value="-30.292076" time="16187.000000" curveInValue="15213.333008,-30.292076" curveOutValue="23507.667969,-22.592730" curveOutType="0" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="8263234955263638766" start="30486" value="-37.958710" time="30486.000000" curveInValue="22852.666016,-45.569126" curveOutValue="30487.000000,-37.958710" curveOutType="7" curveInType="0"/>
+            </CCutsceneNodePropertyValue>
+            <CCutsceneNodePropertyValue guid="9546316883208567487" name="Property - Target Position Z" propertyName="targetPositionZ">
+                <CCutsceneElementPropertyCurve guid="8619578187316548957" start="13266" value="30.936832" time="13266.000000" curveInValue="13265.000000,30.936832" curveOutValue="14239.666992,30.936832" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="6684452855142495780" start="16187" value="30.936832" time="16187.000000" curveInValue="15213.333008,30.936832" curveOutValue="20953.333984,30.936832" curveOutType="7" curveInType="7"/>
+                <CCutsceneElementPropertyCurve guid="7632615485696408814" start="30486" value="36.104969" time="30486.000000" curveInValue="25719.666016,36.104969" curveOutValue="30487.000000,36.104969" curveOutType="7" curveInType="7"/>
+            </CCutsceneNodePropertyValue>
+        </CCutsceneNodeTargetCamera>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeFolder guid="11931249052694825350" locked="1" name="Shot01">
+        <CCutsceneNodeFolder guid="10566551935711688126" name="Background Skybox">
+            <CCutsceneNodeActor guid="10079767171381048766" name="SMX2_Aiur1_Debrief_Clouds (Unnamed)" position="-99.585831,-31.261951,143.459015" scale="0.400000,0.400000,0.400000" rotation="-162.798355,-1.063886,67.865173" modelLink="SMX2_Aiur1_Debrief_Clouds" shadowBox="0" opacity="0.700000" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4876936938257364414" duration="12500"/>
+                <CCutsceneNodeAnimLayer guid="10909735675386377662" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8383216958741394878" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="130000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodePropertyValue guid="13110573616362259144" enabled="0" name="Property - Position X" propertyName="positionX">
+                    <CCutsceneElementPropertyCurve guid="6798814681716669073" start="6568" value="-99.585838" time="6568.000000" curveInValue="6567.000000,-99.585838" curveOutValue="8545.333008,-74.514778" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="8006200550639975057" start="12500" value="-24.372658" time="12500.000000" curveInValue="10522.666992,-49.443718" curveOutValue="12501.000000,-24.372658" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="13790334356506458769" enabled="0" name="Property - Position Y" propertyName="positionY">
+                    <CCutsceneElementPropertyCurve guid="8204926627457830693" start="6568" value="-31.261948" time="6568.000000" curveInValue="6567.000000,-31.261948" curveOutValue="8545.333008,-46.863461" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="7027988490365472549" start="12500" value="-78.066483" time="12500.000000" curveInValue="10522.666992,-62.464970" curveOutValue="12501.000000,-78.066483" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="11844609010473759487" enabled="0" name="Property - Position Z" propertyName="positionZ">
+                    <CCutsceneElementPropertyCurve guid="6825417843621622527" start="6568" value="143.459030" time="6568.000000" curveInValue="6567.000000,143.459030" curveOutValue="8545.333008,139.536774" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="8101261067148475827" start="12500" value="131.692245" time="12500.000000" curveInValue="10522.666992,135.614502" curveOutValue="12501.000000,131.692245" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="12485340688586370302" enabled="0" name="Property - Rotation Y" propertyName="rotationY">
+                    <CCutsceneElementPropertyCurve guid="4903915033876753662" start="6568" value="-2.192552" time="6568.000000" curveInValue="6567.000000,-2.192552" curveOutValue="8545.333008,1.754654" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="8746560260660486385" start="12500" value="9.649065" time="12500.000000" curveInValue="10522.666992,5.701859" curveOutValue="12501.000000,9.649065" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="13295470324124967153" enabled="0" name="Property - Rotation Z (Facing)" propertyName="rotationZ">
+                    <CCutsceneElementPropertyCurve guid="5430668010035044593" start="6568" value="67.944183" time="6568.000000" curveInValue="6567.000000,67.944183" curveOutValue="8545.333008,62.656605" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="7372175876117457287" start="12500" value="52.081451" time="12500.000000" curveInValue="10522.666992,57.369030" curveOutValue="12501.000000,52.081451" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="13171327607443100860" enabled="0" name="Property - Rotation X" propertyName="rotationX">
+                    <CCutsceneElementPropertyCurve guid="9167663461817193660" start="6568" value="-160.017563" time="6568.000000" curveInValue="6567.000000,-160.017563" curveOutValue="8545.333008,-163.491821" curveOutType="3" curveInType="3"/>
+                    <CCutsceneElementPropertyCurve guid="8597726223887057689" start="12500" value="-170.440353" time="12500.000000" curveInValue="10522.666992,-166.966095" curveOutValue="12501.000000,-170.440353" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12060140183128880574" name="SMX2 Aiur1 Debrief Skybox" position="-46.601395,8.664978,-65.088249" scale="0.950000,1.000000,1.000000" rotation="57.043209,19.345219,-171.142838" modelLink="SMX2_Aiur1_Debrief_Skybox" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5765213789424170430" duration="12500"/>
+                <CCutsceneNodeAnimLayer guid="10667040834564634046" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5693186006754244030" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11109594818795255230" name="SMX2 Aiur1 Debrief Mountain Fog" position="-95.701530,0.332848,136.564087" rotation="19.008276,11.287406,-60.395744" modelLink="SMX2_Aiur1_Debrief_MountainFog" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8659891729678185918" duration="12500"/>
+                <CCutsceneNodeAnimLayer guid="9424207763028817342" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5645060434346096062" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="130000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13217782581392290841" name="Char Ash Weather" position="-51.120735,-63.367886,26.337601" scale="2.000000,2.000000,2.000000" modelLink="CharAshWeather" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8166903237838760558" duration="12500"/>
+                <CCutsceneNodeAnimLayer guid="12577978616910584923" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9001606576789606318" duration="57483" lockedToEnd="1" anim="Stand" priority="5" originalDuration="5333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="10967455467187873284" name="Mutalisk">
+            <CCutsceneNodeActor guid="9812734848662263220" name="Mutalisk01" movespeed="2500.000000" position="-45.441578,-63.243607,43.352226" scale="2.000000,2.000000,2.000000" rotation="-0.043984,-0.031637,-80.402222" modelLink="SMX3_Mutalisk" enableModelEvents="1" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5936338061554898356" start="5391" duration="6609"/>
+                <CCutsceneNodeAnimLayer guid="10369148584784768686" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7011430417917488814" start="5391" duration="6609" startLinkGuid="5936338061554898356" startLinkAttachToPoint="1" endLinkGuid="5936338061554898356" endLinkAttachToPoint="2" anim="Stand 01" priority="3" originalDuration="1667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="10215241769489017357" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="5467015284422107690" start="5391" duration="6609" startLinkGuid="5936338061554898356" startLinkAttachToPoint="1" endLinkGuid="5936338061554898356" endLinkAttachToPoint="2" pathGuid="11083304917126388115"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12248725377178563138" name="Mutalisk02" movespeed="2500.000000" position="-45.441578,-63.243607,43.352226" scale="2.000000,2.000000,2.000000" rotation="-0.043984,-0.031637,-80.402222" modelLink="SMX3_Mutalisk" enableModelEvents="1" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9031678470270906946" start="5391" duration="6609"/>
+                <CCutsceneNodeAnimLayer guid="9967640788547039810" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5547747054413574722" start="5391" duration="6609" startLinkGuid="9031678470270906946" startLinkAttachToPoint="1" endLinkGuid="9031678470270906946" endLinkAttachToPoint="2" anim="Stand" priority="3" originalDuration="2100" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="10083821513624678978" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="7309910245483639362" start="5391" duration="6609" startLinkGuid="9031678470270906946" startLinkAttachToPoint="1" endLinkGuid="9031678470270906946" endLinkAttachToPoint="2" pathGuid="11070658128369034179"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13493631708791494387" name="Mutalisk03" movespeed="2500.000000" position="-45.441578,-63.243607,43.352226" scale="2.000000,2.000000,2.000000" rotation="-0.043984,-0.031637,-80.402222" modelLink="SMX3_Mutalisk" enableModelEvents="1" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6712867354821711603" start="5182" duration="6818"/>
+                <CCutsceneNodeAnimLayer guid="13154141726890710771" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5133686752861935347" start="5182" duration="6818" startLinkGuid="6712867354821711603" startLinkAttachToPoint="1" endLinkGuid="6712867354821711603" endLinkAttachToPoint="2" anim="Stand 02" priority="3" originalDuration="2000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="12862310604776855283" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="9038279356022445811" start="5182" duration="6818" startLinkGuid="6712867354821711603" startLinkAttachToPoint="1" endLinkGuid="6712867354821711603" endLinkAttachToPoint="2" pathGuid="12324822351357597427"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="11083304917126388115" name="Mutalisk01">
+                <CCutsceneNodePathMarker guid="9617758549807364756" name="Path Marker" movespeed="2.000000" position="-19.143211,-46.231792,60.344055" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="7580491098426866324" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11874068280883056614" name="Path Marker" movespeed="2.000000" position="-50.806450,-46.588184,49.806561" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6944646799451313888" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11237120288812586008" name="Path Marker" movespeed="2.000000" position="-75.526604,-45.283310,54.669643" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5293261751629009944" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11922022280403014366" name="Path Marker" movespeed="2.000000" position="-92.776840,-51.494499,49.806530" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6906953444636414686" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="13301228668400115243" name="Path Marker" movespeed="2.000000" position="-103.997543,-54.917843,49.806530" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="7660175100930104875" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12855553969543696624" name="Path Marker" movespeed="2.000000" position="-129.103729,-50.875130,49.806530" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="8807702332793147632" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodePath guid="11070658128369034179" name="Mutalisk02">
+                <CCutsceneNodePathMarker guid="12696139319593280451" name="Path Marker" movespeed="2.000000" position="-20.183830,-53.062546,56.558182" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6519963170985616323" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="10953207823843599299" name="Path Marker" movespeed="2.000000" position="-49.372326,-43.030937,56.792259" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6159498866618672067" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12815552372633379779" name="Path Marker" movespeed="2.000000" position="-75.020233,-48.959824,54.669636" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="7099203256755823555" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="13240246259349595075" name="Path Marker" movespeed="2.000000" position="-103.942703,-38.615776,49.806522" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6933947376360629187" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="9793044806243918025" name="Path Marker" movespeed="2.000000" position="-141.840485,-26.788651,49.806522" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="8927446400307241161" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodePath guid="12324822351357597427" name="Mutalisk03">
+                <CCutsceneNodePathMarker guid="10796201219643070195" name="Path Marker" movespeed="2.000000" position="-19.370304,-41.895142,55.193657" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5401041453356340979" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="13451802386640590579" name="Path Marker" movespeed="2.000000" position="-43.873409,-48.723137,56.840679" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5442386732692985587" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11242584901657482995" name="Path Marker" movespeed="2.000000" position="-74.030518,-40.086464,56.480606" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="7118556784347240179" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="10922635483355207411" name="Path Marker" movespeed="2.000000" position="-103.942703,-38.615776,44.013008" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="8844410231702607603" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="9817893968222397993" name="Path Marker" movespeed="2.000000" position="-156.623962,-41.251835,44.013008" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6108225367709361705" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="9786532816185522152" name="Osprey">
+            <CCutsceneNodeFolder guid="12115507086489185528" name="01">
+                <CCutsceneNodeActor guid="10888784253367063019" name="Osprey01" movespeed="2000.000000" position="-80.236046,-10.805638,-40.615807" scale="4.000000,4.000000,4.000000" rotation="1.539304,3.953698,-8.574089" modelPath="Assets\Units\UPL\Osprey\Osprey.m3" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                    <CCutsceneElementObject guid="6218631656888046059" start="6044" duration="5956"/>
+                    <CCutsceneNodeAnimLayer guid="13637353222840166701" name="Animation Layer">
+                        <CCutsceneElementAnim guid="4915261519940089991" start="6044" duration="5956" startLinkGuid="6218631656888046059" startLinkAttachToPoint="1" endLinkGuid="6218631656888046059" endLinkAttachToPoint="2" anim="Walk" priority="6" originalDuration="333" looping="1"/>
+                    </CCutsceneNodeAnimLayer>
+                    <CCutsceneNodeFollowPath guid="13789536779548791992" name="Follow Path">
+                        <CCutsceneElementFollowPath guid="4878712941564411442" start="6044" duration="5956" startLinkGuid="4915261519940089991" startLinkAttachToPoint="1" endLinkGuid="4915261519940089991" endLinkAttachToPoint="2" pathGuid="12915051042504298421"/>
+                    </CCutsceneNodeFollowPath>
+                </CCutsceneNodeActor>
+                <CCutsceneNodePath guid="12915051042504298421" name="Osprey01">
+                    <CCutsceneNodePathMarker guid="13399898583310913461" name="Path Marker" movespeed="2.000000" position="-19.702450,-47.512852,55.459682" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="4896547572765806517" duration="57483" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                    <CCutsceneNodePathMarker guid="9454987842242596789" name="Path Marker" movespeed="2.000000" position="-156.256744,-49.723743,53.366657" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="8928177349967597493" duration="57483" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                </CCutsceneNodePath>
+                <CCutsceneNodeActor guid="12143184627579685497" name="Osprey01-Att00" position="-55.757057,20.681808,42.605370" scale="3.000000,3.000000,3.000000" modelLink="OspreyMissileLaunchBack" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                    <CCutsceneElementObject guid="4701814167015721593" start="7008" duration="4992" startLinkGuid="6218631656888046059" startLinkAttachToPoint="1" startLinkDistance="964" endLinkGuid="6218631656888046059" endLinkAttachToPoint="2"/>
+                    <CCutsceneNodeAnimLayer guid="12489861472746146425" name="Animation Layer">
+                        <CCutsceneElementAnim guid="6499479755323017849" start="7008" duration="2000" startLinkGuid="4701814167015721593" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="2000"/>
+                    </CCutsceneNodeAnimLayer>
+                    <CCutsceneNodeAttachment guid="12230615880959986297" name="Attachment">
+                        <CCutsceneElementAttachment guid="8018981739460233849" start="7008" duration="2000" startLinkGuid="6499479755323017849" startLinkAttachToPoint="1" attachGuid="10888784253367063019" attachName="Ref_Weapon" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                    </CCutsceneNodeAttachment>
+                </CCutsceneNodeActor>
+                <CCutsceneNodePath guid="11850992165833871587" name="Osprey01-Attack0">
+                    <CCutsceneNodePathMarker guid="10903710594393116899" name="Path Marker" movespeed="2.000000" position="-39.761662,-47.113953,54.771900" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="4624786462854287587" duration="57483" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                    <CCutsceneNodePathMarker guid="9366007694201655523" name="Path Marker" movespeed="2.000000" position="-95.351761,-44.561432,54.120914" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="6413644838469046499" duration="57483" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                </CCutsceneNodePath>
+                <CCutsceneNodeActor guid="13162237695673559967" name="Osprey01-Missile0" movespeed="5500.000000" position="-62.767330,-81.162071,-6.528549" scale="1.700000,1.700000,1.700000" modelLink="OspreyAirMissile" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                    <CCutsceneElementObject guid="4730064562851489540" start="7008" duration="1380" startLinkGuid="4701814167015721593" startLinkAttachToPoint="1"/>
+                    <CCutsceneNodeAnimLayer guid="10922798376927921472" name="Animation Layer">
+                        <CCutsceneElementAnim guid="8807906783310939456" start="7008" duration="666" startLinkGuid="4730064562851489540" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="666"/>
+                        <CCutsceneElementAnim guid="5326024089152492940" start="7674" duration="714" startLinkGuid="8807906783310939456" startLinkAttachToPoint="2" endLinkGuid="4730064562851489540" endLinkAttachToPoint="2" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                    </CCutsceneNodeAnimLayer>
+                    <CCutsceneNodeFollowPath guid="13407103901897097563" name="Follow Path">
+                        <CCutsceneElementFollowPath guid="7666916073224061773" start="7008" duration="1380" startLinkGuid="4730064562851489540" startLinkAttachToPoint="1" endLinkGuid="4730064562851489540" endLinkAttachToPoint="2" pathGuid="11850992165833871587"/>
+                    </CCutsceneNodeFollowPath>
+                    <CCutsceneNodePropertyValue guid="12173644052955616988" name="Property - Movespeed" propertyName="movespeed">
+                        <CCutsceneElementPropertyValue guid="5166629441831917276" start="7008" startLinkGuid="7666916073224061773" startLinkAttachToPoint="1" value="2800"/>
+                        <CCutsceneElementPropertyValue guid="6496733772097896876" start="7705" value="3400"/>
+                        <CCutsceneElementPropertyValue guid="6996566335633239327" start="8003" startLinkGuid="6496733772097896876" startLinkAttachToPoint="1" startLinkDistance="298" value="5500"/>
+                    </CCutsceneNodePropertyValue>
+                </CCutsceneNodeActor>
+                <CCutsceneNodeActor guid="9295043390227545344" name="Osprey01-Impact0" position="-89.681442,-45.055428,54.674351" scale="3.000000,3.000000,3.000000" modelLink="OspreyAirImpact" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                    <CCutsceneElementObject guid="7265619880569404672" start="8388" duration="3612" startLinkGuid="4730064562851489540" startLinkAttachToPoint="1" startLinkDistance="1380"/>
+                    <CCutsceneNodeAnimLayer guid="11549935633787793177" name="Animation Layer">
+                        <CCutsceneElementAnim guid="7166475116370965862" start="8388" duration="3612" startLinkGuid="7265619880569404672" startLinkAttachToPoint="1" endLinkGuid="7265619880569404672" endLinkAttachToPoint="2" anim="Death" priority="11" originalDuration="3333"/>
+                    </CCutsceneNodeAnimLayer>
+                </CCutsceneNodeActor>
+                <CCutsceneNodeActor guid="12333048567951262434" name="Osprey01-Att01" position="-55.757057,20.681808,42.605370" scale="3.000000,3.000000,3.000000" modelLink="OspreyMissileLaunchBack" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                    <CCutsceneElementObject guid="7020122298215609257" start="7702" duration="4298" startLinkGuid="6218631656888046059" startLinkAttachToPoint="1" startLinkDistance="1658" endLinkGuid="6218631656888046059" endLinkAttachToPoint="2"/>
+                    <CCutsceneNodeAnimLayer guid="10747159160071667409" name="Animation Layer">
+                        <CCutsceneElementAnim guid="5799123226288908048" start="7702" duration="2000" startLinkGuid="7020122298215609257" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="2000"/>
+                    </CCutsceneNodeAnimLayer>
+                    <CCutsceneNodeAttachment guid="10438339042522257577" name="Attachment">
+                        <CCutsceneElementAttachment guid="5616856709342517417" start="7702" duration="2000" startLinkGuid="5799123226288908048" startLinkAttachToPoint="1" attachGuid="10888784253367063019" attachName="Ref_Weapon 01" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                    </CCutsceneNodeAttachment>
+                </CCutsceneNodeActor>
+                <CCutsceneNodePath guid="10874962343951437516" name="Osprey01-Attack1">
+                    <CCutsceneNodePathMarker guid="13505903981988777676" name="Path Marker" movespeed="2.000000" position="-53.246178,-48.217342,55.015099" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="5444852337128083148" start="3441" duration="54042" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                    <CCutsceneNodePathMarker guid="12902808608474500812" name="Path Marker" movespeed="2.000000" position="-178.743942,-54.977909,54.306503" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                        <CCutsceneElementObject guid="5269142416140111564" start="382" duration="57101" lockedToEnd="1"/>
+                    </CCutsceneNodePathMarker>
+                </CCutsceneNodePath>
+                <CCutsceneNodeActor guid="10153787242749464268" name="Osprey01-Missile1" movespeed="5500.000000" position="-62.767330,-81.162071,-6.528549" scale="1.700000,1.700000,1.700000" modelLink="OspreyAirMissile" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                    <CCutsceneElementObject guid="4999035900034387660" start="7702" duration="3805" startLinkGuid="7020122298215609257" startLinkAttachToPoint="1"/>
+                    <CCutsceneNodeAnimLayer guid="10637281980526989004" name="Animation Layer">
+                        <CCutsceneElementAnim guid="8531911637915504332" start="7702" duration="666" startLinkGuid="4999035900034387660" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="666"/>
+                        <CCutsceneElementAnim guid="8834672137537687244" start="8368" duration="3139" startLinkGuid="8531911637915504332" startLinkAttachToPoint="2" endLinkGuid="4999035900034387660" endLinkAttachToPoint="2" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                    </CCutsceneNodeAnimLayer>
+                    <CCutsceneNodeFollowPath guid="11780927614199893708" name="Follow Path">
+                        <CCutsceneElementFollowPath guid="7025913499108347596" start="7702" duration="3805" startLinkGuid="4999035900034387660" startLinkAttachToPoint="1" endLinkGuid="4999035900034387660" endLinkAttachToPoint="2" pathGuid="10874962343951437516"/>
+                    </CCutsceneNodeFollowPath>
+                    <CCutsceneNodePropertyValue guid="11687897346963246796" name="Property - Movespeed" propertyName="movespeed">
+                        <CCutsceneElementPropertyValue guid="7339481575261310668" start="7702" startLinkGuid="4999035900034387660" startLinkAttachToPoint="1" value="3000"/>
+                        <CCutsceneElementPropertyValue guid="5548038965069188812" start="8003" startLinkGuid="7025913499108347596" startLinkAttachToPoint="1" startLinkDistance="301" value="3400"/>
+                        <CCutsceneElementPropertyValue guid="7734697099970318028" start="8182" startLinkGuid="7339481575261310668" startLinkAttachToPoint="1" startLinkDistance="480" value="5500"/>
+                    </CCutsceneNodePropertyValue>
+                </CCutsceneNodeActor>
+            </CCutsceneNodeFolder>
+            <CCutsceneNodeActor guid="12431576580113116993" name="Osprey02" movespeed="2000.000000" position="-80.236046,-10.805638,-40.615807" scale="4.000000,4.000000,4.000000" rotation="1.539304,3.953698,-8.574089" modelPath="Assets\Units\UPL\Osprey\Osprey.m3" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="6808677366956896065" start="6044" duration="5463"/>
+                <CCutsceneNodeAnimLayer guid="11883762409270488897" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7371928079758077761" start="6044" duration="5463" startLinkGuid="6808677366956896065" startLinkAttachToPoint="1" endLinkGuid="6808677366956896065" endLinkAttachToPoint="2" anim="Walk" priority="6" originalDuration="333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="12088491156534800193" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6589800220030480193" start="6044" duration="5463" startLinkGuid="7371928079758077761" startLinkAttachToPoint="1" endLinkGuid="7371928079758077761" endLinkAttachToPoint="2" pathGuid="11540498053059653441"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="11540498053059653441" name="Osprey02">
+                <CCutsceneNodePathMarker guid="13369717417470930753" name="Path Marker" movespeed="2.000000" position="-16.741276,-42.699524,55.459682" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5284095544610074433" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12078843758044852033" name="Path Marker" movespeed="2.000000" position="-148.993195,-42.757698,53.366657" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5993290749367889729" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="12264472499118510293" name="Osprey02-Att00" position="-55.757057,20.681808,42.605370" scale="3.000000,3.000000,3.000000" modelLink="OspreyMissileLaunchBack" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8294679011049705685" start="7452" duration="4548" startLinkGuid="6218631656888046059" startLinkAttachToPoint="1" startLinkDistance="1408" endLinkGuid="6218631656888046059" endLinkAttachToPoint="2"/>
+                <CCutsceneNodeAnimLayer guid="9822902712260464853" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5598375723183214805" start="7452" duration="2000" startLinkGuid="8294679011049705685" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="2000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11704221919757832405" name="Attachment">
+                    <CCutsceneElementAttachment guid="6202803000415719637" start="7452" duration="2000" startLinkGuid="5598375723183214805" startLinkAttachToPoint="1" attachGuid="12431576580113116993" attachName="Ref_Weapon" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="12894221958635426005" name="Osprey02-Attack0">
+                <CCutsceneNodePathMarker guid="10655589969218867413" name="Path Marker" movespeed="2.000000" position="-45.139675,-42.316917,55.015099" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="7500506808893673685" start="3441" duration="54042" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12927093838727712981" name="Path Marker" movespeed="2.000000" position="-181.141647,-42.567387,54.306473" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6035953652793970901" start="382" duration="57101" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="13590624633366876373" name="Osprey02-Missile0" movespeed="5500.000000" position="-62.767330,-81.162071,-6.528549" scale="1.700000,1.700000,1.700000" modelLink="OspreyAirMissile" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="5378309686359593173" start="7452" duration="4548" startLinkGuid="8294679011049705685" startLinkAttachToPoint="1"/>
+                <CCutsceneNodeAnimLayer guid="10955523860669239509" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5084539876137865429" start="7452" duration="666" startLinkGuid="5378309686359593173" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="666"/>
+                    <CCutsceneElementAnim guid="8149263534509887701" start="8118" duration="3882" startLinkGuid="5084539876137865429" startLinkAttachToPoint="2" endLinkGuid="5378309686359593173" endLinkAttachToPoint="2" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="9572806367182426325" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6173224153353654485" start="7452" duration="4548" startLinkGuid="5378309686359593173" startLinkAttachToPoint="1" endLinkGuid="5378309686359593173" endLinkAttachToPoint="2" pathGuid="12894221958635426005"/>
+                </CCutsceneNodeFollowPath>
+                <CCutsceneNodePropertyValue guid="11048809390697189589" name="Property - Movespeed" propertyName="movespeed">
+                    <CCutsceneElementPropertyValue guid="5549446923171238101" start="7452" startLinkGuid="5378309686359593173" startLinkAttachToPoint="1" value="3000"/>
+                    <CCutsceneElementPropertyValue guid="6921231384132554965" start="7753" startLinkGuid="6173224153353654485" startLinkAttachToPoint="1" startLinkDistance="301" value="3400"/>
+                    <CCutsceneElementPropertyValue guid="4621776932613230805" start="7932" startLinkGuid="5549446923171238101" startLinkAttachToPoint="1" startLinkDistance="480" value="5500"/>
+                </CCutsceneNodePropertyValue>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12069220789632824720" name="Osprey02-Att01" position="-55.757057,20.681808,42.605370" scale="3.000000,3.000000,3.000000" modelLink="OspreyMissileLaunchBack" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6899270300686546320" start="8293" duration="3707" startLinkGuid="6218631656888046059" startLinkAttachToPoint="1" startLinkDistance="2249" endLinkGuid="6218631656888046059" endLinkAttachToPoint="2"/>
+                <CCutsceneNodeAnimLayer guid="13187705461208708496" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8868261000559916432" start="8293" duration="2000" startLinkGuid="6899270300686546320" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="2000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="10140052038685488528" name="Attachment">
+                    <CCutsceneElementAttachment guid="5011876553438721424" start="8293" duration="2000" startLinkGuid="8868261000559916432" startLinkAttachToPoint="1" attachGuid="12431576580113116993" attachName="Ref_Weapon 01" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="11537511500609680784" name="Osprey02-Attack1">
+                <CCutsceneNodePathMarker guid="12981038317894301072" name="Path Marker" movespeed="2.000000" position="-61.684437,-43.890804,54.979767" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="6754500426450793872" start="3441" duration="54042" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="10925834675063813520" name="Path Marker" movespeed="2.000000" position="-178.101807,-51.170513,54.306534" rotation="0.000000,0.000000,-91.499954" curveOutType="7" curveInType="7">
+                    <CCutsceneElementObject guid="5669822434599171472" start="382" duration="57101" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="10883274933594682768" name="Osprey02-Missile1" movespeed="5500.000000" position="-62.767330,-81.162071,-6.528549" scale="1.700000,1.700000,1.700000" modelLink="OspreyAirMissile" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="4745561686001513872" start="8293" duration="6028" startLinkGuid="6899270300686546320" startLinkAttachToPoint="1"/>
+                <CCutsceneNodeAnimLayer guid="12156530508323550608" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5228058711466112400" start="8293" duration="666" startLinkGuid="4745561686001513872" startLinkAttachToPoint="1" anim="Birth" priority="7" originalDuration="666"/>
+                    <CCutsceneElementAnim guid="8793195013859374480" start="8959" duration="5362" startLinkGuid="5228058711466112400" startLinkAttachToPoint="2" endLinkGuid="4745561686001513872" endLinkAttachToPoint="2" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="11278926101131490704" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6069880676668339600" start="8293" duration="6028" startLinkGuid="4745561686001513872" startLinkAttachToPoint="1" endLinkGuid="4745561686001513872" endLinkAttachToPoint="2" pathGuid="11537511500609680784"/>
+                </CCutsceneNodeFollowPath>
+                <CCutsceneNodePropertyValue guid="11569669247899727248" name="Property - Movespeed" propertyName="movespeed">
+                    <CCutsceneElementPropertyValue guid="4656089855004177808" start="8293" startLinkGuid="4745561686001513872" startLinkAttachToPoint="1" value="3000"/>
+                    <CCutsceneElementPropertyValue guid="5863938145876374928" start="8594" startLinkGuid="6069880676668339600" startLinkAttachToPoint="1" startLinkDistance="301" value="3400"/>
+                    <CCutsceneElementPropertyValue guid="7884636785954977168" start="8773" startLinkGuid="4656089855004177808" startLinkAttachToPoint="1" startLinkDistance="480" value="5500"/>
+                </CCutsceneNodePropertyValue>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeFolder guid="12946808114626380986" locked="1" name="Shot02">
+        <CCutsceneNodeFolder guid="12844753049127275922" name="Background Skybox">
+            <CCutsceneNodeActor guid="11695528497395498144" name="SMX2_Aiur1_Debrief_Clouds (Unnamed)" position="-111.778946,55.364883,81.557594" scale="0.400000,0.400000,0.400000" rotation="-177.979813,5.117478,68.410095" modelLink="SMX2_Aiur1_Debrief_Clouds" shadowBox="0" opacity="0.700000" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8617724322849979552" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10161565620365655200" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9092861591140400288" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="130000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12582332817981411057" name="SMX2 Aiur1 Debrief Skybox" position="-35.240314,12.372833,36.446423" rotation="0.000000,0.000000,-158.999756" modelLink="SMX2_Aiur1_Debrief_Skybox" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8131320525370003185" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12971568536700779331" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6553473261314702147" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10396670302430424596" name="SMX2 Aiur1 Debrief Mountain Fog" position="-62.431541,19.276428,52.315468" rotation="0.000000,0.000000,-86.000061" modelLink="SMX2_Aiur1_Debrief_MountainFog" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6905140009641467466" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12070366445430668206" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4965431363966691509" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="130000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12845415102511567859" name="SMX2_Aiur1_Debrief_Clouds (Unnamed)" position="-106.386963,58.697784,81.557594" scale="0.400000,0.400000,0.400000" rotation="-177.979813,5.117478,68.410095" modelLink="SMX2_Aiur1_Debrief_Clouds" shadowBox="0" opacity="0.700000" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6628916478079128563" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10256455889324332019" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7120789700618736627" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="130000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="12688768833937793033" name="Background Buildings">
+            <CCutsceneNodeActor guid="11632281395764528132" name="SMX3_MP03_020_Background_Buildings_05 (Unnamed)" position="-94.193413,42.502434,43.299660" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-18.500164" modelLink="SMX3_MP03_020_Background_Buildings_05" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7401925378661087994" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9849850947454644251" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7124234400354291588" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13374169857312002350" name="SMX3_MP03_020_Background_Buildings_03 (Unnamed)" position="-73.656746,28.540665,29.684406" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-63.500084" modelLink="SMX3_MP03_020_Background_Buildings_03" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6466020780991687265" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13466032295094272881" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7747258463337101527" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11883765465989745968" name="SMX3_MP03_020_Background_Buildings_00 (Unnamed)" position="-32.499924,79.323212,22.032375" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-63.500084" modelLink="SMX3_MP03_020_Background_Buildings_00" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7858555798684539437" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9343340351008906712" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6470028442828381656" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10851294281000438099" name="SMX3_MP03_020_Background_Buildings_04 (Unnamed)" position="8.590744,85.512451,31.877670" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-10.999920" modelLink="SMX3_MP03_020_Background_Buildings_04" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8875566147534211411" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11019761714601281875" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5741216868816013651" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10541865010603855768" name="SMX3_MP03_020_Background_Buildings_02 (Unnamed)" position="-65.016090,66.571136,25.209866" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-63.500084" modelLink="SMX3_MP03_020_Background_Buildings_02" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6181181197396840344" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9345829558276135599" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5001607216548354735" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9545629722473251547" name="SMX3_MP03_020_Background_Buildings_01 (Unnamed)" position="-110.759216,30.949776,41.225861" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-63.500084" modelLink="SMX3_MP03_020_Background_Buildings_01" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7442351775897846087" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12906913014439888384" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8005251158357963253" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9774398913704120546" name="SMX3_MP03_020_Background_Buildings_04 (Unnamed)" position="-48.385742,36.484261,30.396698" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-63.500084" modelLink="SMX3_MP03_020_Background_Buildings_04" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5166680783633273058" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9438334414809008370" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6439600167276054770" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13098642930933969252" name="SMX3_MP03_020_Background_Buildings_05 (Unnamed)" position="-132.684448,30.598572,47.918583" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-101.500206" modelLink="SMX3_MP03_020_Background_Buildings_05" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6305009540685377892" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10366962031810064740" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8862604201142792548" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12639349707078853042" name="SMX3_MP03_020_Background_Buildings_05 (Unnamed)" position="-12.972496,93.699158,35.820263" scale="0.900000,0.900000,0.900000" rotation="0.000000,0.000000,-168.000122" modelLink="SMX3_MP03_020_Background_Buildings_05" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6395568823316996530" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13049064461558571442" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7379730166531973554" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="166666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="10514991933047324018" name="Buildings">
+            <CCutsceneNodeActor guid="10770327875455773064" name="Tarsonis Building Wall Concrete Straight" position="-48.273552,-58.899277,4.000000" scale="3.000000,3.000000,3.000000" rotation="-0.000000,0.000000,-20.500206" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8329301676838578568" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13539457818499180936" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7708568934223931784" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13700928237647592391" name="Tarsonis Building Wall Concrete Diagonal" position="-56.596054,-77.810249,3.676949" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-111.000092" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5237399820049877044" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12295418304621920525" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6715425402435879181" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12180750938564842226" name="Tarsonis Building Wall Concrete Diagonal" position="-44.230896,-44.196587,4.000000" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-66.499748" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="4" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6773443694799999730" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10353184402123117298" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7384246198148387570" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10823415183101471998" name="Tarsonis_Collapsing_Building_Doodad" position="18.687904,-42.120941,0.971550" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,59.999588" modelLink="Tarsonis_Collapsing_Building_Doodad" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5297627611459300606" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10561265498302444483" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6923008399896998851" duration="57483" lockedToEnd="1" anim="Dead" priority="11" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9589345411279543294" name="Tarsonis Building Wall Concrete Straight Destroyed" position="-0.134216,2.863945,-14.211147" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-49.500126" modelLink="Tarsonis_BuildingWall_Concrete_Straight_Destroyed" variation="2" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7088798160010009598" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10915006724915357861" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6612297247853144229" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10321382189578474236" name="Tarsonis Building Wall Concrete Straight" position="-78.282127,-112.155319,4.926308" scale="3.000000,3.000000,3.000000" rotation="-0.000000,0.000000,-20.500206" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7490779796966626044" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10237224358407721724" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4836082681930207996" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12778720683645961540" name="Tarsonis Building Wall Concrete Diagonal" position="28.650528,44.380959,-2.536049" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,50.499901" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8219939797492794692" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11098737310918214980" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7042314744805950788" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9735983494697583148" name="Tarsonis Building Wall Concrete Diagonal" position="12.913383,25.895828,-2.536064" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,140.500351" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8702783709545497132" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12915612053817000492" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8924036858149863980" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12899708920554090492" name="Tarsonis Building Wall Concrete Diagonal" position="46.990311,29.133812,-2.536049" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,320.500000" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8801025267818590204" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9350167223505809404" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8476870178885365756" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9996586492936579446" name="Tarsonis Building Wall Concrete Diagonal" position="31.581055,10.541290,-2.536057" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,230.499969" modelLink="Tarsonis_BuildingWall_Concrete_Diagonal" variation="6" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8307191163236116854" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13212980113843677558" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5056757620110780790" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="8333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10946015295317607300" name="Tarsonis Building Top" position="29.666573,27.056503,29.412273" scale="3.000000,3.000000,3.000000" rotation="0.000000,0.000000,-39.500069" modelLink="Tarsonis_Building_Top" variation="3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5807491434263479172" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11707787246016397328" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9124883378370773008" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13027315371955680585" name="Tarsonis Building Wall Concrete Straight" position="-28.827187,-38.552341,4.000000" scale="3.000000,3.000000,3.000000" rotation="-0.000000,0.000000,-66.500191" modelLink="Tarsonis_BuildingWall_Concrete_Straight" variation="4" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6990568391650538825" start="12000" duration="45483" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12920206349114496803" name="Installation Roof" position="-47.248699,-44.359112,25.712276" rotation="81.860374,69.929413,-130.461166" modelLink="InstallationRoof" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8195727752885854678" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9509281606010965641" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4998057531221773961" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13473141602396189186" name="Installation Roof" position="-43.655945,-39.874146,25.712276" rotation="87.208878,3.611786,-137.936554" modelLink="InstallationRoof" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8456920491328582146" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13496697745668092418" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4883215261028364802" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9850585700072587767" name="Installation Roof" position="-41.709522,-39.087143,25.712276" rotation="87.208878,3.611786,-137.936554" modelLink="InstallationRoof" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5976251704153113079" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11066605879189996023" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9190833231113388535" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="1000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="9333604583447190592" name="VFX Foreground">
+            <CCutsceneNodeLight guid="9934426021155416719" name="Omni Light" position="0.000000,0.000000,1.000000" type="1">
+                <CCutsceneElementObject guid="4728130393057833393" duration="57483" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeActor guid="13389640518508871714" enabled="0" name="LotC - TR-17 Impact" position="-32.133797,-55.777561,10.891130" scale="2.000000,2.000000,2.000000" modelLink="TR17Impact" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8605116378076606878" start="21467" duration="32575"/>
+                <CCutsceneNodeAnimLayer guid="12768515381130373292" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4855667363844139180" start="21467" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="9423412649550239284" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8265256653551392308" start="24467" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10092556775372028185" enabled="0" name="LotC - TR-17 Impact" position="-38.804054,-65.273712,11.933872" scale="2.000000,2.000000,2.000000" modelLink="TR17Impact" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6837881634214312217" start="21467" duration="32575"/>
+                <CCutsceneNodeAnimLayer guid="12566517526244292889" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9215739661455128857" start="22594" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="10466074885510854937" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="4848162833759926553" start="25594" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12233373843250763236" enabled="0" name="LotC - TR-17 Impact" position="-36.018509,-59.203423,12.867548" scale="2.000000,2.000000,2.000000" modelLink="TR17Impact" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6036388238791562724" start="21467" duration="32575"/>
+                <CCutsceneNodeAnimLayer guid="13176945417646265828" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7993610745453762020" start="24637" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="11152537545026590180" enabled="0" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7933820973877581284" start="27637" duration="4000" anim="Stand" priority="3" originalDuration="4000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11498701165863832184" name="Char Ash Weather" position="-35.030334,-50.628609,4.593567" scale="1.500000,1.500000,1.500000" modelLink="CharAshWeather" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5290256257946421880" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11485522142151651710" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6891565263390847358" duration="57483" lockedToEnd="1" anim="Stand" priority="5" originalDuration="5333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11752005496576403646" name="SMX3_Cutscene_MP03_020_LensFlareSun (Unnamed)" position="-59.073700,-44.398811,38.211613" modelLink="SMX3_Cutscene_MP03_020_LensFlareSun" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8691823929328658622" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13371204367216348106" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9216178745081400266" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="13095062555316155838" name="VFX Background">
+            <CCutsceneNodeActor guid="12346487766372347623" name="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Med (Unnamed)" position="-56.401703,53.740440,59.512054" rotation="4.898156,-14.723739,-71.366776" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Med" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6389706342610005735" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12166119994580941262" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5683605329355880910" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13591305372948589898" name="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg (Unnamed)" position="-31.326843,69.072250,49.266659" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5481505119133855050" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10468073433027721489" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7578501652916289588" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9979974128800876541" name="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Far (Unnamed)" position="-71.447128,33.834938,51.402298" rotation="1.516407,24.928350,-95.965088" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9131583251637585917" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12576719889818865652" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5412139240890716148" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9318441863597290407" name="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg (Unnamed)" position="3.941238,81.364975,52.515308" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4722043064000476071" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9642548161702032295" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5253565002255201191" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12958472430480625244" name="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg (Unnamed)" position="-100.107758,44.538368,71.170105" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Smoke_Area_Lg" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7131796067309162076" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10282359496109821532" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7772450942711860828" duration="57483" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="9443466441770604331" name="TR-17s">
+            <CCutsceneNodePath guid="13544907902946752847" name="TR01Path">
+                <CCutsceneNodePathMarker guid="13102618095919911805" name="Path Marker" position="-40.423676,-18.676598,27.745316">
+                    <CCutsceneElementObject guid="8272835004001244029" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11145801468596352699" name="Path Marker" position="-34.265213,-34.560402,28.088364">
+                    <CCutsceneElementObject guid="6846597797244204731" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="9888251649375362875" name="TR01" position="-35.780350,-32.063736,27.886560" scale="3.500000,3.500000,3.500000" rotation="0.000000,0.000000,-73.500008" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="8001070172296208187" start="12000" duration="42042"/>
+                <CCutsceneNodeAnimLayer guid="10530351951842896244" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7672655200425863540" start="13364" duration="4845" anim="Walk" priority="5" originalDuration="5566" movespeed="350.000000" looping="1"/>
+                    <CCutsceneElementAnim guid="7652897484749221434" start="18209" duration="35833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="2" endLinkGuid="8001070172296208187" endLinkAttachToPoint="2" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="9856303990570660576" name="Fire Layer">
+                    <CCutsceneElementAnim guid="9145170518611768032" start="21467" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="8103" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="6440235613649793324" start="24676" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="11312" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="6712512880033742466" start="27467" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="14103" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="7301208742292874193" start="30467" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="17103" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8649675956808320617" start="33467" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="20103" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8265187495427365276" start="37300" duration="833" startLinkGuid="7672655200425863540" startLinkAttachToPoint="1" startLinkDistance="23936" anim="Attack" priority="12" originalDuration="833"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="13067297380926600149" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6678796731438562450" start="3721" duration="50321" endLinkGuid="8001070172296208187" endLinkAttachToPoint="2" pathGuid="13544907902946752847"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9711267832714343100" name="TR01SmokeLaunchL" position="-29.316635,-16.491520,6.996101" scale="3.500000,3.500000,3.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5561898042558100156" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10142196974686173563" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6254020764135005598" start="21467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5394882458538569490" start="24467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="9017006905487240548" start="27467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11765676827003810798" name="Attachment">
+                    <CCutsceneElementAttachment guid="4958406463194676964" start="21467" duration="36016" lockedToEnd="1" attachGuid="9888251649375362875" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10130169435348601597" name="TR01SmokeLaunchR" position="-29.316635,-16.491520,6.996101" scale="3.500000,3.500000,3.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6430570231042214653" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13032165961220295421" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8468064886192671485" start="21467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7668345772428561149" start="24467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="8653771611784949016" start="27467" duration="3000" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="13304274017985301245" name="Attachment">
+                    <CCutsceneElementAttachment guid="7181533567551867645" start="21467" duration="36016" lockedToEnd="1" attachGuid="9888251649375362875" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10975217080355782391" name="TR01LaunchL" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7909439021579216303" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10690190569357608144" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7618350150176113872" start="21467" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="7463685229636125904" start="24467" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="5036124367672214736" start="27467" duration="2666" anim="Death" priority="11" originalDuration="2667"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="9667056057243567312" name="Attachment">
+                    <CCutsceneElementAttachment guid="8555185137087317200" start="21467" duration="36016" lockedToEnd="1" attachGuid="9888251649375362875" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12736205428430492206" name="TR01LaunchR" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7158486870341472814" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13528787034273645776" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7831012784367895760" start="21467" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="8838020166731859152" start="24467" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="4812068147316819152" start="27467" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="12458460263324746960" name="Attachment">
+                    <CCutsceneElementAttachment guid="8771383371177297104" start="21467" duration="36016" lockedToEnd="1" attachGuid="9888251649375362875" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="10617128591566553695" name="TR02Path">
+                <CCutsceneNodePathMarker guid="10201016921386107487" name="Path Marker" position="-58.477951,-27.012154,27.745316">
+                    <CCutsceneElementObject guid="8301529233427513951" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="13755112675337552479" name="Path Marker" position="-47.061203,-39.952095,28.088364">
+                    <CCutsceneElementObject guid="8992490364983558751" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="10853860815190606431" name="TR02" position="-35.780350,-32.063736,27.886560" scale="3.500000,3.500000,3.500000" rotation="0.000000,0.000000,-73.500008" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="8150899821209174623" start="12000" duration="42042"/>
+                <CCutsceneNodeAnimLayer guid="10134372815797207647" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8389913862173344351" start="14197" duration="4845" anim="Walk" priority="5" originalDuration="5566" movespeed="350.000000" looping="1"/>
+                    <CCutsceneElementAnim guid="7580818585693962847" start="19042" duration="35000" startLinkGuid="8389913862173344351" startLinkAttachToPoint="2" endLinkGuid="8150899821209174623" endLinkAttachToPoint="2" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="9254720349155082847" name="Fire Layer">
+                    <CCutsceneElementAnim guid="5123752187464761951" start="22300" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="3258" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="6183648054809707103" start="25218" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="6176" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="5231167911151046731" start="28009" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="5336698368606240323" start="31009" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="5628882111484584175" start="34009" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="5345848846405736971" start="37009" duration="833" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Attack" priority="12" originalDuration="833"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="11634152709543150175" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6891889179827356255" start="3721" duration="50321" endLinkGuid="8150899821209174623" endLinkAttachToPoint="2" pathGuid="10617128591566553695"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11184545284345854619" name="TR02SmokeLaunchL" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6846194987545426587" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12930717642158013083" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8040117319406746267" start="22009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="4688752925293705883" start="25009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7510366963459468248" start="28009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6322589163797186275" start="31009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6811869024287079132" start="34009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7608302566971824640" start="37009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11186355866464189083" name="Attachment">
+                    <CCutsceneElementAttachment guid="7874638349820263067" start="21467" duration="36016" lockedToEnd="1" attachGuid="10853860815190606431" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11664308790759815835" name="TR02SmokeLaunchR" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6823096073606953627" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10007513860563827355" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5498876833555577499" start="22009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="8941872349179050651" start="25009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5642456545075964888" start="28009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6896367318182233827" start="31009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5295314925313211100" start="34009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6329060353293179392" start="37009" duration="3000" startLinkGuid="7580818585693962847" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="9488977377971436187" name="Attachment">
+                    <CCutsceneElementAttachment guid="8331193223061207707" start="21467" duration="36016" lockedToEnd="1" attachGuid="10853860815190606431" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11707738073922338989" name="TR02LaunchL" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5187116804432076466" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10434355805395492530" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6684393496748629682" start="22009" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="8691769066670661298" start="25009" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="5137180065790041778" start="28009" duration="2666" anim="Death" priority="11" originalDuration="2667"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="9245804377382461106" name="Attachment">
+                    <CCutsceneElementAttachment guid="4638211325349207730" start="21467" duration="36016" lockedToEnd="1" attachGuid="10853860815190606431" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12711226129166507698" name="TR02LaunchR" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6211108836831534770" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11038338098246327986" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6692710103916879538" start="22009" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="8016684655386435250" start="25009" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                    <CCutsceneElementAnim guid="6165460678869130930" start="28009" duration="2667" anim="Death" priority="11" originalDuration="2667"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11371724845720149682" name="Attachment">
+                    <CCutsceneElementAttachment guid="8689104443190419122" start="21467" duration="36016" lockedToEnd="1" attachGuid="10853860815190606431" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="11715377421621532688" name="TR03Path">
+                <CCutsceneNodePathMarker guid="13153873711216072720" name="Path Marker" position="-68.600380,-42.317822,27.745346">
+                    <CCutsceneElementObject guid="8198053829038708752" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11814082508887300112" name="Path Marker" position="-53.505680,-49.950367,28.088394">
+                    <CCutsceneElementObject guid="7249762308923201552" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="10455529051163596816" name="TR03" position="-35.780350,-32.063736,27.886560" scale="3.500000,3.500000,3.500000" rotation="0.000000,0.000000,-73.500008" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="7195822201199794192" start="12000" duration="42042"/>
+                <CCutsceneNodeAnimLayer guid="9373332382177957904" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6838631696999520272" start="15223" duration="4845" anim="Walk" priority="5" originalDuration="5566" movespeed="350.000000" looping="1"/>
+                    <CCutsceneElementAnim guid="6608460010150303760" start="20068" duration="33974" startLinkGuid="6838631696999520272" startLinkAttachToPoint="2" endLinkGuid="7195822201199794192" endLinkAttachToPoint="2" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="13417375834635900944" name="Fire Layer">
+                    <CCutsceneElementAnim guid="7572486224559085584" start="23326" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="3258" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8264432024612378640" start="26244" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="6176" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="7877261300066293776" start="29035" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8135201518147213328" start="32035" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8009626226419439632" start="35035" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8974256983244937232" start="38035" duration="833" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Attack" priority="12" originalDuration="833"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="11484387556387330064" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="8736861775584172048" start="3721" duration="50321" endLinkGuid="7195822201199794192" endLinkAttachToPoint="2" pathGuid="11715377421621532688"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9633242980930426896" name="TR03SmokeLaunchL" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8813190418245228560" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11065517941677234192" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6941382140946946064" start="23035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="8550037475666565136" start="26035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5605149795764279312" start="29035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5856332024538863632" start="32035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6674640366645418000" start="35035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7034698607624329232" start="38035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11313874116330788880" name="Attachment">
+                    <CCutsceneElementAttachment guid="6033260719806486544" start="21467" duration="36016" lockedToEnd="1" attachGuid="10455529051163596816" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13432885335203911696" name="TR03SmokeLaunchR" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9211375066730862608" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11376529803619473424" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8968969921453234192" start="23035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5798721265965602832" start="26035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="8475104778981087248" start="29035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5957714422618265616" start="32035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7328767317505087504" start="35035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5744811867258361872" start="38035" duration="3000" startLinkGuid="6608460010150303760" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="12125954708613502992" name="Attachment">
+                    <CCutsceneElementAttachment guid="8963687828938692624" start="21467" duration="36016" lockedToEnd="1" attachGuid="10455529051163596816" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11044054077473994562" name="TR02LaunchL" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9120020582699284290" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11449934723238508354" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9205132652523992898" start="23035" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="5830785656481822530" start="26035" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="8630368846094186306" start="29035" duration="2666" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="13373285236608776002" name="Attachment">
+                    <CCutsceneElementAttachment guid="5040541717314058050" start="21467" duration="36016" lockedToEnd="1" attachGuid="10455529051163596816" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11014229644181944130" name="TR02LaunchR" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5967290068019885890" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12082922708355692354" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8139293680017782594" start="23035" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="5737770198292412226" start="26035" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="4819733119299663682" start="29035" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="12236108334784755522" name="Attachment">
+                    <CCutsceneElementAttachment guid="6514862457973552962" start="21467" duration="36016" lockedToEnd="1" attachGuid="10455529051163596816" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="12276843066159163226" name="TR04Path">
+                <CCutsceneNodePathMarker guid="9531155939380586330" name="Path Marker" position="-74.645363,-55.265724,27.745346">
+                    <CCutsceneElementObject guid="4860740168780506970" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="13237932214427215706" name="Path Marker" position="-58.283504,-61.263374,28.088394">
+                    <CCutsceneElementObject guid="7364754729968232282" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+            <CCutsceneNodeActor guid="10968680621473425242" name="TR04" position="-35.780350,-32.063736,27.886560" scale="3.500000,3.500000,3.500000" rotation="0.000000,0.000000,-73.500008" modelLink="TR17" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="8550218978438571866" start="12000" duration="42042"/>
+                <CCutsceneNodeAnimLayer guid="9823603990596839258" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6644332012547237722" start="15877" duration="4845" anim="Walk" priority="5" originalDuration="5566" movespeed="350.000000" looping="1"/>
+                    <CCutsceneElementAnim guid="7786366861685450586" start="20722" duration="33320" startLinkGuid="6644332012547237722" startLinkAttachToPoint="2" endLinkGuid="8550218978438571866" endLinkAttachToPoint="2" anim="Attack Ready Start" priority="9" originalDuration="3000"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAnimLayer guid="12708110413206808410" name="Fire Layer">
+                    <CCutsceneElementAnim guid="7755443500881176410" start="23980" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="3258" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="7185619924749018970" start="26898" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="6176" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="6457224639925086042" start="29689" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="6600081613036611418" start="32689" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="5302380145315833690" start="35689" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Attack" priority="12" originalDuration="833"/>
+                    <CCutsceneElementAnim guid="8456514551660308314" start="38689" duration="833" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Attack" priority="12" originalDuration="833"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="13401434322236499802" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="6570892718940251994" start="3721" duration="50321" endLinkGuid="8550218978438571866" endLinkAttachToPoint="2" pathGuid="12276843066159163226"/>
+                </CCutsceneNodeFollowPath>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13595570864105088858" name="TR04SmokeLaunchL" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7482705720306198362" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13652562271214397274" name="Animation Layer">
+                    <CCutsceneElementAnim guid="8659563275222148954" start="23689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="8167520641992517466" start="26689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="7051565040434046810" start="29689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5502827982712104794" start="32689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6966919279503632218" start="35689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6921145966194222938" start="38689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11974706638169991002" name="Attachment">
+                    <CCutsceneElementAttachment guid="5871347803185375066" start="21467" duration="36016" lockedToEnd="1" attachGuid="10968680621473425242" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10305022047262238554" name="TR04SmokeLaunchR" position="-29.316635,-16.491520,6.996101" scale="1.500000,1.500000,1.500000" modelLink="TR17Launch" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5120631521784522586" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12634420546912806746" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7413278162376877914" start="23689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="2967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5346986348507195226" start="26689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="5967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6766998559148631898" start="29689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="8967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="5517371695459100506" start="32689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="11967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6733698569601181530" start="35689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="14967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                    <CCutsceneElementAnim guid="6359708455441426266" start="38689" duration="3000" startLinkGuid="7786366861685450586" startLinkAttachToPoint="1" startLinkDistance="17967" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="12015845527148193626" name="Attachment">
+                    <CCutsceneElementAttachment guid="7919604027176937306" start="21467" duration="36016" lockedToEnd="1" attachGuid="10968680621473425242" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="0.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10108308432379073710" name="TR04LaunchL" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.321569,0.329412,0.580392,1.000000" teamColorEmissive="0.078431,0.211765,0.317647,1.000000">
+                <CCutsceneElementObject guid="6413742397167654062" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13525079710916826286" name="Animation Layer">
+                    <CCutsceneElementAnim guid="9069588630704116910" start="23689" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="6581674772332696750" start="26689" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="5270589275984516270" start="29689" duration="2666" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="10974094567041291438" name="Attachment">
+                    <CCutsceneElementAttachment guid="6794431466308261038" start="21467" duration="36016" lockedToEnd="1" attachGuid="10968680621473425242" attachName="Ref_Weapon Left" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11050828607370450094" name="TR04LaunchR" position="-75.583527,-9.266716,3.628429" scale="1.500000,1.500000,1.500000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Far" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8212272811499738286" start="12000" duration="45483" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9711783634134521006" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7542530364574160046" start="23689" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="4658197815125234862" start="26689" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                    <CCutsceneElementAnim guid="6780665967275562158" start="29689" duration="2667" anim="Death" priority="11" originalDuration="2667" blendTime="0" blendOutTime="0"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeAttachment guid="11019974425604412590" name="Attachment">
+                    <CCutsceneElementAttachment guid="7145434309909435566" start="21467" duration="36016" lockedToEnd="1" attachGuid="10968680621473425242" attachName="Ref_Weapon Right" offsetX="0.000000" offsetY="0.000000" offsetZ="0.000000" rotationX="85.000000" rotationY="0.000000" rotationZ="0.000000"/>
+                </CCutsceneNodeAttachment>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="11100437357721975482" name="Condors">
+            <CCutsceneNodeActor guid="10047806275613891309" name="Condor01" movespeed="1000.000000" position="-37.829170,-4.199268,34.225014" scale="3.500000,3.500000,3.500000" rotation="0.000000,0.000000,-156.500031" modelLink="Condor" shadowBox="0" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+                <CCutsceneElementObject guid="5875019151233784557" start="12000" duration="30780"/>
+                <CCutsceneNodeAnimLayer guid="10618904007309343861" name="Animation Layer">
+                    <CCutsceneElementAnim guid="6874917819347985188" start="12000" duration="5910" startLinkGuid="5875019151233784557" startLinkAttachToPoint="1" anim="Fly Start" priority="6" originalDuration="8333" movespeed="600.000000" looping="1"/>
+                    <CCutsceneElementAnim guid="6485282798549020779" start="17910" duration="24870" startLinkGuid="6874917819347985188" startLinkAttachToPoint="2" endLinkGuid="5875019151233784557" endLinkAttachToPoint="2" anim="Walk" priority="5" originalDuration="4000" movespeed="1500.000000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodeFollowPath guid="11218249258878272325" name="Follow Path">
+                    <CCutsceneElementFollowPath guid="8320569127786423946" start="12000" duration="30780" startLinkGuid="5875019151233784557" startLinkAttachToPoint="1" endLinkGuid="5875019151233784557" endLinkAttachToPoint="2" pathGuid="13106630194162928503" alwaysPointUp="1"/>
+                </CCutsceneNodeFollowPath>
+                <CCutsceneNodePropertyValue guid="9411603867844715771" name="Property - Movespeed" propertyName="movespeed"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodePath guid="13106630194162928503" name="Condor01">
+                <CCutsceneNodePathMarker guid="12037423070074868268" name="Path Marker" position="-15.666843,-21.643528,23.765921">
+                    <CCutsceneElementObject guid="8473903698314498604" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12689874075326744398" name="Path Marker" position="-26.094193,-23.902607,23.765921">
+                    <CCutsceneElementObject guid="5501503138689582926" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12959410096081501202" name="Path Marker" position="-33.430412,-25.809273,34.269905">
+                    <CCutsceneElementObject guid="5992709437063624741" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="11824377843271466333" name="Path Marker" position="-68.548203,-24.298096,45.698421">
+                    <CCutsceneElementObject guid="5862398143281364317" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+                <CCutsceneNodePathMarker guid="12058008397080544662" name="Path Marker" position="-105.524498,-22.173946,56.522884">
+                    <CCutsceneElementObject guid="7309231807158404502" duration="57483" lockedToEnd="1"/>
+                </CCutsceneNodePathMarker>
+            </CCutsceneNodePath>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeLight guid="12664660457655297532" enabled="0" name="Spot Light" position="-30.643784,-60.728779,-5.930144" rotation="153.425171,27.205381,-90.000000" type="2" colorR="0.898039" colorG="0.160784" colorB="0.086275" colorMultiplier="2.000000" specularColorMultiplier="2.000000" attenuationStart="41.397652" range="41.397652">
+            <CCutsceneElementObject guid="5270482457789654524" duration="57483" lockedToEnd="1"/>
+        </CCutsceneNodeLight>
+        <CCutsceneNodeFolder guid="13052427873508151106" name="ExplosionVFX">
+            <CCutsceneNodeActor guid="12939247997697422605" name="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close (Unnamed)" position="-24.606258,-51.325451,19.450308" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5443884253419959565" start="21675" duration="23331"/>
+                <CCutsceneNodeAnimLayer guid="12668743316898380407" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5118562290841746039" start="21675" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7086168933273538649" start="25008" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="3333" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5151030020541141275" start="28341" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="6666" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="6830379795326307329" start="31674" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="9999" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5257687343548093491" start="35007" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="13332" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5389372666127483615" start="38340" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="16665" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7564795057978408853" start="41673" duration="3333" startLinkGuid="5443884253419959565" startLinkAttachToPoint="1" startLinkDistance="19998" anim="Death" priority="11" originalDuration="3333"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11449626914547988074" name="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close (Unnamed)" position="-33.227062,-56.263187,14.900126" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8142817287097972330" start="22657" duration="23331"/>
+                <CCutsceneNodeAnimLayer guid="10393357979580790378" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5101348535876613738" start="22657" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7418242211028766809" start="25990" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="3333" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="9078724410973245723" start="29323" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="6666" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5216769902298139649" start="32656" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="9999" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="9126964526577636403" start="35989" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="13332" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5995234419487179487" start="39322" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="16665" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="4755488281451233173" start="42655" duration="3333" startLinkGuid="8142817287097972330" startLinkAttachToPoint="1" startLinkDistance="19998" anim="Death" priority="11" originalDuration="3333"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11587230909238729223" name="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close (Unnamed)" position="-37.763382,-60.896667,20.245344" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7832130002934684167" start="23710" duration="23331"/>
+                <CCutsceneNodeAnimLayer guid="12317945038315837959" name="Animation Layer">
+                    <CCutsceneElementAnim guid="7123172760839903751" start="23710" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="9049728458022555737" start="27043" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="3333" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5673912580540354843" start="30376" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="6666" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5515531834612386817" start="33709" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="9999" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7294627806183445555" start="37042" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="13332" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="8980991796997423839" start="40375" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="16665" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5613653683841466261" start="43708" duration="3333" startLinkGuid="7832130002934684167" startLinkAttachToPoint="1" startLinkDistance="19998" anim="Death" priority="11" originalDuration="3333"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11658860618728242281" name="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close (Unnamed)" position="-38.494919,-68.290398,22.500572" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5768518516514126953" start="24442" duration="23331"/>
+                <CCutsceneNodeAnimLayer guid="12500365645408795753" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5527056803752737897" start="24442" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7625158909122941017" start="27775" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="3333" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7919977977230283035" start="31108" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="6666" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5102767043467152385" start="34441" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="9999" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7164286161614033971" start="37774" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="13332" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="6862583552877953759" start="41107" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="16665" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="7247091658463838101" start="44440" duration="3333" startLinkGuid="5768518516514126953" startLinkAttachToPoint="1" startLinkDistance="19998" anim="Death" priority="11" originalDuration="3333"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12747858179039301747" name="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close (Unnamed)" position="-32.484791,-63.119465,25.465042" scale="3.000000,3.000000,3.000000" modelLink="SMX3_Cutscene_MP03_020_Fx_Generic_Explosion_Close" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7197423443647795315" start="25335" duration="23331"/>
+                <CCutsceneNodeAnimLayer guid="12860112419245133939" name="Animation Layer">
+                    <CCutsceneElementAnim guid="5375061612999872627" start="25335" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="8878067859087036531" start="28668" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="3333" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="6026619365962682483" start="32001" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="6666" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="5022788013129863283" start="35334" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="9999" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="6174376806564630643" start="38667" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="13332" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="8896956180362039411" start="42000" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="16665" anim="Death" priority="11" originalDuration="3333"/>
+                    <CCutsceneElementAnim guid="8506811229618180211" start="45333" duration="3333" startLinkGuid="7197423443647795315" startLinkAttachToPoint="1" startLinkDistance="19998" anim="Death" priority="11" originalDuration="3333"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+    </CCutsceneNodeFolder>
+</CutsceneState>

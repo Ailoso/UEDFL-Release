@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>   
+    <Constant name="SectionOffset" val="50"/>
+    <Constant name="LineOffset" val="40"/>
+    <Constant name="ScrollDuration" val="215"/>
+    <Constant name="ScrollTestDuration" val="60"/>
+    <Constant name="ScrollHeight" val="-7900"/>
+
+    <Frame type="Button" name="BackButtonTemplate">
+        <Anchor side="Bottom" relative="$parent" pos="Max" offset="-25"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="-170"/>
+
+        <Width val="340"/>
+        <Height val="76"/>
+        <Visible val="False"/>
+        <NormalImage val="NormalImage"/>
+        <HoverImage val="HoverImage"/>
+        <HitTestFrame val="HitTestFrame"/>
+
+        <Style val="KLC_StandardButton_Terran"/>
+
+        <Frame type="Image" name="NormalImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButton_Normal"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Image" name="HoverImage">
+            <Anchor relative="$parent"/>
+
+            <Texture val="@UI/Glues/StandardButton_Over"/>
+            <TextureType val="NineSlice"/>
+        </Frame>
+
+        <Frame type="Frame" name="HitTestFrame">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="8"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-8"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="8"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-8"/>
+        </Frame>
+
+        <StateGroup name="Toggled">
+            <State name="Toggled">
+                <When type="Property" frame="$this" operator="Equal" Toggled="True"/>
+                <Action type="SetProperty" frame="$this/NormalImage" Texture="@UI/Glues/StandardButton_Over"/>
+            </State>
+
+            <State name="Normal">
+                <When type="Property" frame="$this" operator="Equal" Toggled="False"/>
+            </State>
+        </StateGroup>
+
+        <Frame type="Image" name="Callout">
+            <Anchor side="Left" relative="$parent" pos="Max" offset="-430"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="-178"/>
+
+            <Unclipped val="True"/>
+            <Texture val="Assets\Textures\ReadyRoom_Callout_Cancel.DDS"/>
+            <Width val="927"/>
+            <Height val="269"/>
+        </Frame>
+
+        <Animation name="Birth">
+            <Event event="OnShown" action="DirectionForward,Play" frame="$this"/>
+            <Event event="Death" action="DirectionReverse,Play" frame="$this"/>
+
+            <Controller type="Anchor" end="Pause" frame="$this" side="Right" relative="True">
+                <Key type="Curve" time="0.0" value="400" out="Fast" in="Slow"/>
+                <Key type="Curve" time="0.2" value="100" in="Slow" out="Smooth"/>
+                <Key type="Curve" time="0.25" value="0" in="Smooth" out="Fast"/>
+            </Controller>
+
+            <Controller type="Visibility" end="Pause" frame="$this">
+                <Key type="Bool" time="0.0" value="False"/>
+                <Key type="Bool" time="0.01" value="True"/>
+                <Key type="Bool" time="0.25" value="True"/>
+            </Controller>
+        </Animation>
+    </Frame>
+
+    <!-- LotV Credits Styles -->
+    
+    <Frame type="Frame" name="CreditsEntryDefaultTemplate_LotV">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TextLabel0" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="CreditsLabel_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+    
+    <Frame type="Frame" name="CreditsEntrySmallHeadingTemplate_LotV">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TextLabel0" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="CreditsSmallHeading_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+    
+    <Frame type="Frame" name="CreditsEntryLargeHeadingTemplate_LotV">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TextLabel0" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="CreditsLargeHeading_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+    
+    <Frame type="Frame" name="CreditsEntrySmallLabelTemplate_LotV">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TextLabel0" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="CreditsSmallLabel_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+    
+    <Frame type="Frame" name="CreditsEntryMovieColumnTemplate_LotV">
+        <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="-30"/>
+            <Style val="CreditsMovieLeftColumn_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+
+        <Frame type="Label" name="TextLabel1">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="30"/>
+            <Style val="CreditsMovieRightColumn_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+    
+    <Frame type="Frame" name="CreditsEntryVeryLargeHeadingTemplate_LotV">
+        <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TextLabel0" pos="Max" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+        <Frame type="Label" name="TextLabel0">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Style val="CreditsVeryLargeHeading_LotV"/>
+            <SubpixelRendering val="true"/>
+        </Frame>
+    </Frame>
+
+	<!--Frame name="Section" type="Frame">
+		<Anchor offset="0" pos="Min" relative="$parent" side="Top"/>
+		<Anchor offset="0" pos="Max" relative="Body" side="Bottom"/>
+		<Anchor offset="0" pos="Min" relative="$parent" side="Left"/>
+		<Anchor offset="0" pos="Max" relative="$parent" side="Right"/>
+		<Frame name="Header" template="Antioch_Credits/Header" type="Label"/>
+		<Frame name="Body" type="Frame">
+			<Anchor offset="20" pos="Max" relative="$parent/Header" side="Top"/>
+			<Anchor offset="10" pos="Min" relative="$this" side="Bottom"/>
+			<Anchor offset="-400" pos="Mid" relative="$parent" side="Left"/>
+			<Anchor offset="400" pos="Mid" relative="$parent" side="Right"/>
+		</Frame>
+	</Frame-->
+    
+    <!-- Credits Container Template -->
+
+    <Frame type="Frame" name="CreditsPanelTemplate">
+        <Anchor relative="$parent"/>
+        <Visible val="False"/>
+
+        <Frame type="Image" name="BlackoutFrame">
+            <Anchor relative="$parent"/>
+
+            <Color val="000000"/>
+            <AcceptsMouse val="True"/>
+        </Frame>
+
+        <Frame type="Image" name="BackgroundImage">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+            <TextureType val="Normal"/>
+            <ScaleWidthToTexture val="true"/>
+            <Visible val="True"/>
+            <Alpha val="0"/>
+
+            <Texture val="Assets\Textures\loading_generic_nobg.dds"/>
+
+            <Animation name="Fade">
+                <Event event="FadeIn" action="DirectionForward,Play" frame="$parent"/>
+                <Event event="FadeOut" action="DirectionReverse,Play" frame="$parent"/>
+
+                <Controller type="Fade" end="Pause" frame="$this">
+                    <Key type="Curve" time="0.0" value="0"/>
+                    <Key type="Curve" time="0.5" value="255"/>
+                </Controller>
+            </Animation>
+        </Frame>
+        
+        <Frame type="Image" name="BackgroundOverlay">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <TextureType val="None"/>
+            <Color val="0,0,0"/>
+            <Alpha val="77"/>
+        </Frame>
+
+        <Animation name="Scroll">
+            <Event event="OnShown" action="Reset,Play" frame="$this"/>
+            <Event event="Scroll" action="Reset,Play" frame="$this"/>
+
+			<Controller type="Anchor" frame="ContainerFrame" side="Top" end="Stop">
+				<Key type="Curve" out="Slow" time="0" value="-100"/>
+				<Key type="Curve" in="Slow" time="#ScrollDuration" value="#ScrollHeight"/>
+			</Controller>
+
+			<Controller type="Event" end="Stop" frame="$this">
+				<Key  type="Event" time="#ScrollDuration" event="Hide"/>
+			</Controller>
+		</Animation>
+
+        <Frame type="Frame" name="ContainerFrame">
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Bottom" relative="$LastFrame" pos="Max" offset="0"/>
+
+            <!-- Department Title -->
+            <Frame type="Frame" name="Cast" template="UED_CreditsTemplates/CreditsEntryLargeHeadingTemplate_LotV">
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/Header"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle1" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/Cast" pos="Max" offset="30"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA1"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA1"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle2" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA2"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle2" pos="Max" offset="0"/>
+
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA2"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle3" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName2" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA3"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle3" pos="Max" offset="0"/>
+
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA3"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle4" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName3" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA4"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName4" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle4" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA4"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle5" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName4" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA5"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName5" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle5" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA5"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle6" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName5" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA6"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName6" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle6" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA6"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle7" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName6" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA7"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName7" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle7" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA7"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle8" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName7" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA8"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName8" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle8" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA8"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle9" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName8" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA9"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName9" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle9" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA9"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle10" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName9" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA10"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName10" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle10" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA10"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle11" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName10" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA11"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName11" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle11" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA11"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle12" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName11" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA12"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName12" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle12" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA12"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle13" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName12" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA13"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName13" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle13" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA13"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle14" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName13" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA14"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName14" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle14" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA14"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle15" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName14" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA15"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName15" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle15" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA15"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle16" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName15" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA16"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName16" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle16" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA16"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle17" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName16" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA17"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName17" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle17" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA17"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle18" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName17" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA18"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName18" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle18" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA18"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle19" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName18" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA19"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName19" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle19" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA19"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle20" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName19" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA20"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName20" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle20" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA20"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle21" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName20" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA21"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName21" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle21" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA21"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle22" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName21" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA22"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName22" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle22" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA22"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle23" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName22" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA23"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName23" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle23" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA23"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle24" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName23" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA24"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName24" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle24" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA24"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle25" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName24" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA25"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName25" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle25" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA25"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle26" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName25" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA26"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName26" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle26" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA26"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle27" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName26" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA27"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName27" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle27" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA27"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle28" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName27" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA28"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName28" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle28" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA28"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle29" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName28" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA29"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName29" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle29" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA29"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle30" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName29" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA30"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName30" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle30" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA30"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle31" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName30" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA31"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName31" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle31" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA31"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle32" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName31" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA32"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName32" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle32" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA32"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle33" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName32" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA33"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName33" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle33" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA33"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle34" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName33" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA34"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName34" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle34" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA34"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastTitle35" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName34" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/VA35"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="CastName35" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastTitle35" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/VA35"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="CastAdditionals" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastName35" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberTitle/Aditional"/>
+                </Frame>
+            </Frame>
+            <!-- Member Names -->
+            <Frame type="Frame" name="CastAdditionalName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionals" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition1"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition2"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition3"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName4" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition4"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName5" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName4" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition5"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName6" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName5" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition6"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName7" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName6" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition7"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName8" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName7" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition8"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName9" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName8" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition9"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName10" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName9" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition10"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName11" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName10" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition11"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName12" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName11" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition12"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName13" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName12" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition13"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName14" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName13" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition14"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName15" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName14" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition15"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName16" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName15" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition16"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName17" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName16" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition17"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName18" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName17" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition18"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName19" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName18" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition19"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName20" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName19" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition20"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName21" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName20" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition21"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName22" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName21" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition22"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName23" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName22" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition23"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName24" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName23" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition24"/>
+                </Frame>
+            </Frame>
+            <Frame type="Frame" name="CastAdditionalName25" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName24" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Cast/MemberName/Addition25"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="ProjectDirector" template="UED_CreditsTemplates/CreditsEntryVeryLargeHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/CastAdditionalName25" pos="Max" offset="#SectionOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Director/Title"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="DirectorRole" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/ProjectDirector" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Director/Name"/>
+                </Frame>
+            </Frame>
+
+            <!-- Department Title -->
+            <Frame type="Frame" name="MusicTeam" template="UED_CreditsTemplates/CreditsEntryLargeHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/DirectorRole" pos="Max" offset="#SectionOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/Header"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="MusicTitle1" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicTeam" pos="Max" offset="30"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberTitle/Score"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicTitle1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Score"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="MusicTitle2" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberTitle/Additional"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicTitle2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Additional1"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Additional2"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName4" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Additional3"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName5" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName4" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Additional4"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="MusicName6" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName5" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Music/MemberName/Additional5"/>
+                </Frame>
+            </Frame>
+
+            <!-- Department Title -->
+            <Frame type="Frame" name="VFXTeam" template="UED_CreditsTemplates/CreditsEntryLargeHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/MusicName6" pos="Max" offset="#SectionOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/Header"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="VFXTitle1" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXTeam" pos="Max" offset="30"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberTitle/Tech"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXTitle1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Tech"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="VFXTitle2" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberTitle/Lead"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXTitle2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Lead"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="VFXTitle3" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName2" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberTitle/Artist"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXTitle3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist1"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName4" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist2"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName5" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName4" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist3"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName6" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName5" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist4"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName7" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName6" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist5"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName8" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName7" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Artist6"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="VFXTitle9" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName8" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberTitle/Animation"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="VFXName9" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXTitle9" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/VFX/MemberName/Animation"/>
+                </Frame>
+            </Frame>
+
+            <!-- Department Title -->
+            <Frame type="Frame" name="EngineerTeam" template="UED_CreditsTemplates/CreditsEntryLargeHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/VFXName9" pos="Max" offset="#SectionOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/Header"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="EngiTitle1" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngineerTeam" pos="Max" offset="30"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberTitle/Lead"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="EngiName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiTitle1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberName/Lead"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="EngiTitle2" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiName1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberTitle/Data"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="EngiName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiTitle2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberName/Data1"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="EngiTitle3" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiName2" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberTitle/Data"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="EngiName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiTitle3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Engineering/MemberName/Data2"/>
+                </Frame>
+            </Frame>
+
+            <!-- Department Title -->
+            <Frame type="Frame" name="GameplayTeam" template="UED_CreditsTemplates/CreditsEntryLargeHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/EngiName3" pos="Max" offset="#SectionOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/Header"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="GameTitle1" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameplayTeam" pos="Max" offset="30"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberTitle/Lead"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="GameName1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameTitle1" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberName/Lead"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="GameTitle2" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameName1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberTitle/Addition"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="GameName2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameTitle2" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberName/Addition1"/>
+                </Frame>
+            </Frame>
+
+            <!-- Member Title -->
+            <Frame type="Frame" name="GameTitle3" template="UED_CreditsTemplates/CreditsEntrySmallHeadingTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameName2" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberTitle/Addition"/>
+                </Frame>
+            </Frame>
+            <!-- Member Name -->
+            <Frame type="Frame" name="GameName3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameTitle3" pos="Max" offset="0"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Gameplay/MemberName/Addition2"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="LicensingInfo1" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/GameName3" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Licensing/Line1"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="LicensingInfo2" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/LicensingInfo1" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Licensing/Line2"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="LicensingInfo3" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/LicensingInfo2" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Licensing/WoL"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="LicensingInfo4" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/LicensingInfo3" pos="Max" offset="#LineOffset"/>
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Licensing/Starcraft"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="LicensingInfo5" template="UED_CreditsTemplates/CreditsEntryDefaultTemplate_LotV">
+                <Anchor side="Top" relative="$parent/LicensingInfo4" pos="Max" offset="#LineOffset"/>
+                
+                <Handle val="LastFrame"/> <!-- Final Frame on the List -->
+
+                <Frame type="Label" name="TextLabel0">
+                    <Text val="@Credits/Licensing/Blizzard"/>
+                </Frame>
+            </Frame>
+        </Frame> 
+
+        <Frame type="Image" name="UEDLogo">
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Min" offset="450"/>
+
+            <Texture val="Assets\Textures\ui_ued_glues_landinglogo1.dds"/>
+            <Alpha val="0"/>
+
+            <Animation name="FadeIn">
+                <Event event="OnShown" action="Reset,Play" frame="$this"/>
+
+                <Controller type="Fade" end="Pause" frame="$this">
+                    <Key type="Curve" time="0.0" value="0" inout="Slow"/>
+                    <Key type="Curve" time="0.5" value="0" inout="Slow"/>
+                    <Key type="Curve" time="1.5" value="255" inout="Slow"/>
+                </Controller>
+
+                <Controller type="Anchor" frame="$this" side="Top" end="Pause" relative="True">
+                    <Key type="Curve" out="Slow" time="0" value="0"/>
+                    <Key type="Curve" out="Slow" time="6" value="0"/>
+                    <Key type="Curve" in="Slow" time="#ScrollDuration" value="#ScrollHeight"/>
+                </Controller>
+            </Animation>
+        </Frame>
+
+        <Frame type="Image" name="TopLetterboxImage">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Height val="120"/>
+            <TextureType val="None"/>
+            <Color val="0,0,0"/>
+            <RenderPriority val="520"/>
+        </Frame>
+
+        <Frame type="Image" name="BottomLetterboxImage">
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+            <Height val="120"/>
+            <TextureType val="None"/>
+            <Color val="0,0,0"/>
+            <RenderPriority val="520"/>
+        </Frame>
+
+        <Frame type="Button" name="ExitButton" template="UED_CreditsTemplates/BackButtonTemplate">
+            <Text val="@UI/KLC/Credits/Credits_ExitButton"/>
+            <Shortcut val="@UI/KLC/Credits/Credits_ExitButton_Hotkey"/>
+
+            <RenderPriority val="540"/>
+        </Frame>
+    </Frame>
+</Desc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectEnumArea id="DebugPointCircle">
+        <EditorCategories value=""/>
+        <DebugTrace value="1"/>
+        <AreaArray/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="DebugUnitRectangle">
+        <EditorCategories value=""/>
+        <DebugTrace value="1"/>
+        <AreaArray/>
+    </CEffectEnumArea>
+</Catalog>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
+        <Frame type="Label" name="IntroText">
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+            <Style val="LotC_IntroText"/>
+            <Visible val="True"/>
+            
+            <Width val="1200"/>
+        </Frame>
+
+        <Frame type="Frame" name="CreditsNexus">
+            <Anchor relative="$parent"/>
+            <Visible val="False"/>
+            
+            <Frame type="Image" name="NexusLogo">
+                <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+                <Texture val="Assets\Textures\NexusCoreLogo.dds"/>
+                <Width val="500"/>
+                <Height val="361"/>
+            </Frame>
+
+            <Frame type="Label" name="Label1">
+                <Anchor side="Bottom" relative="$parent/NexusLogo" pos="Max" offset="60"/>
+                <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+                <Style val="LotC_CreditsTitle"/>
+                <Text val="Presents"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Frame" name="CreditsFL">
+            <Anchor relative="$parent"/>
+            <Visible val="False"/>
+            
+            <Frame type="Image" name="UEDLogo">
+                <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+                <Texture val="Assets\Textures\UEDLogo.dds"/>
+                <Width val="600"/>
+                <Height val="382"/>
+            </Frame>
+
+            <Frame type="Label" name="Label1">
+                <Anchor side="Bottom" relative="$parent/UEDLogo" pos="Max" offset="50"/>
+                <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+                <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+
+                <Style val="LotC_CreditsTitle"/>
+                <Text val="A Custom Campaign for StarCraft 2"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="Frame" name="CreditsPanelFL">
+            <Anchor relative="$parent"/>
+
+            <Frame type="Frame" name="CreditsBottomLeft">
+                <Anchor side="Left" relative="$parent" pos="Min" offset="100"/>
+                <Anchor side="Bottom" relative="$parent" pos="Max" offset="-150"/>
+
+                <Width val="600"/>
+                <Height val="600"/>
+
+                <Frame type="Label" name="TItleLabel">
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Bottom" relative="$parent/SubtitleLabel" pos="Min" offset="-5"/>
+
+                    <Style val="LotC_CreditsTitleLeft"/>
+                    <Text val="Jennifer Wydra"/>
+                </Frame>
+
+                <Frame type="Label" name="SubtitleLabel">
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+    
+                    <Style val="LotC_CreditsTextLeft"/>
+    
+                    <Text val="Jennifer Wydra"/>
+                    <CollapseLayout val="True"/>
+                    <Visible val="False"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="CreditsTopRight">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="100"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-100"/>
+
+                <Width val="600"/>
+                <Height val="600"/>
+
+                <Frame type="Label" name="TitleLabel">
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+                    <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+
+                    <Style val="LotC_CreditsTitleRight"/>
+                    <Text val="Jennifer Wydra"/>
+                </Frame>
+
+                <Frame type="Label" name="SubtitleLabel">
+                    <Anchor side="top" relative="$parent/TitleLabel" pos="Max" offset="5"/>
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+    
+                    <Style val="LotC_CreditsTextRight"/>
+    
+                    <Text val="Jennifer Wydra"/>
+                    <CollapseLayout val="True"/>
+                    <Visible val="False"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="CreditsTopLeft">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="100"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="100"/>
+
+                <Width val="600"/>
+                <Height val="600"/>
+
+                <Frame type="Label" name="TitleLabel">
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+
+                    <Style val="LotC_CreditsTitleLeft"/>
+                    <Text val="Jennifer Wydra"/>
+                </Frame>
+
+                <Frame type="Label" name="SubtitleLabel">
+                    <Anchor side="top" relative="$parent/TitleLabel" pos="Max" offset="5"/>
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+    
+                    <Style val="LotC_CreditsTextLeft"/>
+    
+                    <Text val="Jennifer Wydra"/>
+                    <CollapseLayout val="True"/>
+                    <Visible val="False"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Frame" name="CreditsBottomRight">
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-100"/>
+                <Anchor side="Bottom" relative="$parent" pos="Max" offset="-150"/>
+
+                <Width val="600"/>
+                <Height val="600"/>
+
+                <Frame type="Label" name="TItleLabel">
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+                    <Anchor side="Bottom" relative="$parent/SubtitleLabel" pos="Min" offset="-5"/>
+
+                    <Style val="LotC_CreditsTitleRight"/>
+                    <Text val="Jennifer Wydra"/>
+                </Frame>
+
+                <Frame type="Label" name="SubtitleLabel">
+                    <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+                    <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+    
+                    <Style val="LotC_CreditsTextRight"/>
+    
+                    <Text val="Jennifer Wydra"/>
+                    <CollapseLayout val="True"/>
+                    <Visible val="False"/>
+                </Frame>
+            </Frame>
+        </Frame>
+    </Frame>
+
+    
+</Desc>
