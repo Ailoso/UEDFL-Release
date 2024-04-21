@@ -40,3 +40,6 @@ UI/Achievements/AchievementPointsIcon=Assets/Textures/GluesAchievementPointsIcon
 UI/TechTreeBuildingNameBackground_UPL=Assets\Textures\ui_techtree_iconname_frame_upl.dds
 UI/UnitListBackgroundImage_UPL=Assets\Textures\ui_techtree_techname_frame_upl.dds
 UI/TechGlossaryButtonNormal_UPL=Assets\Textures\ui_ingame_help_glossary_upl_normalandpressed.dds
+
+UI/GameUI/TextCrawl_Terr=UI/Flash/GameUI/TextCrawl_Green.swf
+UI/GameUI/TextCrawl_Prot=UI/Flash/GameUI/TextCrawl_Blue.swf

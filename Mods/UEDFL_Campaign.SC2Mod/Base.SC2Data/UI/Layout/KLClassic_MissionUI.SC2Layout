@@ -1598,9 +1598,9 @@
                         <Key type="Event" time="0.2" event="ControlClickRequest"/>
                     </Controller>
 					<!-- Override Button -->
-					<Controller type="Event" end="Pause" frame="$ConfirmDialogKL/Button">
+					<!--Controller type="Event" end="Pause" frame="$ConfirmDialogKL/Button">
 						<Key type="Event" time="0.2" event="ControlClickRequest"/>
-					</Controller>
+					</Controller-->
                 </Animation>
             </Frame>
         </Frame>
@@ -1615,7 +1615,7 @@
 		<Frame type="Frame" name="ArtilleryCalldownPanel" template="KLClassic_MissionUI/ArtilleryCalldownTemplate"/>
 
         <Frame type="TextCrawlPanel" name="TextCrawlPanel">
-            <Anchor side="Left" relative="$parent" pos="Min" offset="20"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
             <Anchor side="Bottom" relative="$parent" pos="Max" offset="-180"/>
             <Width val="1200.000000"/>
             <Height val="200.000000"/>
@@ -1626,9 +1626,9 @@
             <Frame type="FlashFrame" name="FlashFrame">
                 <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
                 <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
-                <File val="UI/Flash/GameUI/TextCrawl_Green.swf"/>
-                <FlashInputEnabled val="false"/>
-                <UseAlternateTime val="false"/>
+                <File val="@@UI/GameUI/TextCrawl"/>
+                <FlashInputEnabled val="False"/>
+                <UseAlternateTime val="False"/>
             </Frame>
         </Frame>
 
